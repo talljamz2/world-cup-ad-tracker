@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Pitch — World Cup '26 Ad Tracker</title>
+<meta name="description" content="The definitive ranking of FIFA World Cup 2026 brand advertising. Tracking views, engagement, and cultural impact across the world's biggest tournament." />
+<style>
+  /* -----------------------------------------------------
+     The Pitch — editorial styling
+     Fonts: system stack (no external deps)
+     Palette: warm off-white, charcoal, emerald, gold
+  ------------------------------------------------------ */
+  :root {
+    --bg: #faf7f0;
+    --bg-card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-soft: #4a4a4a;
+    --ink-muted: #7a7a7a;
+    --rule: #e8e2d4;
+    --accent: #0f5c3e;       /* deep emerald */
+    --accent-soft: #e8f2ec;
+    --gold: #b8860b;
+    --gold-soft: #f5ecd3;
+    --bronze: #8b5a2b;
+    --silver: #6f7378;
+    --serif: ui-serif, Georgia, "Iowan Old Style", "Apple Garamond", Cambria, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+    --shadow: 0 1px 2px rgba(20,20,20,0.04), 0 4px 12px rgba(20,20,20,0.04);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---------- Layout ---------- */
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+  .grid-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 48px;
+    margin-top: 32px;
+  }
+  @media (max-width: 960px) {
+    .grid-main { grid-template-columns: 1fr; gap: 32px; }
+    .sidebar { order: 2; }
+  }
+
+  /* ---------- Top nav ---------- */
+  .topnav {
+    border-bottom: 1px solid var(--rule);
+    background: var(--bg);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .topnav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 28px;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  .brand {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+  .brand-mark {
+    display: inline-block;
+    width: 8px; height: 8px;
+    background: var(--accent);
+    border-radius: 2px;
+    margin-right: 8px;
+    transform: translateY(-2px);
+  }
+  .nav-links { display: flex; gap: 28px; }
+  .nav-links a {
+    color: var(--ink-soft);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+  @media (max-width: 600px) { .nav-links { display: none; } }
+
+  /* ---------- Ad slots ---------- */
+  .ad-slot {
+    border: 1px dashed #d9d2c4;
+    background: #fefdf9;
+    color: #b3a684;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 14px;
+    border-radius: 4px;
+  }
+  .ad-leaderboard { min-height: 90px; display: flex; align-items: center; justify-content: center; margin: 22px 0; }
+  .ad-infeed       { min-height: 110px; display: flex; align-items: center; justify-content: center; margin: 32px 0; }
+  .ad-sidebar      { min-height: 250px; display: flex; align-items: center; justify-content: center; }
+  .ad-slot small { display: block; opacity: 0.7; margin-top: 4px; }
+
+  /* ---------- Hero ---------- */
+  .hero { padding: 48px 0 24px; }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  h1.headline {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: clamp(34px, 5vw, 56px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px;
+    max-width: 16ch;
+  }
+  .deck {
+    font-size: 18px;
+    color: var(--ink-soft);
+    max-width: 60ch;
+    margin: 0 0 18px;
+  }
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    align-items: center;
+    color: var(--ink-muted);
+    font-size: 13px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 12px 0;
+  }
+  .meta-row .pulse {
+    display: inline-block; width: 8px; height: 8px;
+    background: var(--accent); border-radius: 50%;
+    margin-right: 6px; transform: translateY(-1px);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
+
+  /* ---------- Section headers ---------- */
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 40px 0 18px;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 10px;
+  }
+  .section-head h2 {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .section-head .hint { font-size: 13px; color: var(--ink-muted); }
+
+  /* ---------- Podium (Top 3) ---------- */
+  .podium {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  @media (max-width: 760px) { .podium { grid-template-columns: 1fr; } }
+
+  .podium-card {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s ease;
+  }
+  .podium-card:hover { transform: translateY(-2px); }
+  .podium-thumb {
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #234, #456);
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-family: var(--serif); font-weight: 700;
+    font-size: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .podium-thumb-img {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+  }
+  .podium-logo-badge {
+    position: absolute;
+    top: 12px; right: 12px;
+    width: 52px; height: 52px;
+    background: white;
+    border-radius: 10px;
+    padding: 9px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+    z-index: 2;
+  }
+  .podium-logo-badge img { width: 100%; height: 100%; object-fit: contain; }
+  .podium-play {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px; height: 60px;
+    background: rgba(255,255,255,0.94);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+    z-index: 2;
+    transition: transform 0.15s ease;
+  }
+  .podium-card:hover .podium-play { transform: translate(-50%, -50%) scale(1.08); }
+  .podium-play::before {
+    content: "";
+    width: 0; height: 0;
+    border-left: 18px solid var(--ink);
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    margin-left: 5px;
+  }
+  .podium-title-overlay {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 36px 16px 14px;
+    background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0));
+    color: white;
+    font-family: var(--serif);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.3;
+    z-index: 2;
+  }
+  .podium-thumb[data-ytid] { cursor: pointer; }
+  .yt-iframe {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    border: 0;
+    z-index: 5;
+  }
+  .podium-rank {
+    position: absolute;
+    top: 12px; left: 12px;
+    background: white; color: var(--ink);
+    font-family: var(--serif); font-weight: 700;
+    font-size: 22px;
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  .podium-rank.gold   { background: var(--gold); color: white; }
+  .podium-rank.silver { background: var(--silver); color: white; }
+  .podium-rank.bronze { background: var(--bronze); color: white; }
+  .podium-body { padding: 16px 18px 18px; }
+  .podium-brand {
+    font-family: var(--mono); font-size: 11px;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 4px;
+  }
+  .podium-title {
+    font-family: var(--serif);
+    font-weight: 700; font-size: 19px;
+    line-height: 1.25; letter-spacing: -0.01em;
+    margin: 0 0 10px;
+  }
+  .podium-stats {
+    display: flex; gap: 14px; flex-wrap: wrap;
+    font-size: 12px; color: var(--ink-muted);
+    border-top: 1px solid var(--rule);
+    padding-top: 10px;
+  }
+  .podium-score {
+    font-family: var(--serif);
+    font-size: 22px; font-weight: 700;
+    color: var(--accent);
+  }
+
+  /* ---------- Filters ---------- */
+  .filters {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .filter-chip {
+    border: 1px solid var(--rule);
+    background: var(--bg-card);
+    padding: 7px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: var(--sans);
+  }
+  .filter-chip:hover { border-color: var(--accent); color: var(--accent); }
+  .filter-chip.active {
+    background: var(--ink); color: white; border-color: var(--ink);
+  }
+  .sort-select {
+    margin-left: auto;
+    border: 1px solid var(--rule);
+    background: var(--bg-card);
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: var(--sans);
+    color: var(--ink-soft);
+  }
+
+  /* ---------- Leaderboard table ---------- */
+  .table-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  table.leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  table.leaderboard th {
+    text-align: left;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--rule);
+    background: #fcfaf3;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  table.leaderboard th:hover { color: var(--accent); }
+  table.leaderboard th.sorted::after {
+    content: " ▾";
+    color: var(--accent);
+  }
+  table.leaderboard td {
+    padding: 16px;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: middle;
+  }
+  table.leaderboard tr:last-child td { border-bottom: none; }
+  table.leaderboard tr.expandable { cursor: pointer; transition: background 0.1s; }
+  table.leaderboard tr.expandable:hover { background: #fcfaf3; }
+  .rank-cell { font-family: var(--serif); font-weight: 700; font-size: 18px; width: 50px; }
+  .brand-cell { display: flex; align-items: center; gap: 12px; }
+  .brand-logo {
+    width: 40px; height: 40px;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    background: white;
+    border: 1px solid var(--rule);
+    overflow: hidden;
+  }
+  .brand-logo img {
+    width: 30px; height: 30px;
+    object-fit: contain;
+  }
+  .brand-info .brand-name {
+    font-weight: 600; color: var(--ink);
+    font-size: 14px;
+  }
+  .brand-info .brand-tier {
+    font-family: var(--mono); font-size: 10px;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+  .ad-title-cell {
+    font-family: var(--serif); font-size: 15px;
+    color: var(--ink); font-weight: 600;
+  }
+  .ad-title-cell .agency {
+    display: block;
+    font-family: var(--sans); font-size: 12px;
+    color: var(--ink-muted); font-weight: 400;
+    margin-top: 2px;
+  }
+  .num-cell {
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-soft);
+    text-align: right;
+  }
+  .score-cell {
+    font-family: var(--serif);
+    font-size: 18px; font-weight: 700;
+    color: var(--accent);
+    text-align: right;
+  }
+  .tier-pill {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-top: 3px;
+  }
+  .tier-partner { background: var(--gold-soft); color: var(--gold); }
+  .tier-sponsor { background: var(--accent-soft); color: var(--accent); }
+  .tier-regional { background: #f0e8e0; color: var(--bronze); }
+
+  /* expanded row */
+  .expand-row td {
+    padding: 0;
+    background: #fcfaf3;
+    border-bottom: 1px solid var(--rule);
+  }
+  .expand-content {
+    padding: 20px 24px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 24px;
+  }
+  @media (max-width: 720px) { .expand-content { grid-template-columns: 1fr; } }
+  .expand-content .desc {
+    color: var(--ink-soft);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .expand-content .meta {
+    font-family: var(--mono); font-size: 11px;
+    color: var(--ink-muted); letter-spacing: 0.05em;
+    margin-top: 12px;
+  }
+  .expand-thumb {
+    aspect-ratio: 16/9;
+    border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-family: var(--serif); font-weight: 700;
+    font-size: 22px;
+  }
+
+  /* ---------- Sidebar ---------- */
+  .sidebar { display: flex; flex-direction: column; gap: 28px; }
+  .sidebar-block {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 18px 20px;
+  }
+  .sidebar-block h3 {
+    font-family: var(--serif);
+    font-size: 16px;
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .mover {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 13px;
+  }
+  .mover:last-child { border-bottom: none; }
+  .mover-brand { font-weight: 600; color: var(--ink); }
+  .mover-delta { font-family: var(--mono); font-weight: 600; }
+  .mover-delta.up { color: var(--accent); }
+  .mover-delta.down { color: #b0463a; }
+
+  /* ---------- Methodology ---------- */
+  .methodology {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 28px 32px;
+    margin: 36px 0;
+  }
+  .methodology h2 {
+    font-family: var(--serif);
+    font-size: 24px;
+    margin: 0 0 12px;
+  }
+  .methodology p { color: var(--ink-soft); margin: 0 0 14px; }
+  .formula {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 18px 0 4px;
+  }
+  @media (max-width: 700px) { .formula { grid-template-columns: repeat(2, 1fr); } }
+  .formula-item {
+    border-left: 3px solid var(--accent);
+    padding: 10px 14px;
+    background: var(--accent-soft);
+    border-radius: 0 4px 4px 0;
+  }
+  .formula-item .label {
+    font-family: var(--mono); font-size: 10px;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600;
+  }
+  .formula-item .weight {
+    font-family: var(--serif); font-size: 22px;
+    font-weight: 700; color: var(--ink);
+  }
+  .formula-item .desc {
+    font-size: 12px; color: var(--ink-muted); margin-top: 2px;
+  }
+
+  /* ---------- Footer ---------- */
+  footer {
+    margin-top: 64px;
+    padding: 36px 0 48px;
+    border-top: 2px solid var(--ink);
+    color: var(--ink-muted);
+    font-size: 13px;
+  }
+  footer .foot-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 18px;
+  }
+  footer .brand { font-size: 18px; }
+  footer a { color: var(--ink-soft); }
+</style>
+</head>
+<body>
+
+<!-- ===================== TOP NAV ===================== -->
+<nav class="topnav">
+  <div class="topnav-inner">
+    <div class="brand"><span class="brand-mark"></span>The Pitch</div>
+    <div class="nav-links">
+      <a href="#leaderboard">Leaderboard</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#about">About</a>
+      <a href="#advertise">Advertise</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <!-- Header banner ad slot -->
+  <div class="ad-slot ad-leaderboard">
+    <div>Ad Slot · 728 × 90 Leaderboard<small>Premium placement — contact advertise@thepitch.example</small></div>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="eyebrow">FIFA World Cup 2026 — Brand Ad Tracker</div>
+    <h1 class="headline">Who's winning the summer of football?</h1>
+    <p class="deck">
+      The definitive ranking of brand creative for the world's biggest tournament.
+      We track every major World Cup ad from the official Partners and Sponsors,
+      score them on views, engagement, and cultural conversation, and update the
+      board as new spots drop.
+    </p>
+    <div class="meta-row">
+      <span><span class="pulse"></span> Live tracking</span>
+      <span>Updated <strong id="lastUpdated">May 7, 2026</strong></span>
+      <span><strong id="adCount">12</strong> ads tracked</span>
+      <span><strong id="brandCount">12</strong> brands</span>
+      <span>Tournament kicks off <strong>June 11, 2026</strong></span>
+    </div>
+  </header>
+
+  <div class="grid-main">
+    <main>
+
+      <!-- ===================== TOP 3 PODIUM ===================== -->
+      <div class="section-head">
+        <h2>This Week's Top 3</h2>
+        <span class="hint">Composite score — <a href="#methodology">how it works</a></span>
+      </div>
+      <div class="podium" id="podium"><!-- rendered by JS --></div>
+
+      <!-- In-feed ad slot -->
+      <div class="ad-slot ad-infeed">
+        <div>Ad Slot · Native In-Feed<small>728 × 90 / 970 × 250 — agency-friendly placement between modules</small></div>
+      </div>
+
+      <!-- ===================== FULL LEADERBOARD ===================== -->
+      <div class="section-head" id="leaderboard">
+        <h2>The Full Leaderboard</h2>
+        <span class="hint">Click any row for the agency, brief, and full metrics</span>
+      </div>
+
+      <div class="filters">
+        <button class="filter-chip active" data-filter="all">All Brands</button>
+        <button class="filter-chip" data-filter="FIFA Partner">FIFA Partners</button>
+        <button class="filter-chip" data-filter="World Cup Sponsor">World Cup Sponsors</button>
+        <button class="filter-chip" data-filter="Tournament Marketer">Tournament Marketers</button>
+        <select class="sort-select" id="sortSelect">
+          <option value="score">Sort: Composite Score</option>
+          <option value="views">Sort: YouTube Views</option>
+          <option value="er">Sort: Engagement Rate</option>
+          <option value="sentiment">Sort: Sentiment</option>
+          <option value="velocity">Sort: Velocity</option>
+          <option value="recent">Sort: Most Recent</option>
+        </select>
+      </div>
+
+      <div class="table-wrap">
+        <table class="leaderboard">
+          <thead>
+            <tr>
+              <th style="width:50px">#</th>
+              <th>Brand</th>
+              <th>Spot</th>
+              <th class="num-cell">Views</th>
+              <th class="num-cell">Likes</th>
+              <th class="num-cell">Comments</th>
+              <th class="num-cell">Sentiment</th>
+              <th class="num-cell">Score</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboardBody"><!-- rendered by JS --></tbody>
+        </table>
+      </div>
+
+      <!-- ===================== METHODOLOGY ===================== -->
+      <section class="methodology" id="methodology">
+        <h2>How we score</h2>
+        <p>
+          The Composite Score is a single 0–100 number that summarizes how a spot
+          is performing on the dimensions marketers actually care about. Each
+          factor is normalized against the leader in the dataset, then combined
+          using the weights below. When sentiment can't be confidently measured
+          (sample size below 20 valid comments), the remaining weights are
+          renormalized so a thinly-commented spot isn't punished.
+        </p>
+        <div class="formula">
+          <div class="formula-item">
+            <div class="label">Reach</div>
+            <div class="weight">40%</div>
+            <div class="desc">YouTube views — how many eyeballs the spot has earned.</div>
+          </div>
+          <div class="formula-item">
+            <div class="label">Resonance</div>
+            <div class="weight">20%</div>
+            <div class="desc">Engagement rate — likes plus comments per view. Quality controlled for paid amplification.</div>
+          </div>
+          <div class="formula-item">
+            <div class="label">Sentiment</div>
+            <div class="weight">25%</div>
+            <div class="desc">Like-weighted sentiment of the top 100 comments. The audience-endorsed reaction, not the average commenter.</div>
+          </div>
+          <div class="formula-item">
+            <div class="label">Velocity</div>
+            <div class="weight">15%</div>
+            <div class="desc">Views per day since release. Trajectory check — rewards spots that are actively climbing.</div>
+          </div>
+        </div>
+        <p style="margin-top:18px;font-size:13px;color:var(--ink-muted)">
+          Source: YouTube Data API v3, refreshed hourly. Sentiment scored with
+          VADER (compound, -1 to +1), like-weighted with <code>1 + ln(1 + likes)</code>,
+          normalized to 0–100. Channel-staff comments, URLs, and obvious bot
+          patterns are filtered before scoring.
+        </p>
+      </section>
+
+      <div id="about"></div>
+
+    </main>
+
+    <!-- ===================== SIDEBAR ===================== -->
+    <aside class="sidebar">
+      <div class="sidebar-block">
+        <h3>Movers This Week</h3>
+        <div id="moversList"><!-- rendered by JS --></div>
+      </div>
+
+      <div class="ad-slot ad-sidebar">
+        <div>Ad Slot · 300 × 250<small>Sidebar MPU — visible on every page view</small></div>
+      </div>
+
+      <div class="sidebar-block">
+        <h3>What we're watching</h3>
+        <p style="font-size:13px;color:var(--ink-soft);margin:0 0 10px">
+          Spots scheduled to drop in the next two weeks, ahead of the June 11
+          opener.
+        </p>
+        <div class="mover"><span class="mover-brand">Nike</span><span class="mover-delta" style="color:var(--ink-muted)">May 12</span></div>
+        <div class="mover"><span class="mover-brand">PepsiCo</span><span class="mover-delta" style="color:var(--ink-muted)">May 18</span></div>
+        <div class="mover"><span class="mover-brand">Apple</span><span class="mover-delta" style="color:var(--ink-muted)">May 22</span></div>
+        <div class="mover"><span class="mover-brand">Verizon</span><span class="mover-delta" style="color:var(--ink-muted)">May 28</span></div>
+      </div>
+
+      <div class="ad-slot ad-sidebar" id="advertise">
+        <div>Ad Slot · 300 × 600<small>Half-page premium · contact us</small></div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="foot-row">
+      <div>
+        <div class="brand"><span class="brand-mark"></span>The Pitch</div>
+        <div style="margin-top:8px;max-width:42ch">
+          Independent ad-industry coverage of the FIFA World Cup 2026.
+          For the marketers, creatives, and strategists scoring at home.
+        </div>
+      </div>
+      <div>
+        <strong style="color:var(--ink-soft);display:block;margin-bottom:6px">Get in touch</strong>
+        <a href="mailto:hello@thepitch.example">hello@thepitch.example</a><br/>
+        <a href="mailto:advertise@thepitch.example">advertise@thepitch.example</a><br/>
+        <a href="#">Press inquiries</a>
+      </div>
+      <div>
+        <strong style="color:var(--ink-soft);display:block;margin-bottom:6px">The Pitch</strong>
+        <a href="#methodology">Methodology</a><br/>
+        <a href="#">Newsletter</a><br/>
+        <a href="#">RSS</a>
+      </div>
+    </div>
+    <div style="margin-top:28px;padding-top:18px;border-top:1px solid var(--rule);font-size:12px">
+      © 2026 The Pitch. Sample data shown for demo purposes. FIFA, World Cup, and brand marks are property of their respective owners.
+    </div>
+  </footer>
+
+</div>
+
+<script>
+/* =====================================================================
+   AD DATA — sample seed, edit freely
+   Brand colors are used to generate the logo squares. The 'thumbHue'
+   gives each spot a distinct gradient. Replace `youtubeId` with real
+   IDs and the thumbnails will start pulling from i.ytimg.com.
+   ===================================================================== */
+const FALLBACK_ADS = [
+  {
+    id: "adi-01", brand: "Adidas", brandColor: "#000000", domain: "adidas.com",
+    tier: "FIFA Partner", agency: "TBWA",
+    title: "Backyard Legends",
+    released: "2026-04-30", thumbHue: 220,
+    youtubeId: "mJJY53qhJe0",
+    views: 18_400_000, likes: 401_000, comments: 22_800, social: 720_000,
+    description: "Adidas's headline World Cup spot for 2026, set in the streets and side-lots where the brand's roster — Messi, Bad Bunny, Yamal, Bellingham, Trinity Rodman — first started playing. A 90s-flavored film built on the bet that legends are forged in backyard games, not stadium tunnels. The 'You Got This' platform delivered with the largest celebrity density of the wave so far."
+  },
+  {
+    id: "cok-01", brand: "Coca-Cola", brandColor: "#e51b23", domain: "coca-cola.com",
+    tier: "FIFA Partner", agency: "Wieden+Kennedy",
+    title: "All the Feels",
+    released: "2026-01-21", thumbHue: 0,
+    youtubeId: "4MgljPc5N-8",
+    views: 14_700_000, likes: 268_000, comments: 16_200, social: 680_000,
+    description: "Coca-Cola's tournament platform-launch and the opener of a three-film 'All the Feels' arc. Leans on pre-match anticipation as the emotional center. Soft-launches the new Coke World Cup anthem — a J Balvin / Amber Mark / Steve Vai / Travis Barker rework of an '80s rock track — without leaning on it."
+  },
+  {
+    id: "hyu-01", brand: "Hyundai", brandColor: "#002c5f", domain: "hyundai.com",
+    tier: "FIFA Partner", agency: "Innocean",
+    title: "Leo Messi: For You, the Fans",
+    released: "2026-03-05", thumbHue: 210,
+    youtubeId: "bumcC3A7Fyw",
+    views: 6_400_000, likes: 96_000, comments: 5_200, social: 178_000,
+    description: "Hyundai's Messi-led brand film, folded into a broader children's-dreams platform that ties their team-bus design program to fans worldwide. Leo carries the spot; the campaign sits in service. Reads more institutional than memorable, which appears to be the brief."
+  },
+  {
+    id: "vis-01", brand: "Visa", brandColor: "#1a1f71", domain: "visa.com",
+    tier: "FIFA Partner", agency: "BBDO",
+    title: "Get Access to FIFA World Cup 2026",
+    released: "2026-03-30", thumbHue: 235,
+    youtubeId: "bWtKtqSeB40",
+    views: 8_400_000, likes: 142_000, comments: 7_800, social: 295_000,
+    description: "Visa's co-branded play with Marriott Bonvoy: travel, payments, and host-city access bundled as a single tournament proposition. Restrained, premium tone — built for an exec audience and the access-economy fan."
+  },
+  {
+    id: "bud-01", brand: "Budweiser", brandColor: "#c8102e", domain: "budweiser.com",
+    tier: "World Cup Sponsor", agency: "Grey Global",
+    title: "Let It Pour",
+    released: "2026-04-28", thumbHue: 5,
+    youtubeId: "2ABOdl3yY0I",
+    views: 11_400_000, likes: 218_000, comments: 13_200, social: 460_000,
+    description: "Grey Global's Haaland and Klopp showcase, directed by MJZ's Steve Ayson and scored to Joe Cocker. Klopp anchors from a bar; cuts pull through fans worldwide; Haaland scores; a Godzilla cameo lands the punchline. Less interested in goosebumps than in making fans grin. Highest replay value in the early wave."
+  },
+  {
+    id: "lay-01", brand: "Lay's", brandColor: "#fdb515", domain: "lays.com",
+    tier: "World Cup Sponsor", agency: "BBDO",
+    title: "The Most Epic Watch Party",
+    released: "2026-04-22", thumbHue: 50,
+    youtubeId: "qVg8Gj6WcFQ",
+    views: 8_600_000, likes: 162_000, comments: 9_300, social: 380_000,
+    description: "Lay's reactivates 'No Lay's, No Game' for 2026 with a fictional WhatsApp watch party — Messi, Beckham, Henry, Putellas, Steve Carell — all stuck on the same group chat. Carell's presence in particular pulls the spot away from reverence and into something more shareable."
+  },
+  {
+    id: "his-01", brand: "Hisense", brandColor: "#00643d", domain: "hisense.com",
+    tier: "World Cup Sponsor", agency: "Crews",
+    title: "Our Host",
+    released: "2026-05-05", thumbHue: 145,
+    youtubeId: "YkwJTfV2R9c",
+    views: 3_200_000, likes: 41_000, comments: 2_100, social: 68_000,
+    description: "Hisense's tournament platform launch — culture-led, experience-driven, partnered with Crews on a long-term content arc across film, social and retail. A pivot away from the spec-sheet TV ads of past Cups."
+  },
+  {
+    id: "pwd-01", brand: "Powerade", brandColor: "#003d82", domain: "powerade.com",
+    tier: "World Cup Sponsor", agency: "Open X",
+    title: "Power Your Fate",
+    released: "2026-04-23", thumbHue: 215,
+    youtubeId: "Ecs-f2Nie4I",
+    views: 4_100_000, likes: 56_000, comments: 3_400, social: 92_000,
+    description: "Powerade's preparation-meets-performance frame: the brand positions itself as the fuel between off-season and decisive moments. Heavy on the readiness-rituals territory, distributed across global TV, digital and creator content."
+  },
+  {
+    id: "mch-01", brand: "Michelob Ultra", brandColor: "#9b9b9b", domain: "michelobultra.com",
+    tier: "Tournament Marketer", agency: "Wieden+Kennedy NY",
+    title: "Superior Player of the Match Trophy",
+    released: "2026-04-10", thumbHue: 35,
+    youtubeId: "85Mg2WTjdbs",
+    views: 3_400_000, likes: 42_000, comments: 2_100, social: 64_000,
+    description: "Michelob Ultra leans into its Anheuser-Busch sibling's tournament rights with a cheeky 'Superior Player' trophy hand-off bit. Performance-marketing spend behind it; brand-storytelling restraint up front."
+  },
+  {
+    id: "pep-01", brand: "Pepsi", brandColor: "#004b93", domain: "pepsi.com",
+    tier: "Tournament Marketer", agency: "BBDO NY",
+    title: "The Home of Football Banter & Rivalry",
+    released: "2026-04-20", thumbHue: 215,
+    youtubeId: "UWFnOdU33MQ",
+    views: 5_200_000, likes: 78_000, comments: 4_400, social: 142_000,
+    description: "Pepsi continues the tournament tradition with a banter-and-rivalry frame, stacking Messi, Ronaldo, Mbappé and Vinícius Jr. into the kind of all-stars vignette that travels well in social cuts. Doubles down on creativity-and-play over reverence."
+  },
+  {
+    id: "stl-01", brand: "Stella Artois", brandColor: "#c8102e", domain: "stellaartois.com",
+    tier: "Tournament Marketer", agency: "AB InBev in-house",
+    title: "Celebration ft. David Beckham",
+    released: "2026-04-15", thumbHue: 5,
+    youtubeId: "MJ4mFg8xxNI",
+    views: 4_600_000, likes: 71_000, comments: 3_900, social: 118_000,
+    description: "Stella's premium-toned Beckham vehicle. Frames the brand around hospitality and togetherness during matches — 'home advantage' as the emotional center, played in a slower, quieter register than the Bud line in the same portfolio."
+  },
+  {
+    id: "lgo-01", brand: "Lego", brandColor: "#e3000b", domain: "lego.com",
+    tier: "Tournament Marketer", agency: "Initiative",
+    title: "Everyone Wants a Piece",
+    released: "2026-04-02", thumbHue: 5,
+    youtubeId: "EpK0P3vfDJc",
+    views: 6_800_000, likes: 124_000, comments: 7_400, social: 285_000,
+    description: "Lego's tournament play stacks Messi, Ronaldo, Mbappé and Vinícius Jr. into a brick-built world where football fandom and creative play are the same posture. Among the highest social-share rates in the early wave — kid-coded but parent-aimed."
+  }
+];
+
+/* =====================================================================
+   SCORING — composite 0..100
+   Four factors, each normalized against the leader in the dataset:
+     Reach     = views                         (weight 40%)
+     Resonance = engagement rate (likes+comments / views) (weight 20%)
+     Sentiment = like-weighted comment sentiment (weight 25%)
+     Velocity  = views per day since publish    (weight 15%)
+   When sentiment is null (sample size below threshold), the remaining
+   weights are renormalized so a thinly-commented spot isn't punished.
+   ===================================================================== */
+const WEIGHTS = { reach: 0.40, resonance: 0.20, sentiment: 0.25, velocity: 0.15 };
+
+function computeScores(ads) {
+  const enriched = ads.map(a => {
+    const er = a.views ? ((a.likes + a.comments) / a.views) * 100 : 0;
+    return { ...a, er: Math.round(er * 100) / 100 };
+  });
+
+  const safeMax = (arr, fn) => {
+    const vals = arr.map(fn).filter(v => v != null && !isNaN(v) && v > 0);
+    return vals.length ? Math.max(...vals) : 1;
+  };
+  const max = {
+    views:     safeMax(enriched, a => a.views),
+    er:        safeMax(enriched, a => a.er),
+    sentiment: safeMax(enriched, a => a.weightedSentiment),
+    velocity:  safeMax(enriched, a => a.velocityViewsPerDay),
+  };
+
+  return enriched.map(a => {
+    const factor = {
+      reach:     max.views    ? (a.views / max.views) * 100 : 0,
+      resonance: max.er       ? (a.er / max.er) * 100       : 0,
+      sentiment: a.weightedSentiment != null && max.sentiment
+                 ? (a.weightedSentiment / max.sentiment) * 100
+                 : null,
+      velocity:  a.velocityViewsPerDay != null && max.velocity
+                 ? (a.velocityViewsPerDay / max.velocity) * 100
+                 : 0,
+    };
+    let weighted = 0, totalW = 0;
+    for (const k of ["reach", "resonance", "sentiment", "velocity"]) {
+      if (factor[k] != null) {
+        weighted += WEIGHTS[k] * factor[k];
+        totalW   += WEIGHTS[k];
+      }
+    }
+    const score = totalW > 0 ? weighted / totalW : 0;
+    return { ...a, score: Math.round(score * 10) / 10 };
+  });
+}
+
+/* =====================================================================
+   FORMATTERS
+   ===================================================================== */
+const fmt = {
+  big(n) {
+    if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
+    if (n >= 1e3) return (n / 1e3).toFixed(0) + "K";
+    return String(n);
+  },
+  date(iso) {
+    const d = new Date(iso);
+    return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+  },
+  initials(name) {
+    return name.split(/\s+/).map(w => w[0]).slice(0, 2).join("");
+  }
+};
+
+function thumbBg(hue) {
+  return `linear-gradient(135deg, hsl(${hue}, 55%, 22%), hsl(${(hue + 30) % 360}, 60%, 42%))`;
+}
+
+// Brand logo. Primary: Simple Icons CDN (clean single-color SVGs, scale to any
+// size). Fallback: DuckDuckGo icons (always works — returns the brand's actual
+// favicon). Swap providers by editing these two helpers only.
+function logoUrl(ad) {
+  const slug = ad.brand.toLowerCase().replace(/[^a-z0-9]/g, "");
+  return `https://cdn.simpleicons.org/${slug}`;
+}
+function logoFallback(ad) {
+  return `https://icons.duckduckgo.com/ip3/${ad.domain}.ico`;
+}
+
+// Wire up click-to-play on any .podium-thumb that has data-ytid set.
+// Behavior:
+//   - When the page is served over http(s) (deployed, or a local dev server)
+//     we embed an autoplaying YouTube iframe inline. Lightweight: the iframe
+//     only loads on user click, so page-load stays fast.
+//   - When the page is opened directly from disk (file:// origin), YouTube's
+//     embed API rejects the request with Error 153. In that case we fall
+//     back to opening the watch page in a new tab so the click still works.
+//     To get inline playback locally, run a quick web server in the folder
+//     (e.g. `python3 -m http.server 8000` and visit http://localhost:8000).
+function bindVideo(root) {
+  root.querySelectorAll(".podium-thumb[data-ytid]").forEach(el => {
+    if (el.dataset.bound) return;
+    el.dataset.bound = "1";
+    el.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const id = el.dataset.ytid;
+      if (location.protocol === "file:") {
+        window.open(`https://www.youtube.com/watch?v=${id}`, "_blank", "noopener,noreferrer");
+        return;
+      }
+      el.innerHTML = `<iframe class="yt-iframe"
+        src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>`;
+    });
+  });
+}
+
+function tierClass(tier) {
+  if (tier === "FIFA Partner") return "tier-partner";
+  if (tier === "World Cup Sponsor") return "tier-sponsor";
+  return "tier-regional"; // Tournament Marketer (and any future tier)
+}
+
+/* =====================================================================
+   STATE
+   ===================================================================== */
+const state = {
+  filter: "all",
+  sort: "score",
+  expanded: null,
+};
+
+// Populated in init() after data.json (or fallback) loads.
+let SCORED = [];
+
+/* =====================================================================
+   RENDER — Podium
+   ===================================================================== */
+function renderPodium() {
+  const top3 = [...SCORED].sort((a, b) => b.score - a.score).slice(0, 3);
+  const podiumEl = document.getElementById("podium");
+  const rankClasses = ["gold", "silver", "bronze"];
+  podiumEl.innerHTML = top3.map((a, i) => {
+    const ytThumb = a.youtubeId
+      ? `<img class="podium-thumb-img" src="https://i.ytimg.com/vi/${a.youtubeId}/maxresdefault.jpg" alt="${a.title}"/>`
+      : "";
+    const bg = a.youtubeId ? "" : `background:${thumbBg(a.thumbHue)}`;
+    return `
+    <article class="podium-card">
+      <div class="podium-thumb" ${a.youtubeId ? `data-ytid="${a.youtubeId}"` : ""} style="${bg}">
+        ${ytThumb}
+        <div class="podium-rank ${rankClasses[i]}">${i + 1}</div>
+        <div class="podium-logo-badge">
+          <img src="${logoUrl(a)}"
+               onerror="this.onerror=null;this.src='${logoFallback(a)}'"
+               alt="${a.brand}" loading="lazy"/>
+        </div>
+        <div class="podium-play"></div>
+        <div class="podium-title-overlay">${a.title}</div>
+      </div>
+      <div class="podium-body">
+        <div class="podium-brand">${a.brand} · ${a.tier}</div>
+        <h3 class="podium-title">${a.title}</h3>
+        <div class="podium-stats">
+          <span><strong style="color:var(--ink)">${fmt.big(a.views)}</strong> views</span>
+          <span><strong style="color:var(--ink)">${a.er.toFixed(2)}%</strong> ER</span>
+          <span style="margin-left:auto" class="podium-score">${a.score}</span>
+        </div>
+      </div>
+    </article>
+  `;
+  }).join("");
+  bindVideo(podiumEl);
+}
+
+/* =====================================================================
+   RENDER — Leaderboard table
+   ===================================================================== */
+function renderLeaderboard() {
+  let rows = [...SCORED];
+  if (state.filter !== "all") rows = rows.filter(a => a.tier === state.filter);
+
+  const sortKey = {
+    score:     (a, b) => b.score - a.score,
+    views:     (a, b) => b.views - a.views,
+    er:        (a, b) => b.er - a.er,
+    sentiment: (a, b) => (b.weightedSentiment ?? -1) - (a.weightedSentiment ?? -1),
+    velocity:  (a, b) => (b.velocityViewsPerDay ?? 0) - (a.velocityViewsPerDay ?? 0),
+    recent:    (a, b) => new Date(b.published || b.released || 0) - new Date(a.published || a.released || 0),
+  }[state.sort] || ((a, b) => b.score - a.score);
+  rows.sort(sortKey);
+
+  const tbody = document.getElementById("leaderboardBody");
+  tbody.innerHTML = rows.map((a, i) => {
+    const isExpanded = state.expanded === a.id;
+    const main = `
+      <tr class="expandable" data-id="${a.id}">
+        <td class="rank-cell">${i + 1}</td>
+        <td>
+          <div class="brand-cell">
+            <div class="brand-logo">
+              <img src="${logoUrl(a)}"
+                   onerror="this.onerror=null;this.src='${logoFallback(a)}'"
+                   alt="${a.brand}" loading="lazy"/>
+            </div>
+            <div class="brand-info">
+              <div class="brand-name">${a.brand}</div>
+              <span class="tier-pill ${tierClass(a.tier)}">${a.tier}</span>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="ad-title-cell">
+            "${a.title}"
+            <span class="agency">${a.agency} · ${fmt.date(a.published || a.released)}</span>
+          </div>
+        </td>
+        <td class="num-cell">${fmt.big(a.views)}</td>
+        <td class="num-cell">${fmt.big(a.likes)}</td>
+        <td class="num-cell">${fmt.big(a.comments)}</td>
+        <td class="num-cell">${a.weightedSentiment != null ? a.weightedSentiment.toFixed(0) : "—"}</td>
+        <td class="score-cell">${a.score}</td>
+      </tr>
+    `;
+    const expand = isExpanded ? `
+      <tr class="expand-row">
+        <td colspan="8">
+          <div class="expand-content">
+            <div class="expand-thumb-wrap">
+              <div class="podium-thumb" ${a.youtubeId ? `data-ytid="${a.youtubeId}"` : ""} style="${a.youtubeId ? '' : 'background:' + thumbBg(a.thumbHue)}">
+                ${a.youtubeId ? `<img class="podium-thumb-img" src="https://i.ytimg.com/vi/${a.youtubeId}/maxresdefault.jpg" alt="${a.title}"/>` : ''}
+                <div class="podium-logo-badge">
+                  <img src="${logoUrl(a)}"
+                       onerror="this.onerror=null;this.src='${logoFallback(a)}'"
+                       alt="${a.brand}" loading="lazy"/>
+                </div>
+                <div class="podium-play"></div>
+              </div>
+            </div>
+            <div>
+              <p class="desc">${a.description}</p>
+              <div class="meta">
+                ENGAGEMENT RATE ${a.er.toFixed(2)}% &nbsp;·&nbsp;
+                SENTIMENT ${a.weightedSentiment != null ? a.weightedSentiment.toFixed(1) + " (n=" + (a.sentimentSampleSize ?? 0) + ")" : "—"} &nbsp;·&nbsp;
+                COMPOSITE ${a.score} &nbsp;·&nbsp;
+                RELEASED ${(a.published || a.released || "").slice(0, 10)}
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    ` : "";
+    return main + expand;
+  }).join("");
+
+  // Attach click handlers
+  tbody.querySelectorAll("tr.expandable").forEach(row => {
+    row.addEventListener("click", () => {
+      const id = row.dataset.id;
+      state.expanded = state.expanded === id ? null : id;
+      renderLeaderboard();
+    });
+  });
+  bindVideo(tbody);
+}
+
+/* =====================================================================
+   RENDER — Movers (sample week-over-week deltas)
+   ===================================================================== */
+function renderMovers() {
+  const movers = [
+    { brand: "Coca-Cola", delta: "+18%", up: true },
+    { brand: "McDonald's", delta: "+12%", up: true },
+    { brand: "Adidas", delta: "+9%", up: true },
+    { brand: "Hisense", delta: "−6%", up: false },
+    { brand: "Qatar Airways", delta: "−8%", up: false },
+  ];
+  document.getElementById("moversList").innerHTML = movers.map(m => `
+    <div class="mover">
+      <span class="mover-brand">${m.brand}</span>
+      <span class="mover-delta ${m.up ? 'up' : 'down'}">${m.delta}</span>
+    </div>
+  `).join("");
+}
+
+/* =====================================================================
+   WIRE-UP
+   ===================================================================== */
+document.querySelectorAll(".filter-chip").forEach(chip => {
+  chip.addEventListener("click", () => {
+    document.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    state.filter = chip.dataset.filter;
+    state.expanded = null;
+    renderLeaderboard();
+  });
+});
+document.getElementById("sortSelect").addEventListener("change", e => {
+  state.sort = e.target.value;
+  renderLeaderboard();
+});
+
+/* =====================================================================
+   INIT — try to load live data.json (built by the pipeline), fall back
+   to the inline FALLBACK_ADS so the page still renders if the JSON is
+   missing or unreachable (e.g. when previewing locally before deploy).
+   ===================================================================== */
+async function init() {
+  let data;
+  try {
+    const res = await fetch("data.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    data = await res.json();
+    if (!data.ads || !Array.isArray(data.ads)) throw new Error("malformed data.json");
+  } catch (err) {
+    console.warn("Falling back to inline data:", err.message);
+    data = { ads: FALLBACK_ADS, placeholder: true };
+  }
+
+  SCORED = computeScores(data.ads);
+
+  document.getElementById("adCount").textContent = data.ads.length;
+  document.getElementById("brandCount").textContent = new Set(data.ads.map(a => a.brand)).size;
+
+  if (data.updated) {
+    const d = new Date(data.updated);
+    document.getElementById("lastUpdated").textContent = d.toLocaleDateString(
+      "en-US", { month: "long", day: "numeric", year: "numeric" }
+    );
+  }
+
+  renderPodium();
+  renderLeaderboard();
+  renderMovers();
+}
+
+init();
+</script>
+
+</body>
+</html>
