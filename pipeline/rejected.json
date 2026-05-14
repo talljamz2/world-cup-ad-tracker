@@ -399,5 +399,54 @@
     "channelTitle": "Heineken",
     "rejectedAt": "2026-05-13",
     "reason": "wrong tournament: UCL content (UEFA Champions League), not World Cup 2026"
+  },
+  {
+    "youtubeId": "F6Y3kmtfXsE",
+    "title": "كأس العالم FIFA 2026™...شهر على الإنطلاق",
+    "channelTitle": "beIN SPORTS",
+    "rejectedAt": "2026-05-14",
+    "reason": "regional broadcaster countdown teaser, Middle East feed — not a hero campaign film"
+  },
+  {
+    "youtubeId": "go7b7WDXNIc",
+    "title": "Bergkamp 1998 nostalgia clip",
+    "channelTitle": "OnsOranje",
+    "rejectedAt": "2026-05-14",
+    "reason": "national federation content, out of scope per taxonomy simplification"
+  },
+  {
+    "youtubeId": "FK82ZTiTBa4",
+    "title": "CƠ HỘI TRÚNG 9 BỘ GAMING LENOVO LEGION PRO 7i",
+    "channelTitle": "Coca-Cola",
+    "rejectedAt": "2026-05-14",
+    "reason": "regional sweepstakes cutdown, global-default rule"
+  },
+  {
+    "youtubeId": "WFMf6slzzUU",
+    "title": "CƠ HỘI TRÚNG 9 BỘ GAMING LENOVO LEGION PRO 7i (variant)",
+    "channelTitle": "Coca-Cola",
+    "rejectedAt": "2026-05-14",
+    "reason": "regional sweepstakes variant, global-default rule"
+  },
+  {
+    "youtubeId": "_kgTTy9CDEk",
+    "title": "SUPERSPORT is the official broadcaster of FIFA WC 2026",
+    "channelTitle": "SuperSport",
+    "rejectedAt": "2026-05-14",
+    "reason": "regional broadcaster announcement, not a brand campaign"
+  },
+  {
+    "youtubeId": "80mZxHTGq9M",
+    "title": "BẬT NẮP COCA-COLA Lenovo gaming sweepstakes",
+    "channelTitle": "Coca-Cola",
+    "rejectedAt": "2026-05-14",
+    "reason": "third Vietnam Lenovo sweepstakes variant, global-default rejection"
+  },
+  {
+    "youtubeId": "DXqsFTejNEZ",
+    "title": "Budweiser partner reshare",
+    "channelTitle": "Budweiser",
+    "rejectedAt": "2026-05-14",
+    "reason": "partner reshare, not brand-owned — removed from bud-01 instagramUrls"
   }
 ]

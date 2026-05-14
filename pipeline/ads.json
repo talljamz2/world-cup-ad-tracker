@@ -52,7 +52,6 @@
     "description": "Budweiser's 2026 platform film with Erling Haaland and Jürgen Klopp, built on the 'letting it all out' frame — pressure and catharsis as the emotional center, cinematic moments scaled to fan reactions worldwide. The longer hero in Bud's 2026 tournament work.",
     "instagramUrls": [
       "https://www.instagram.com/reel/DXqnj_MImxf/",
-      "https://www.instagram.com/reel/DXqsFTejNEZ/",
       "https://www.instagram.com/reel/DXrY0G9omO6/",
       "https://www.instagram.com/reel/DXwpEb4o4ZZ/",
       "https://www.instagram.com/reel/DX12F6Co7nI/",
@@ -591,5 +590,33 @@
       "https://www.tiktok.com/@marriottbonvoy/video/7629409640576519437"
     ],
     "description": "Marriott Bonvoy's social-first 2026 platform, anchored on broadcaster Kate Scott and the 'For Fans Everywhere' positioning. Marriott is FIFA's Official Hotel Supporter for North America (Tier 3 Regional Supporter), with the activation spanning 104 matches across the three host countries plus the Marriott Bonvoy Moments hospitality drops. The campaign is published across IG and TikTok with no YouTube canonical — a striking social-first distribution choice for a hospitality brand at this scale."
+  },
+  {
+    "id": "hsn-01",
+    "brand": "Hisense",
+    "brandColor": "#E60012",
+    "domain": "hisense.com",
+    "tier": "Official Partner",
+    "agency": "—",
+    "title": "Some Dreams Start on A Simple Pitch",
+    "thumbHue": 0,
+    "youtubeId": "NDKXdcu01bM",
+    "description": "Hisense's 2026 hero spot under its 'Beyond Glory' platform — a generational story positioning football as something that fades from life but never truly leaves. Marks the brand's third consecutive FIFA tournament partnership (eight years across the cycle) and the first hero film from Hisense for the 2026 cycle after a string of regional cutdowns, event content and creator collabs were filtered out during the Hero-focus cleanup.",
+    "instagramUrls": [],
+    "tiktokUrls": []
+  },
+  {
+    "id": "lay-02",
+    "brand": "Lay's",
+    "brandColor": "#fdb515",
+    "domain": "lays.com",
+    "tier": "Official Partner",
+    "agency": "—",
+    "title": "From Farm to Field",
+    "thumbHue": 45,
+    "youtubeId": "PhrnQthcFMc",
+    "description": "Lay's second tournament chapter, distinct from the 'No Lay's, No Game' watch-party platform — a heritage/origin film tracing the brand's potato fields to the world's biggest stadium. Builds on Lay's positioning as a long-standing FIFA partner with a multi-platform 2026 cycle (watch-party comedy + brand-origin storytelling running in parallel).",
+    "instagramUrls": [],
+    "tiktokUrls": []
   }
 ]
