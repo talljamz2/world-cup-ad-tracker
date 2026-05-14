@@ -3,6 +3,9 @@
 .AppleDouble
 .LSOverride
 
+# Sandbox-tmp artifacts from logo download scripts (never committed)
+static/logos/.tmp-*
+
 # Editors
 .vscode/
 .idea/

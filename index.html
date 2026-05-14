@@ -1587,20 +1587,22 @@ function renderAssetBreakdown(a) {
 // Brand logo. Primary: Simple Icons CDN (clean single-color SVGs, scale to any
 // size). Fallback: DuckDuckGo icons (always works — returns the brand's actual
 // favicon). Swap providers by editing these two helpers only.
+// Locally-hosted logos at /static/logos/<brand-slug>.png.
+// We deliberately serve our own files instead of pulling from
+// simpleicons/clearbit/duckduckgo CDNs — those services fail intermittently
+// (Safari ITP, retired brand logos, rate limits) and look unprofessional
+// when broken. Local files always work.
 function logoUrl(ad) {
   const slug = ad.brand.toLowerCase().replace(/[^a-z0-9]/g, "");
-  return `https://cdn.simpleicons.org/${slug}`;
+  return `static/logos/${slug}.png`;
 }
-function logoFallback(ad) {
-  return `https://icons.duckduckgo.com/ip3/${ad.domain}.ico`;
-}
-// Three-tier logo render: simpleicons → duckduckgo favicon → colored square
-// with brand initial. The colored square sits behind every image and only
-// becomes visible if both image services fail (common in Safari due to ITP).
+// Two-tier render: local logo → colored square with brand initial.
+// If a brand doesn't have a local logo file yet, the colored square
+// shows (intentional design — every brand always renders something).
 function logoHtml(ad) {
   const initial = (ad.brand || "?").charAt(0).toUpperCase();
-  const onErr = `if(this.dataset.tried){this.style.display='none'}else{this.dataset.tried='1';this.src='${logoFallback(ad)}'}`;
-  return `<span class="logo-fallback" style="background:${ad.brandColor}">${initial}</span><img src="${logoUrl(ad)}" onerror="${onErr}" alt="${ad.brand}" loading="lazy"/>`;
+  const onErr = `this.style.display='none';this.previousElementSibling.style.display='flex'`;
+  return `<span class="logo-fallback" style="background:${ad.brandColor};display:none">${initial}</span><img src="${logoUrl(ad)}" onerror="${onErr}" alt="${ad.brand}" loading="lazy"/>`;
 }
 
 // Wire up click-to-play on any .podium-thumb that has data-ytid set.
