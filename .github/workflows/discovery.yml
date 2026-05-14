@@ -1,12 +1,12 @@
 name: Daily discovery
 
-# Runs discover.py to find new candidate ads, then opens a GitHub Issue
-# listing any high-confidence candidates that aren't yet tracked or rejected.
+# Runs discover.py to find new candidate ads and commits pipeline/candidates.json.
+# The daily Cowork ritual ("daily-ad-podium-review" scheduled task) reads
+# candidates.json directly each weekday morning and walks the user through
+# triage — no GitHub Issue is created automatically anymore.
 #
-# Schedule: 05:00 UTC (~01:00 ET / 22:00 PT previous day). Lands an hour
-# before the daily refresh issue at 07:00 UTC and well before the Apify
-# cron at 06:00 — so newly-added ads (via the inbound flow when we add it)
-# get a chance to be measured the same morning.
+# Schedule: 05:00 UTC (~22:00 PT previous day). Lands before the Apify cron
+# at 06:00 UTC so any candidates added that morning can be measured same-day.
 
 on:
   schedule:
@@ -15,7 +15,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 jobs:
   discover:
@@ -50,9 +49,3 @@ jobs:
             git commit -m "discovery: refresh candidates [skip ci]"
             git push
           fi
-
-      - name: Open today's discovery issue (if there are new candidates)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python pipeline/build_discovery_issue.py
