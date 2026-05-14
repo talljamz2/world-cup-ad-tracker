@@ -38,19 +38,38 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ADS_FILE = ROOT / "pipeline" / "ads.json"
 
-# Permissive line regex:
-#   group(1) ad id, group(2) platform (IG|TT, any case),
-#   group(3) handle (alphanumerics, underscore, dash),
-#   groups 4-6 view/like/comment values (digits with optional commas/.KkMm)
+# UPDATE form — captures ad-id + platform + handle + v/l/c.
+# Permissive in two ways:
+#   1. Any leading bullet/checkbox/dash/backtick chars are skipped (so users
+#      can copy lines straight out of the issue body without trimming markdown).
+#   2. ANY text is allowed between the handle and `v=N` — so the existing
+#      "— current:" preamble in the issue body works without modification.
+#      Users can copy the issue line and just overwrite the numbers.
 LINE_RE = re.compile(
-    r"^\s*"
-    r"([a-zA-Z]{2,5}-\d+)\s+"           # ad id (e.g. bud-01, mch-02)
-    r"(IG|TT|ig|tt|Ig|Tt)\s+"           # platform label
-    r"([A-Za-z0-9_\-]+)\s+"             # post handle
-    r"v\s*=\s*([\d.,KkMm]+)\s+"
-    r"l\s*=\s*([\d.,KkMm]+)\s+"
-    r"c\s*=\s*([\d.,KkMm]+)\s*$",
-    re.MULTILINE,
+    r"^[^a-zA-Z0-9]*"                       # leading bullets / dashes / backticks
+    r"([a-zA-Z]{2,8}-\d+)\s+"               # ad id
+    r"(IG|TT)\s+"                           # platform label
+    r"([A-Za-z0-9_\-]+)"                    # post handle
+    r".*?"                                  # any text between handle and v=
+    r"v\s*=\s*([\d.,KkMm]+)"
+    r".*?"
+    r"l\s*=\s*([\d.,KkMm]+)"
+    r".*?"
+    r"c\s*=\s*([\d.,KkMm]+)",
+    re.MULTILINE | re.IGNORECASE,
+)
+
+# REMOVE form — explicit cull of a URL. Triggered by the verb 'remove',
+# 'delete', 'drop', or 'skip' anywhere on the line after the handle.
+# Use case: an entry turned out to be a partner reshare, not brand-owned.
+REMOVE_RE = re.compile(
+    r"^[^a-zA-Z0-9]*"
+    r"([a-zA-Z]{2,8}-\d+)\s+"
+    r"(IG|TT)\s+"
+    r"([A-Za-z0-9_\-]+)"
+    r"[^a-zA-Z0-9]+"                        # at least one separator
+    r"(remove|delete|drop|cull)",           # explicit removal verb
+    re.MULTILINE | re.IGNORECASE,
 )
 
 
@@ -92,18 +111,64 @@ def find_manual_entry(ad: dict, platform: str, handle: str) -> dict | None:
 
 
 def apply_updates(ads: list[dict], comment_body: str) -> dict:
-    """Walk the comment body, find structured lines, apply matching updates.
-    Returns a summary dict with counts and a per-update detail list."""
+    """Walk the comment body, find structured lines, apply matching updates
+    and removals. Returns a summary dict with counts and per-action details."""
     updates = []     # successfully applied
+    removals = []    # URLs removed from manualIg/TtData
     not_found = []   # parsed correctly but no matching ad/URL
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     ads_by_id = {a["id"]: a for a in ads}
 
+    # First pass: removals. Process them first so a line like
+    # "bud-01 IG DXxxx remove" can't be mis-parsed as an update.
+    # (REMOVE regex requires the keyword so it's already distinct, but
+    # explicit ordering makes the precedence obvious.)
+    removed_handles = set()  # (ad_id, platform, handle) tuples we've already culled
+    for match in REMOVE_RE.finditer(comment_body):
+        ad_id, plat_raw, handle, verb = match.groups()
+        ad_id = ad_id.lower()
+        platform = plat_raw.upper()
+
+        ad = ads_by_id.get(ad_id)
+        if not ad:
+            not_found.append({"reason": "unknown ad-id", "line": match.group(0).strip()})
+            continue
+
+        key = "manualIgData" if platform == "IG" else "manualTtData"
+        before_count = len(ad.get(key) or [])
+        if not before_count:
+            not_found.append({
+                "reason": f"no {key} entries on {ad_id} to remove from",
+                "line": match.group(0).strip(),
+            })
+            continue
+
+        ad[key] = [e for e in ad[key] if handle not in e.get("url", "")]
+        if len(ad[key]) == before_count:
+            not_found.append({
+                "reason": f"no {key} entry matching handle '{handle}' on {ad_id}",
+                "line": match.group(0).strip(),
+            })
+            continue
+
+        removals.append({
+            "adId": ad_id,
+            "brand": ad["brand"],
+            "platform": platform,
+            "handle": handle,
+            "verb": verb.lower(),
+        })
+        removed_handles.add((ad_id, platform, handle))
+
+    # Second pass: updates. Skip anything we already removed in pass 1.
     for match in LINE_RE.finditer(comment_body):
         ad_id, plat_raw, handle, v_raw, l_raw, c_raw = match.groups()
         ad_id = ad_id.lower()
-        platform = plat_raw.upper()  # IG or TT
+        platform = plat_raw.upper()
+
+        if (ad_id, platform, handle) in removed_handles:
+            continue  # already culled this URL in the removals pass
 
         ad = ads_by_id.get(ad_id)
         if not ad:
@@ -144,11 +209,12 @@ def apply_updates(ads: list[dict], comment_body: str) -> dict:
             "after": {"views": new_v, "likes": new_l, "comments": new_c},
         })
 
-    return {"updated": updates, "skipped": not_found, "now": now}
+    return {"updated": updates, "removed": removals, "skipped": not_found, "now": now}
 
 
 def render_summary_md(summary: dict) -> str:
     updated = summary["updated"]
+    removed = summary.get("removed", [])
     skipped = summary["skipped"]
     lines = []
 
@@ -157,15 +223,23 @@ def render_summary_md(summary: dict) -> str:
         lines.append("")
         for u in updated:
             b, a = u["before"], u["after"]
-            def delta(k):
+            def delta(k, b=b, a=a):
                 return f"{fmt_num(b.get(k))} → **{fmt_num(a.get(k))}**"
             lines.append(
                 f"- `{u['adId']} {u['platform']} {u['handle']}` ({u['brand']}): "
                 f"v {delta('views')} · l {delta('likes')} · c {delta('comments')}"
             )
         lines.append("")
-    else:
-        lines.append("No URLs were updated (no lines matched the expected format, or no entries were found in `ads.json`).")
+
+    if removed:
+        lines.append(f"🗑️ Removed **{len(removed)}** URL{'s' if len(removed) != 1 else ''} from `ads.json`:")
+        lines.append("")
+        for r in removed:
+            lines.append(f"- `{r['adId']} {r['platform']} {r['handle']}` ({r['brand']})")
+        lines.append("")
+
+    if not updated and not removed:
+        lines.append("No changes applied (no lines matched the expected format, or referenced entries didn't exist in `ads.json`).")
         lines.append("")
 
     if skipped:
@@ -187,12 +261,14 @@ def main() -> int:
     ads = json.loads(ADS_FILE.read_text())
     summary = apply_updates(ads, comment)
 
-    # Persist ads.json only if there were real updates.
-    if summary["updated"]:
+    # Persist ads.json if there were updates OR removals.
+    did_change = bool(summary["updated"]) or bool(summary.get("removed"))
+    if did_change:
         ADS_FILE.write_text(json.dumps(ads, indent=2, ensure_ascii=False) + "\n")
-        print(f"✓ Wrote {ADS_FILE.relative_to(ROOT)} with {len(summary['updated'])} update(s).")
+        print(f"✓ Wrote {ADS_FILE.relative_to(ROOT)} — "
+              f"{len(summary['updated'])} updated, {len(summary.get('removed', []))} removed.")
     else:
-        print("No updates applied.")
+        print("No changes applied.")
 
     md = render_summary_md(summary)
     print()
@@ -209,7 +285,7 @@ def main() -> int:
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a") as f:
-            f.write("did_update=" + ("true" if summary["updated"] else "false") + "\n")
+            f.write("did_update=" + ("true" if did_change else "false") + "\n")
             f.write(f"summary_path={summary_path.relative_to(ROOT)}\n")
 
     return 0

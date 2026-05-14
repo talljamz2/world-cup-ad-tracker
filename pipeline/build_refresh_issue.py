@@ -126,24 +126,31 @@ def build_issue_body(items: list[dict], date_str: str) -> tuple[str, str]:
                  "These are age-gated alcohol brands and restricted-profile posts "
                  "that Apify can't scrape directly. Sorted newest-first (those move fastest).")
     lines.append("")
-    lines.append("**How to update:** open each post on your phone, copy the "
-                 "current views/likes/comments, then reply to this issue with "
-                 "one line per URL in this exact format:")
+    lines.append("### How to reply")
     lines.append("")
+    lines.append("**Easiest:** copy the lines below into your reply and just overwrite the numbers. "
+                 "The parser ignores the `— current:` text and any `[open ↗]` link, so leave them alone or strip them out — both work.")
+    lines.append("")
+    lines.append("**Strict form** (if typing from scratch):")
     lines.append("```")
     lines.append("ad-id IG|TT handle v=N l=N c=N")
     lines.append("```")
     lines.append("")
-    lines.append("Example reply:")
+    lines.append("**To remove a URL** (e.g. you decided it's a partner reshare, not brand-owned):")
     lines.append("```")
-    lines.append("bud-01 IG DXqnj_MImxf v=5100000 l=45200 c=280")
-    lines.append("mch-01 TT 7638989476273982733 v=160000 l=510 c=22")
+    lines.append("ad-id IG|TT handle remove")
     lines.append("```")
     lines.append("")
-    lines.append("Reply via the GitHub mobile app or directly to the "
-                 "notification email. Numbers can include commas or M/K suffixes "
-                 "(`v=5.1M`, `l=45,200`) — the parser is forgiving. "
-                 "Skip any URL whose numbers haven't moved much; partial updates are fine.")
+    lines.append("Examples:")
+    lines.append("```")
+    lines.append("bud-01 IG DXqnj_MImxf v=5100000 l=45200 c=280")
+    lines.append("mch-01 TT 7638989476273982733 v=160K l=510 c=22")
+    lines.append("bud-01 IG DXqsFTejNEZ remove")
+    lines.append("```")
+    lines.append("")
+    lines.append("Numbers accept commas and M/K suffixes (`v=5.1M`, `l=45,200`). "
+                 "Skip any URL whose numbers haven't moved; partial updates are fine. "
+                 "Reply via the GitHub mobile app or directly to the notification email.")
     lines.append("")
 
     if items:

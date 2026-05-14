@@ -9,7 +9,7 @@ name: Refresh reply parser
 
 on:
   issue_comment:
-    types: [created]
+    types: [created, edited]
 
 permissions:
   contents: write
