@@ -369,8 +369,18 @@ def main() -> int:
         return 1
 
     ads = json.loads(ADS_FILE.read_text())
-    video_ids = [a["youtubeId"] for a in ads if a.get("youtubeId")]
-    print(f"Fetching stats for {len(video_ids)} videos...")
+    # Fetch metrics for every YouTube video (primary + cutdowns).
+    # Cutdown ids live on ad.youtubeCutdownIds — they're shorter variants of
+    # the same campaign whose views/likes/comments we aggregate into the
+    # parent ad's totals.
+    video_ids = []
+    for a in ads:
+        if a.get("youtubeId"):
+            video_ids.append(a["youtubeId"])
+        for cid in (a.get("youtubeCutdownIds") or []):
+            video_ids.append(cid)
+    video_ids = list(dict.fromkeys(video_ids))  # dedupe, preserve order
+    print(f"Fetching stats for {len(video_ids)} videos (primary + cutdowns)...")
     stats = fetch_video_stats(video_ids, api_key)
 
     history = load_history()
@@ -391,17 +401,45 @@ def main() -> int:
             comments, s.get("channelId")
         )
 
-        velocity = int(s["views"] / days_since(s["published"]))
+        # Aggregate primary + cutdowns. The primary ad's `published` and
+        # `channelTitle` represent the campaign — cutdowns are typically the
+        # same channel and adjacent dates.
+        cut_ids = ad.get("youtubeCutdownIds") or []
+        cut_stats = [stats[c] for c in cut_ids if c in stats]
+        total_views    = s["views"]    + sum(c["views"]    for c in cut_stats)
+        total_likes    = s["likes"]    + sum(c["likes"]    for c in cut_stats)
+        total_comments = s["comments"] + sum(c["comments"] for c in cut_stats)
+
+        velocity = int(total_views / max(1, days_since(s["published"])))
         # Trailing-window velocity from history snapshots — cleaner signal
         # than lifetime average. None when there's no snapshot yet.
-        views_last_window = views_in_window(vid, s["views"], history,
+        # NOTE: views_in_window operates on the primary id only; we may want
+        # to expand it to sum cutdowns too once a few daily snapshots accrue.
+        views_last_window = views_in_window(vid, total_views, history,
                                             window_days=VELOCITY_WINDOW_DAYS)
+
+        # Per-cut detail for the expand row — same shape as IG/TT cut data.
+        cut_details = []
+        for cid in cut_ids:
+            cs = stats.get(cid)
+            if not cs:
+                continue
+            cut_details.append({
+                "videoId": cid,
+                "title": cs.get("title", ""),
+                "views": cs["views"],
+                "likes": cs["likes"],
+                "comments": cs["comments"],
+                "published": cs.get("published"),
+                "durationSeconds": cs.get("durationSeconds"),
+                "watchUrl": f"https://www.youtube.com/watch?v={cid}",
+            })
 
         enriched.append({
             **ad,
-            "views": s["views"],
-            "likes": s["likes"],
-            "comments": s["comments"],
+            "views": total_views,
+            "likes": total_likes,
+            "comments": total_comments,
             "published": s["published"],
             "channelTitle": s["channelTitle"],
             "durationSeconds": s.get("durationSeconds"),
@@ -410,11 +448,23 @@ def main() -> int:
             "velocityViewsPerDay": velocity,
             "viewsLast7Days": views_last_window,
             "velocityWindowDays": VELOCITY_WINDOW_DAYS if views_last_window is not None else None,
+            # Per-cut detail for the page to surface in the expand row.
+            "youtubeCutdownCount": len(cut_details),
+            "youtubeCutdowns": cut_details,
+            # The primary's own metrics, isolated, in case the page wants to
+            # show "hero film: X views / total campaign: Y views" later.
+            "primary": {
+                "videoId": vid,
+                "views": s["views"],
+                "likes": s["likes"],
+                "comments": s["comments"],
+            },
         })
 
+        cut_note = f" + {len(cut_details)} cutdown{'s' if len(cut_details) != 1 else ''}" if cut_details else ""
         sent_str = f"{sentiment_score} (n={sample_size})" if sentiment_score else f"— (n={sample_size})"
-        print(f"  ✓ {ad['brand']:<15} views={pretty_int(s['views']):>12}  "
-              f"likes={pretty_int(s['likes']):>10}  sentiment={sent_str}")
+        print(f"  ✓ {ad['brand']:<15} views={pretty_int(total_views):>12}{cut_note}  "
+              f"likes={pretty_int(total_likes):>10}  sentiment={sent_str}")
 
         # Gentle pacing — well under any rate limit, just polite.
         time.sleep(0.1)

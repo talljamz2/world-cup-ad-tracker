@@ -1450,9 +1450,13 @@ function platformPills(a) {
                : (a.tiktokUrl    ? [a.tiktokUrl]    : []);
 
   if (a.youtubeId) {
+    // Include any youtubeCutdownIds in the count — the count badge then
+    // reflects total YT presence for this campaign (primary + cutdowns).
+    const ytCount = 1 + ((a.youtubeCutdownIds && a.youtubeCutdownIds.length) || 0);
+    const suffix  = ytCount > 1 ? `<span style="opacity:.6">×${ytCount}</span>` : "";
     pills.push(`<a class="platform-pill yt" target="_blank" rel="noopener"
                    href="https://www.youtube.com/watch?v=${a.youtubeId}"
-                   title="Watch on YouTube">YT</a>`);
+                   title="Watch on YouTube (${ytCount} cut${ytCount>1?'s':''})">YT${suffix}</a>`);
   }
   if (ttUrls.length) {
     const suffix = ttUrls.length > 1 ? `<span style="opacity:.6">×${ttUrls.length}</span>` : "";
@@ -1501,13 +1505,42 @@ function renderAssetBreakdown(a) {
   const lines = [];
 
   if (ytV > 0 && a.youtubeId) {
-    lines.push(`
-      <div class="asset-line">
-        <span class="asset-platform">YT</span>
-        <span class="asset-views">${fmt.big(ytV)}</span>
-        <a class="asset-link" target="_blank" rel="noopener"
-           href="https://www.youtube.com/watch?v=${a.youtubeId}">${a.title}</a>
-      </div>`);
+    const ytCuts = a.youtubeCutdowns || [];
+    if (ytCuts.length === 0) {
+      // Single YT entry — original behavior
+      lines.push(`
+        <div class="asset-line">
+          <span class="asset-platform">YT</span>
+          <span class="asset-views">${fmt.big(ytV)}</span>
+          <a class="asset-link" target="_blank" rel="noopener"
+             href="https://www.youtube.com/watch?v=${a.youtubeId}">${a.title}</a>
+        </div>`);
+    } else {
+      // Hero + cutdowns: aggregate header, then per-cut sub-lines.
+      // Sort sub-lines by views descending (hero first if it's the biggest).
+      const primaryViews = a.primary?.views ?? (ytV - ytCuts.reduce((s, c) => s + (c.views || 0), 0));
+      const subLines = [
+        {videoId: a.youtubeId, title: a.title, views: primaryViews,
+         watchUrl: `https://www.youtube.com/watch?v=${a.youtubeId}`, isHero: true},
+        ...ytCuts.map(c => ({...c, isHero: false})),
+      ].sort((x, y) => (y.views || 0) - (x.views || 0));
+
+      lines.push(`
+        <div class="asset-line asset-header">
+          <span class="asset-platform">YT</span>
+          <span class="asset-views"><strong>${fmt.big(ytV)}</strong></span>
+          <span class="asset-link" style="color:var(--ink-muted)">${subLines.length} cuts</span>
+        </div>`);
+      subLines.forEach(c => {
+        const label = c.isHero ? a.title : (c.title || c.videoId);
+        lines.push(`
+          <div class="asset-line asset-sub">
+            <span class="asset-platform">↳</span>
+            <span class="asset-views">${fmt.big(c.views || 0)}</span>
+            <a class="asset-link" target="_blank" rel="noopener" href="${c.watchUrl}">${label}</a>
+          </div>`);
+      });
+    }
   }
 
   // IG cuts, sorted by views high → low
