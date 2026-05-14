@@ -67,7 +67,7 @@ import requests
 ROOT          = Path(__file__).resolve().parent.parent
 PIPELINE      = ROOT / "pipeline"
 ADS_FILE      = PIPELINE / "ads.json"
-DATA_FILE     = ROOT / "data.json"  # for tier-by-score ordering
+DATA_FILE     = ROOT / "summer-26-football" / "data.json"  # for tier-by-score ordering
 ACTORS_FILE   = PIPELINE / "social_actors.json"
 OUTPUT_FILE   = PIPELINE / "social_data.json"
 HISTORY_FILE  = PIPELINE / "social_history.json"  # timeseries for velocity

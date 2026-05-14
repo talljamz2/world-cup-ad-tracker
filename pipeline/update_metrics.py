@@ -31,7 +31,10 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 API_BASE = "https://www.googleapis.com/youtube/v3"
 ROOT = Path(__file__).resolve().parent.parent
 ADS_FILE = ROOT / "pipeline" / "ads.json"
-OUT_FILE = ROOT / "data.json"
+# data.json lives inside the per-tracker subdirectory now that the site is
+# multi-tracker (theadpodium.com/summer-26-football/, /paris-2028/, etc.).
+# The Summer '26 Football tracker reads from summer-26-football/data.json.
+OUT_FILE = ROOT / "summer-26-football" / "data.json"
 HISTORY_FILE = ROOT / "pipeline" / "history.json"
 
 # Retain 30 days of snapshots; older entries pruned on each run.

@@ -3,26 +3,21 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>The Ad Podium · Summer 2026 Football</title>
-<meta name="description" content="The cross-platform leaderboard for brand advertising at football's biggest summer. Cross-platform views, engagement, and momentum — measured. By The Ad Podium." />
+<title>The Ad Podium · Editorial coverage of brand creative at the world's biggest sporting moments</title>
+<meta name="description" content="The Ad Podium is an editorial publication ranking brand creative at the world's biggest sporting events. Live trackers, cross-platform metrics, and the work that's actually breaking through." />
 
-<!-- Open Graph / social previews -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="The Ad Podium · Summer 2026 Football" />
-<meta property="og:description" content="The cross-platform leaderboard for brand advertising at football's biggest summer." />
+<meta property="og:title" content="The Ad Podium" />
+<meta property="og:description" content="Editorial coverage of brand creative at the world's biggest sporting moments." />
 <meta property="og:site_name" content="The Ad Podium" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="The Ad Podium · Summer 2026 Football" />
-<meta name="twitter:description" content="Which brands are winning the summer of football?" />
+<meta name="twitter:title" content="The Ad Podium" />
+<meta name="twitter:description" content="Editorial coverage of brand creative at the world's biggest sporting moments." />
 
 <!-- Favicon — three-bar podium silhouette. Gold center (1st), emerald sides. -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='3' y='20' width='8' height='9' fill='%230f5c3e' rx='1'/><rect x='12' y='12' width='8' height='17' fill='%23b8860b' rx='1'/><rect x='21' y='16' width='8' height='13' fill='%230f5c3e' rx='1'/></svg>" />
+
 <style>
-  /* -----------------------------------------------------
-     The Ad Podium — editorial styling
-     Fonts: system stack (no external deps)
-     Palette: warm off-white, charcoal, emerald, gold
-  ------------------------------------------------------ */
   :root {
     --bg: #faf7f0;
     --bg-card: #ffffff;
@@ -30,18 +25,15 @@
     --ink-soft: #4a4a4a;
     --ink-muted: #7a7a7a;
     --rule: #e8e2d4;
-    --accent: #0f5c3e;       /* deep emerald */
+    --accent: #0f5c3e;
     --accent-soft: #e8f2ec;
     --gold: #b8860b;
     --gold-soft: #f5ecd3;
-    --bronze: #8b5a2b;
-    --silver: #6f7378;
     --serif: ui-serif, Georgia, "Iowan Old Style", "Apple Garamond", Cambria, "Times New Roman", serif;
     --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
     --shadow: 0 1px 2px rgba(20,20,20,0.04), 0 4px 12px rgba(20,20,20,0.04);
   }
-
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
   body {
@@ -54,39 +46,17 @@
   }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
-
-  /* ---------- Layout ---------- */
-  .container {
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 0 28px;
-  }
-  .grid-main {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 300px;
-    gap: 48px;
-    margin-top: 32px;
-  }
-  @media (max-width: 960px) {
-    .grid-main { grid-template-columns: 1fr; gap: 32px; }
-    .sidebar { order: 2; }
-  }
+  .container { max-width: 960px; margin: 0 auto; padding: 0 28px; }
 
   /* ---------- Top nav ---------- */
   .topnav {
     border-bottom: 1px solid var(--rule);
     background: var(--bg);
-    position: sticky;
-    top: 0;
-    z-index: 50;
+    position: sticky; top: 0; z-index: 50;
   }
   .topnav-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px 28px;
-    max-width: 1240px;
-    margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 28px; max-width: 960px; margin: 0 auto;
   }
   .brand {
     font-family: var(--serif);
@@ -101,72 +71,44 @@
     margin-right: 0.42em;
     vertical-align: -0.2em;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='3' y='20' width='8' height='9' fill='%230f5c3e' rx='1'/><rect x='12' y='12' width='8' height='17' fill='%23b8860b' rx='1'/><rect x='21' y='16' width='8' height='13' fill='%230f5c3e' rx='1'/></svg>");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain; background-repeat: no-repeat; background-position: center;
   }
   .nav-links { display: flex; gap: 28px; }
-  .nav-links a {
-    color: var(--ink-soft);
-    font-size: 14px;
-    font-weight: 500;
-  }
+  .nav-links a { color: var(--ink-soft); font-size: 14px; font-weight: 500; }
   .nav-links a:hover { color: var(--accent); text-decoration: none; }
   @media (max-width: 600px) { .nav-links { display: none; } }
 
   /* ---------- Hero ---------- */
-  .hero { padding: 48px 0 24px; }
+  .hero { padding: 72px 0 32px; }
   .eyebrow {
     font-family: var(--mono);
     font-size: 11px;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--accent);
-    margin-bottom: 14px;
+    margin-bottom: 16px;
   }
   h1.headline {
     font-family: var(--serif);
     font-weight: 700;
-    font-size: clamp(34px, 5vw, 56px);
+    font-size: clamp(38px, 6vw, 64px);
     line-height: 1.05;
     letter-spacing: -0.02em;
-    margin: 0 0 16px;
-    max-width: 16ch;
+    margin: 0 0 20px;
+    max-width: 18ch;
   }
   .deck {
-    font-size: 18px;
+    font-size: 19px;
     color: var(--ink-soft);
     max-width: 60ch;
     margin: 0 0 18px;
   }
-  .meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 18px;
-    align-items: center;
-    color: var(--ink-muted);
-    font-size: 13px;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-    padding: 12px 0;
-  }
-  .meta-row .pulse {
-    display: inline-block; width: 8px; height: 8px;
-    background: var(--accent); border-radius: 50%;
-    margin-right: 6px; transform: translateY(-1px);
-    animation: pulse 2s ease-in-out infinite;
-  }
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.35; }
-  }
 
-  /* ---------- Section headers ---------- */
+  /* ---------- Section ---------- */
+  .section { padding: 48px 0; }
   .section-head {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin: 40px 0 18px;
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin: 0 0 24px;
     border-bottom: 2px solid var(--ink);
     padding-bottom: 10px;
   }
@@ -174,622 +116,118 @@
     font-family: var(--serif);
     font-weight: 700;
     font-size: 26px;
-    letter-spacing: -0.01em;
     margin: 0;
   }
-  .section-head .hint { font-size: 13px; color: var(--ink-muted); }
-
-  /* ---------- Podium (Top 3) ---------- */
-  .podium {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+  .section-head .sub {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
   }
-  @media (max-width: 760px) { .podium { grid-template-columns: 1fr; } }
 
-  .podium-card {
+  /* ---------- Tracker cards ---------- */
+  .tracker-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .tracker-card {
+    display: block;
     background: var(--bg-card);
     border: 1px solid var(--rule);
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: var(--shadow);
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.15s ease;
-  }
-  .podium-card:hover { transform: translateY(-2px); }
-  .podium-thumb {
-    aspect-ratio: 16/9;
-    background: linear-gradient(135deg, #234, #456);
-    display: flex; align-items: center; justify-content: center;
-    color: white; font-family: var(--serif); font-weight: 700;
-    font-size: 28px;
-    position: relative;
-    overflow: hidden;
-  }
-  .podium-thumb-img {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-  }
-  .podium-logo-badge {
-    position: absolute;
-    top: 12px; right: 12px;
-    width: 52px; height: 52px;
-    background: white;
     border-radius: 10px;
-    padding: 9px;
-    display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.25);
-    z-index: 2;
-  }
-  .podium-logo-badge img { width: 100%; height: 100%; object-fit: contain; }
-  .podium-play {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60px; height: 60px;
-    background: rgba(255,255,255,0.94);
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.35);
-    z-index: 2;
-    transition: transform 0.15s ease;
-  }
-  .podium-card:hover .podium-play { transform: translate(-50%, -50%) scale(1.08); }
-  .podium-play::before {
-    content: "";
-    width: 0; height: 0;
-    border-left: 18px solid var(--ink);
-    border-top: 11px solid transparent;
-    border-bottom: 11px solid transparent;
-    margin-left: 5px;
-  }
-  .podium-title-overlay {
-    position: absolute;
-    bottom: 0; left: 0; right: 0;
-    padding: 36px 16px 14px;
-    background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0));
-    color: white;
-    font-family: var(--serif);
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1.3;
-    z-index: 2;
-  }
-  .podium-thumb[data-ytid] { cursor: pointer; }
-  .yt-iframe {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    border: 0;
-    z-index: 5;
-  }
-  .podium-rank {
-    position: absolute;
-    top: 12px; left: 12px;
-    background: white; color: var(--ink);
-    font-family: var(--serif); font-weight: 700;
-    font-size: 22px;
-    width: 38px; height: 38px;
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  }
-  .podium-rank.gold   { background: var(--gold); color: white; }
-  .podium-rank.silver { background: var(--silver); color: white; }
-  .podium-rank.bronze { background: var(--bronze); color: white; }
-  .podium-body { padding: 16px 18px 18px; }
-  .podium-brand {
-    font-family: var(--mono); font-size: 11px;
-    letter-spacing: 0.12em; text-transform: uppercase;
-    color: var(--ink-muted);
-    margin-bottom: 4px;
-  }
-  .podium-title {
-    font-family: var(--serif);
-    font-weight: 700; font-size: 19px;
-    line-height: 1.25; letter-spacing: -0.01em;
-    margin: 0 0 10px;
-  }
-  .podium-stats {
-    display: flex; gap: 14px; flex-wrap: wrap;
-    font-size: 12px; color: var(--ink-muted);
-    border-top: 1px solid var(--rule);
-    padding-top: 10px;
-  }
-  .podium-score {
-    font-family: var(--serif);
-    font-size: 22px; font-weight: 700;
-    color: var(--accent);
-  }
-
-  /* ---------- Filters ---------- */
-  .filters {
-    display: flex; flex-direction: column; gap: 10px;
-    margin-bottom: 16px;
-  }
-  .filter-group {
-    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
-  }
-  .filter-label {
-    font-family: var(--mono); font-size: 10px;
-    letter-spacing: 0.12em; text-transform: uppercase;
-    color: var(--ink-muted);
-    margin-right: 4px;
-  }
-  .filter-chip {
-    border: 1px solid var(--rule);
-    background: var(--bg-card);
-    padding: 7px 14px;
-    border-radius: 999px;
-    font-size: 13px;
-    color: var(--ink-soft);
-    cursor: pointer;
-    transition: all 0.15s;
-    font-family: var(--sans);
-  }
-  .filter-chip:hover { border-color: var(--accent); color: var(--accent); }
-  .filter-chip.active {
-    background: var(--ink); color: white; border-color: var(--ink);
-  }
-  .sort-select {
-    margin-left: auto;
-    border: 1px solid var(--rule);
-    background: var(--bg-card);
-    padding: 7px 12px;
-    border-radius: 4px;
-    font-size: 13px;
-    font-family: var(--sans);
-    color: var(--ink-soft);
-  }
-  @media (max-width: 600px) {
-    .sort-select { margin-left: 0; width: 100%; }
-  }
-
-  /* ---------- Leaderboard table ---------- */
-  .table-wrap {
-    background: var(--bg-card);
-    border: 1px solid var(--rule);
-    border-radius: 6px;
-    overflow: hidden;
-  }
-  table.leaderboard {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
-  }
-  table.leaderboard th {
-    text-align: left;
-    font-family: var(--mono);
-    font-size: 10px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--ink-muted);
-    padding: 14px 16px;
-    border-bottom: 1px solid var(--rule);
-    background: #fcfaf3;
-    font-weight: 600;
-    cursor: pointer;
-    user-select: none;
-    white-space: nowrap;
-  }
-  table.leaderboard th:hover { color: var(--accent); }
-  table.leaderboard th.sorted::after {
-    content: " ▾";
-    color: var(--accent);
-  }
-  table.leaderboard td {
-    padding: 16px;
-    border-bottom: 1px solid var(--rule);
-    vertical-align: middle;
-  }
-  table.leaderboard tr:last-child td { border-bottom: none; }
-  table.leaderboard tr.expandable { cursor: pointer; transition: background 0.1s; }
-  table.leaderboard tr.expandable:hover { background: #fcfaf3; }
-  .rank-cell { font-family: var(--serif); font-weight: 700; font-size: 18px; width: 50px; }
-  .brand-cell { display: flex; align-items: center; gap: 12px; }
-  .brand-logo {
-    width: 40px; height: 40px;
-    border-radius: 6px;
-    display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0;
-    background: white;
-    border: 1px solid var(--rule);
-    overflow: hidden;
-    position: relative;
-  }
-  .brand-logo img {
-    width: 30px; height: 30px;
-    object-fit: contain;
-    position: relative;
-    z-index: 2;
-  }
-  /* Tier-3 fallback: colored square with brand initial. Shown only when
-     both simpleicons.org AND duckduckgo favicon fail (Safari often fails
-     where Chrome succeeds — this guarantees something always renders). */
-  .logo-fallback {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--serif);
-    font-weight: 700;
-    font-size: 18px;
-    color: white;
-    z-index: 1;
-  }
-  .podium-logo-badge .logo-fallback { font-size: 22px; }
-  .brand-info .brand-name {
-    font-weight: 600; color: var(--ink);
-    font-size: 14px;
-  }
-  .brand-info .brand-tier {
-    font-family: var(--mono); font-size: 10px;
-    letter-spacing: 0.1em; text-transform: uppercase;
-    color: var(--ink-muted);
-  }
-  .ad-title-cell {
-    font-family: var(--serif); font-size: 15px;
-    color: var(--ink); font-weight: 600;
-  }
-  .ad-title-cell .agency {
-    display: block;
-    font-family: var(--sans); font-size: 12px;
-    color: var(--ink-muted); font-weight: 400;
-    margin-top: 2px;
-  }
-  .num-cell {
-    font-variant-numeric: tabular-nums;
-    color: var(--ink-soft);
-    text-align: right;
-  }
-  /* (.score-cell defined below with progress underline) */
-  .tier-pill {
-    display: inline-block;
-    font-family: var(--mono);
-    font-size: 9px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 3px 8px;
-    border-radius: 3px;
-    margin-top: 3px;
-  }
-  /* Platform pills — small click-throughs next to ad title to native posts on YT/TT/IG */
-  .platform-pills {
-    display: inline-flex;
-    gap: 5px;
-    margin-left: 8px;
-    vertical-align: 1px;
-  }
-  .platform-pill {
-    display: inline-flex;
-    align-items: center;
-    padding: 2px 8px;
-    border-radius: 999px;
-    font-family: var(--mono);
-    font-size: 9px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1px solid var(--rule);
-    color: var(--ink-soft);
-    background: white;
-    transition: all 0.12s;
-  }
-  .platform-pill:hover { text-decoration: none; transform: translateY(-1px); }
-  .platform-pill.yt { color: #c4302b; border-color: #f3cccb; }
-  .platform-pill.yt:hover { background: #fdeeed; border-color: #c4302b; }
-  .platform-pill.tt { color: #111; border-color: #d8d8d8; }
-  .platform-pill.tt:hover { background: #f4f4f4; border-color: #111; }
-  .platform-pill.ig {
-    background: linear-gradient(45deg, #fff, #fff) padding-box,
-                linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) border-box;
-    border: 1px solid transparent;
-    color: #c13584;
-  }
-  .platform-pill.ig:hover {
-    color: #fff;
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-  }
-  .platform-pill.muted { opacity: 0.5; }
-
-  /* Sentiment indicator — color-coded dot + score */
-  .sent-cell {
-    font-variant-numeric: tabular-nums;
-    text-align: right;
-  }
-  .sent-dot {
-    display: inline-block;
-    width: 8px; height: 8px;
-    border-radius: 50%;
-    margin-right: 6px;
-    vertical-align: 1px;
-  }
-  .sent-dot.pos { background: #2e8b57; }
-  .sent-dot.mid { background: #c79100; }
-  .sent-dot.neg { background: #b0463a; }
-  .sent-dot.na  { background: var(--rule); }
-
-  /* Score cell — number + thin progress underline cue */
-  .score-cell {
-    font-family: var(--serif);
-    font-size: 18px; font-weight: 700;
-    color: var(--accent);
-    text-align: right;
-    position: relative;
-    padding-right: 16px;
-  }
-  .score-bar {
-    display: block;
-    height: 3px;
-    background: var(--accent);
-    border-radius: 2px;
-    margin-top: 3px;
-    margin-left: auto;
-    opacity: 0.55;
-    max-width: 80px;
-  }
-
-  /* Asset breakdown (per-cut listing in the expand row) */
-  .asset-breakdown {
-    margin: 14px 0 10px;
-    padding: 12px 0 4px;
-    border-top: 1px solid var(--rule);
-    font-size: 13px;
-  }
-  .asset-line {
-    display: grid;
-    grid-template-columns: 32px 80px 1fr;
-    align-items: baseline;
-    gap: 10px;
-    padding: 4px 0;
-    color: var(--ink-soft);
-    font-variant-numeric: tabular-nums;
-  }
-  .asset-line.asset-total {
-    border-bottom: 1px dashed var(--rule);
-    padding-bottom: 8px;
-    margin-bottom: 4px;
-    font-size: 12px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--ink-muted);
-  }
-  .asset-line.asset-header { padding-top: 6px; }
-  .asset-line.asset-sub {
-    color: var(--ink-muted);
-    font-size: 12px;
-    padding-left: 8px;
-  }
-  .asset-platform {
-    font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--ink-muted);
-    text-align: right;
-  }
-  .asset-views { font-weight: 600; color: var(--ink); }
-  .asset-line.asset-sub .asset-views { font-weight: 400; }
-  .asset-link {
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 12px;
-  }
-  .asset-link:hover { text-decoration: underline; }
-
-  /* Latest Drops list (sidebar) */
-  .drop {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 9px 0;
-    border-bottom: 1px solid var(--rule);
-  }
-  .drop:last-child { border-bottom: none; }
-  .drop-logo {
-    width: 32px; height: 32px;
-    border-radius: 5px;
-    background: white;
-    border: 1px solid var(--rule);
-    display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0;
-    overflow: hidden;
-    position: relative;
-  }
-  .drop-logo img { width: 24px; height: 24px; object-fit: contain; position: relative; z-index: 2; }
-  .drop-logo .logo-fallback { font-size: 14px; }
-  .drop-info { flex: 1; min-width: 0; }
-  .drop-brand {
-    font-size: 13px; font-weight: 600; color: var(--ink);
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .drop-title {
-    font-size: 11px; color: var(--ink-muted);
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .drop-date {
-    font-family: var(--mono);
-    font-size: 10px; color: var(--ink-muted);
-    flex-shrink: 0;
-  }
-
-  /* Filter chip count badge */
-  .chip-count {
-    margin-left: 6px;
-    opacity: 0.55;
-    font-size: 11px;
-    font-variant-numeric: tabular-nums;
-  }
-  .filter-chip.active .chip-count { opacity: 0.75; }
-
-  /* Table sort indicator */
-  table.leaderboard th.sortable { cursor: pointer; }
-  table.leaderboard th.sortable .sort-arrow { opacity: 0; margin-left: 4px; color: var(--accent); }
-  table.leaderboard th.sortable.sorted .sort-arrow { opacity: 1; }
-  /* Empty state */
-  .empty-state {
-    padding: 40px 20px;
-    text-align: center;
-    color: var(--ink-muted);
-    font-size: 14px;
-    background: var(--bg-card);
-  }
-
-  /* file:// origin warning banner — only shown by JS when location.protocol === 'file:' */
-  .file-banner {
-    background: #fff4d6;
-    border-bottom: 1px solid #e8d795;
-    color: #6b4f0b;
-    font-size: 13px;
-    padding: 10px 28px;
-    text-align: center;
-    display: none;
-  }
-  .file-banner code {
-    background: #fff;
-    border: 1px solid #e8d795;
-    padding: 1px 6px;
-    border-radius: 3px;
-    font-size: 12px;
-  }
-  .tier-partner { background: var(--gold-soft); color: var(--gold); }
-  .tier-other   { background: #f0e8e0; color: var(--bronze); }
-
-  /* expanded row */
-  .expand-row td {
-    padding: 0;
-    background: #fcfaf3;
-    border-bottom: 1px solid var(--rule);
-  }
-  .expand-content {
-    padding: 20px 24px;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 24px;
-  }
-  @media (max-width: 720px) { .expand-content { grid-template-columns: 1fr; } }
-  .expand-content .desc {
-    color: var(--ink-soft);
-    font-size: 14px;
-    line-height: 1.6;
-  }
-  .expand-content .meta {
-    font-family: var(--mono); font-size: 11px;
-    color: var(--ink-muted); letter-spacing: 0.05em;
-    margin-top: 12px;
-  }
-  .expand-thumb {
-    aspect-ratio: 16/9;
-    border-radius: 4px;
-    display: flex; align-items: center; justify-content: center;
-    color: white; font-family: var(--serif); font-weight: 700;
-    font-size: 22px;
-  }
-
-  /* ---------- Sidebar ---------- */
-  .sidebar { display: flex; flex-direction: column; gap: 28px; }
-  .sidebar-block {
-    background: var(--bg-card);
-    border: 1px solid var(--rule);
-    border-radius: 6px;
-    padding: 18px 20px;
-  }
-  .sidebar-block h3 {
-    font-family: var(--serif);
-    font-size: 16px;
-    margin: 0 0 14px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--rule);
-  }
-  .mover {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--rule);
-    font-size: 13px;
-  }
-  .mover:last-child { border-bottom: none; }
-  .mover-brand { font-weight: 600; color: var(--ink); }
-  .mover-delta { font-family: var(--mono); font-weight: 600; }
-  .mover-delta.up { color: var(--accent); }
-  .mover-delta.down { color: #b0463a; }
-
-  /* ---------- Methodology ---------- */
-  .methodology {
-    background: var(--bg-card);
-    border: 1px solid var(--rule);
-    border-radius: 6px;
     padding: 28px 32px;
-    margin: 36px 0;
+    color: inherit;
+    text-decoration: none;
+    box-shadow: var(--shadow);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
-  .methodology h2 {
-    font-family: var(--serif);
-    font-size: 24px;
-    margin: 0 0 12px;
+  .tracker-card:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(20,20,20,0.06), 0 8px 24px rgba(20,20,20,0.08);
   }
-  .methodology p { color: var(--ink-soft); margin: 0 0 14px; }
-  .formula {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    margin: 18px 0 4px;
+  .tracker-card.upcoming {
+    opacity: 0.55;
+    pointer-events: none;
   }
-  @media (max-width: 700px) { .formula { grid-template-columns: repeat(2, 1fr); } }
-  .formula-item {
-    border-left: 3px solid var(--accent);
-    padding: 10px 14px;
-    background: var(--accent-soft);
-    border-radius: 0 4px 4px 0;
+  .tracker-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 10px;
+    display: flex; gap: 16px; align-items: center;
   }
-  .formula-item .label {
-    font-family: var(--mono); font-size: 10px;
-    letter-spacing: 0.1em; text-transform: uppercase;
+  .tracker-meta .live {
+    display: inline-flex; align-items: center; gap: 6px;
     color: var(--accent); font-weight: 600;
   }
-  .formula-item .weight {
-    font-family: var(--serif); font-size: 22px;
-    font-weight: 700; color: var(--ink);
+  .tracker-meta .live::before {
+    content: "";
+    display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--accent);
+    animation: pulse 2s ease-in-out infinite;
   }
-  .formula-item .desc {
-    font-size: 12px; color: var(--ink-muted); margin-top: 2px;
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
   }
+  .tracker-title {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0 0 10px;
+  }
+  .tracker-desc {
+    color: var(--ink-soft);
+    font-size: 15px;
+    max-width: 60ch;
+    margin: 0 0 16px;
+  }
+  .tracker-cta {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .tracker-card:hover .tracker-cta { text-decoration: underline; }
+
+  /* ---------- About ---------- */
+  .about p { color: var(--ink-soft); max-width: 62ch; }
+  .about p + p { margin-top: 12px; }
 
   /* ---------- Footer ---------- */
   footer {
-    margin-top: 64px;
-    padding: 36px 0 48px;
-    border-top: 2px solid var(--ink);
-    color: var(--ink-muted);
-    font-size: 13px;
+    border-top: 1px solid var(--rule);
+    padding: 32px 0;
+    margin-top: 32px;
   }
-  footer .foot-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 18px;
+  footer .container {
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 20px;
+  }
+  footer .colophon {
+    font-size: 13px; color: var(--ink-muted);
+    max-width: 60ch;
   }
   footer .brand { font-size: 18px; }
-  footer a { color: var(--ink-soft); }
 </style>
 </head>
 <body>
-
-<!-- File:// warning — shown only when page is opened via file:// (data.json fetch is blocked) -->
-<div class="file-banner" id="fileBanner">
-  Local file mode — showing cached data. For live numbers, run
-  <code>python3 -m http.server 8000</code> in the project folder, then open
-  <code>http://localhost:8000</code>.
-</div>
 
 <!-- ===================== TOP NAV ===================== -->
 <nav class="topnav">
   <div class="topnav-inner">
     <div class="brand"><span class="brand-mark"></span>The Ad Podium</div>
     <div class="nav-links">
-      <a href="#leaderboard">Leaderboard</a>
+      <a href="#trackers">Trackers</a>
       <a href="blog/">Blog</a>
-      <a href="#methodology">Methodology</a>
       <a href="#about">About</a>
     </div>
   </div>
@@ -799,1291 +237,72 @@
 
   <!-- ===================== HERO ===================== -->
   <header class="hero">
-    <div class="eyebrow">Summer 2026 Football · Brand Creative Leaderboard</div>
-    <h1 class="headline">Which brands are winning the summer of football?</h1>
+    <div class="eyebrow">Editorial · Brand Creative · Live Trackers</div>
+    <h1 class="headline">The brand creative behind the world's biggest sporting moments.</h1>
     <p class="deck">
-      The definitive ranking of brand creative for the world's biggest tournament.
-      We track every major World Cup ad — Official Partners and the brands
-      running tournament-coded creative without one — and score them on views,
-      engagement, and momentum. Updated as new campaigns drop.
+      The Ad Podium ranks the advertising work running through major sporting events — across YouTube, Instagram, and TikTok — and tells you which brands are actually breaking through, in real time, week by week.
     </p>
-    <div class="meta-row">
-      <span><span class="pulse"></span> Live tracking</span>
-      <span>Updated <strong id="lastUpdated">today</strong></span>
-      <span><strong id="adCount">—</strong> ads tracked</span>
-      <span><strong id="brandCount">—</strong> brands</span>
-      <span id="kickoffCountdown">Tournament kicks off <strong>June 11, 2026</strong></span>
-    </div>
   </header>
 
-  <div class="grid-main">
-    <main>
+  <!-- ===================== TRACKERS ===================== -->
+  <section class="section" id="trackers">
+    <div class="section-head">
+      <h2>Active Trackers</h2>
+      <span class="sub">Updated daily</span>
+    </div>
 
-      <!-- ===================== TOP 3 PODIUM ===================== -->
-      <div class="section-head">
-        <h2>The Top 3</h2>
-        <span class="hint">Ranked by composite score — <a href="#methodology">how it works</a></span>
-      </div>
-      <div class="podium" id="podium"><!-- rendered by JS --></div>
-
-      <!-- ===================== FULL LEADERBOARD ===================== -->
-      <div class="section-head" id="leaderboard">
-        <h2>The Full Leaderboard</h2>
-        <span class="hint">Click any row to expand — full description and platform breakdown</span>
-      </div>
-
-      <div class="filters">
-        <div class="filter-group">
-          <span class="filter-label">Tier</span>
-          <button class="filter-chip active" data-filter="all">All</button>
-          <button class="filter-chip" data-filter="Official Partner">Official Partners</button>
-          <button class="filter-chip" data-filter="Other">Other</button>
+    <div class="tracker-grid">
+      <a href="summer-26-football/" class="tracker-card">
+        <div class="tracker-meta">
+          <span class="live">Live</span>
+          <span>Football · June – July 2026</span>
         </div>
-        <div class="filter-group">
-          <select class="sort-select" id="sortSelect">
-            <option value="score">Sort: Composite Score</option>
-            <option value="views">Sort: Total Views (cross-platform)</option>
-            <option value="er">Sort: Engagement Rate (cross-platform)</option>
-            <option value="velocity">Sort: Velocity (cross-platform)</option>
-            <option value="recent">Sort: Most Recent</option>
-          </select>
+        <h3 class="tracker-title">Summer 26 Football</h3>
+        <p class="tracker-desc">
+          The cross-platform leaderboard for brand creative at football's biggest summer. 29 campaigns tracked across Official Partners and the brands running tournament-coded creative without one, scored on reach, engagement, and momentum.
+        </p>
+        <span class="tracker-cta">View leaderboard →</span>
+      </a>
+
+      <div class="tracker-card upcoming">
+        <div class="tracker-meta">
+          <span>Coming soon</span>
         </div>
-      </div>
-
-      <div class="table-wrap">
-        <table class="leaderboard">
-          <thead>
-            <tr>
-              <th style="width:50px">#</th>
-              <th>Brand</th>
-              <th>Spot</th>
-              <th class="num-cell sortable" data-sort="views">Views<span class="sort-arrow">▾</span></th>
-              <th class="num-cell sortable" data-sort="er">ER<span class="sort-arrow">▾</span></th>
-              <th class="num-cell sortable sorted" data-sort="score">Score<span class="sort-arrow">▾</span></th>
-            </tr>
-          </thead>
-          <tbody id="leaderboardBody"><!-- rendered by JS --></tbody>
-        </table>
-      </div>
-
-      <!-- ===================== METHODOLOGY ===================== -->
-      <section class="methodology" id="methodology">
-        <h2>How we score</h2>
-        <p>
-          The Composite Score is a single 0–100 number summarizing how a campaign
-          is performing across the dimensions marketers actually care about.
-          Each factor is normalized against the leader in the dataset, then
-          combined using the weights below.
+        <h3 class="tracker-title">Future trackers</h3>
+        <p class="tracker-desc">
+          The Ad Podium is built to scale across sporting moments — Olympics, Super Bowl, F1 finales, league championships. Coverage windows added as events approach.
         </p>
-        <p>
-          We split the leaderboard into two tiers — <strong>Official Partners</strong>
-          (brands with a contractual sponsorship at any tournament rights tier) and
-          <strong>Other</strong> (brands running tournament-coded creative without an
-          official deal). The classification follows the brand's parent company,
-          so Powerade reads as Official via Coca-Cola, and Mastercard reads as
-          Other because the payment-category exclusivity belongs to Visa.
-        </p>
-        <div class="formula">
-          <div class="formula-item">
-            <div class="label">Reach</div>
-            <div class="weight">45%</div>
-            <div class="desc">Cross-platform views across YouTube, Instagram, and TikTok — each log-scaled and normalized within its own platform. Distribution breadth is itself rewarded: not posting on a platform contributes nothing for that third of the score.</div>
-          </div>
-          <div class="formula-item">
-            <div class="label">Resonance</div>
-            <div class="weight">25%</div>
-            <div class="desc">Engagement rate (likes + comments per view) computed per platform, normalized within each platform's max, averaged across all three. The quality signal that paid amplification can't fake.</div>
-          </div>
-          <div class="formula-item">
-            <div class="label">Velocity</div>
-            <div class="weight">30%</div>
-            <div class="desc">Cross-platform views per day — trailing-7-day rate summed across YouTube, Instagram, and TikTok. Captures campaign momentum, not just lifetime accumulation. Log-scaled so paid-amp trajectory can't dominate.</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===================== ABOUT ===================== -->
-      <section class="methodology" id="about" style="background:transparent;border:none;padding:28px 0;">
-        <h2 style="font-family:var(--serif);font-size:24px;margin:0 0 12px;">About</h2>
-        <p style="color:var(--ink-soft);max-width:62ch;">
-          An independent leaderboard tracking the brand creative running through
-          the summer of football 2026. We measure cross-platform reach,
-          engagement, and trajectory across YouTube, Instagram, and TikTok —
-          and rank the work that's actually breaking through. Built for
-          marketers, creatives, strategists, and people who care about how
-          brands show up at the world's biggest cultural moment.
-        </p>
-        <p style="color:var(--ink-soft);max-width:62ch;margin-top:10px;">
-          No commercial relationship with any tracked brand. Editorial review
-          on every ad before it lands on the leaderboard.
-        </p>
-        <p style="margin-top:14px;font-size:13px;color:var(--ink-muted)">
-          Get in touch: <a href="mailto:hello@theadpodium.com" style="color:var(--accent)">hello@theadpodium.com</a>
-        </p>
-      </section>
-
-    </main>
-
-    <!-- ===================== SIDEBAR ===================== -->
-    <aside class="sidebar">
-      <div class="sidebar-block">
-        <h3>Latest Drops</h3>
-        <p style="font-size:13px;color:var(--ink-soft);margin:0 0 10px">
-          The five most recent spots tracked, newest first.
-        </p>
-        <div id="latestDrops"><!-- rendered by JS --></div>
-      </div>
-
-      <div class="sidebar-block">
-        <h3>From the Editor</h3>
-        <p style="font-size:13px;color:var(--ink-soft);margin:0 0 10px">
-          Analysis and commentary on the brand creative driving the tournament.
-        </p>
-        <div id="blogList"><!-- rendered by JS --></div>
-        <p style="font-size:12px;color:var(--ink-muted);margin:14px 0 0">
-          <a href="blog/" style="color:var(--accent)">All articles →</a>
-        </p>
-      </div>
-    </aside>
-  </div>
-
-  <!-- ===================== FOOTER ===================== -->
-  <footer>
-    <div class="foot-row">
-      <div>
-        <div class="brand"><span class="brand-mark"></span>The Ad Podium</div>
-        <div style="margin-top:8px;max-width:42ch">
-          Independent ad-industry coverage of the World Cup 2026.
-          For the marketers, creatives, and strategists scoring at home.
-        </div>
-      </div>
-      <div>
-        <strong style="color:var(--ink-soft);display:block;margin-bottom:6px">The Ad Podium</strong>
-        <a href="#methodology">Methodology</a><br/>
-        <a href="#leaderboard">Leaderboard</a><br/>
-        <a href="#about">About</a>
-      </div>
-      <div>
-        <strong style="color:var(--ink-soft);display:block;margin-bottom:6px">Data</strong>
-        <span style="color:var(--ink-muted)">YouTube · Instagram · TikTok</span><br/>
-        <span style="color:var(--ink-muted)">Refreshed daily</span><br/>
-        <span style="color:var(--ink-muted)">Manual editorial review</span>
       </div>
     </div>
-    <div style="margin-top:28px;padding-top:18px;border-top:1px solid var(--rule);font-size:12px">
-      © 2026 The Ad Podium. FIFA, World Cup, and brand marks are property of their respective owners. Editorial coverage; no commercial relationship with FIFA or any tracked brand.
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section about" id="about">
+    <div class="section-head">
+      <h2>About</h2>
     </div>
-  </footer>
+    <p>
+      The Ad Podium is an independent editorial publication covering brand creative at the world's biggest sporting events. We track every major campaign — from Official Partners with multi-year deals to challenger brands running tournament-coded work without one — and rank them on cross-platform reach, engagement rate, and momentum.
+    </p>
+    <p>
+      No commercial relationship with any tracked brand. Editorial review on every ad before it lands on a leaderboard. Methodology documented openly inside each tracker.
+    </p>
+    <p style="margin-top:20px;font-size:13px;color:var(--ink-muted)">
+      Get in touch: <a href="mailto:hello@theadpodium.com">hello@theadpodium.com</a>
+    </p>
+  </section>
 
 </div>
 
-<script>
-/* =====================================================================
-   AD DATA — sample seed, edit freely
-   Brand colors are used to generate the logo squares. The 'thumbHue'
-   gives each spot a distinct gradient. Replace `youtubeId` with real
-   IDs and the thumbnails will start pulling from i.ytimg.com.
-   ===================================================================== */
-const FALLBACK_ADS = [
-  {
-    id: "adi-01", brand: "Adidas", brandColor: "#000000", domain: "adidas.com",
-    tier: "Official Partner", agency: "LOLA MullenLowe",
-    title: "Backyard Legends",
-    released: "2026-05-07", thumbHue: 220,
-    youtubeId: "mJJY53qhJe0",
-    views: 3370860, likes: 213190, comments: 5057,
-    durationSeconds: 306,
-    description: "Adidas's 2026 hero spot, set in streets and side-lots and built on the idea that legends are forged in backyard games. Stars Timothée Chalamet, Lionel Messi, Bad Bunny, Lamine Yamal, Jude Bellingham and Trinity Rodman — six headliners under the 'You Got This' platform. The 90s-coded visual register is the most editorial decision in the spot."
-  },
-  {
-    id: "mar-02", brand: "Marriott Bonvoy", brandColor: "#960028", domain: "marriott.com",
-    tier: "Official Partner", agency: "—",
-    title: "Get Access to FIFA World Cup 2026",
-    released: "2026-03-20", thumbHue: 5,
-    youtubeId: "bWtKtqSeB40",
-    views: 5768, likes: 21, comments: 3,
-    durationSeconds: 34,
-    description: "Marriott Bonvoy's 'Get Access' platform — the hospitality side of the 2026 activation, framing matchday access and Marriott Bonvoy Moments hotel stays as the path to the World Cup experience. Co-branded with Visa as payments partner. Marriott is FIFA's Official Hotel Supporter for North America (Tier 3 Regional Supporter), with the activation spanning 104 matches across the three host countries."
-  },
-  {
-    id: "bud-01", brand: "Budweiser", brandColor: "#c8102e", domain: "budweiser.com",
-    tier: "Official Partner", agency: "Grey Global",
-    title: "Let It Pour",
-    released: "2026-04-28", thumbHue: 5,
-    youtubeId: "w0oRTljtx0o",
-    views: 13317205, likes: 706, comments: 38,
-    durationSeconds: 115,
-    description: "Budweiser's 2026 platform film with Erling Haaland and Jürgen Klopp, built on the 'letting it all out' frame — pressure and catharsis as the emotional center, cinematic moments scaled to fan reactions worldwide. The longer hero in Bud's 2026 tournament work."
-  },
-  {
-    id: "lay-01", brand: "Lay's", brandColor: "#fdb515", domain: "lays.com",
-    tier: "Official Partner", agency: "BBDO",
-    title: "The Most Epic Watch Party",
-    released: "2026-05-05", thumbHue: 50,
-    youtubeId: "qVg8Gj6WcFQ",
-    views: 1994, likes: 44, comments: 7,
-    durationSeconds: 77,
-    description: "Lay's reactivates 'No Lay's, No Game' as its tournament platform — a fictional WhatsApp watch party where Messi, Beckham, Henry, Putellas and Steve Carell share the same group chat. The Carell casting is the spot's editorial wink."
-  },
-  {
-    id: "pwd-01", brand: "Powerade", brandColor: "#003d82", domain: "powerade.com",
-    tier: "Official Partner", agency: "Open X",
-    title: "Power Your Fate",
-    released: "2026-04-23", thumbHue: 215,
-    youtubeId: "Ecs-f2Nie4I",
-    views: 2358, likes: 26, comments: 2,
-    durationSeconds: 115,
-    description: "Powerade's 'Power Your Fate' platform with Lamine Yamal and Rodrygo Goes — the brand positioned as the fuel between preparation and the decisive moment. Cinematic readiness-rituals frame, distributed across global TV, digital and creator content."
-  },
-  {
-    id: "mch-01", brand: "Michelob Ultra", brandColor: "#9b9b9b", domain: "michelobultra.com",
-    tier: "Official Partner", agency: "Wieden+Kennedy NY",
-    title: "The Superior Match",
-    released: "2026-05-12", thumbHue: 35,
-    youtubeId: "9SHoGssGL_4",
-    views: 22963, likes: 0, comments: 76,
-    durationSeconds: 184,
-    description: "Michelob Ultra's 2026 platform under 'Superior is Worth Playing For', launched May 12 with the hotel-lobby pitch film: Pulisic, Sergiño Dest and Antonee Robinson go up against Messi, Lautaro Martínez and Nicolás Paz, with Guillermo Ochoa in goal, a Ronaldo Nazário cameo, Alex Morgan with the late assist, and Billy Bob Thornton as the lobby guest waiting on his beer. Builds on the December 2025 Sup..."
-  },
-  {
-    id: "pep-01", brand: "Pepsi", brandColor: "#004b93", domain: "pepsi.com",
-    tier: "Other", agency: "BigTime Creative Shop",
-    title: "Pepsi Football Nation",
-    released: "2026-04-20", thumbHue: 215,
-    youtubeId: "UWFnOdU33MQ",
-    views: 75834, likes: 2478, comments: 150,
-    durationSeconds: 206,
-    description: "Pepsi's 'Football Nation' global platform with David Beckham handing the playbook to fans — fan interactions, playful rivalry, memes and real-time reactions over match action. Featured cast also includes Vinícius Jr., Mohamed Salah, Florian Wirtz, Lauren James and Alexia Putellas. The campaign's YouTube canonical (on Pepsi Global) carries the sub-title 'The Home of Football Banter & Rivalry.' Agen..."
-  },
-  {
-    id: "stl-01", brand: "Stella Artois", brandColor: "#c8102e", domain: "stellaartois.com",
-    tier: "Official Partner", agency: "AB InBev in-house",
-    title: "Celebration ft. David Beckham",
-    released: "2026-04-15", thumbHue: 5,
-    youtubeId: "MJ4mFg8xxNI",
-    views: 6343, likes: 74, comments: 2,
-    durationSeconds: 37,
-    description: "Stella Artois's 'For Moments Worth More' platform with David Beckham — shared viewing occasions, hospitality and the social side of the tournament, rather than match action itself. A quieter register than the Bud line in the same AB InBev portfolio."
-  },
-  {
-    id: "dia-02", brand: "Diageo", brandColor: "#231F20", domain: "diageo.com",
-    tier: "Official Partner", agency: "—",
-    title: "50 Days to Go",
-    released: "2026-04-22", thumbHue: 30,
-    youtubeId: "zizW2Oa7YMk",
-    views: 5673, likes: 131, comments: 9,
-    durationSeconds: 50,
-    description: "Diageo's 50-days-to-go countdown moment ahead of the June 11 opener — a portfolio-wide brand activation tying multiple Diageo labels to the tournament."
-  },
-  {
-    id: "crs-01", brand: "Coors Light", brandColor: "#b80024", domain: "coorslight.com",
-    tier: "Other", agency: "Droga5",
-    title: "The Coooors Call",
-    released: "2026-04-29", thumbHue: 5,
-    youtubeId: "SbmYOQIIEBg",
-    views: 3329, likes: 35, comments: 1,
-    durationSeconds: 31,
-    description: "Coors Light's 'Coooors Call' bit — announcer Andrés Cantor stretching the elongated 'GOOOOAL' shout into the brand name. A :30 spot, with a UGC arm inviting fans to submit their own Coooors Call (featuring Cantor's son in the social cut). Beer-money prize."
-  },
-  {
-    id: "fox-01", brand: "FOX Sports", brandColor: "#FFCC00", domain: "foxsports.com",
-    tier: "Other", agency: "—",
-    title: "Do You Believe? Everything Can Happen on Home Soil",
-    released: "2026-05-04", thumbHue: 50,
-    youtubeId: "4_yQyyrPxkg",
-    views: 1897169, likes: 1976, comments: 429,
-    durationSeconds: 111,
-    description: "FOX Sports's US broadcaster platform for 2026, anchored on the 'home soil' narrative — the first US-hosted men's tournament since 1994. Built for the broader American audience the network needs to recruit beyond core football fans."
-  },
-  {
-    id: "brh-01", brand: "Brahma", brandColor: "#005EB8", domain: "brahma.com.br",
-    tier: "Official Partner", agency: "—",
-    title: "Copa do Mundo Brahma",
-    released: "2026-05-06", thumbHue: 215,
-    youtubeId: "_THsmn-n8Lk",
-    views: 382818, likes: 14390, comments: 915,
-    durationSeconds: 221,
-    description: "Brahma's 2026 platform film. AB InBev's flagship Brazilian beer running its own local narrative alongside Bud's global Haaland/Klopp work — more national-team coded, more Carnival-adjacent in visual register."
-  },
-  {
-    id: "mot-01", brand: "Motorola", brandColor: "#0066B2", domain: "motorola.com",
-    tier: "Official Partner", agency: "—",
-    title: "When Fans Go Wild",
-    released: "2026-03-03", thumbHue: 215,
-    youtubeId: "yk41Qxz3tAo",
-    views: 3095, likes: 137, comments: 11,
-    durationSeconds: 61,
-    description: "Motorola's 2026 global tournament film, framed around fan reactions and device-as-camera storytelling. The brand's headline 2026 activation, distinct from regional cutdown variants that surface on local channels."
-  },
-  {
-    id: "bud-02", brand: "Budweiser", brandColor: "#c8102e", domain: "budweiser.com",
-    tier: "Official Partner", agency: "Grey Global",
-    title: "The Big Drop",
-    released: "2026-04-07", thumbHue: 5,
-    youtubeId: "dolH3p7MK_Q",
-    views: 28987506, likes: 66, comments: 8,
-    durationSeconds: 61,
-    description: "Budweiser's bottle-design platform for 2026 — a separate creative track from the main 'Let It Pour' brand spot, focused on Bud's collectible packaging and the design system across the tournament cycle. Same global activation umbrella as Let It Pour but a distinct creative concept, not a cutdown."
-  },
-  {
-    id: "cok-01", brand: "Coca-Cola", brandColor: "#F40009", domain: "coca-cola.com",
-    tier: "Official Partner", agency: "—",
-    title: "JUMP (FIFA World Cup 2026 Anthem)",
-    released: "2026-05-08", thumbHue: 0,
-    youtubeId: "uNdcDbMo9EE",
-    views: 7639, likes: 295, comments: 45,
-    durationSeconds: 78,
-    description: "Coca-Cola's official 2026 anthem — an updated cover of Van Halen's 'Jump' performed by J Balvin, Amber Mark, Steve Vai and Travis Barker. Released via Real Thing Records in partnership with Capitol Records. The standalone music drop after a teased preview in January's 'Bubbling Up' film."
-  },
-  {
-    id: "cok-02", brand: "Coca-Cola", brandColor: "#F40009", domain: "coca-cola.com",
-    tier: "Official Partner", agency: "—",
-    title: "Uncanned Emotions",
-    released: "2026-04-08", thumbHue: 0,
-    youtubeId: "jNHDWcoNzVA",
-    views: 76287, likes: 995, comments: 32,
-    durationSeconds: 99,
-    description: "The second film in Coca-Cola's 'All the Feels' trilogy (after January's 'Bubbling Up', before a third spot timed to kickoff). Focuses on raw, unfiltered fan reactions — spontaneous celebrations, disappointments, shared viewing experiences. Coke has been a FIFA stadium partner since 1950."
-  },
-  {
-    id: "vrz-01", brand: "Verizon", brandColor: "#CD040B", domain: "verizon.com",
-    tier: "Official Partner", agency: "—",
-    title: "Ultimate Access",
-    released: "2025-09-29", thumbHue: 0,
-    youtubeId: "zexYXF7R0jM",
-    views: 8367, likes: 42, comments: 5,
-    durationSeconds: 54,
-    description: "Verizon's 'Ultimate Access' platform, launched September 2025 as the brand's first World Cup activation under Official Telecommunications Sponsor status. Beckham works his way from the nosebleeds down to the pitch, anchored on the 'no one gets you closer' line. Rolled out across Sept–Dec 2025 in four waves, each released across IG + TikTok with new talent and creative — Tim Howard, Chucky Lozano, ..."
-  },
-  {
-    id: "mas-01", brand: "Mastercard", brandColor: "#EB001B", domain: "mastercard.com",
-    tier: "Other", agency: "McCann",
-    title: "For You, the Fans",
-    released: "2025-11-30", thumbHue: 0,
-    youtubeId: "bumcC3A7Fyw",
-    views: 4045, likes: 73, comments: 14,
-    durationSeconds: 61,
-    description: "Mastercard's continuation of its long-running Messi partnership. La Colección Diez de Diez: ten limited-edition jerseys designed with creative director Guillermo Andrade, each inspired by a chapter of Messi's career. A jersey-swap concept extended into a collectible."
-  },
-  {
-    id: "len-01", brand: "Lenovo", brandColor: "#E2231A", domain: "lenovo.com",
-    tier: "Official Partner", agency: "Rattling Stick",
-    title: "The world's gone football",
-    released: "2026-01-08", thumbHue: 0,
-    youtubeId: "vV9zKd3ob3k",
-    views: 515129, likes: 213, comments: 10,
-    durationSeconds: 31,
-    description: "Owen Trevor Black's Rattling Stick film for Lenovo, framing the brand's AI infrastructure as the engine behind the most technologically advanced World Cup in history. Shot in a Bucharest studio with AI-generated and AI-enhanced vignettes — itself a statement about where the work is going."
-  },
-  {
-    id: "kia-01", brand: "Kia", brandColor: "#05141F", domain: "kia.com",
-    tier: "Official Partner", agency: "Innocean",
-    title: "The Next Legend",
-    released: "2025-12-08", thumbHue: 220,
-    youtubeId: "njfzULv9iFk",
-    views: 2025874, likes: 189, comments: 17,
-    durationSeconds: 61,
-    description: "Kia's 2026 hero, built around the brand's 'movement that inspires' positioning. Connects football's generational legend-making to Kia's sponsorship platform — a global, multi-generational fan story rather than a celebrity-first read."
-  },
-  {
-    id: "jim-01", brand: "Jim Beam", brandColor: "#B72D29", domain: "jimbeam.com",
-    tier: "Other", agency: "—",
-    title: "Home Field Advantage",
-    released: "2026-04-07", thumbHue: 5,
-    youtubeId: "5f_BK6mlWVg",
-    views: 4041895, likes: 18, comments: 7,
-    durationSeconds: 31,
-    description: "Jim Beam × U.S. Soccer co-branded launch. 'Home advantage' as the emotional center — shared viewing moments and matchday rituals at home and in local bars, not stadium reverence. Distributed across digital, social, and on-trade promotions."
-  },
-  {
-    id: "try-01", brand: "Truly Hard Seltzer", brandColor: "#E91E63", domain: "trulyhardseltzer.com",
-    tier: "Other", agency: "—",
-    title: "U.S. Soccer Anthem",
-    released: "2026-04-07", thumbHue: 330,
-    youtubeId: "d_bywTEOtjA",
-    views: 409, likes: 1, comments: 0,
-    durationSeconds: 61,
-    description: "Boston Beer Co's 'Drink like a Believer' platform for Truly. The campaign launches a nationwide search to rename one American town 'Believe, USA', with USMNT's Weston McKennie as the anchor. Brand plans a full town takeover of the winning community ahead of kickoff."
-  },
-  {
-    id: "cok-03", brand: "Coca-Cola", brandColor: "#F40009", domain: "coca-cola.com",
-    tier: "Official Partner", agency: "WPP Open X",
-    title: "Bubbling Up",
-    released: "2026-01-30", thumbHue: 0,
-    youtubeId: "Oc2f95BsEqw",
-    views: 37116, likes: 328, comments: 31,
-    durationSeconds: 61,
-    description: "The opener of Coca-Cola's 'All the Feels' trilogy, released January 27, 2026 — three months before 'Uncanned Emotions' and four months before the JUMP anthem dropped as a standalone track. A fan's pre-tournament anticipation spills into everyday moments (the elevator scene as the central creative metaphor), with a sneak preview of the JUMP anthem before its full release. The platform-launch film f..."
-  },
-  {
-    id: "lgo-01", brand: "Lego", brandColor: "#E3000B", domain: "lego.com",
-    tier: "Official Partner", agency: "Lego In-House",
-    title: "Everyone Wants a Piece",
-    released: "2026-04-02", thumbHue: 5,
-    youtubeId: "H0gbOS6-EQ4",
-    views: 1049384, likes: 58426, comments: 0,
-    durationSeconds: 60,
-    description: "Lego's tournament play stacks Messi, Ronaldo, Mbappé and Vinícius Jr. into brick-built worlds where football fandom and creative play are the same posture. System1 rates it 4.9 stars — the highest of any 2026 World Cup spot they've tested. The YouTube canonical lives on Lego's own channel in Short format; the wider social distribution (6 IG cuts, 6 TT posts) is where the campaign's reach is built."
-  },
-  {
-    id: "gat-01", brand: "Gatorade", brandColor: "#F47821", domain: "gatorade.com",
-    tier: "Other", agency: "—",
-    title: "Trust What's Inside",
-    released: "2026-04-23", thumbHue: 30,
-    youtubeId: "665gg3fGj9U",
-    views: 6176821, likes: 217, comments: 18,
-    durationSeconds: 104,
-    description: "Gatorade's 'Trust What's Inside' platform for 2026 — performance and athlete-prep framing. PepsiCo's sports-nutrition arm running parallel to Pepsi's own banter-coded 'Football Nation' platform. System1 rates it 3.0 stars."
-  },
-  {
-    id: "don-01", brand: "Don Julio", brandColor: "#6E2B2B", domain: "donjulio.com",
-    tier: "Official Partner", agency: "—",
-    title: "Made to Be Raised",
-    released: "2026-04-01", thumbHue: 5,
-    youtubeId: "Q8CfEy3Epbs",
-    views: 313, likes: 3, comments: 1,
-    durationSeconds: 31,
-    description: "Diageo's Don Julio platform film, directed by Leigh Powis with Thierry Henry arriving at a post-final celebration. Accompanies the new Tequila Don Julio 1942 World Cup 2026 Edition bottle. A second Don Julio film — 'La Otra Copa' (dir. Stillz, with Roberto Carlos + Henry) — runs alongside as the platform's second piece this cycle. System1 rated 'La Otra Copa' at 3.2 stars."
-  },
-  {
-    id: "mar-01", brand: "Marriott Bonvoy", brandColor: "#960028", domain: "marriott.com",
-    tier: "Official Partner", agency: "—",
-    title: "For Fans Everywhere",
-    released: "2026-01-01", thumbHue: 5,
-    youtubeId: "",
-    views: 0, likes: 0, comments: 0,
-    durationSeconds: null,
-    description: "Marriott Bonvoy's social-first 2026 platform, anchored on broadcaster Kate Scott and the 'For Fans Everywhere' positioning. Marriott is FIFA's Official Hotel Supporter for North America (Tier 3 Regional Supporter), with the activation spanning 104 matches across the three host countries plus the Marriott Bonvoy Moments hospitality drops. The campaign is published across IG and TikTok with no YouTu..."
-  }
-];
-
-/* =====================================================================
-   SCORING — composite 0..100
-   Four factors, each normalized against the leader in the dataset:
-     Reach     = log10(views) — log scaling caps the dominance of paid-amp
-                 spots in low-CPM markets without crushing meaningful reach.
-                 Weighted 40%.
-     Resonance = engagement rate ((likes + comments) / views) — market-
-                 agnostic quality signal. Weighted 20%.
-     Sentiment = like-weighted comment sentiment 0..100. Weighted 10%.
-     Velocity  = log10(viewsLast7Days/7) when history is available, else
-                 log10(views per day since publish) — proper trailing-week
-                 momentum, same log treatment so paid trajectory can't
-                 outweigh organic climb. Weighted 30%.
-   When Sentiment is null (sample below 20 comments), remaining weights
-   are renormalized so a thinly-commented spot isn't punished.
-   ===================================================================== */
-// Sentiment removed from composite (May 2026) — see methodology disclosure.
-// The metric was YouTube-only on a tiny sample (~500 of millions of viewers)
-// AND showed a strong negative correlation with ER in our dataset (r = −0.63),
-// meaning it was actively cancelling the engagement signal it was meant to
-// support. Kept as informational in the expand row, not in the score.
-const WEIGHTS = { reach: 0.45, resonance: 0.25, velocity: 0.30 };
-
-// Per-platform Reach + Resonance.
-// We compute Reach and Resonance across YouTube, Instagram, and TikTok with
-// EQUAL weighting (33% each), and treat a brand's absence from a platform as
-// a 0 contribution rather than excluding the platform. Editorial intent:
-// distribution breadth is itself a measure of cultural presence — a brand
-// that chose not to post on TikTok scores lower on that third of the metric.
-//
-// This also means Reach for a YouTube-only spot caps at ~33% of max, even
-// if its YT views are enormous. A spot present on all three platforms can
-// reach 100%. That's the structural reward for breadth.
-function computeScores(ads) {
-  // Single-platform engagement-rate helper.
-  const erOf = (v, l, c) => (v && v > 0) ? ((l + c) / v) * 100 : 0;
-
-  const enriched = ads.map(a => {
-    const ytV = a.views     || 0, ytL = a.likes     || 0, ytC = a.comments     || 0;
-    const igV = a.igViews   || 0, igL = a.igLikes   || 0, igC = a.igComments   || 0;
-    const ttV = a.ttViews   || 0, ttL = a.ttLikes   || 0, ttC = a.ttComments   || 0;
-
-    return {
-      ...a,
-      // Headline ER column (cross-platform combined, simple ratio of totals).
-      // Used for the leaderboard table column. Different from the per-platform
-      // ER values used to compute the Resonance factor.
-      er: erOf(ytV + igV + ttV, ytL + igL + ttL, ytC + igC + ttC),
-      // Combined cross-platform total views, surfaced in the expand row.
-      totalViews: ytV + igV + ttV,
-      // Per-platform ER for the Resonance factor (normalized within platform).
-      ytER: erOf(ytV, ytL, ytC),
-      igER: erOf(igV, igL, igC),
-      ttER: erOf(ttV, ttL, ttC),
-      // How many platforms the spot was distributed on (with measurable views).
-      platformCount: (ytV > 0 ? 1 : 0) + (igV > 0 ? 1 : 0) + (ttV > 0 ? 1 : 0),
-    };
-  });
-
-  const safeMax = (arr, fn) => {
-    const vals = arr.map(fn).filter(v => v != null && !isNaN(v) && v > 0);
-    return vals.length ? Math.max(...vals) : 1;
-  };
-  const safeMaxLog = (arr, fn) => Math.log10(safeMax(arr, fn) + 1);
-
-  // Per-platform max for log-Reach normalization
-  const maxYtLog = safeMaxLog(enriched, a => a.views   || 0);
-  const maxIgLog = safeMaxLog(enriched, a => a.igViews || 0);
-  const maxTtLog = safeMaxLog(enriched, a => a.ttViews || 0);
-
-  // Per-platform max for ER normalization
-  const maxYtER = safeMax(enriched, a => a.ytER);
-  const maxIgER = safeMax(enriched, a => a.igER);
-  const maxTtER = safeMax(enriched, a => a.ttER);
-
-  // Sentiment kept around for the expand-row display, but no longer in the
-  // composite (May 2026: removed for the reasons in the methodology disclosure).
-  const max = {
-    sentiment:   safeMax(enriched, a => a.weightedSentiment),
-  };
-
-  // Cross-platform trailing daily rate.
-  // For each platform we have:
-  //   - viewsLast7Days / velocityWindowDays: trailing-window daily rate (preferred)
-  //   - velocityViewsPerDay: lifetime average (fallback when no history)
-  // We sum the per-platform daily rates to get the campaign's cross-platform velocity.
-  // 0 contribution for platforms the ad doesn't run on, which is consistent with
-  // how Reach and Resonance treat platform absence.
-  const platformDailyRate = (views7d, windowDays, lifetimeRate) => {
-    if (views7d != null && windowDays) return views7d / windowDays;
-    return lifetimeRate || 0;
-  };
-  const crossPlatformDailyRate = (a) => {
-    const yt = platformDailyRate(a.viewsLast7Days,   a.velocityWindowDays,   a.velocityViewsPerDay);
-    const ig = platformDailyRate(a.igViewsLast7Days, a.igVelocityWindowDays, null);
-    const tt = platformDailyRate(a.ttViewsLast7Days, a.ttVelocityWindowDays, null);
-    return yt + ig + tt;
-  };
-  const maxTrailingLog = safeMaxLog(enriched, crossPlatformDailyRate);
-
-  // Kept for backwards compatibility with the existing renderMovers function
-  // (sidebar uses lifetime YT rate when no history is available).
-  const trailingDailyRate = (a) => {
-    if (a.viewsLast7Days != null && a.velocityWindowDays) {
-      return a.viewsLast7Days / a.velocityWindowDays;
-    }
-    return a.velocityViewsPerDay || 0;
-  };
-
-  // Per-platform normalized score: 0 if no views on that platform, else
-  // log10(views+1) / log10(maxViews+1) × 100. Then averaged across all 3
-  // with equal weight. 0 contribution for absent platforms is intentional.
-  const platformReach = (a) => {
-    const yt = (a.views   || 0) > 0 ? Math.log10((a.views   || 0) + 1) / maxYtLog * 100 : 0;
-    const ig = (a.igViews || 0) > 0 ? Math.log10((a.igViews || 0) + 1) / maxIgLog * 100 : 0;
-    const tt = (a.ttViews || 0) > 0 ? Math.log10((a.ttViews || 0) + 1) / maxTtLog * 100 : 0;
-    return (yt + ig + tt) / 3;
-  };
-
-  // Same logic for Resonance: per-platform ER, each normalized within its
-  // platform's max, averaged with 0s included.
-  const platformResonance = (a) => {
-    const yt = (a.ytER || 0) > 0 && maxYtER ? (a.ytER / maxYtER) * 100 : 0;
-    const ig = (a.igER || 0) > 0 && maxIgER ? (a.igER / maxIgER) * 100 : 0;
-    const tt = (a.ttER || 0) > 0 && maxTtER ? (a.ttER / maxTtER) * 100 : 0;
-    return (yt + ig + tt) / 3;
-  };
-
-  return enriched.map(a => {
-    const trailing = crossPlatformDailyRate(a);
-    const factor = {
-      reach:     platformReach(a),
-      resonance: platformResonance(a),
-      velocity:  trailing > 0 && maxTrailingLog
-                 ? (Math.log10(trailing + 1) / maxTrailingLog) * 100
-                 : 0,
-    };
-    let weighted = 0, totalW = 0;
-    for (const k of ["reach", "resonance", "velocity"]) {
-      if (factor[k] != null) {
-        weighted += WEIGHTS[k] * factor[k];
-        totalW   += WEIGHTS[k];
-      }
-    }
-    const score = totalW > 0 ? weighted / totalW : 0;
-    return { ...a, score: Math.round(score * 10) / 10 };
-  });
-}
-
-/* =====================================================================
-   FORMATTERS
-   ===================================================================== */
-const fmt = {
-  big(n) {
-    if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
-    if (n >= 1e3) return (n / 1e3).toFixed(0) + "K";
-    return String(n);
-  },
-  date(iso) {
-    const d = new Date(iso);
-    return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-  },
-  initials(name) {
-    return name.split(/\s+/).map(w => w[0]).slice(0, 2).join("");
-  },
-  duration(s) {
-    if (s == null) return "—";
-    const m = Math.floor(s / 60);
-    const sec = String(s % 60).padStart(2, "0");
-    return `${m}:${sec}`;
-  }
-};
-
-// Threshold (seconds) above which a spot counts as a "Hero" film vs a Cutdown/Teaser.
-const HERO_MIN_SECONDS = 45;
-
-function thumbBg(hue) {
-  return `linear-gradient(135deg, hsl(${hue}, 55%, 22%), hsl(${(hue + 30) % 360}, 60%, 42%))`;
-}
-
-// Platform pills — small click-through links to the ad on each native platform.
-// Color-coded to platform brand: YouTube red, TikTok charcoal, Instagram gradient.
-// Schema supports cutdowns: each platform can have multiple URLs; we link the
-// primary (first) and append a count suffix (e.g. "IG×5") when there are more.
-function platformPills(a) {
-  const pills = [];
-  // Backward compat: accept singular OR plural URL fields
-  const igUrls = (a.instagramUrls && a.instagramUrls.length) ? a.instagramUrls
-               : (a.instagramUrl ? [a.instagramUrl] : []);
-  const ttUrls = (a.tiktokUrls    && a.tiktokUrls.length)    ? a.tiktokUrls
-               : (a.tiktokUrl    ? [a.tiktokUrl]    : []);
-
-  if (a.youtubeId) {
-    // Include any youtubeCutdownIds in the count — the count badge then
-    // reflects total YT presence for this campaign (primary + cutdowns).
-    const ytCount = 1 + ((a.youtubeCutdownIds && a.youtubeCutdownIds.length) || 0);
-    const suffix  = ytCount > 1 ? `<span style="opacity:.6">×${ytCount}</span>` : "";
-    pills.push(`<a class="platform-pill yt" target="_blank" rel="noopener"
-                   href="https://www.youtube.com/watch?v=${a.youtubeId}"
-                   title="Watch on YouTube (${ytCount} cut${ytCount>1?'s':''})">YT${suffix}</a>`);
-  }
-  if (ttUrls.length) {
-    const suffix = ttUrls.length > 1 ? `<span style="opacity:.6">×${ttUrls.length}</span>` : "";
-    pills.push(`<a class="platform-pill tt" target="_blank" rel="noopener"
-                   href="${ttUrls[0]}" title="Watch on TikTok (${ttUrls.length} cut${ttUrls.length>1?'s':''})">TT${suffix}</a>`);
-  }
-  if (igUrls.length) {
-    const suffix = igUrls.length > 1 ? `<span style="opacity:.6">×${igUrls.length}</span>` : "";
-    pills.push(`<a class="platform-pill ig" target="_blank" rel="noopener"
-                   href="${igUrls[0]}" title="Watch on Instagram (${igUrls.length} cut${igUrls.length>1?'s':''})">IG${suffix}</a>`);
-  }
-  if (!pills.length) return "";
-  return `<span class="platform-pills" onclick="event.stopPropagation()">${pills.join("")}</span>`;
-}
-
-// Sentiment dot — color cue alongside the score.
-// Buckets reflect the typical VADER distribution we see on brand ads:
-//   ≥60: positive lean (green)
-//   40–59: mixed/neutral (amber)
-//   <40: negative lean (red)
-//   null: insufficient sample (grey)
-function sentimentDot(score) {
-  if (score == null) return `<span class="sent-dot na" title="Insufficient comment sample"></span>`;
-  if (score >= 60)   return `<span class="sent-dot pos" title="Positive lean"></span>`;
-  if (score >= 40)   return `<span class="sent-dot mid" title="Mixed"></span>`;
-  return `<span class="sent-dot neg" title="Negative lean"></span>`;
-}
-
-// Score bar — width proportional to score (0–100), maxes at 80px.
-function scoreBar(score) {
-  const w = Math.max(0, Math.min(100, score)) * 0.8;  // up to 80px
-  return `<span class="score-bar" style="width:${w.toFixed(0)}px"></span>`;
-}
-
-/* =====================================================================
-   Per-asset breakdown (expand row)
-   For each platform with measurable views, show the platform total. If
-   the platform has multiple cutdowns (perUrl > 1), list each one with
-   its individual view count and a click-through link. Highest-viewed
-   cut listed first.
-   ===================================================================== */
-function renderAssetBreakdown(a) {
-  const ytV = a.views || 0, igV = a.igViews || 0, ttV = a.ttViews || 0;
-  const total = a.totalViews ?? (ytV + igV + ttV);
-
-  const lines = [];
-
-  if (ytV > 0 && a.youtubeId) {
-    const ytCuts = a.youtubeCutdowns || [];
-    if (ytCuts.length === 0) {
-      // Single YT entry — original behavior
-      lines.push(`
-        <div class="asset-line">
-          <span class="asset-platform">YT</span>
-          <span class="asset-views">${fmt.big(ytV)}</span>
-          <a class="asset-link" target="_blank" rel="noopener"
-             href="https://www.youtube.com/watch?v=${a.youtubeId}">${a.title}</a>
-        </div>`);
-    } else {
-      // Hero + cutdowns: aggregate header, then per-cut sub-lines.
-      // Sort sub-lines by views descending (hero first if it's the biggest).
-      const primaryViews = a.primary?.views ?? (ytV - ytCuts.reduce((s, c) => s + (c.views || 0), 0));
-      const subLines = [
-        {videoId: a.youtubeId, title: a.title, views: primaryViews,
-         watchUrl: `https://www.youtube.com/watch?v=${a.youtubeId}`, isHero: true},
-        ...ytCuts.map(c => ({...c, isHero: false})),
-      ].sort((x, y) => (y.views || 0) - (x.views || 0));
-
-      lines.push(`
-        <div class="asset-line asset-header">
-          <span class="asset-platform">YT</span>
-          <span class="asset-views"><strong>${fmt.big(ytV)}</strong></span>
-          <span class="asset-link" style="color:var(--ink-muted)">${subLines.length} cuts</span>
-        </div>`);
-      subLines.forEach(c => {
-        const label = c.isHero ? a.title : (c.title || c.videoId);
-        lines.push(`
-          <div class="asset-line asset-sub">
-            <span class="asset-platform">↳</span>
-            <span class="asset-views">${fmt.big(c.views || 0)}</span>
-            <a class="asset-link" target="_blank" rel="noopener" href="${c.watchUrl}">${label}</a>
-          </div>`);
-      });
-    }
-  }
-
-  // IG cuts, sorted by views high → low
-  const igCuts = (a.igCuts || []).slice().sort((x, y) => {
-    return (y.metadata?.views || 0) - (x.metadata?.views || 0);
-  });
-  if (igCuts.length > 0) {
-    if (igCuts.length === 1) {
-      const c = igCuts[0];
-      lines.push(`
-        <div class="asset-line">
-          <span class="asset-platform">IG</span>
-          <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-          <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View reel</a>
-        </div>`);
-    } else {
-      lines.push(`
-        <div class="asset-line asset-header">
-          <span class="asset-platform">IG</span>
-          <span class="asset-views"><strong>${fmt.big(igV)}</strong></span>
-          <span class="asset-link" style="color:var(--ink-muted)">${igCuts.length} cuts</span>
-        </div>`);
-      igCuts.forEach(c => {
-        lines.push(`
-          <div class="asset-line asset-sub">
-            <span class="asset-platform">↳</span>
-            <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-            <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View reel</a>
-          </div>`);
-      });
-    }
-  }
-
-  // TT cuts, sorted by views high → low
-  const ttCuts = (a.ttCuts || []).slice().sort((x, y) => {
-    return (y.metadata?.views || 0) - (x.metadata?.views || 0);
-  });
-  if (ttCuts.length > 0) {
-    if (ttCuts.length === 1) {
-      const c = ttCuts[0];
-      lines.push(`
-        <div class="asset-line">
-          <span class="asset-platform">TT</span>
-          <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-          <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View on TikTok</a>
-        </div>`);
-    } else {
-      lines.push(`
-        <div class="asset-line asset-header">
-          <span class="asset-platform">TT</span>
-          <span class="asset-views"><strong>${fmt.big(ttV)}</strong></span>
-          <span class="asset-link" style="color:var(--ink-muted)">${ttCuts.length} cuts</span>
-        </div>`);
-      ttCuts.forEach(c => {
-        lines.push(`
-          <div class="asset-line asset-sub">
-            <span class="asset-platform">↳</span>
-            <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-            <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View on TikTok</a>
-          </div>`);
-      });
-    }
-  }
-
-  if (lines.length === 0) return "";
-  return `
-    <div class="asset-breakdown">
-      <div class="asset-line asset-total">
-        <span class="asset-platform"></span>
-        <span class="asset-views"><strong>${fmt.big(total)}</strong></span>
-        <span class="asset-link" style="color:var(--ink-muted)">total cross-platform views</span>
-      </div>
-      ${lines.join("")}
-    </div>`;
-}
-
-// Brand logo. Primary: Simple Icons CDN (clean single-color SVGs, scale to any
-// size). Fallback: DuckDuckGo icons (always works — returns the brand's actual
-// favicon). Swap providers by editing these two helpers only.
-// Locally-hosted logos at /static/logos/<brand-slug>.png.
-// We deliberately serve our own files instead of pulling from
-// simpleicons/clearbit/duckduckgo CDNs — those services fail intermittently
-// (Safari ITP, retired brand logos, rate limits) and look unprofessional
-// when broken. Local files always work.
-// Cache-bust version. Bump when logos change so users see new versions
-// without having to manually clear their image cache.
-const LOGO_CACHE_BUST = "v2";
-function logoUrl(ad) {
-  const slug = ad.brand.toLowerCase().replace(/[^a-z0-9]/g, "");
-  return `static/logos/${slug}.png?${LOGO_CACHE_BUST}`;
-}
-// Two-tier render: local logo → colored square with brand initial.
-// If a brand doesn't have a local logo file yet, the colored square
-// shows (intentional design — every brand always renders something).
-function logoHtml(ad) {
-  const initial = (ad.brand || "?").charAt(0).toUpperCase();
-  const onErr = `this.style.display='none';this.previousElementSibling.style.display='flex'`;
-  return `<span class="logo-fallback" style="background:${ad.brandColor};display:none">${initial}</span><img src="${logoUrl(ad)}" onerror="${onErr}" alt="${ad.brand}" loading="lazy"/>`;
-}
-
-// Wire up click-to-play on any .podium-thumb that has data-ytid set.
-// Behavior:
-//   - When the page is served over http(s) (deployed, or a local dev server)
-//     we embed an autoplaying YouTube iframe inline. Lightweight: the iframe
-//     only loads on user click, so page-load stays fast.
-//   - When the page is opened directly from disk (file:// origin), YouTube's
-//     embed API rejects the request with Error 153. In that case we fall
-//     back to opening the watch page in a new tab so the click still works.
-//     To get inline playback locally, run a quick web server in the folder
-//     (e.g. `python3 -m http.server 8000` and visit http://localhost:8000).
-function bindVideo(root) {
-  root.querySelectorAll(".podium-thumb[data-ytid]").forEach(el => {
-    if (el.dataset.bound) return;
-    el.dataset.bound = "1";
-    el.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const id = el.dataset.ytid;
-      if (location.protocol === "file:") {
-        window.open(`https://www.youtube.com/watch?v=${id}`, "_blank", "noopener,noreferrer");
-        return;
-      }
-      el.innerHTML = `<iframe class="yt-iframe"
-        src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>`;
-    });
-  });
-}
-
-function tierClass(tier) {
-  // Two-tier system: brands with an official sponsorship contract vs everyone else
-  // running tournament-coded creative.
-  return tier === "Official Partner" ? "tier-partner" : "tier-other";
-}
-
-/* =====================================================================
-   STATE
-   ===================================================================== */
-const state = {
-  filter: "all",
-  sort: "score",
-  expanded: null,
-};
-
-// Populated in init() after data.json (or fallback) loads.
-let SCORED = [];
-
-/* =====================================================================
-   RENDER — Podium
-   ===================================================================== */
-function renderPodium() {
-  const top3 = [...SCORED].sort((a, b) => b.score - a.score).slice(0, 3);
-  const podiumEl = document.getElementById("podium");
-  const rankClasses = ["gold", "silver", "bronze"];
-  podiumEl.innerHTML = top3.map((a, i) => {
-    const ytThumb = a.youtubeId
-      ? `<img class="podium-thumb-img" src="https://i.ytimg.com/vi/${a.youtubeId}/maxresdefault.jpg" alt="${a.title}"/>`
-      : "";
-    const bg = a.youtubeId ? "" : `background:${thumbBg(a.thumbHue)}`;
-    return `
-    <article class="podium-card">
-      <div class="podium-thumb" ${a.youtubeId ? `data-ytid="${a.youtubeId}"` : ""} style="${bg}">
-        ${ytThumb}
-        <div class="podium-rank ${rankClasses[i]}">${i + 1}</div>
-        <div class="podium-logo-badge">${logoHtml(a)}</div>
-        <div class="podium-play"></div>
-        <div class="podium-title-overlay">${a.title}</div>
-      </div>
-      <div class="podium-body">
-        <div class="podium-brand">${a.brand} · ${a.tier}</div>
-        <h3 class="podium-title">${a.title}</h3>
-        <div class="podium-stats">
-          <span><strong style="color:var(--ink)">${fmt.big(a.totalViews ?? a.views ?? 0)}</strong> views</span>
-          <span><strong style="color:var(--ink)">${a.er.toFixed(2)}%</strong> ER</span>
-          <span style="margin-left:auto" class="podium-score">${a.score}</span>
-        </div>
-      </div>
-    </article>
-  `;
-  }).join("");
-  bindVideo(podiumEl);
-}
-
-/* =====================================================================
-   RENDER — Leaderboard table
-   ===================================================================== */
-function renderLeaderboard() {
-  let rows = [...SCORED];
-  if (state.filter !== "all") rows = rows.filter(a => a.tier === state.filter);
-
-  // Helper to compute the same cross-platform daily rate the composite uses,
-  // so the Velocity sort and the score agree on what "fast" means.
-  const xpRate = (a) => {
-    const yt = (a.viewsLast7Days   != null && a.velocityWindowDays)
-                 ? a.viewsLast7Days / a.velocityWindowDays
-                 : (a.velocityViewsPerDay || 0);
-    const ig = (a.igViewsLast7Days != null && a.igVelocityWindowDays)
-                 ? a.igViewsLast7Days / a.igVelocityWindowDays : 0;
-    const tt = (a.ttViewsLast7Days != null && a.ttVelocityWindowDays)
-                 ? a.ttViewsLast7Days / a.ttVelocityWindowDays : 0;
-    return yt + ig + tt;
-  };
-  const sortKey = {
-    score:     (a, b) => b.score - a.score,
-    views:     (a, b) => (b.totalViews ?? b.views) - (a.totalViews ?? a.views),
-    er:        (a, b) => b.er - a.er,
-    velocity:  (a, b) => xpRate(b) - xpRate(a),
-    recent:    (a, b) => new Date(b.published || b.released || 0) - new Date(a.published || a.released || 0),
-  }[state.sort] || ((a, b) => b.score - a.score);
-  rows.sort(sortKey);
-
-  const tbody = document.getElementById("leaderboardBody");
-
-  if (rows.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">
-      No ads match these filters. Try clearing one of them.
-    </td></tr>`;
-    return;
-  }
-
-  tbody.innerHTML = rows.map((a, i) => {
-    const isExpanded = state.expanded === a.id;
-    const sentVal = a.weightedSentiment != null ? a.weightedSentiment.toFixed(0) : "—";
-    const main = `
-      <tr class="expandable" data-id="${a.id}">
-        <td class="rank-cell">${i + 1}</td>
-        <td>
-          <div class="brand-cell">
-            <div class="brand-logo">${logoHtml(a)}</div>
-            <div class="brand-info">
-              <div class="brand-name">${a.brand}</div>
-              <span class="tier-pill ${tierClass(a.tier)}">${a.tier}</span>
-            </div>
-          </div>
-        </td>
-        <td>
-          <div class="ad-title-cell">
-            "${a.title}"${platformPills(a)}
-            <span class="agency">${fmt.date(a.published || a.released)} · ${fmt.duration(a.durationSeconds)}</span>
-          </div>
-        </td>
-        <td class="num-cell">${fmt.big(a.totalViews ?? a.views ?? 0)}</td>
-        <td class="num-cell">${a.er.toFixed(2)}%</td>
-        <td class="score-cell">${a.score}${scoreBar(a.score)}</td>
-      </tr>
-    `;
-    const expand = isExpanded ? `
-      <tr class="expand-row">
-        <td colspan="6">
-          <div class="expand-content">
-            <div class="expand-thumb-wrap">
-              <div class="podium-thumb" ${a.youtubeId ? `data-ytid="${a.youtubeId}"` : ""} style="${a.youtubeId ? '' : 'background:' + thumbBg(a.thumbHue)}">
-                ${a.youtubeId ? `<img class="podium-thumb-img" src="https://i.ytimg.com/vi/${a.youtubeId}/maxresdefault.jpg" alt="${a.title}"/>` : ''}
-                <div class="podium-logo-badge">${logoHtml(a)}</div>
-                <div class="podium-play"></div>
-              </div>
-            </div>
-            <div>
-              <p class="desc">${a.description}</p>
-              ${renderAssetBreakdown(a)}
-              <div class="meta">
-                ENGAGEMENT RATE ${a.er.toFixed(2)}% &nbsp;·&nbsp;
-                COMPOSITE ${a.score} &nbsp;·&nbsp;
-                RELEASED ${(a.published || a.released || "").slice(0, 10)}
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
-    ` : "";
-    return main + expand;
-  }).join("");
-
-  // Attach click handlers
-  tbody.querySelectorAll("tr.expandable").forEach(row => {
-    row.addEventListener("click", () => {
-      const id = row.dataset.id;
-      state.expanded = state.expanded === id ? null : id;
-      renderLeaderboard();
-    });
-  });
-  bindVideo(tbody);
-}
-
-/* =====================================================================
-   RENDER — Blog list (sidebar)
-   Loads blog/posts.json (a hand-maintained manifest of articles in /blog/)
-   and renders the 4 most-recent entries with title + intro + date. Empty
-   manifest is the expected v1 state until articles are written.
-   ===================================================================== */
-async function renderBlog() {
-  const el = document.getElementById("blogList");
-  if (!el) return;
-  let posts = [];
-  try {
-    const res = await fetch("blog/posts.json", { cache: "no-store" });
-    if (res.ok) posts = await res.json();
-  } catch (e) { /* manifest missing or unreadable — show placeholder */ }
-
-  if (!Array.isArray(posts) || posts.length === 0) {
-    el.innerHTML = `<div style="font-size:13px;color:var(--ink-muted);font-style:italic">
-      Articles coming soon.
-    </div>`;
-    return;
-  }
-
-  posts = posts
-    .filter(p => p && p.title && p.url)
-    .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
-    .slice(0, 4);
-
-  el.innerHTML = posts.map(p => {
-    const dateLabel = p.date
-      ? new Date(p.date).toLocaleDateString("en-US", { month: "short", day: "numeric" })
-      : "";
-    return `
-      <div class="drop" style="border-bottom:1px solid var(--rule);padding:10px 0;display:block">
-        <a href="${p.url}" style="color:var(--ink);text-decoration:none">
-          <div style="font-size:13px;font-weight:600;line-height:1.3">${p.title}</div>
-          ${p.intro ? `<div style="font-size:12px;color:var(--ink-muted);margin-top:3px;line-height:1.4">${p.intro}</div>` : ""}
-          ${dateLabel ? `<div style="font-family:var(--mono);font-size:10px;color:var(--ink-muted);margin-top:4px;letter-spacing:0.08em">${dateLabel}</div>` : ""}
-        </a>
-      </div>
-    `;
-  }).join("");
-}
-
-/* =====================================================================
-   RENDER — Latest Drops (sidebar)
-   The 5 newest spots by published date — replaces the old hardcoded
-   "What we're watching" list. Real data, no speculation.
-   ===================================================================== */
-function renderLatestDrops() {
-  const el = document.getElementById("latestDrops");
-  if (!el) return;
-  const drops = [...SCORED]
-    .filter(a => a.published || a.released)
-    .sort((x, y) => new Date(y.published || y.released) - new Date(x.published || x.released))
-    .slice(0, 5);
-
-  if (drops.length === 0) {
-    el.innerHTML = `<div class="drop"><span class="drop-info"><span class="drop-brand" style="color:var(--ink-muted)">No publish dates yet</span></span></div>`;
-    return;
-  }
-
-  el.innerHTML = drops.map(a => {
-    const dt = new Date(a.published || a.released);
-    const dateStr = dt.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-    return `
-      <div class="drop">
-        <div class="drop-logo">${logoHtml(a)}</div>
-        <div class="drop-info">
-          <div class="drop-brand">${a.brand}</div>
-          <div class="drop-title" title="${a.title}">${a.title}</div>
-        </div>
-        <div class="drop-date">${dateStr}</div>
-      </div>
-    `;
-  }).join("");
-}
-
-/* =====================================================================
-   RENDER — Filter chip counts
-   Counts are aware of the OTHER active filter, so the user always sees
-   "how many would show if I clicked this" — true counterfactual counts.
-   ===================================================================== */
-function renderFilterCounts() {
-  // Annotate each tier filter chip with its count.
-  const counts = SCORED.reduce((acc, a) => {
-    acc[a.tier] = (acc[a.tier] || 0) + 1;
-    acc.all = (acc.all || 0) + 1;
-    return acc;
-  }, {});
-  document.querySelectorAll(".filter-chip[data-filter]").forEach(chip => {
-    const f = chip.dataset.filter;
-    chip.innerHTML = chip.textContent.replace(/\s*\d+\s*$/, "").trim()
-                     + ` <span class="chip-count">${counts[f] ?? 0}</span>`;
-  });
-}
-
-/* =====================================================================
-   WIRE-UP
-   ===================================================================== */
-document.querySelectorAll(".filter-chip[data-filter]").forEach(chip => {
-  chip.addEventListener("click", () => {
-    document.querySelectorAll(".filter-chip[data-filter]").forEach(c => c.classList.remove("active"));
-    chip.classList.add("active");
-    state.filter = chip.dataset.filter;
-    state.expanded = null;
-    renderFilterCounts();
-    renderLeaderboard();
-  });
-});
-document.getElementById("sortSelect").addEventListener("change", e => {
-  state.sort = e.target.value;
-  // Update the visual sort indicator on column headers if the sort matches.
-  syncSortHeader();
-  renderLeaderboard();
-});
-
-// Click-to-sort on column headers. Maps data-sort attr to state.sort and
-// updates both the dropdown value and the .sorted class for the visual cue.
-document.querySelectorAll("th.sortable").forEach(th => {
-  th.addEventListener("click", () => {
-    const key = th.dataset.sort;
-    if (!key) return;
-    state.sort = key;
-    state.expanded = null;
-    document.getElementById("sortSelect").value = key;
-    syncSortHeader();
-    renderLeaderboard();
-  });
-});
-
-function syncSortHeader() {
-  document.querySelectorAll("th.sortable").forEach(th => {
-    th.classList.toggle("sorted", th.dataset.sort === state.sort);
-  });
-}
-
-// Relative-time formatter — e.g. "today", "yesterday", "3 days ago".
-// Falls back to the absolute date when older than a week.
-function relativeDay(iso) {
-  if (!iso) return "today";
-  const then = new Date(iso);
-  const now  = new Date();
-  const dayMs = 86400000;
-  // Compare calendar days, not 24h windows
-  const t = new Date(then.getFullYear(), then.getMonth(), then.getDate());
-  const n = new Date(now.getFullYear(),  now.getMonth(),  now.getDate());
-  const days = Math.floor((n - t) / dayMs);
-  if (days === 0) return "today";
-  if (days === 1) return "yesterday";
-  if (days < 7)   return `${days} days ago`;
-  return then.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-}
-
-// Days-to-kickoff — replaces the static "Tournament kicks off June 11, 2026"
-// once the date is in range. After kickoff the message switches to "underway".
-function renderKickoffCountdown() {
-  const el = document.getElementById("kickoffCountdown");
-  if (!el) return;
-  const kickoff = new Date("2026-06-11T00:00:00Z");
-  const now = new Date();
-  const days = Math.ceil((kickoff - now) / 86400000);
-  if (days > 0) {
-    el.innerHTML = `Kickoff in <strong>${days} day${days === 1 ? "" : "s"}</strong>`;
-  } else if (days >= -32) {
-    el.innerHTML = `Tournament <strong>underway</strong>`;
-  } else {
-    el.innerHTML = `Tournament <strong>concluded</strong>`;
-  }
-}
-
-/* =====================================================================
-   INIT — try to load live data.json (built by the pipeline), fall back
-   to the inline FALLBACK_ADS so the page still renders if the JSON is
-   missing or unreachable (e.g. when previewing locally before deploy).
-   ===================================================================== */
-async function init() {
-  let data;
-  try {
-    const res = await fetch("data.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    data = await res.json();
-    if (!data.ads || !Array.isArray(data.ads)) throw new Error("malformed data.json");
-  } catch (err) {
-    console.warn("Falling back to inline data:", err.message);
-    data = { ads: FALLBACK_ADS, placeholder: true };
-    // Show the banner when we know the fetch was blocked by file:// origin.
-    const banner = document.getElementById("fileBanner");
-    if (banner) banner.style.display = "block";
-  }
-
-  // Cross-platform metrics from Apify pipeline. Optional — front-end works
-  // YouTube-only if social_data.json is missing or incomplete.
-  let social = null;
-  try {
-    const res = await fetch("pipeline/social_data.json", { cache: "no-store" });
-    if (res.ok) social = await res.json();
-  } catch (e) { /* missing is fine — degrade gracefully */ }
-
-  if (social && Array.isArray(social.ads)) {
-    const byId = Object.fromEntries(social.ads.map(s => [s.adId, s]));
-    data.ads = data.ads.map(a => {
-      const s = byId[a.id];
-      if (!s) return a;
-      const igBlock = (s.platforms && s.platforms.instagram) || {};
-      const ttBlock = (s.platforms && s.platforms.tiktok)    || {};
-      const ig = igBlock.metadata || {};
-      const tt = ttBlock.metadata || {};
-      // perUrl provides per-cut transparency. Older social_data.json files
-      // pre-multi-URL don't have it — fall back to a synthetic single-entry
-      // list so the expanded view works uniformly.
-      const igCuts = igBlock.perUrl && igBlock.perUrl.length
-        ? igBlock.perUrl
-        : (ig.views ? [{url: ig.url, metadata: ig}] : []);
-      const ttCuts = ttBlock.perUrl && ttBlock.perUrl.length
-        ? ttBlock.perUrl
-        : (tt.views ? [{url: tt.url, metadata: tt}] : []);
-      return {
-        ...a,
-        igViews:    ig.views        || 0,
-        igLikes:    ig.likes        || 0,
-        igComments: ig.commentCount || 0,
-        ttViews:    tt.views        || 0,
-        ttLikes:    tt.likes        || 0,
-        ttComments: tt.commentCount || 0,
-        // Per-platform trailing-7d deltas, set by the pipeline. Null if no
-        // baseline snapshot exists yet (front-end falls back to lifetime).
-        igViewsLast7Days:    ig.viewsLast7Days ?? null,
-        igVelocityWindowDays: ig.velocityWindowDays ?? null,
-        ttViewsLast7Days:    tt.viewsLast7Days ?? null,
-        ttVelocityWindowDays: tt.velocityWindowDays ?? null,
-        igCuts,
-        ttCuts,
-      };
-    });
-  }
-
-  SCORED = computeScores(data.ads);
-
-  document.getElementById("adCount").textContent = data.ads.length;
-  document.getElementById("brandCount").textContent = new Set(data.ads.map(a => a.brand)).size;
-
-  // Updated timestamp — relative ("today" / "2 days ago") for liveness;
-  // falls back to absolute date if older than a week.
-  if (data.updated) {
-    document.getElementById("lastUpdated").textContent = relativeDay(data.updated);
-  }
-  renderKickoffCountdown();
-
-  syncSortHeader();
-  renderFilterCounts();
-  renderPodium();
-  renderLeaderboard();
-  renderLatestDrops();
-  renderBlog();
-}
-
-init();
-</script>
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="brand"><span class="brand-mark"></span>The Ad Podium</div>
+    <div class="colophon">
+      © 2026 The Ad Podium. FIFA, World Cup, Olympic and league marks are property of their respective owners. Editorial coverage; no commercial relationship with any tracked brand.
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>

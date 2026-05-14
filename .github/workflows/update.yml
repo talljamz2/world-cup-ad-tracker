@@ -37,7 +37,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # history.json is appended every run — committing it preserves the
           # trailing-7-day window across cron runs (without this, velocity resets).
-          git add data.json pipeline/history.json
+          # data.json now lives inside the per-tracker subdirectory.
+          git add summer-26-football/data.json pipeline/history.json
           if git diff --cached --quiet; then
             echo "No data changes — skipping commit."
           else
