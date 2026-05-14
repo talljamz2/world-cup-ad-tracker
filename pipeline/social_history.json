@@ -1,0 +1,76 @@
+[
+  {
+    "timestamp": "2026-05-14T04:57:09Z",
+    "ads": [
+      {
+        "adId": "mch-01",
+        "ig": {
+          "views": 15500000,
+          "likes": 903000,
+          "comments": 7000
+        },
+        "tt": {
+          "views": 145000,
+          "likes": 496,
+          "comments": 19
+        }
+      },
+      {
+        "adId": "bud-01",
+        "ig": {
+          "views": 31300000,
+          "likes": 368600,
+          "comments": 769
+        }
+      },
+      {
+        "adId": "dia-02",
+        "ig": {
+          "views": 69600,
+          "likes": 1421,
+          "comments": 25
+        }
+      },
+      {
+        "adId": "crs-01",
+        "ig": {
+          "views": 19000,
+          "likes": 652,
+          "comments": 42
+        }
+      },
+      {
+        "adId": "bud-02",
+        "ig": {
+          "views": 18700000,
+          "likes": 261000,
+          "comments": 531
+        }
+      },
+      {
+        "adId": "vrz-01",
+        "ig": {
+          "views": 9200000,
+          "likes": 16400,
+          "comments": 560
+        }
+      },
+      {
+        "adId": "jim-01",
+        "ig": {
+          "views": 34300,
+          "likes": 612,
+          "comments": 22
+        }
+      },
+      {
+        "adId": "don-01",
+        "ig": {
+          "views": 4746600,
+          "likes": 7752,
+          "comments": 173
+        }
+      }
+    ]
+  }
+]
