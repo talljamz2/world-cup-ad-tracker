@@ -1,0 +1,58 @@
+name: Daily discovery
+
+# Runs discover.py to find new candidate ads, then opens a GitHub Issue
+# listing any high-confidence candidates that aren't yet tracked or rejected.
+#
+# Schedule: 05:00 UTC (~01:00 ET / 22:00 PT previous day). Lands an hour
+# before the daily refresh issue at 07:00 UTC and well before the Apify
+# cron at 06:00 — so newly-added ads (via the inbound flow when we add it)
+# get a chance to be measured the same morning.
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run discovery scan
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python pipeline/discover.py
+
+      - name: Commit refreshed candidates.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pipeline/candidates.json
+          if git diff --cached --quiet; then
+            echo "No candidate changes — skipping commit."
+          else
+            git commit -m "discovery: refresh candidates [skip ci]"
+            git push
+          fi
+
+      - name: Open today's discovery issue (if there are new candidates)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python pipeline/build_discovery_issue.py
