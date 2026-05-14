@@ -1592,9 +1592,12 @@ function renderAssetBreakdown(a) {
 // simpleicons/clearbit/duckduckgo CDNs — those services fail intermittently
 // (Safari ITP, retired brand logos, rate limits) and look unprofessional
 // when broken. Local files always work.
+// Cache-bust version. Bump when logos change so users see new versions
+// without having to manually clear their image cache.
+const LOGO_CACHE_BUST = "v2";
 function logoUrl(ad) {
   const slug = ad.brand.toLowerCase().replace(/[^a-z0-9]/g, "");
-  return `static/logos/${slug}.png`;
+  return `static/logos/${slug}.png?${LOGO_CACHE_BUST}`;
 }
 // Two-tier render: local logo → colored square with brand initial.
 // If a brand doesn't have a local logo file yet, the colored square
