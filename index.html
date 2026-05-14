@@ -396,11 +396,30 @@
     background: white;
     border: 1px solid var(--rule);
     overflow: hidden;
+    position: relative;
   }
   .brand-logo img {
     width: 30px; height: 30px;
     object-fit: contain;
+    position: relative;
+    z-index: 2;
   }
+  /* Tier-3 fallback: colored square with brand initial. Shown only when
+     both simpleicons.org AND duckduckgo favicon fail (Safari often fails
+     where Chrome succeeds — this guarantees something always renders). */
+  .logo-fallback {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    z-index: 1;
+  }
+  .podium-logo-badge .logo-fallback { font-size: 22px; }
   .brand-info .brand-name {
     font-weight: 600; color: var(--ink);
     font-size: 14px;
@@ -577,8 +596,10 @@
     display: flex; align-items: center; justify-content: center;
     flex-shrink: 0;
     overflow: hidden;
+    position: relative;
   }
-  .drop-logo img { width: 24px; height: 24px; object-fit: contain; }
+  .drop-logo img { width: 24px; height: 24px; object-fit: contain; position: relative; z-index: 2; }
+  .drop-logo .logo-fallback { font-size: 14px; }
   .drop-info { flex: 1; min-width: 0; }
   .drop-brand {
     font-size: 13px; font-weight: 600; color: var(--ink);
@@ -1573,6 +1594,14 @@ function logoUrl(ad) {
 function logoFallback(ad) {
   return `https://icons.duckduckgo.com/ip3/${ad.domain}.ico`;
 }
+// Three-tier logo render: simpleicons → duckduckgo favicon → colored square
+// with brand initial. The colored square sits behind every image and only
+// becomes visible if both image services fail (common in Safari due to ITP).
+function logoHtml(ad) {
+  const initial = (ad.brand || "?").charAt(0).toUpperCase();
+  const onErr = `if(this.dataset.tried){this.style.display='none'}else{this.dataset.tried='1';this.src='${logoFallback(ad)}'}`;
+  return `<span class="logo-fallback" style="background:${ad.brandColor}">${initial}</span><img src="${logoUrl(ad)}" onerror="${onErr}" alt="${ad.brand}" loading="lazy"/>`;
+}
 
 // Wire up click-to-play on any .podium-thumb that has data-ytid set.
 // Behavior:
@@ -1639,11 +1668,7 @@ function renderPodium() {
       <div class="podium-thumb" ${a.youtubeId ? `data-ytid="${a.youtubeId}"` : ""} style="${bg}">
         ${ytThumb}
         <div class="podium-rank ${rankClasses[i]}">${i + 1}</div>
-        <div class="podium-logo-badge">
-          <img src="${logoUrl(a)}"
-               onerror="this.onerror=null;this.src='${logoFallback(a)}'"
-               alt="${a.brand}" loading="lazy"/>
-        </div>
+        <div class="podium-logo-badge">${logoHtml(a)}</div>
         <div class="podium-play"></div>
         <div class="podium-title-overlay">${a.title}</div>
       </div>
@@ -1707,11 +1732,7 @@ function renderLeaderboard() {
         <td class="rank-cell">${i + 1}</td>
         <td>
           <div class="brand-cell">
-            <div class="brand-logo">
-              <img src="${logoUrl(a)}"
-                   onerror="this.onerror=null;this.src='${logoFallback(a)}'"
-                   alt="${a.brand}" loading="lazy"/>
-            </div>
+            <div class="brand-logo">${logoHtml(a)}</div>
             <div class="brand-info">
               <div class="brand-name">${a.brand}</div>
               <span class="tier-pill ${tierClass(a.tier)}">${a.tier}</span>
@@ -1736,11 +1757,7 @@ function renderLeaderboard() {
             <div class="expand-thumb-wrap">
               <div class="podium-thumb" ${a.youtubeId ? `data-ytid="${a.youtubeId}"` : ""} style="${a.youtubeId ? '' : 'background:' + thumbBg(a.thumbHue)}">
                 ${a.youtubeId ? `<img class="podium-thumb-img" src="https://i.ytimg.com/vi/${a.youtubeId}/maxresdefault.jpg" alt="${a.title}"/>` : ''}
-                <div class="podium-logo-badge">
-                  <img src="${logoUrl(a)}"
-                       onerror="this.onerror=null;this.src='${logoFallback(a)}'"
-                       alt="${a.brand}" loading="lazy"/>
-                </div>
+                <div class="podium-logo-badge">${logoHtml(a)}</div>
                 <div class="podium-play"></div>
               </div>
             </div>
@@ -1837,11 +1854,7 @@ function renderLatestDrops() {
     const dateStr = dt.toLocaleDateString("en-US", { month: "short", day: "numeric" });
     return `
       <div class="drop">
-        <div class="drop-logo">
-          <img src="${logoUrl(a)}"
-               onerror="this.onerror=null;this.src='${logoFallback(a)}'"
-               alt="${a.brand}" loading="lazy"/>
-        </div>
+        <div class="drop-logo">${logoHtml(a)}</div>
         <div class="drop-info">
           <div class="drop-brand">${a.brand}</div>
           <div class="drop-title" title="${a.title}">${a.title}</div>
