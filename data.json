@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T05:46:01+00:00",
+  "updated": "2026-05-14T08:25:14+00:00",
   "ads": [
     {
       "id": "adi-01",
@@ -22,16 +22,16 @@
       "tiktokUrls": [
         "https://www.tiktok.com/@adidas/video/7637057954289618198"
       ],
-      "views": 3439292,
-      "likes": 214845,
-      "comments": 5083,
+      "views": 3455860,
+      "likes": 215353,
+      "comments": 5098,
       "published": "2026-05-07T08:00:40Z",
       "channelTitle": "adidas",
       "durationSeconds": 306,
-      "weightedSentiment": 58.1,
+      "weightedSentiment": 57.9,
       "sentimentSampleSize": 370,
-      "velocityViewsPerDay": 497988,
-      "viewsLast7Days": 2001552,
+      "velocityViewsPerDay": 492503,
+      "viewsLast7Days": 2018120,
       "velocityWindowDays": 7
     },
     {
@@ -51,7 +51,7 @@
       "tiktokUrls": [
         "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981"
       ],
-      "views": 5795,
+      "views": 5804,
       "likes": 21,
       "comments": 3,
       "published": "2026-03-20T15:01:07Z",
@@ -60,7 +60,7 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 2,
       "velocityViewsPerDay": 106,
-      "viewsLast7Days": 488,
+      "viewsLast7Days": 497,
       "velocityWindowDays": 7
     },
     {
@@ -85,9 +85,10 @@
       "manualIgData": [
         {
           "url": "https://www.instagram.com/reel/DXqnj_MImxf/",
-          "views": 4800000,
-          "likes": 43600,
-          "comments": 265
+          "views": 5000000,
+          "likes": 44000,
+          "comments": 270,
+          "lastCheckedAt": "2026-05-14T06:51:04+00:00"
         },
         {
           "url": "https://www.instagram.com/reel/DXqsFTejNEZ/",
@@ -120,16 +121,16 @@
           "comments": 41
         }
       ],
-      "views": 13708804,
-      "likes": 730,
+      "views": 13730879,
+      "likes": 737,
       "comments": 38,
       "published": "2026-04-28T04:29:22Z",
       "channelTitle": "Budweiser Global",
       "durationSeconds": 115,
       "weightedSentiment": 61.0,
       "sentimentSampleSize": 25,
-      "velocityViewsPerDay": 853965,
-      "viewsLast7Days": 3622097,
+      "velocityViewsPerDay": 849490,
+      "viewsLast7Days": 3644172,
       "velocityWindowDays": 7
     },
     {
@@ -168,7 +169,7 @@
       "durationSeconds": 77,
       "weightedSentiment": null,
       "sentimentSampleSize": 3,
-      "velocityViewsPerDay": 236,
+      "velocityViewsPerDay": 233,
       "viewsLast7Days": 813,
       "velocityWindowDays": 7
     },
@@ -189,7 +190,7 @@
       "tiktokUrls": [
         "https://www.tiktok.com/@powerade/video/7631952068252634382"
       ],
-      "views": 2375,
+      "views": 2385,
       "likes": 26,
       "comments": 2,
       "published": "2026-04-23T13:06:00Z",
@@ -198,7 +199,7 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 1,
       "velocityViewsPerDay": 114,
-      "viewsLast7Days": 246,
+      "viewsLast7Days": 256,
       "velocityWindowDays": 7
     },
     {
@@ -234,15 +235,15 @@
           "comments": 19
         }
       ],
-      "views": 107759,
+      "views": 129434,
       "likes": 0,
-      "comments": 89,
+      "comments": 92,
       "published": "2026-05-12T12:59:35Z",
       "channelTitle": "Michelob ULTRA",
       "durationSeconds": 184,
-      "weightedSentiment": 61.7,
-      "sentimentSampleSize": 48,
-      "velocityViewsPerDay": 63431,
+      "weightedSentiment": 60.8,
+      "sentimentSampleSize": 50,
+      "velocityViewsPerDay": 71535,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
@@ -257,16 +258,16 @@
       "thumbHue": 215,
       "youtubeId": "UWFnOdU33MQ",
       "description": "Pepsi's 'Football Nation' global platform with David Beckham handing the playbook to fans — fan interactions, playful rivalry, memes and real-time reactions over match action. Featured cast also includes Vinícius Jr., Mohamed Salah, Florian Wirtz, Lauren James and Alexia Putellas. The campaign's YouTube canonical (on Pepsi Global) carries the sub-title 'The Home of Football Banter & Rivalry.' Agency: BigTime Creative Shop.",
-      "views": 76866,
-      "likes": 2511,
-      "comments": 151,
+      "views": 77220,
+      "likes": 2520,
+      "comments": 152,
       "published": "2026-04-20T09:19:47Z",
       "channelTitle": "Pepsi Global",
       "durationSeconds": 206,
       "weightedSentiment": 62.2,
       "sentimentSampleSize": 79,
       "velocityViewsPerDay": 3222,
-      "viewsLast7Days": 18595,
+      "viewsLast7Days": 18949,
       "velocityWindowDays": 7
     },
     {
@@ -280,7 +281,7 @@
       "thumbHue": 5,
       "youtubeId": "MJ4mFg8xxNI",
       "description": "Stella Artois's 'For Moments Worth More' platform with David Beckham — shared viewing occasions, hospitality and the social side of the tournament, rather than match action itself. A quieter register than the Bud line in the same AB InBev portfolio.",
-      "views": 6436,
+      "views": 6443,
       "likes": 75,
       "comments": 2,
       "published": "2026-04-15T13:09:28Z",
@@ -288,8 +289,8 @@
       "durationSeconds": 37,
       "weightedSentiment": null,
       "sentimentSampleSize": 2,
-      "velocityViewsPerDay": 224,
-      "viewsLast7Days": 822,
+      "velocityViewsPerDay": 223,
+      "viewsLast7Days": 829,
       "velocityWindowDays": 7
     },
     {
@@ -314,7 +315,7 @@
           "comments": 25
         }
       ],
-      "views": 5677,
+      "views": 5678,
       "likes": 131,
       "comments": 9,
       "published": "2026-04-22T08:50:50Z",
@@ -322,8 +323,8 @@
       "durationSeconds": 50,
       "weightedSentiment": null,
       "sentimentSampleSize": 5,
-      "velocityViewsPerDay": 259,
-      "viewsLast7Days": 63,
+      "velocityViewsPerDay": 258,
+      "viewsLast7Days": 64,
       "velocityWindowDays": 7
     },
     {
@@ -348,7 +349,7 @@
           "comments": 42
         }
       ],
-      "views": 3370,
+      "views": 3376,
       "likes": 35,
       "comments": 1,
       "published": "2026-04-29T15:56:20Z",
@@ -356,8 +357,8 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 0,
-      "velocityViewsPerDay": 231,
-      "viewsLast7Days": 294,
+      "velocityViewsPerDay": 229,
+      "viewsLast7Days": 300,
       "velocityWindowDays": 7
     },
     {
@@ -374,16 +375,16 @@
       "instagramUrls": [
         "https://www.instagram.com/reel/DX6nbgMNMvh/"
       ],
-      "views": 1898319,
-      "likes": 1989,
+      "views": 1898534,
+      "likes": 1991,
       "comments": 435,
       "published": "2026-05-04T11:45:01Z",
       "channelTitle": "FOX Sports",
       "durationSeconds": 111,
       "weightedSentiment": 66.7,
       "sentimentSampleSize": 211,
-      "velocityViewsPerDay": 194686,
-      "viewsLast7Days": 22204,
+      "velocityViewsPerDay": 192525,
+      "viewsLast7Days": 22419,
       "velocityWindowDays": 7
     },
     {
@@ -401,16 +402,16 @@
         "https://www.instagram.com/reel/DYAOQDEtkmj/",
         "https://www.instagram.com/reel/DYDX2Czqf35/"
       ],
-      "views": 399571,
-      "likes": 14895,
-      "comments": 929,
+      "views": 403636,
+      "likes": 15011,
+      "comments": 936,
       "published": "2026-05-06T14:58:43Z",
       "channelTitle": "Brahma",
       "durationSeconds": 221,
-      "weightedSentiment": 63.0,
-      "sentimentSampleSize": 314,
-      "velocityViewsPerDay": 52463,
-      "viewsLast7Days": 349631,
+      "weightedSentiment": 63.1,
+      "sentimentSampleSize": 315,
+      "velocityViewsPerDay": 52239,
+      "viewsLast7Days": 353696,
       "velocityWindowDays": 7
     },
     {
@@ -424,7 +425,7 @@
       "thumbHue": 215,
       "youtubeId": "yk41Qxz3tAo",
       "description": "Motorola's 2026 global tournament film, framed around fan reactions and device-as-camera storytelling. The brand's headline 2026 activation, distinct from regional cutdown variants that surface on local channels.",
-      "views": 3102,
+      "views": 3103,
       "likes": 137,
       "comments": 11,
       "published": "2026-03-03T13:00:02Z",
@@ -433,7 +434,7 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 6,
       "velocityViewsPerDay": 43,
-      "viewsLast7Days": 106,
+      "viewsLast7Days": 107,
       "velocityWindowDays": 7
     },
     {
@@ -458,7 +459,7 @@
           "comments": 531
         }
       ],
-      "views": 28987521,
+      "views": 28987525,
       "likes": 66,
       "comments": 8,
       "published": "2026-04-07T06:50:02Z",
@@ -466,8 +467,8 @@
       "durationSeconds": 61,
       "weightedSentiment": null,
       "sentimentSampleSize": 3,
-      "velocityViewsPerDay": 784389,
-      "viewsLast7Days": 288,
+      "velocityViewsPerDay": 782050,
+      "viewsLast7Days": 292,
       "velocityWindowDays": 7
     },
     {
@@ -484,15 +485,15 @@
       "instagramUrls": [
         "https://www.instagram.com/reel/DU-3EXyCKjE/"
       ],
-      "views": 82218,
-      "likes": 303,
-      "comments": 45,
+      "views": 100479,
+      "likes": 304,
+      "comments": 46,
       "published": "2026-05-08T15:01:43Z",
       "channelTitle": "Coca-Cola",
       "durationSeconds": 78,
       "weightedSentiment": null,
       "sentimentSampleSize": 16,
-      "velocityViewsPerDay": 14645,
+      "velocityViewsPerDay": 17552,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
@@ -507,15 +508,15 @@
       "thumbHue": 0,
       "youtubeId": "jNHDWcoNzVA",
       "description": "The second film in Coca-Cola's 'All the Feels' trilogy (after January's 'Bubbling Up', before a third spot timed to kickoff). Focuses on raw, unfiltered fan reactions — spontaneous celebrations, disappointments, shared viewing experiences. Coke has been a FIFA stadium partner since 1950.",
-      "views": 76937,
-      "likes": 998,
+      "views": 77162,
+      "likes": 1001,
       "comments": 32,
       "published": "2026-04-08T13:01:25Z",
       "channelTitle": "Coca-Cola",
       "durationSeconds": 99,
       "weightedSentiment": null,
       "sentimentSampleSize": 13,
-      "velocityViewsPerDay": 2155,
+      "velocityViewsPerDay": 2154,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
@@ -550,7 +551,7 @@
           "comments": 560
         }
       ],
-      "views": 8385,
+      "views": 8388,
       "likes": 42,
       "comments": 5,
       "published": "2025-09-29T12:58:10Z",
@@ -604,7 +605,7 @@
       "thumbHue": 0,
       "youtubeId": "vV9zKd3ob3k",
       "description": "Owen Trevor Black's Rattling Stick film for Lenovo, framing the brand's AI infrastructure as the engine behind the most technologically advanced World Cup in history. Shot in a Bucharest studio with AI-generated and AI-enhanced vignettes — itself a statement about where the work is going.",
-      "views": 515142,
+      "views": 515149,
       "likes": 213,
       "comments": 10,
       "published": "2026-01-08T06:59:46Z",
@@ -612,7 +613,7 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
-      "velocityViewsPerDay": 4090,
+      "velocityViewsPerDay": 4086,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
@@ -630,7 +631,7 @@
       "instagramUrls": [
         "https://www.instagram.com/reel/DSBB6cxCj_S/"
       ],
-      "views": 2025963,
+      "views": 2025980,
       "likes": 189,
       "comments": 17,
       "published": "2025-12-08T20:18:19Z",
@@ -638,7 +639,7 @@
       "durationSeconds": 61,
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
-      "velocityViewsPerDay": 12954,
+      "velocityViewsPerDay": 12945,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
@@ -664,7 +665,7 @@
           "comments": 22
         }
       ],
-      "views": 4116546,
+      "views": 4140067,
       "likes": 18,
       "comments": 7,
       "published": "2026-04-07T16:26:55Z",
@@ -672,7 +673,7 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 2,
-      "velocityViewsPerDay": 112612,
+      "velocityViewsPerDay": 112914,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
@@ -749,15 +750,15 @@
         "https://www.tiktok.com/@lego/video/7633051985087892758",
         "https://www.tiktok.com/@lego/video/7633098355282939138"
       ],
-      "views": 1050693,
-      "likes": 58490,
+      "views": 1050960,
+      "likes": 58506,
       "comments": 0,
       "published": "2026-04-02T10:00:23Z",
       "channelTitle": "LEGO",
       "durationSeconds": 60,
       "weightedSentiment": null,
       "sentimentSampleSize": 0,
-      "velocityViewsPerDay": 25122,
+      "velocityViewsPerDay": 25062,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
@@ -780,7 +781,7 @@
       "tiktokUrls": [
         "https://www.tiktok.com/@gatorade/video/7631948317504671006"
       ],
-      "views": 6176854,
+      "views": 6176872,
       "likes": 218,
       "comments": 19,
       "published": "2026-04-23T15:02:55Z",
@@ -788,7 +789,7 @@
       "durationSeconds": 104,
       "weightedSentiment": null,
       "sentimentSampleSize": 12,
-      "velocityViewsPerDay": 299654,
+      "velocityViewsPerDay": 298056,
       "viewsLast7Days": null,
       "velocityWindowDays": null
     },
