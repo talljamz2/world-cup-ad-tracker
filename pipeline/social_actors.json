@@ -1,0 +1,45 @@
+{
+  "_comment": "Apify Actor configuration. Edit Actor IDs to swap providers; the script reads pricing only as a sanity-check and tracks ACTUAL spend from Apify API responses (computeUnits + datasetItems). Pricing fields are estimates as of 2026-05 and will drift — they're for budget planning only.",
+  "instagram": {
+    "metadata": {
+      "actor": "apify~instagram-scraper",
+      "input": {
+        "directUrls": ["__URL__"],
+        "resultsType": "details",
+        "resultsLimit": 1,
+        "addParentData": false
+      },
+      "estimatedCostUsd": 0.003,
+      "comment": "Apify's official Instagram scraper. 'details' mode returns view/like/comment count plus owner metadata for a single post."
+    },
+    "comments": {
+      "actor": "apify~instagram-comment-scraper",
+      "input": {
+        "directUrls": ["__URL__"],
+        "resultsLimit": 100
+      },
+      "estimatedCostUsd": 0.30,
+      "comment": "Pulls top-N comments. Default sort is by most relevant (Instagram's own ranking). Cost scales with results returned."
+    }
+  },
+  "tiktok": {
+    "metadata": {
+      "actor": "clockworks~free-tiktok-scraper",
+      "input": {
+        "postURLs": ["__URL__"],
+        "resultsPerPage": 1
+      },
+      "estimatedCostUsd": 0.005,
+      "comment": "Free-tier-friendly TikTok scraper. Returns plays / likes / comment count for a single post."
+    },
+    "comments": {
+      "actor": "clockworks~tiktok-comments-scraper",
+      "input": {
+        "postURLs": ["__URL__"],
+        "commentsPerPost": 100
+      },
+      "estimatedCostUsd": 0.25,
+      "comment": "TikTok comment fetcher. Most Actors don't expose 'sort by likes' — what's returned is roughly top-by-engagement."
+    }
+  }
+}

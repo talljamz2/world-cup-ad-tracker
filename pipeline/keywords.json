@@ -1,0 +1,133 @@
+{
+  "_comment": "Keyword tiers used by discover.py to score candidate videos. Editor-tunable — adjust without touching code. All matching is case-insensitive substring against title + description. The 'tournamentWindow' bounds when a low-confidence (football-proximity) match counts.",
+
+  "tournamentWindow": {
+    "start": "2025-11-01",
+    "end":   "2026-08-31"
+  },
+
+  "high": [
+    "fifa",
+    "fifa world cup",
+    "world cup",
+    "world cup 2026",
+    "world cup 26",
+    "fifa world cup 2026",
+    "fifa world cup 26",
+    "wc26",
+    "wc 26"
+  ],
+
+  "medium": [
+    "summer of football",
+    "summer of soccer",
+    "the tournament",
+    "biggest tournament",
+    "biggest stage",
+    "biggest stage in football",
+    "26 nations",
+    "the cup",
+    "the trophy",
+    "kickoff",
+    "kick-off",
+    "kick off",
+    "matchday",
+    "host nation",
+    "host nations",
+    "host city",
+    "host cities",
+    "north american tournament",
+    "the global game",
+    "global game",
+    "the beautiful game",
+    "beautiful game",
+    "road to 26",
+    "road to 2026",
+    "this summer",
+    "summer 26"
+  ],
+
+  "footballTerms": [
+    "football",
+    "soccer",
+    "futbol",
+    "fútbol",
+    "the pitch"
+  ],
+
+  "playerNames": [
+    "messi",
+    "ronaldo",
+    "mbappe",
+    "mbappé",
+    "haaland",
+    "bellingham",
+    "yamal",
+    "vinicius",
+    "vinícius",
+    "vini jr",
+    "vini jnr",
+    "salah",
+    "modric",
+    "modrić",
+    "neymar",
+    "kane",
+    "foden",
+    "alvarez",
+    "de bruyne",
+    "rodri",
+    "rodrygo",
+    "lewandowski",
+    "musiala",
+    "wirtz",
+    "valverde",
+    "saka",
+    "palmer",
+    "mainoo",
+    "garnacho",
+    "endrick",
+    "putellas",
+    "rodman",
+    "morgan",
+    "wiegman",
+    "earps",
+    "klopp",
+    "guardiola"
+  ],
+
+  "_negativeKeywords": [
+    "highlights",
+    "interview",
+    "press conference",
+    "behind the scenes",
+    "extra time podcast",
+    "live stream",
+    "ao vivo",
+    "eliminatórias",
+    "eliminatorias",
+    "match action",
+    "match day vlog",
+    "matchday vlog",
+    "vlog",
+    "off the court",
+    "balls up",
+    "fifae liga",
+    "rocket league",
+    "efootball",
+    "training",
+    "warm up",
+    "goal of the",
+    "best goals",
+    "top goals"
+  ],
+
+  "_searchQueriesComment": "Used by Phase 3 (YouTube search). Each query costs 100 quota units per run. Keep this list tight — 5 queries × hourly = 12,000 units/day (over quota). 5 queries × daily = 500 units/day (fine).",
+
+  "searchQueries": [
+    "FIFA World Cup 2026 commercial",
+    "FIFA World Cup 2026 ad",
+    "World Cup 2026 brand campaign",
+    "World Cup 26 commercial",
+    "Mundial 2026 anuncio"
+  ]
+}

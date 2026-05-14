@@ -1,0 +1,132 @@
+<!--
+  ARTICLE TEMPLATE — copy this file to a new slug (e.g. `lego-runs-the-table.html`),
+  fill in the metadata + body, then add a new entry to `posts.json`:
+
+    {
+      "title": "Lego runs the table",
+      "url": "lego-runs-the-table.html",
+      "date": "2026-06-01",
+      "intro": "Short one-line summary that will appear on the homepage sidebar and blog index."
+    }
+
+  That's it — the article shows up automatically in the blog index and in the
+  sidebar's "From the Editor" widget on the homepage. Order is newest-first.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>[ARTICLE TITLE] — The Ad Podium</title>
+<meta name="description" content="[1–2 sentence summary for SEO + social previews]" />
+<meta property="og:title" content="[ARTICLE TITLE] — The Ad Podium" />
+<meta property="og:description" content="[1–2 sentence summary]" />
+<meta property="og:type" content="article" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='3' y='20' width='8' height='9' fill='%230f5c3e' rx='1'/><rect x='12' y='12' width='8' height='17' fill='%23b8860b' rx='1'/><rect x='21' y='16' width='8' height='13' fill='%230f5c3e' rx='1'/></svg>" />
+<style>
+  :root {
+    --bg: #faf7f0;
+    --bg-card: #ffffff;
+    --ink: #1a1a1a;
+    --ink-soft: #4a4a4a;
+    --ink-muted: #7a7a7a;
+    --rule: #e8e2d4;
+    --accent: #0f5c3e;
+    --serif: ui-serif, Georgia, "Iowan Old Style", "Apple Garamond", Cambria, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); }
+  a:hover { text-decoration: underline; }
+  .container { max-width: 720px; margin: 0 auto; padding: 0 28px; }
+  .topnav { border-bottom: 1px solid var(--rule); background: var(--bg); position: sticky; top: 0; z-index: 50; }
+  .topnav-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 28px; max-width: 1240px; margin: 0 auto; }
+  .brand { font-family: var(--serif); font-weight: 700; font-size: 22px; letter-spacing: -0.01em; color: var(--ink); }
+  .brand-mark { display: inline-block; width: 1.1em; height: 1.1em; margin-right: 0.42em; vertical-align: -0.2em; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='3' y='20' width='8' height='9' fill='%230f5c3e' rx='1'/><rect x='12' y='12' width='8' height='17' fill='%23b8860b' rx='1'/><rect x='21' y='16' width='8' height='13' fill='%230f5c3e' rx='1'/></svg>"); background-size: contain; background-repeat: no-repeat; background-position: center; }
+  .nav-links { display: flex; gap: 28px; }
+  .nav-links a { color: var(--ink-soft); font-size: 14px; font-weight: 500; text-decoration: none; }
+  .nav-links a:hover { color: var(--accent); }
+  @media (max-width: 600px) { .nav-links { display: none; } }
+
+  article.post { padding: 48px 0 32px; }
+  .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
+  h1.headline { font-family: var(--serif); font-weight: 700; font-size: clamp(30px, 4.5vw, 44px); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 18px; }
+  .byline { font-size: 14px; color: var(--ink-muted); margin-bottom: 32px; padding-bottom: 18px; border-bottom: 1px solid var(--rule); }
+  .byline strong { color: var(--ink-soft); }
+
+  article.post p { margin: 0 0 18px; color: var(--ink); }
+  article.post h2 { font-family: var(--serif); font-size: 26px; line-height: 1.25; letter-spacing: -0.01em; margin: 38px 0 14px; }
+  article.post h3 { font-family: var(--serif); font-size: 20px; line-height: 1.3; margin: 30px 0 10px; }
+  article.post blockquote { margin: 24px 0; padding: 12px 24px; border-left: 4px solid var(--accent); color: var(--ink-soft); font-style: italic; }
+  article.post img { max-width: 100%; height: auto; border-radius: 4px; margin: 24px 0; }
+  article.post figure { margin: 24px 0; }
+  article.post figcaption { font-size: 13px; color: var(--ink-muted); text-align: center; margin-top: 8px; }
+  article.post ul, article.post ol { padding-left: 24px; margin: 0 0 18px; }
+  article.post li { margin-bottom: 8px; }
+
+  .post-footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--ink-muted); }
+  footer { margin-top: 64px; padding: 36px 0 48px; border-top: 2px solid var(--ink); color: var(--ink-muted); font-size: 13px; }
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav-inner">
+    <div class="brand"><a href="../" style="color:var(--ink);text-decoration:none"><span class="brand-mark"></span>The Ad Podium</a></div>
+    <div class="nav-links">
+      <a href="../#leaderboard">Leaderboard</a>
+      <a href="./">Blog</a>
+      <a href="../#methodology">Methodology</a>
+      <a href="../#about">About</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <article class="post">
+    <div class="eyebrow">From the Editor</div>
+    <h1 class="headline">[ARTICLE TITLE]</h1>
+    <div class="byline">
+      <strong>By [Author Name]</strong> &nbsp;·&nbsp; [Date, e.g. June 1, 2026] &nbsp;·&nbsp; ~[reading time] read
+    </div>
+
+    <p>
+      [Opening paragraph — your strongest hook, ideally setting up the
+      argument or the surprising-find of the piece.]
+    </p>
+
+    <p>
+      [Body paragraphs. Keep them tight — exec audience.]
+    </p>
+
+    <h2>[Section heading]</h2>
+
+    <p>
+      [More body.]
+    </p>
+
+    <blockquote>
+      [A pull quote, if any.]
+    </blockquote>
+
+    <p>
+      [Closing.]
+    </p>
+
+    <div class="post-footer">
+      <a href="./" style="color:var(--accent)">← All articles</a>
+    </div>
+  </article>
+</div>
+
+<footer>
+  <div class="container">
+    © 2026 The Ad Podium.
+  </div>
+</footer>
+
+</body>
+</html>

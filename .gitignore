@@ -36,3 +36,28 @@ credentials.json
 
 # Logs
 *.log
+
+# Pipeline transient files (regenerated each run — keep local-only)
+pipeline/.channel_cache.json
+pipeline/channel_suggestions.json
+
+# Pipeline state files that USED to be local-only.
+# Now tracked so GitHub Actions cron has continuity:
+#   pipeline/history.json          — YouTube velocity snapshots (Step 1)
+#   pipeline/social_history.json   — IG/TT velocity snapshots (Step 1)
+#   pipeline/rejected.json         — manual blocklist curation (Step 2)
+#   pipeline/candidates.json       — discovery output (Step 2)
+#   pipeline/channel_denylist.json — channel curation (Step 2)
+
+# Social pipeline (Apify) — local caches and per-machine spend ledger
+pipeline/social_cache/
+pipeline/spend_log.json
+pipeline/spend_log.bak.json
+
+# Local-only dev scripts (don't pollute repo)
+pipeline/setup_ig_cookies.py
+pipeline/test_alt_scrapers.py
+pipeline/test_auth_scraper.py
+
+# Instagram authenticated-scrape cookies — never commit
+.ig_cookies.json

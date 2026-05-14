@@ -1,0 +1,1062 @@
+[
+  {
+    "brand": "Adidas",
+    "channels": [
+      "@adidas",
+      "@adidasfootball"
+    ],
+    "tier": "FIFA Partner",
+    "category": "apparel",
+    "rivalOf": null,
+    "watchReason": "Official kit and ball partner; runs hero film, kit reveal, and player-led shorts."
+  },
+  {
+    "brand": "Coca-Cola",
+    "channels": [
+      "@coca-cola"
+    ],
+    "tier": "FIFA Partner",
+    "category": "soft_drinks",
+    "rivalOf": null,
+    "watchReason": "Longest-running FIFA partner; multi-film tournament platform with global anthem."
+  },
+  {
+    "brand": "Hyundai",
+    "channels": [
+      "@hyundai",
+      "@hyundaiglobal"
+    ],
+    "tier": "FIFA Partner",
+    "category": "auto",
+    "rivalOf": null,
+    "watchReason": "Official auto partner; expect Messi-led brand films and team-bus stories."
+  },
+  {
+    "brand": "Kia",
+    "channels": [
+      "@kia"
+    ],
+    "tier": "FIFA Partner",
+    "category": "auto",
+    "rivalOf": null,
+    "watchReason": "Sister brand to Hyundai under same partnership umbrella."
+  },
+  {
+    "brand": "Visa",
+    "channels": [
+      "@visa"
+    ],
+    "tier": "FIFA Partner",
+    "category": "payments",
+    "rivalOf": null,
+    "watchReason": "Exclusive payments partner; co-brand activations with Marriott Bonvoy and host venues."
+  },
+  {
+    "brand": "Aramco",
+    "channels": [
+      "@aramco"
+    ],
+    "tier": "FIFA Partner",
+    "category": "energy",
+    "rivalOf": null,
+    "watchReason": "Saudi state oil company; FIFA Partner with global brand-building budget."
+  },
+  {
+    "brand": "Lenovo",
+    "channels": [
+      "@lenovo"
+    ],
+    "tier": "FIFA Partner",
+    "category": "electronics",
+    "rivalOf": null,
+    "watchReason": "Replaces Vivo as official tech partner; expect device-and-fan creative."
+  },
+  {
+    "brand": "Motorola",
+    "channels": [
+      "@motorola"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "electronics",
+    "rivalOf": "Lenovo",
+    "watchReason": "Global Motorola channel — runs the canonical 'When Fans Go Wild' hero film and other tournament creative without the regional paid-amplification cutdowns."
+  },
+  {
+    "brand": "Qatar Airways",
+    "channels": [
+      "@qatarairways"
+    ],
+    "tier": "FIFA Partner",
+    "category": "travel",
+    "rivalOf": null,
+    "watchReason": "Returning FIFA Partner; expect cinematic global-traveller creative."
+  },
+  {
+    "brand": "Budweiser",
+    "channels": [
+      "@budweiser"
+    ],
+    "tier": "World Cup Sponsor",
+    "category": "beer",
+    "rivalOf": null,
+    "watchReason": "Official tournament beer; Haaland and Klopp ambassadors; multi-spot global rollout."
+  },
+  {
+    "brand": "Lay's",
+    "channels": [
+      "@lays"
+    ],
+    "tier": "World Cup Sponsor",
+    "category": "snacks",
+    "rivalOf": null,
+    "watchReason": "Long-running 'No Lay's, No Game' platform; high-celebrity-density spots."
+  },
+  {
+    "brand": "Hisense",
+    "channels": [
+      "@hisenseinternational"
+    ],
+    "tier": "World Cup Sponsor",
+    "category": "electronics",
+    "rivalOf": null,
+    "watchReason": "Official TV partner; tournament-themed culture and product films."
+  },
+  {
+    "brand": "McDonald's",
+    "channels": [
+      "@mcdonalds"
+    ],
+    "tier": "World Cup Sponsor",
+    "category": "qsr",
+    "rivalOf": null,
+    "watchReason": "Returning tournament marketer; mealtime-ritual platform a near-certainty."
+  },
+  {
+    "brand": "Bank of America",
+    "channels": [
+      "@bankofamerica"
+    ],
+    "tier": "World Cup Sponsor",
+    "category": "finance",
+    "rivalOf": null,
+    "watchReason": "Sponsor at second tier; US co-host narrative and host-city storytelling."
+  },
+  {
+    "brand": "American Airlines",
+    "channels": [
+      "@AmericanAirlines"
+    ],
+    "tier": "World Cup Sponsor",
+    "category": "travel",
+    "rivalOf": null,
+    "watchReason": "Sponsor; US-host travel and welcome-the-world narrative."
+  },
+  {
+    "brand": "Rexona",
+    "channels": [
+      "@rexonaglobal",
+      "@rexona"
+    ],
+    "tier": "World Cup Sponsor",
+    "category": "personal_care",
+    "rivalOf": null,
+    "watchReason": "Unilever's named World Cup Sponsor; 'Do:More' performance platform."
+  },
+  {
+    "brand": "Nike",
+    "channels": [
+      "@nikefootball",
+      "@nike"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "apparel",
+    "rivalOf": "Adidas",
+    "watchReason": "Historical World Cup ambush leader. Won't use FIFA marks — watch for football culture, player roster ('Mamba mentality'-style films), kit reveals for the federations Nike sponsors."
+  },
+  {
+    "brand": "Puma",
+    "channels": [
+      "@PUMAFootball",
+      "@PUMA"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "apparel",
+    "rivalOf": "Adidas",
+    "watchReason": "Sponsors a handful of national teams; runs federation-tied reveals."
+  },
+  {
+    "brand": "Under Armour",
+    "channels": [
+      "@underarmour"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "apparel",
+    "rivalOf": "Adidas",
+    "watchReason": "Smaller football presence but increasing; watch for federation work."
+  },
+  {
+    "brand": "New Balance",
+    "channels": [
+      "@newbalance"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "apparel",
+    "rivalOf": "Adidas",
+    "watchReason": "Sponsors several teams and players; rising premium-football brand voice."
+  },
+  {
+    "brand": "Pepsi",
+    "channels": [
+      "@pepsi"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "soft_drinks",
+    "rivalOf": "Coca-Cola",
+    "watchReason": "Champions League heritage extends to World Cup years; 'banter and rivalry' platform."
+  },
+  {
+    "brand": "Gatorade",
+    "channels": [
+      "@gatorade"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "sports_drinks",
+    "rivalOf": "Powerade",
+    "watchReason": "PepsiCo-owned; athlete-led training spots."
+  },
+  {
+    "brand": "Powerade",
+    "channels": [
+      "@powerade"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "sports_drinks",
+    "rivalOf": "Gatorade",
+    "watchReason": "Coca-Cola-owned; runs tournament-themed work without 2026 official sponsor status."
+  },
+  {
+    "brand": "Heineken",
+    "channels": [
+      "@heineken"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "Champions League sponsor; runs football-coded ads year-round, often without explicit tournament references."
+  },
+  {
+    "brand": "Stella Artois",
+    "channels": [
+      "@StellaArtois"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "AB InBev sister to Bud; premium-toned hospitality angle."
+  },
+  {
+    "brand": "Corona",
+    "channels": [
+      "@coronausa"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "Hispanic-market football affinity; LATAM-leaning creative."
+  },
+  {
+    "brand": "Modelo",
+    "channels": [
+      "@modelousa"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "US-Hispanic dominance; Mexico National Team adjacency."
+  },
+  {
+    "brand": "Coors Light",
+    "channels": [
+      "@coorslight"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "Molson Coors challenger play; recent 'Coooors Call' tournament-themed work."
+  },
+  {
+    "brand": "Guinness",
+    "channels": [
+      "@guinness"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "Six Nations sponsorship halo; football crossover possible if Ireland qualifies stories run."
+  },
+  {
+    "brand": "Michelob Ultra",
+    "channels": [
+      "@michelobultra"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "AB InBev sister; performance-marketing-heavy tournament tie-ins."
+  },
+  {
+    "brand": "Brahma",
+    "channels": [
+      "@brahmaoficial"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "beer",
+    "rivalOf": "Budweiser",
+    "watchReason": "AB InBev's flagship Brazilian beer; running its own World Cup creative alongside Bud's global platform. Brazil-market reach."
+  },
+  {
+    "brand": "Doritos",
+    "channels": [
+      "@doritos"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "snacks",
+    "rivalOf": "Lay's",
+    "watchReason": "PepsiCo sister; bold-creative tournament moments."
+  },
+  {
+    "brand": "Cheetos",
+    "channels": [
+      "@cheetos"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "snacks",
+    "rivalOf": "Lay's",
+    "watchReason": "PepsiCo; off-brief tournament humor possible."
+  },
+  {
+    "brand": "Pringles",
+    "channels": [
+      "@pringles"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "snacks",
+    "rivalOf": "Lay's",
+    "watchReason": "Kellanova; Champions League sponsor; expect crossover."
+  },
+  {
+    "brand": "Burger King",
+    "channels": [
+      "@burgerking"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "qsr",
+    "rivalOf": "McDonald's",
+    "watchReason": "Reactive-to-McDonald's playbook; unofficial tournament jabs likely."
+  },
+  {
+    "brand": "KFC",
+    "channels": [
+      "@kfc"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "qsr",
+    "rivalOf": "McDonald's",
+    "watchReason": "Global QSR tournament regular; 'football and chicken' platform."
+  },
+  {
+    "brand": "Domino's",
+    "channels": [
+      "@dominos"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "qsr",
+    "rivalOf": "McDonald's",
+    "watchReason": "Watch-party occasion plays."
+  },
+  {
+    "brand": "Taco Bell",
+    "channels": [
+      "@tacobell"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "qsr",
+    "rivalOf": "McDonald's",
+    "watchReason": "Late-night tournament watching ties; possible US-host activation."
+  },
+  {
+    "brand": "Toyota",
+    "channels": [
+      "@toyotausa",
+      "@toyotamotor"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "auto",
+    "rivalOf": "Hyundai",
+    "watchReason": "Global auto challenger; football-fan moments."
+  },
+  {
+    "brand": "Ford",
+    "channels": [
+      "@ford"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "auto",
+    "rivalOf": "Hyundai",
+    "watchReason": "US-host narrative likely play."
+  },
+  {
+    "brand": "Volkswagen",
+    "channels": [
+      "@volkswagen"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "auto",
+    "rivalOf": "Hyundai",
+    "watchReason": "Strong European football heritage; family-of-fans creative."
+  },
+  {
+    "brand": "Mastercard",
+    "channels": [
+      "@mastercard"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "payments",
+    "rivalOf": "Visa",
+    "watchReason": "Champions League and Six Nations sponsor; football presence with no FIFA rights."
+  },
+  {
+    "brand": "PayPal",
+    "channels": [
+      "@paypal"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "payments",
+    "rivalOf": "Visa",
+    "watchReason": "Digital-payments challenger; less likely but possible activation."
+  },
+  {
+    "brand": "AT&T",
+    "channels": [
+      "@ATT"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "telecom",
+    "rivalOf": "Verizon",
+    "watchReason": "US-host market; expect 5G-and-the-stadium creative."
+  },
+  {
+    "brand": "T-Mobile",
+    "channels": [
+      "@TMobile"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "telecom",
+    "rivalOf": "Verizon",
+    "watchReason": "Aggressive marketing posture; tournament moment likely."
+  },
+  {
+    "brand": "Samsung",
+    "channels": [
+      "@samsung",
+      "@SamsungMobile"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "electronics",
+    "rivalOf": "Hisense",
+    "watchReason": "Galaxy phone fan-capture angle; counters Vivo's official slot."
+  },
+  {
+    "brand": "Apple",
+    "channels": [
+      "@apple"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "electronics",
+    "rivalOf": "Hisense",
+    "watchReason": "Rare tournament direct play, but Apple TV+ MLS halo could surface World Cup tie."
+  },
+  {
+    "brand": "LG",
+    "channels": [
+      "@LGGlobal"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "electronics",
+    "rivalOf": "Hisense",
+    "watchReason": "TV-purchase-cycle adjacency; product-led tournament watch creative."
+  },
+  {
+    "brand": "Sony",
+    "channels": [
+      "@sony"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "electronics",
+    "rivalOf": "Hisense",
+    "watchReason": "Image-quality and broadcast-tech narrative."
+  },
+  {
+    "brand": "Vivo",
+    "channels": [
+      "@vivo"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "electronics",
+    "rivalOf": "Lenovo",
+    "watchReason": "Lost the official tech slot to Lenovo for 2026 but retains football marketing presence; camera-led fan-capture work."
+  },
+  {
+    "brand": "Netflix",
+    "channels": [
+      "@netflix"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "streaming",
+    "rivalOf": null,
+    "watchReason": "Doc-series tie-ins (e.g. Beckham, Drive to Survive playbook); tournament timing for football content."
+  },
+  {
+    "brand": "Amazon Prime Video",
+    "channels": [
+      "@PrimeVideo"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "streaming",
+    "rivalOf": null,
+    "watchReason": "Premier League rights heritage; possible tournament-adjacent content marketing."
+  },
+  {
+    "brand": "ESPN",
+    "channels": [
+      "@espn"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "US co-rights holder via Disney/ABC; broadcaster promos and narrative-driven tournament content."
+  },
+  {
+    "brand": "FOX Sports",
+    "channels": [
+      "@foxsports",
+      "@foxsoccer"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "ESPN",
+    "watchReason": "Official US English-language rights holder for 2026; flagship 'Do You Believe?' platform and home-soil narrative."
+  },
+  {
+    "brand": "NBC Sports",
+    "channels": [
+      "@NBCSports"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "FOX Sports",
+    "watchReason": "Premier League rights heritage; possible cross-promotion despite not holding 2026 English-language rights."
+  },
+  {
+    "brand": "Telemundo Deportes",
+    "channels": [
+      "@TelemundoDeportes"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "FOX Sports",
+    "watchReason": "NBCUniversal's US Spanish-language 2026 rights holder; Hispanic-market broadcaster promos."
+  },
+  {
+    "brand": "TUDN",
+    "channels": [
+      "@TUDNUSA",
+      "@tudnmex"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "Telemundo Deportes",
+    "watchReason": "Univision/TelevisaUnivision Hispanic-market sports network."
+  },
+  {
+    "brand": "TSN",
+    "channels": [
+      "@TSN"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Bell Media's English-language 2026 rights for Canada (co-host nation)."
+  },
+  {
+    "brand": "Globo",
+    "channels": [
+      "@globoesporte",
+      "@redeglobo"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Brazil's dominant broadcaster; massive World Cup audience reach."
+  },
+  {
+    "brand": "SBT",
+    "channels": [
+      "@sbt"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "Globo",
+    "watchReason": "Joins Globo as 2026 Brazilian rights co-holder; first World Cup on SBT."
+  },
+  {
+    "brand": "BBC Sport",
+    "channels": [
+      "@BBCSport"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "UK 2026 rights co-holder (with ITV); BBC trailers historically the best-loved World Cup broadcaster creative."
+  },
+  {
+    "brand": "ITV Sport",
+    "channels": [
+      "@ITVFootball",
+      "@itv"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "BBC Sport",
+    "watchReason": "UK 2026 rights co-holder (with BBC); commercial-network promos for matches not on BBC."
+  },
+  {
+    "brand": "Sky Sports",
+    "channels": [
+      "@SkySports"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "BBC Sport",
+    "watchReason": "UK premium-football brand; doesn't hold 2026 live rights but runs strong tournament-coded content."
+  },
+  {
+    "brand": "TF1",
+    "channels": [
+      "@TF1"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "France's main 2026 rights holder; flagship-channel tournament promos."
+  },
+  {
+    "brand": "beIN Sports",
+    "channels": [
+      "@beINSPORTS",
+      "@beinsportsfr"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "TF1",
+    "watchReason": "Pan-MENA + France paid-football rights holder; Qatari-owned premium sports network."
+  },
+  {
+    "brand": "ARD",
+    "channels": [
+      "@daserste"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Germany's lead 2026 rights co-holder (with ZDF); Das Erste public-broadcaster promos."
+  },
+  {
+    "brand": "ZDF",
+    "channels": [
+      "@ZDF"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "ARD",
+    "watchReason": "Germany's 2026 rights co-holder (with ARD); ZDF Sport's tournament platform reliably delivers."
+  },
+  {
+    "brand": "RTVE",
+    "channels": [
+      "@rtve"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Spain's public broadcaster; La 1 tournament promos."
+  },
+  {
+    "brand": "RAI Sport",
+    "channels": [
+      "@RaiSport",
+      "@RaiPlay"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Italy's public broadcaster; even with Italy uncertain to qualify, RAI runs broad tournament content."
+  },
+  {
+    "brand": "NOS",
+    "channels": [
+      "@NOS"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Netherlands' public broadcaster; lead 2026 rights holder."
+  },
+  {
+    "brand": "Televisa Deportes",
+    "channels": [
+      "@televisadeportes"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Mexico's lead broadcaster; co-host nation; massive Spanish-language reach."
+  },
+  {
+    "brand": "TV Azteca Deportes",
+    "channels": [
+      "@aztecadeportes"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "Televisa Deportes",
+    "watchReason": "Mexico's challenger broadcaster; co-host nation; runs aggressive tournament creative."
+  },
+  {
+    "brand": "TyC Sports",
+    "channels": [
+      "@tycsports"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Argentina's leading sports broadcaster; defending-champions storyline drives extensive output."
+  },
+  {
+    "brand": "NHK",
+    "channels": [
+      "@nhk"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Japan's public broadcaster; high-design tournament promo creative."
+  },
+  {
+    "brand": "JioHotstar",
+    "channels": [
+      "@JioHotstar",
+      "@jiocinema"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "India's lead 2026 streaming rights holder post-merger; massive South-Asian market."
+  },
+  {
+    "brand": "Sony Sports Network",
+    "channels": [
+      "@sonysportsnetwork"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "JioHotstar",
+    "watchReason": "India's traditional sports broadcaster; football-fan creative."
+  },
+  {
+    "brand": "SBS Sport",
+    "channels": [
+      "@sbsaustralia"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Australia's 2026 rights holder; Socceroos and Matildas storyline."
+  },
+  {
+    "brand": "SuperSport",
+    "channels": [
+      "@SuperSport"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": null,
+    "watchReason": "Pan-African pay-TV sports network; DStv's flagship; massive African football audience."
+  },
+  {
+    "brand": "CBC Sports",
+    "channels": [
+      "@cbcsports"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "TSN",
+    "watchReason": "Canada's public broadcaster; co-host nation; expect strong domestic promo creative."
+  },
+  {
+    "brand": "Sportsnet",
+    "channels": [
+      "@Sportsnet"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "TSN",
+    "watchReason": "Rogers' English-language Canadian sports network; co-host nation; challenger to TSN."
+  },
+  {
+    "brand": "RDS",
+    "channels": [
+      "@RDSca"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "broadcasting",
+    "rivalOf": "TSN",
+    "watchReason": "Bell Media's French-language Canadian sports network; reaches Quebec audience for co-host narrative."
+  },
+  {
+    "brand": "Marriott",
+    "channels": [
+      "@MarriottBonvoy",
+      "@Marriott"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "travel",
+    "rivalOf": null,
+    "watchReason": "Co-branded with Visa on host-city access platform; not on official 2026 sponsor list."
+  },
+  {
+    "brand": "Booking.com",
+    "channels": [
+      "@bookingcom"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "travel",
+    "rivalOf": "Marriott",
+    "watchReason": "European football sponsor heritage; possible 2026 activation."
+  },
+  {
+    "brand": "Airbnb",
+    "channels": [
+      "@airbnb"
+    ],
+    "tier": "Regional Supporter",
+    "category": "travel",
+    "rivalOf": "Marriott",
+    "watchReason": "Official Regional Supporter (North America); host-city cultural-immersion creative."
+  },
+  {
+    "brand": "Home Depot",
+    "channels": [
+      "@homedepot"
+    ],
+    "tier": "Regional Supporter",
+    "category": "retail",
+    "rivalOf": null,
+    "watchReason": "Official Regional Supporter (North America); expect community-and-watch-party angle."
+  },
+  {
+    "brand": "Diageo",
+    "channels": [
+      "@diageo"
+    ],
+    "tier": "Regional Supporter",
+    "category": "spirits",
+    "rivalOf": null,
+    "watchReason": "Official Regional Supporter (NA + SA); parent of Guinness, Johnnie Walker, Don Julio. Watch flagship channel and key sub-brands."
+  },
+  {
+    "brand": "Lego",
+    "channels": [
+      "@lego"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "toys",
+    "rivalOf": null,
+    "watchReason": "Brick-built football world; high-celebrity-density spots, parent-aimed."
+  },
+  {
+    "brand": "Mattel",
+    "channels": [
+      "@mattel"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "toys",
+    "rivalOf": "Lego",
+    "watchReason": "Football-themed toys possible; less likely than Lego."
+  },
+  {
+    "brand": "Duracell",
+    "channels": [
+      "@duracell"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "household",
+    "rivalOf": null,
+    "watchReason": "Long-running Messi tie-up; tournament reboots."
+  },
+  {
+    "brand": "Don Julio",
+    "channels": [
+      "@donjulio"
+    ],
+    "tier": "Tournament Marketer",
+    "category": "spirits",
+    "rivalOf": null,
+    "watchReason": "Tequila premium play; Thierry Henry-led work."
+  },
+  {
+    "brand": "U.S. Soccer",
+    "channels": [
+      "@USSoccer"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Co-host nation federation. 'Never Chase Reality' platform, Marcello Hernandez-narrated; expect heavy USMNT and USWNT brand-film output."
+  },
+  {
+    "brand": "Canada Soccer",
+    "channels": [
+      "@canadasoccer",
+      "@CanadaSoccerEN"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Co-host nation; first World Cup on home soil drives unprecedented federation brand investment."
+  },
+  {
+    "brand": "Federación Mexicana de Fútbol",
+    "channels": [
+      "@miseleccionmx",
+      "@FMF"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Co-host nation; 'El Tri' brand carries enormous Hispanic-market reach."
+  },
+  {
+    "brand": "The FA (England)",
+    "channels": [
+      "@England",
+      "@TheFA"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Three Lions brand; tournament campaigns regularly out-perform brand spots in earned reach."
+  },
+  {
+    "brand": "DFB (Germany)",
+    "channels": [
+      "@dfbteam"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Die Mannschaft; consistent federation creative bench."
+  },
+  {
+    "brand": "FFF (France)",
+    "channels": [
+      "@FFFTV",
+      "@equipedefrance"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Les Bleus; Mbappé-anchored federation films."
+  },
+  {
+    "brand": "RFEF (Spain)",
+    "channels": [
+      "@SeFutbol"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "La Roja; coming off Euro 2024 win, expect ambitious tournament platform."
+  },
+  {
+    "brand": "CBF (Brazil)",
+    "channels": [
+      "@brasil"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Seleção; biggest YouTube federation audience globally. 'Bate no Peito' platform for 2026."
+  },
+  {
+    "brand": "AFA (Argentina)",
+    "channels": [
+      "@afaseleccion",
+      "@afa"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Defending champions narrative; Messi-anchored federation creative."
+  },
+  {
+    "brand": "KNVB (Netherlands)",
+    "channels": [
+      "@OnsOranje"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Oranje; reliably strong creative output around tournaments."
+  },
+  {
+    "brand": "FPF (Portugal)",
+    "channels": [
+      "@FPFofficial"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Ronaldo's likely final World Cup; federation creative will lean on the moment."
+  },
+  {
+    "brand": "FRMF (Morocco)",
+    "channels": [
+      "@FRMFOfficiel"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "2022 semi-finalist; African-and-Arab-world cultural narrative; momentum brand."
+  },
+  {
+    "brand": "JFA (Japan)",
+    "channels": [
+      "@JFAchannel"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Samurai Blue; high-design federation creative; large domestic media reach."
+  },
+  {
+    "brand": "KFA (Korea)",
+    "channels": [
+      "@KFA"
+    ],
+    "tier": "National Federation",
+    "category": "national_federation",
+    "rivalOf": null,
+    "watchReason": "Taeguk Warriors; Son Heung-min-anchored brand storytelling."
+  }
+]

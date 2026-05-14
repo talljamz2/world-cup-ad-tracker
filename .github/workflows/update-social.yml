@@ -1,0 +1,67 @@
+name: Update social metrics (Apify)
+
+# Pulls Instagram + TikTok metadata via Apify Actors.
+# Runs once daily (UTC 06:00 ≈ 02:00 ET / 23:00 PT).
+# Cheap mode (metadata-only) keeps spend low and stays well within the
+# Apify $5/mo free credit. Full sampling is reserved for manual runs.
+#
+# The YouTube refresh lives in update.yml and runs hourly.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: "Which ads to refresh (top = top-10 by views, all = full list)"
+        required: false
+        default: "all"
+        type: choice
+        options: [all, top]
+      metadata_only:
+        description: "Cheap mode (no comment sampling) — recommended for cron"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Pull live IG + TT metrics via Apify
+        env:
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+        run: |
+          python pipeline/update_social.py \
+            --tier "${{ inputs.tier || 'all' }}" \
+            ${{ (inputs.metadata_only == 'false') && ' ' || '--metadata-only' }}
+
+      - name: Commit refreshed social_data.json + histories
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage every file the cron is allowed to touch.
+          # Missing files are tolerated (e.g. social_history.json on first run).
+          git add -A pipeline/social_data.json pipeline/social_history.json pipeline/history.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No social-data changes — skipping commit."
+          else
+            git commit -m "social: refresh IG/TT metrics [skip ci]"
+            git push
+          fi
