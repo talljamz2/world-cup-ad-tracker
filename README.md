@@ -1,4 +1,4 @@
-# The Pitch — World Cup '26 Ad Tracker
+# The Ad Podium — World Cup '26 Ad Tracker
 
 A live leaderboard of FIFA World Cup 2026 brand advertising, ranked on a
 transparent four-factor composite score. Built for marketing, creative, and

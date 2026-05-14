@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-The Pitch — World Cup '26 Ad Tracker
+The Ad Podium — World Cup '26 Ad Tracker
 Pipeline: pull live YouTube metrics + compute like-weighted comment sentiment.
 
 Reads:  pipeline/ads.json  (static metadata, hand-curated)
@@ -32,9 +32,24 @@ API_BASE = "https://www.googleapis.com/youtube/v3"
 ROOT = Path(__file__).resolve().parent.parent
 ADS_FILE = ROOT / "pipeline" / "ads.json"
 OUT_FILE = ROOT / "data.json"
+HISTORY_FILE = ROOT / "pipeline" / "history.json"
 
-# How many top comments to pull per video (max 100 per API call).
-COMMENT_SAMPLE_SIZE = 100
+# Retain 30 days of snapshots; older entries pruned on each run.
+HISTORY_RETENTION_DAYS = 30
+
+# Trailing-window for "views in last N days" velocity computation.
+VELOCITY_WINDOW_DAYS = 7
+
+# How many comments to pull per video. Default 500 means we paginate up to 5
+# pages from the relevance-ranked list and another 2 pages from the time-ranked
+# list, dedupe by comment ID, and feed VADER the union. Cost: ~7 quota units
+# per video (free tier is 10,000/day, current hourly run uses well under 200).
+COMMENT_SAMPLE_SIZE = 500
+
+# Mix ratio: ~60% from relevance (the loud / popular signal), ~40% from time
+# (newest, captures recent reactions + coordinated campaigns the relevance
+# ranker filters out).
+RELEVANCE_SHARE = 0.60
 
 # Below this many valid comments, sentiment is suppressed (low confidence).
 MIN_SENTIMENT_SAMPLE = 20
@@ -65,17 +80,29 @@ def api_get(path: str, params: dict, api_key: str) -> dict:
     return r.json()
 
 
+def parse_iso_duration(iso: str | None) -> int | None:
+    """ISO 8601 duration to seconds. PT1M30S → 90, PT2H5M → 7500, PT45S → 45."""
+    if not iso:
+        return None
+    m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", iso)
+    if not m:
+        return None
+    h, mn, s = (int(g or 0) for g in m.groups())
+    return h * 3600 + mn * 60 + s
+
+
 def fetch_video_stats(video_ids: list[str], api_key: str) -> dict[str, dict]:
     """
     Batch-fetch stats for up to 50 videos in a single API call (1 quota unit).
-    Returns { videoId: {views, likes, comments, published, channelId, ...} }.
+    Returns { videoId: {views, likes, comments, published, channelId,
+                        durationSeconds, ...} }.
     """
     out: dict[str, dict] = {}
     for i in range(0, len(video_ids), 50):
         batch = video_ids[i:i + 50]
         resp = api_get(
             "videos",
-            {"part": "statistics,snippet", "id": ",".join(batch)},
+            {"part": "statistics,snippet,contentDetails", "id": ",".join(batch)},
             api_key,
         )
         if "error" in resp:
@@ -83,6 +110,7 @@ def fetch_video_stats(video_ids: list[str], api_key: str) -> dict[str, dict]:
         for item in resp.get("items", []):
             stats = item.get("statistics", {})
             snippet = item.get("snippet", {})
+            content = item.get("contentDetails", {})
             out[item["id"]] = {
                 "views": int(stats.get("viewCount", 0)),
                 "likes": int(stats.get("likeCount", 0)),
@@ -90,40 +118,97 @@ def fetch_video_stats(video_ids: list[str], api_key: str) -> dict[str, dict]:
                 "published": snippet.get("publishedAt"),
                 "channelId": snippet.get("channelId"),
                 "channelTitle": snippet.get("channelTitle"),
+                "durationSeconds": parse_iso_duration(content.get("duration")),
             }
     return out
+
+
+def _fetch_comments_page(video_id: str, api_key: str, *,
+                          order: str, page_token: str | None) -> tuple[list[dict], str | None]:
+    """Single page of commentThreads. Returns (items, nextPageToken)."""
+    params = {
+        "part": "snippet",
+        "videoId": video_id,
+        "order": order,           # "relevance" or "time"
+        "maxResults": 100,
+        "textFormat": "plainText",
+    }
+    if page_token:
+        params["pageToken"] = page_token
+    resp = api_get("commentThreads", params, api_key)
+    if "error" in resp:
+        # 403 here usually means comments disabled. Treat as empty.
+        return [], None
+    items = []
+    for item in resp.get("items", []):
+        comment_id = item.get("id")
+        s = item["snippet"]["topLevelComment"]["snippet"]
+        author_channel = (s.get("authorChannelId") or {}).get("value")
+        items.append({
+            "id": comment_id,
+            "text": s.get("textOriginal") or s.get("textDisplay", ""),
+            "likes": int(s.get("likeCount", 0)),
+            "authorChannelId": author_channel,
+        })
+    return items, resp.get("nextPageToken")
+
+
+def _paginate_comments(video_id: str, api_key: str, *,
+                        order: str, target: int) -> list[dict]:
+    """Page through commentThreads until we have `target` items or run out."""
+    out: list[dict] = []
+    token: str | None = None
+    while len(out) < target:
+        page, token = _fetch_comments_page(video_id, api_key, order=order, page_token=token)
+        if not page:
+            break
+        out.extend(page)
+        if not token:
+            break
+    return out[:target]
 
 
 def fetch_top_comments(video_id: str, api_key: str,
                        max_results: int = COMMENT_SAMPLE_SIZE) -> list[dict]:
     """
-    Pull top-level comments ordered by 'relevance' (YouTube's top-comments order,
-    which weights heavily by likes). Returns up to max_results comments.
+    Stratified comment sample for sentiment analysis.
+
+    We blend YouTube's two orderings to fight selection bias:
+      - 'relevance' returns YouTube's top picks (high-engagement comments,
+         loud-signal heavy). Default 60% of the sample.
+      - 'time' returns newest-first (catches recent reactions and any
+         coordinated comment campaigns the relevance ranker filters out).
+         Default 40% of the sample.
+
+    The two sets are merged and deduplicated by comment ID. The result is a
+    sample that's both larger (default 500 vs the old 100) and broader in
+    distribution than the previous relevance-only pull.
+
+    Cost: ~ceil(max_results/100) quota units per ordering, so 5+2=7 units per
+    video at the 500/300+200 split. Free quota is 10,000/day.
     """
-    resp = api_get(
-        "commentThreads",
-        {
-            "part": "snippet",
-            "videoId": video_id,
-            "order": "relevance",
-            "maxResults": min(max_results, 100),
-            "textFormat": "plainText",
-        },
-        api_key,
-    )
-    if "error" in resp:
-        # 403 here usually means comments disabled. Treat as empty.
-        return []
-    out = []
-    for item in resp.get("items", []):
-        s = item["snippet"]["topLevelComment"]["snippet"]
-        author_channel = (s.get("authorChannelId") or {}).get("value")
-        out.append({
-            "text": s.get("textOriginal") or s.get("textDisplay", ""),
-            "likes": int(s.get("likeCount", 0)),
-            "authorChannelId": author_channel,
-        })
-    return out
+    if max_results <= 100:
+        # Tiny request — single page from relevance is fine
+        items, _ = _fetch_comments_page(video_id, api_key, order="relevance", page_token=None)
+        return items[:max_results]
+
+    relevance_target = int(max_results * RELEVANCE_SHARE)
+    time_target      = max_results - relevance_target
+
+    relevance_pool = _paginate_comments(video_id, api_key, order="relevance", target=relevance_target)
+    time_pool      = _paginate_comments(video_id, api_key, order="time",      target=time_target)
+
+    # Dedupe by comment id — relevance and time can overlap on small videos.
+    seen: set[str] = set()
+    merged: list[dict] = []
+    for c in relevance_pool + time_pool:
+        cid = c.get("id")
+        if cid and cid in seen:
+            continue
+        if cid:
+            seen.add(cid)
+        merged.append(c)
+    return merged
 
 
 # ---------------------------------------------------------------------------
@@ -187,6 +272,88 @@ def days_since(iso_ts: str | None) -> float:
     return max(delta.total_seconds() / 86400.0, 1.0)
 
 
+# ---------------------------------------------------------------------------
+# History — snapshot views/likes/comments per ad on every run, build a
+# rolling time series so we can compute proper trailing-window velocity
+# rather than the lifetime-average proxy.
+# ---------------------------------------------------------------------------
+
+def load_history() -> list[dict]:
+    """Returns list of {timestamp, ads: [{youtubeId, views, likes, comments}]}."""
+    if not HISTORY_FILE.exists():
+        return []
+    try:
+        return json.loads(HISTORY_FILE.read_text())
+    except json.JSONDecodeError:
+        return []
+
+
+def prune_history(history: list[dict], retention_days: int = HISTORY_RETENTION_DAYS) -> list[dict]:
+    """Drop snapshots older than retention_days."""
+    cutoff = datetime.now(timezone.utc).timestamp() - retention_days * 86400
+    out = []
+    for snap in history:
+        try:
+            ts = datetime.fromisoformat(snap["timestamp"].replace("Z", "+00:00")).timestamp()
+            if ts >= cutoff:
+                out.append(snap)
+        except (KeyError, ValueError):
+            pass
+    return out
+
+
+def find_snapshot_n_days_ago(history: list[dict], target_days: float) -> dict | None:
+    """Return the snapshot closest to (now - target_days), or None if no
+    snapshot exists within ±2 days of target."""
+    if not history:
+        return None
+    target_ts = datetime.now(timezone.utc).timestamp() - target_days * 86400
+    best = None
+    best_delta = float("inf")
+    for snap in history:
+        try:
+            ts = datetime.fromisoformat(snap["timestamp"].replace("Z", "+00:00")).timestamp()
+            delta = abs(ts - target_ts)
+            if delta < best_delta:
+                best_delta = delta
+                best = snap
+        except (KeyError, ValueError):
+            continue
+    # Only count it if within 2 days of target (avoid using a 1-day-old snapshot
+    # as a "7 days ago" reference)
+    if best and best_delta <= 2 * 86400:
+        return best
+    return None
+
+
+def views_in_window(youtube_id: str, current_views: int,
+                    history: list[dict], window_days: float = VELOCITY_WINDOW_DAYS) -> int | None:
+    """Returns delta in views over the last `window_days` if we have a
+    historical snapshot from that far back. Returns None when there's no
+    matching snapshot — caller falls back to lifetime average."""
+    snap = find_snapshot_n_days_ago(history, window_days)
+    if not snap:
+        return None
+    for entry in snap.get("ads", []):
+        if entry.get("youtubeId") == youtube_id:
+            past_views = entry.get("views")
+            if past_views is not None:
+                return max(current_views - past_views, 0)
+    return None
+
+
+def append_snapshot(history: list[dict], stats: dict[str, dict]) -> list[dict]:
+    """Add the current run's data as a new snapshot."""
+    snapshot = {
+        "timestamp": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "ads": [
+            {"youtubeId": vid, "views": s["views"], "likes": s["likes"], "comments": s["comments"]}
+            for vid, s in stats.items()
+        ],
+    }
+    return history + [snapshot]
+
+
 def pretty_int(n: int) -> str:
     return f"{n:,}"
 
@@ -206,6 +373,10 @@ def main() -> int:
     print(f"Fetching stats for {len(video_ids)} videos...")
     stats = fetch_video_stats(video_ids, api_key)
 
+    history = load_history()
+    if history:
+        print(f"Loaded {len(history)} historical snapshot(s) for trailing-window velocity")
+
     enriched = []
     for ad in ads:
         vid = ad.get("youtubeId")
@@ -221,6 +392,10 @@ def main() -> int:
         )
 
         velocity = int(s["views"] / days_since(s["published"]))
+        # Trailing-window velocity from history snapshots — cleaner signal
+        # than lifetime average. None when there's no snapshot yet.
+        views_last_window = views_in_window(vid, s["views"], history,
+                                            window_days=VELOCITY_WINDOW_DAYS)
 
         enriched.append({
             **ad,
@@ -229,9 +404,12 @@ def main() -> int:
             "comments": s["comments"],
             "published": s["published"],
             "channelTitle": s["channelTitle"],
+            "durationSeconds": s.get("durationSeconds"),
             "weightedSentiment": sentiment_score,
             "sentimentSampleSize": sample_size,
             "velocityViewsPerDay": velocity,
+            "viewsLast7Days": views_last_window,
+            "velocityWindowDays": VELOCITY_WINDOW_DAYS if views_last_window is not None else None,
         })
 
         sent_str = f"{sentiment_score} (n={sample_size})" if sentiment_score else f"— (n={sample_size})"
@@ -258,6 +436,13 @@ def main() -> int:
     }
     OUT_FILE.write_text(json.dumps(out, indent=2, ensure_ascii=False))
     print(f"\n✓ Wrote {OUT_FILE.relative_to(ROOT)}")
+
+    # Append this run to the history file and prune old snapshots.
+    history = append_snapshot(history, stats)
+    history = prune_history(history)
+    HISTORY_FILE.write_text(json.dumps(history, indent=2, ensure_ascii=False))
+    print(f"✓ History: {len(history)} snapshot(s) retained "
+          f"({HISTORY_RETENTION_DAYS}-day rolling window)")
     return 0
 
 
