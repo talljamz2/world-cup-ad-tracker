@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T04:57:09Z",
+  "generated": "2026-05-14T06:07:39Z",
   "adCount": 20,
   "ads": [
     {
@@ -13,7 +13,7 @@
             "commentCount": 7000,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "fetchedAt": "2026-05-14T05:53:40Z"
           },
           "perUrl": [
             {
@@ -25,7 +25,7 @@
                 "likes": 903000,
                 "commentCount": 7000,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T05:53:40Z"
               },
               "commentSample": 0
             }
@@ -41,7 +41,7 @@
             "commentCount": 19,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "fetchedAt": "2026-05-14T05:53:40Z"
           },
           "perUrl": [
             {
@@ -53,7 +53,7 @@
                 "likes": 496,
                 "commentCount": 19,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T05:53:40Z"
               },
               "commentSample": 0
             }
@@ -69,58 +69,135 @@
       "brand": "Adidas",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 153855088,
+            "likes": 8230866,
+            "commentCount": 48359,
+            "shares": 0,
+            "urlCount": 5,
+            "fetchedAt": "2026-05-14T05:50:17Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DYB6Fs3AJUw/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYB6Fs3AJUw/",
+                "views": 58549974,
+                "_videoPlayCount": 58549974,
+                "_videoViewCount": 11783064,
+                "likes": 2325346,
+                "commentCount": 28761,
+                "publishedAt": "2026-05-07T07:59:03.000Z",
+                "caption": "In this Backyard, it’s “win or go home,” and this crew hasn’t left since the 90’s. \n\nWhere there’s a pitch, there’s a legend. \n\n#YouGotThis",
+                "ownerUsername": "adidas",
+                "fetchedAt": "2026-05-14T05:49:50Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYEziwqgp84/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYEziwqgp84/",
+                "views": 21596032,
+                "_videoPlayCount": 21596032,
+                "_videoViewCount": 6874894,
+                "likes": 1563409,
+                "commentCount": 3417,
+                "publishedAt": "2026-05-08T11:00:59.000Z",
+                "caption": "“How many people know about this?” #YouGotThis",
+                "ownerUsername": "adidas",
+                "fetchedAt": "2026-05-14T05:49:56Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYFIVfYM4ib/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYFIVfYM4ib/",
+                "views": 62802498,
+                "_videoPlayCount": 62802498,
+                "_videoViewCount": 17193950,
+                "likes": 3635749,
+                "commentCount": 13966,
+                "publishedAt": "2026-05-08T13:58:43.000Z",
+                "caption": "So... who’s up next? \nY ahora… ¿quién sigue? #YouGotThis",
+                "ownerUsername": "adidas",
+                "fetchedAt": "2026-05-14T05:50:03Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYFV4ZbsFBS/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYFV4ZbsFBS/",
+                "views": 4005146,
+                "_videoPlayCount": 4005146,
+                "_videoViewCount": 1127897,
+                "likes": 195026,
+                "commentCount": 691,
+                "publishedAt": "2026-05-08T15:59:12.000Z",
+                "caption": "It was meant to be simple. 3v3.\nWin or go home… #YouGotThis",
+                "ownerUsername": "adidas",
+                "fetchedAt": "2026-05-14T05:50:10Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYFjrVQglDw/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYFjrVQglDw/",
+                "views": 6901438,
+                "_videoPlayCount": 6901438,
+                "_videoViewCount": 2331049,
+                "likes": 511336,
+                "commentCount": 1524,
+                "publishedAt": "2026-05-08T17:59:14.000Z",
+                "caption": "Sound on. #YouGotThis",
+                "ownerUsername": "adidas",
+                "fetchedAt": "2026-05-14T05:50:17Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DYB6Fs3AJUw/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYEziwqgp84/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYFIVfYM4ib/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYFV4ZbsFBS/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYFjrVQglDw/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 5100000,
+            "likes": 858700,
+            "commentCount": 7978,
+            "shares": 164700,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:50:32Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@adidas/video/7637057954289618198",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@adidas/video/7637057954289618198",
+                "views": 5100000,
+                "likes": 858700,
+                "commentCount": 7978,
+                "shares": 164700,
+                "publishedAt": "2026-05-07T08:05:26.000Z",
+                "caption": "probably. maybe. #YouGotThis #adidas ",
+                "ownerUsername": "adidas",
+                "fetchedAt": "2026-05-14T05:50:32Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@adidas/video/7637057954289618198: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -129,34 +206,67 @@
       "brand": "Marriott Bonvoy",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 128363,
+            "likes": 1062,
+            "commentCount": 62,
+            "shares": 0,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:50:44Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DWHEuz9DroV/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DWHEuz9DroV/",
+                "views": 128363,
+                "_videoPlayCount": 128363,
+                "_videoViewCount": 25479,
+                "likes": 1062,
+                "commentCount": 62,
+                "publishedAt": "2026-03-20T15:03:13.000Z",
+                "caption": "Are you ready? We are. As Official Hotel Supporter in North America for the FIFA World Cup 2026™, Marriott Bonvoy and @visa are ready to welcome fans. Members will have access to tickets across all 104 matches, plus curated Marriott Bonvoy Moments to get closer to the action. \n\nBe among the first to know when tickets drop. Text ‘GOAL’ to BONVOY (266869).\n\nAvailable in the United States. Standard message and data rates may apply. Message frequency may vary. You can opt out of receiving SMS messag",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T05:50:44Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DWHEuz9DroV/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 2254,
+            "likes": 108,
+            "commentCount": 2,
+            "shares": 7,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:51:04Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981",
+                "views": 2254,
+                "likes": 108,
+                "commentCount": 2,
+                "shares": 7,
+                "publishedAt": "2026-04-19T18:43:14.000Z",
+                "caption": "Courtesy of @Visa, with @marriottbonvoy some dreams come with a key. \n\nIntroducing: The Sleepover Suite. \nA custom-built suite inside the stadium, on the eve of the FIFA World Cup 2026™ Final. \n\nWake up to THE view on matchday.  For Fans, Everywhere. \n\nEnter for a chance to win via link in bio. \nThanks to @visa\n\n#FIFAWorldCup #ForFansEverywhere\n\nNO PURCHASE NECESSARY. Residents of select countries/regions, 18+/age of majority. Ends June 16, 2026 (see rules for weekly drawing dates). Skill testin",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T05:51:04Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -171,7 +281,7 @@
             "commentCount": 769,
             "shares": 0,
             "urlCount": 6,
-            "fetchedAt": "2026-05-14T04:57:08Z"
+            "fetchedAt": "2026-05-14T05:51:04Z"
           },
           "perUrl": [
             {
@@ -183,7 +293,7 @@
                 "likes": 43600,
                 "commentCount": 265,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:08Z"
+                "fetchedAt": "2026-05-14T05:51:04Z"
               },
               "commentSample": 0
             },
@@ -196,7 +306,7 @@
                 "likes": 56600,
                 "commentCount": 239,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:08Z"
+                "fetchedAt": "2026-05-14T05:51:04Z"
               },
               "commentSample": 0
             },
@@ -209,7 +319,7 @@
                 "likes": 121000,
                 "commentCount": 170,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:08Z"
+                "fetchedAt": "2026-05-14T05:51:04Z"
               },
               "commentSample": 0
             },
@@ -222,7 +332,7 @@
                 "likes": 23500,
                 "commentCount": 32,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:08Z"
+                "fetchedAt": "2026-05-14T05:51:04Z"
               },
               "commentSample": 0
             },
@@ -235,7 +345,7 @@
                 "likes": 36200,
                 "commentCount": 22,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:08Z"
+                "fetchedAt": "2026-05-14T05:51:04Z"
               },
               "commentSample": 0
             },
@@ -248,7 +358,7 @@
                 "likes": 87700,
                 "commentCount": 41,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:08Z"
+                "fetchedAt": "2026-05-14T05:51:04Z"
               },
               "commentSample": 0
             }
@@ -264,100 +374,249 @@
       "brand": "Lay's",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 21594964,
+            "likes": 518915,
+            "commentCount": 3432,
+            "shares": 0,
+            "urlCount": 7,
+            "fetchedAt": "2026-05-14T05:51:49Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DRzgK1vCEz2/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DRzgK1vCEz2/",
+                "views": 20623826,
+                "_videoPlayCount": 20623826,
+                "_videoViewCount": 3185898,
+                "likes": 500030,
+                "commentCount": 3114,
+                "publishedAt": "2025-12-03T14:31:52.000Z",
+                "caption": "Something epic is coming. 👀 \n#NoLaysNoGame #FIFAWorldCup",
+                "ownerUsername": "lays_football",
+                "fetchedAt": "2026-05-14T05:51:09Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DRw7E7JCOh_/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DRw7E7JCOh_/",
+                "views": 37842,
+                "_videoPlayCount": 37842,
+                "_videoViewCount": 11803,
+                "likes": 1420,
+                "commentCount": 21,
+                "publishedAt": "2025-12-02T14:31:14.000Z",
+                "caption": "@thierryhenry calling... 👀 #NoLaysNoGame #FIFAWorldCup",
+                "ownerUsername": "lays_football",
+                "fetchedAt": "2026-05-14T05:51:14Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DV0079ZCO3r/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DV0079ZCO3r/",
+                "views": 12976,
+                "_videoPlayCount": 12976,
+                "_videoViewCount": 4522,
+                "likes": 693,
+                "commentCount": 19,
+                "publishedAt": "2026-03-13T13:00:08.000Z",
+                "caption": "Food for thought from soccer Steve 🤔\n#NoLaysNoGame #FIFAWorldCup",
+                "ownerUsername": "lays_football",
+                "fetchedAt": "2026-05-14T05:51:27Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DVyYvBfCLyg/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DVyYvBfCLyg/",
+                "views": 130457,
+                "_videoPlayCount": 130457,
+                "_videoViewCount": 9037,
+                "likes": 1062,
+                "commentCount": 57,
+                "publishedAt": "2026-03-12T14:12:50.000Z",
+                "caption": "Every watch party starts with a group chat. But this one includes Alexia, Messi, Beckham, Thierry, and Steve. Join the group at the link in bio and see what happens inside. #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
+                "ownerUsername": "lays_football",
+                "fetchedAt": "2026-05-14T05:51:35Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DW3yOaUCDS0/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DW3yOaUCDS0/",
+                "views": 8026,
+                "_videoPlayCount": 8026,
+                "_videoViewCount": 2372,
+                "likes": 333,
+                "commentCount": 8,
+                "publishedAt": "2026-04-08T13:04:06.000Z",
+                "caption": "Confessions before kick off 🎤 #NoLaysNoGame #FIFAWorldCup",
+                "ownerUsername": "lays_football",
+                "fetchedAt": "2026-05-14T05:51:40Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DX9SVzKo5GS/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DX9SVzKo5GS/",
+                "views": 773248,
+                "_videoPlayCount": 773248,
+                "_videoViewCount": 167746,
+                "likes": 14923,
+                "commentCount": 201,
+                "publishedAt": "2026-05-05T13:00:11.000Z",
+                "caption": "It started with a group chat and ended with the most Epic Watch Party of all time #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
+                "ownerUsername": "lays_football",
+                "fetchedAt": "2026-05-14T05:51:44Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYMvoQpoAAC/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYMvoQpoAAC/",
+                "views": 8589,
+                "_videoPlayCount": 8589,
+                "_videoViewCount": 3425,
+                "likes": 454,
+                "commentCount": 12,
+                "publishedAt": "2026-05-11T12:59:47.000Z",
+                "caption": "What else? 😉\n\n#NoLaysNoGame #FIFAWORLDCUP",
+                "ownerUsername": "lays_football",
+                "fetchedAt": "2026-05-14T05:51:49Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DRzgK1vCEz2/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DRw7E7JCOh_/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DV0079ZCO3r/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DVyYvBfCLyg/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DW3yOaUCDS0/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DX9SVzKo5GS/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYMvoQpoAAC/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 23047,
+            "likes": 881,
+            "commentCount": 31,
+            "shares": 157,
+            "urlCount": 6,
+            "fetchedAt": "2026-05-14T05:53:14Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@laysfootball/video/7579640372071091478",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@laysfootball/video/7579640372071091478",
+                "views": 6578,
+                "likes": 297,
+                "commentCount": 7,
+                "shares": 22,
+                "publishedAt": "2025-12-03T14:35:51.000Z",
+                "caption": "Something epic is coming. 👀 #NoLaysNoGame #FIFAWorldCup #LeoMessi #DavidBeckham #AlexiaPutellas ",
+                "ownerUsername": "laysfootball",
+                "fetchedAt": "2026-05-14T05:52:03Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@laysfootball/video/7579269662018391299",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@laysfootball/video/7579269662018391299",
+                "views": 2058,
+                "likes": 69,
+                "commentCount": 3,
+                "shares": 3,
+                "publishedAt": "2025-12-02T14:37:18.000Z",
+                "caption": "When Titi calls eating Lay’s, you know he's plotting... #NoLaysNoGame #ThierryHenry #DavidBeckham #FIFAWorldCup ",
+                "ownerUsername": "laysfootball",
+                "fetchedAt": "2026-05-14T05:52:15Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@laysfootball/video/7616372654517341462",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@laysfootball/video/7616372654517341462",
+                "views": 3736,
+                "likes": 73,
+                "commentCount": 2,
+                "shares": 17,
+                "publishedAt": "2026-03-12T14:15:54.000Z",
+                "caption": "Every watch party starts with a group chat. But this one includes Alexia, Messi, Beckham, Thierry, and Steve. Join the group at the link in bio and see what happens inside. #NoLaysNoGame #EpicWatchParty #FIFAWorldCup ",
+                "ownerUsername": "laysfootball",
+                "fetchedAt": "2026-05-14T05:52:28Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@laysfootball/video/7616724495142800662",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@laysfootball/video/7616724495142800662",
+                "views": 5855,
+                "likes": 185,
+                "commentCount": 6,
+                "shares": 7,
+                "publishedAt": "2026-03-13T13:01:15.000Z",
+                "caption": "Food for thought from soccer Steve 🤔\n#NoLaysNoGame #FIFAWorldCup @FIFA World Cup ",
+                "ownerUsername": "laysfootball",
+                "fetchedAt": "2026-05-14T05:52:45Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@laysfootball/video/7636393259064986902",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@laysfootball/video/7636393259064986902",
+                "views": 3590,
+                "likes": 201,
+                "commentCount": 6,
+                "shares": 108,
+                "publishedAt": "2026-05-05T13:06:06.000Z",
+                "caption": "It started with a group chat and ended with the most Epic Watch Party of all time #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
+                "ownerUsername": "laysfootball",
+                "fetchedAt": "2026-05-14T05:52:59Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@laysfootball/video/7638618740237765911",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@laysfootball/video/7638618740237765911",
+                "views": 1230,
+                "likes": 56,
+                "commentCount": 7,
+                "shares": null,
+                "publishedAt": "2026-05-11T13:02:04.000Z",
+                "caption": "What else? 😉\n#NoLaysNoGame #FIFAWorldCup",
+                "ownerUsername": "laysfootball",
+                "fetchedAt": "2026-05-14T05:53:14Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@laysfootball/video/7579640372071091478: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@laysfootball/video/7579269662018391299: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@laysfootball/video/7616372654517341462: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@laysfootball/video/7616724495142800662: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@laysfootball/video/7636393259064986902: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@laysfootball/video/7638618740237765911: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -366,34 +625,67 @@
       "brand": "Powerade",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 16385070,
+            "likes": 411770,
+            "commentCount": 1851,
+            "shares": 0,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:53:24Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DXefc8xkkHT/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXefc8xkkHT/",
+                "views": 16385070,
+                "_videoPlayCount": 16385070,
+                "_videoViewCount": 3171614,
+                "likes": 411770,
+                "commentCount": 1851,
+                "publishedAt": "2026-04-23T13:49:55.000Z",
+                "caption": "Don’t wait to be chosen, choose to be ready. #PowerYourFate #FIFAWorldCup",
+                "ownerUsername": "powerade",
+                "fetchedAt": "2026-05-14T05:53:24Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DXefc8xkkHT/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 4978,
+            "likes": 204,
+            "commentCount": 25,
+            "shares": 24,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:53:40Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@powerade/video/7631952068252634382",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@powerade/video/7631952068252634382",
+                "views": 4978,
+                "likes": 204,
+                "commentCount": 25,
+                "shares": 24,
+                "publishedAt": "2026-04-23T13:52:08.000Z",
+                "caption": "Don’t wait to be chosen, choose to be ready. #PowerYourFate #FIFAWorldCup @rodrygogoes @Lamine Yamal ",
+                "ownerUsername": "powerade",
+                "fetchedAt": "2026-05-14T05:53:40Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@powerade/video/7631952068252634382: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -408,7 +700,7 @@
             "commentCount": 25,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "fetchedAt": "2026-05-14T05:53:40Z"
           },
           "perUrl": [
             {
@@ -420,7 +712,7 @@
                 "likes": 1421,
                 "commentCount": 25,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T05:53:40Z"
               },
               "commentSample": 0
             }
@@ -442,7 +734,7 @@
             "commentCount": 42,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "fetchedAt": "2026-05-14T05:53:40Z"
           },
           "perUrl": [
             {
@@ -454,7 +746,7 @@
                 "likes": 652,
                 "commentCount": 42,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T05:53:40Z"
               },
               "commentSample": 0
             }
@@ -470,19 +762,36 @@
       "brand": "FOX Sports",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 5186250,
+            "likes": 121913,
+            "commentCount": 6368,
+            "shares": 0,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:53:46Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DX6nbgMNMvh/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DX6nbgMNMvh/",
+                "views": 5186250,
+                "_videoPlayCount": 5186250,
+                "_videoViewCount": 1475280,
+                "likes": 121913,
+                "commentCount": 6368,
+                "publishedAt": "2026-05-04T12:00:06.000Z",
+                "caption": "Do you believe?\n\nEverything can happen when the FIFA World Cup 2026™ kicks off June 11 on FOX.",
+                "ownerUsername": "foxsports",
+                "fetchedAt": "2026-05-14T05:53:46Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DX6nbgMNMvh/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -491,25 +800,53 @@
       "brand": "Brahma",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 47744803,
+            "likes": 89339,
+            "commentCount": 8961,
+            "shares": 0,
+            "urlCount": 2,
+            "fetchedAt": "2026-05-14T05:54:03Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DYAOQDEtkmj/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYAOQDEtkmj/",
+                "views": 46127367,
+                "_videoPlayCount": 46127367,
+                "_videoViewCount": 1743510,
+                "likes": 36363,
+                "commentCount": 1707,
+                "publishedAt": "2026-05-06T16:17:41.000Z",
+                "caption": "Essa camisa já entrou em campo carregando dúvida e saiu carregando mais uma estrela. Não só uma, mas cinco vezes.\n\nTá liberado acreditar que a nossa mística pode vencer de novo. \n\nTá liberado acreditar no Hexa. 🤞🇧🇷🍻\n\n#TáLiberadoAcreditar #BebaComModeração",
+                "ownerUsername": "brasil",
+                "fetchedAt": "2026-05-14T05:53:56Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYDX2Czqf35/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYDX2Czqf35/",
+                "views": 1617436,
+                "_videoPlayCount": 1617436,
+                "_videoViewCount": 396750,
+                "likes": 52976,
+                "commentCount": 7254,
+                "publishedAt": "2026-05-07T21:42:45.000Z",
+                "caption": "A mística do futebol brasileiro segue viva.\n\nAqui é Brasil. Tá liberado acreditar. 🤞\n\n#BebaComModeração\n\nThe mystique of Brazilian football lives on.\n\nThis is Brazil. Let yourself believe. 🤞\n\n#DrinkResponsibly",
+                "ownerUsername": "mrancelotti",
+                "fetchedAt": "2026-05-14T05:54:03Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DYAOQDEtkmj/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYDX2Czqf35/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -524,7 +861,7 @@
             "commentCount": 531,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "fetchedAt": "2026-05-14T05:54:03Z"
           },
           "perUrl": [
             {
@@ -536,7 +873,7 @@
                 "likes": 261000,
                 "commentCount": 531,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T05:54:03Z"
               },
               "commentSample": 0
             }
@@ -552,19 +889,36 @@
       "brand": "Coca-Cola",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 25938477,
+            "likes": 603947,
+            "commentCount": 4060,
+            "shares": 0,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:54:10Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DU-3EXyCKjE/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DU-3EXyCKjE/",
+                "views": 25938477,
+                "_videoPlayCount": 25938477,
+                "_videoViewCount": 5136982,
+                "likes": 603947,
+                "commentCount": 4060,
+                "publishedAt": "2026-02-20T13:59:45.000Z",
+                "caption": "That @fifaworldcup feeling is coming 🎧\n#CocaCola #AllTheFeels\n#Jump #CokePartner",
+                "ownerUsername": "lamineyamal",
+                "fetchedAt": "2026-05-14T05:54:10Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DU-3EXyCKjE/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -574,17 +928,29 @@
       "platforms": {
         "instagram": {
           "metadata": {
-            "views": 9200000,
-            "likes": 16400,
-            "commentCount": 560,
+            "views": 35547916,
+            "likes": 92089,
+            "commentCount": 3700,
             "shares": 0,
-            "urlCount": 1,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "urlCount": 4,
+            "fetchedAt": "2026-05-14T05:54:33Z"
           },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DPL9WvfgH1K/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DPL9WvfgH1K/",
+                "views": 12025789,
+                "_videoPlayCount": 12025789,
+                "_videoViewCount": 2076785,
+                "likes": 57018,
+                "commentCount": 1052,
+                "publishedAt": "2025-09-29T12:54:57.000Z",
+                "caption": "Get as close as @DavidBeckham to the @FIFAWorldCup, only with Verizon Access. Thousands of free tickets, pitchside access during games, meet and greets with soccer legends. Link in bio to learn more.",
+                "ownerUsername": "verizon",
+                "fetchedAt": "2026-05-14T05:54:16Z"
+              },
               "commentSample": 0
             },
             {
@@ -596,61 +962,127 @@
                 "likes": 16400,
                 "commentCount": 560,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T05:54:16Z"
               },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DQt0kzPAKmA/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DQt0kzPAKmA/",
+                "views": 3705897,
+                "_videoPlayCount": 3705897,
+                "_videoViewCount": 850519,
+                "likes": 5530,
+                "commentCount": 214,
+                "publishedAt": "2025-11-06T13:02:47.000Z",
+                "caption": "It’s here. Verizon customers, enter for a chance to win Golden Tickets in the MyVerizon app. Yes, that means pitch side access during @FIFAWorldCup matches. \n\nNO PURCHASE NECESSARY. Select Verizon customers as of 11/5/25, legal residents of 50 US/DC, 18+. For rules, visit the link in bio. Ends 11/20/25.",
+                "ownerUsername": "verizon",
+                "fetchedAt": "2026-05-14T05:54:20Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DTIaU_0ACWQ/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DTIaU_0ACWQ/",
+                "views": 10616230,
+                "_videoPlayCount": 10616230,
+                "_videoViewCount": 2074780,
+                "likes": 13141,
+                "commentCount": 1874,
+                "publishedAt": "2026-01-05T13:56:14.000Z",
+                "caption": "This FIFA World Cup™ no one gets you closer than Verizon. Thousands of free tickets available on the My Verizon App starting 1/7 for Verizon customers.",
+                "ownerUsername": "verizon",
+                "fetchedAt": "2026-05-14T05:54:33Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DPL9WvfgH1K/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DQt0kzPAKmA/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DTIaU_0ACWQ/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 27200000,
+            "likes": 36156,
+            "commentCount": 721,
+            "shares": 2849,
+            "urlCount": 4,
+            "fetchedAt": "2026-05-14T05:55:48Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@verizon/video/7555494786564721950",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@verizon/video/7555494786564721950",
+                "views": 12800000,
+                "likes": 16300,
+                "commentCount": 200,
+                "shares": 1938,
+                "publishedAt": "2025-09-29T12:58:47.000Z",
+                "caption": "Get as close as @David Beckham to the @FIFA World Cup, only with Verizon Access. Thousands of free tickets, pitchside access during games, meet and greets with soccer legends. Link in bio to learn more. ",
+                "ownerUsername": "verizon",
+                "fetchedAt": "2026-05-14T05:55:09Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@verizon/video/7556609465773034765",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@verizon/video/7556609465773034765",
+                "views": 3800000,
+                "likes": 6197,
+                "commentCount": 132,
+                "shares": 351,
+                "publishedAt": "2025-10-02T13:05:03.000Z",
+                "caption": "The first drop is here. Get your free @FIFA World Cup tickets through the My Verizon app now and keep an eye out for more access & ticket drops. Link in bio to learn more.",
+                "ownerUsername": "verizon",
+                "fetchedAt": "2026-05-14T05:55:29Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@verizon/video/7569597657593793806",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@verizon/video/7569597657593793806",
+                "views": 3300000,
+                "likes": 3559,
+                "commentCount": 44,
+                "shares": 97,
+                "publishedAt": "2025-11-06T13:05:12.000Z",
+                "caption": "It’s here. Verizon customers, enter for a chance to win Golden Tickets in the MyVerizon app. Yes, that means pitch side access during @FIFA World Cup matches. \n\nNO PURCHASE NECESSARY. Select Verizon customers as of 11/5/25, legal residents of 50 US/DC, 18+. For rules, visit the link in bio. Ends 11/20/25. ",
+                "ownerUsername": "verizon",
+                "fetchedAt": "2026-05-14T05:55:42Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@verizon/video/7591875850321104183",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@verizon/video/7591875850321104183",
+                "views": 7300000,
+                "likes": 10100,
+                "commentCount": 345,
+                "shares": 463,
+                "publishedAt": "2026-01-05T13:56:48.000Z",
+                "caption": "This FIFA World Cup™ no one gets you closer than Verizon. Thousands of free tickets available on the My Verizon App starting 1/7 for Verizon customers. ",
+                "ownerUsername": "verizon",
+                "fetchedAt": "2026-05-14T05:55:48Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@verizon/video/7555494786564721950: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@verizon/video/7556609465773034765: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@verizon/video/7569597657593793806: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@verizon/video/7591875850321104183: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -659,46 +1091,100 @@
       "brand": "Mastercard",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 4405802,
+            "likes": 4219,
+            "commentCount": 186,
+            "shares": 0,
+            "urlCount": 2,
+            "fetchedAt": "2026-05-14T05:56:16Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DRsPKqbknoV/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DRsPKqbknoV/",
+                "views": 4393728,
+                "_videoPlayCount": 4393728,
+                "_videoViewCount": 226622,
+                "likes": 3665,
+                "commentCount": 169,
+                "publishedAt": "2025-11-30T18:48:25.000Z",
+                "caption": "For you, the fans.\nFrom @leomessi and Mastercard.\nComing soon. 🔗Link in bio.\n \nWhen admiration goes both ways: #priceless",
+                "ownerUsername": "mastercard",
+                "fetchedAt": "2026-05-14T05:55:53Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DRxzAVlkpDM/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DRxzAVlkpDM/",
+                "views": 12074,
+                "_videoPlayCount": 12074,
+                "_videoViewCount": 2381,
+                "likes": 554,
+                "commentCount": 17,
+                "publishedAt": "2025-12-02T22:37:24.000Z",
+                "caption": "La Colección Diez de Diez just dropped. The Rosario jersey celebrates where it all began. It’s a tribute to the place, the people, and the player who made history @leomessi. \n \nHit the 🔗 link in bio to enter for a chance to win the jersey before it’s revealed. \n\nNo Purch Nec. Open to Mastercard cardholders before 12/1, US res legal age of majority. Ends 12/7. Rules: priceless.com/messi",
+                "ownerUsername": "mastercard",
+                "fetchedAt": "2026-05-14T05:56:16Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DRsPKqbknoV/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DRxzAVlkpDM/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 33100000,
+            "likes": 18270,
+            "commentCount": 144,
+            "shares": 1055,
+            "urlCount": 2,
+            "fetchedAt": "2026-05-14T05:56:56Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@mastercard/video/7578592760379329805",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@mastercard/video/7578592760379329805",
+                "views": 22600000,
+                "likes": 10800,
+                "commentCount": 105,
+                "shares": 721,
+                "publishedAt": "2025-11-30T18:51:04.000Z",
+                "caption": "For you, the fans.\nFrom #leomessi and Mastercard.\nComing soon. 🔗Link in bio.\n \nWhen admiration goes both ways: #priceless ",
+                "ownerUsername": "mastercard",
+                "fetchedAt": "2026-05-14T05:56:41Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@mastercard/video/7579393007334526222",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@mastercard/video/7579393007334526222",
+                "views": 10500000,
+                "likes": 7470,
+                "commentCount": 39,
+                "shares": 334,
+                "publishedAt": "2025-12-02T22:36:21.000Z",
+                "caption": "La Colección Diez de Diez just dropped. The Rosario jersey celebrates where it all began. It’s a tribute to the place, the people, and the player who made history #leomessi. \n \nHit the 🔗 link in bio to enter for a chance to win the jersey before it’s revealed. \n \nNo Purch Nec. Open to Mastercard cardholders before 12/1, US res legal age of majority. Ends 12/7. Rules: priceless.com/messi",
+                "ownerUsername": "mastercard",
+                "fetchedAt": "2026-05-14T05:56:56Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@mastercard/video/7578592760379329805: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@mastercard/video/7579393007334526222: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -707,19 +1193,36 @@
       "brand": "Kia",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 381997,
+            "likes": 4611,
+            "commentCount": 46,
+            "shares": 0,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T05:57:01Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DSBB6cxCj_S/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DSBB6cxCj_S/",
+                "views": 381997,
+                "_videoPlayCount": 381997,
+                "_videoViewCount": 54484,
+                "likes": 4611,
+                "commentCount": 46,
+                "publishedAt": "2025-12-08T20:36:13.000Z",
+                "caption": "Inspiring every step of the next legend.\nKia is a proud sponsor of The Official Match Ball Carrier.\n\nInspiration connects us all.\n\n#MovementThatInspires #InspirationConnectsUsAll #FIFAWorldCup2026",
+                "ownerUsername": "kia.worldwide",
+                "fetchedAt": "2026-05-14T05:57:01Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DSBB6cxCj_S/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -734,7 +1237,7 @@
             "commentCount": 22,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "fetchedAt": "2026-05-14T05:57:01Z"
           },
           "perUrl": [
             {
@@ -746,7 +1249,7 @@
                 "likes": 612,
                 "commentCount": 22,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T05:57:01Z"
               },
               "commentSample": 0
             }
@@ -762,94 +1265,232 @@
       "brand": "Lego",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 254767261,
+            "likes": 17685061,
+            "commentCount": 227172,
+            "shares": 0,
+            "urlCount": 6,
+            "fetchedAt": "2026-05-14T05:57:51Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DWnBCQLj7iW/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DWnBCQLj7iW/",
+                "views": 235094616,
+                "_videoPlayCount": 235094616,
+                "_videoViewCount": 66540714,
+                "likes": 16673535,
+                "commentCount": 220872,
+                "publishedAt": "2026-04-02T10:00:04.000Z",
+                "caption": "Everyone wants a piece #HonestlyItsNotAI\n\n#LEGO #LEGOFootball #FIFAWorldCup #EveryoneWantsAPiece",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:57:06Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXg2VSnDuQm/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXg2VSnDuQm/",
+                "views": 1972184,
+                "_videoPlayCount": 1972184,
+                "_videoViewCount": 580757,
+                "likes": 97812,
+                "commentCount": 895,
+                "publishedAt": "2026-04-24T14:00:07.000Z",
+                "caption": "That feeling when Messi says it was amazing for HIM to work with YOU... 😏\n\n#LEGO #Football #Messi #LEGOFootball #EveryoneWantsAPiece",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:57:14Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXiESFXFRvK/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXiESFXFRvK/",
+                "views": 5477884,
+                "_videoPlayCount": 5477884,
+                "_videoViewCount": 1359773,
+                "likes": 136454,
+                "commentCount": 702,
+                "publishedAt": "2026-04-25T13:00:05.000Z",
+                "caption": "Looks like it was l’amour at first sight when Mbappé met his LEGO set (don’t @ us, linguists...)\n\n#LEGO #Football #Mbappé #LEGOFootball #EveryoneWantsAPiece",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:57:30Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXkXs69jgDe/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXkXs69jgDe/",
+                "views": 9154020,
+                "_videoPlayCount": 9154020,
+                "_videoViewCount": 3895938,
+                "likes": 596586,
+                "commentCount": 3677,
+                "publishedAt": "2026-04-26T13:00:23.000Z",
+                "caption": "Cristiano Ronaldo meets... LEGO Cristiano Ronaldo! 🇵🇹🚲\n\n#CR7 #LEGO #Football #LEGOFootball #EveryoneWantsAPiece",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:57:37Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXkSNzxlOBe/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXkSNzxlOBe/",
+                "views": 2028753,
+                "_videoPlayCount": 2028753,
+                "_videoViewCount": 610489,
+                "likes": 107938,
+                "commentCount": 564,
+                "publishedAt": "2026-04-26T16:00:07.000Z",
+                "caption": "Scoring decisive goals in finals? ✅ Beating world-class defenders? ✅ Not breaking his new LEGO set?... 😬\n\n#ViniJr #LEGO #Football #LEGOFootball #EveryoneWantsAPiece",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:57:45Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXwJ1cFgcbN/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXwJ1cFgcbN/",
+                "views": 1039804,
+                "_videoPlayCount": 1039804,
+                "_videoViewCount": 246880,
+                "likes": 72736,
+                "commentCount": 462,
+                "publishedAt": "2026-04-30T14:00:03.000Z",
+                "caption": "Everyone wants a piece of #FIFAWorldCup 2026. What (or who) will you build? ⚽️\n\n#LEGO #LEGOFootball #FIFAWorldCup #EveryoneWantsAPiece",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:57:51Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DWnBCQLj7iW/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXg2VSnDuQm/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXiESFXFRvK/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXkXs69jgDe/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXkSNzxlOBe/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXwJ1cFgcbN/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 57532700,
+            "likes": 7842700,
+            "commentCount": 65434,
+            "shares": 1036833,
+            "urlCount": 6,
+            "fetchedAt": "2026-05-14T05:59:22Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@lego/video/7624099723665820950",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@lego/video/7624099723665820950",
+                "views": 32400000,
+                "likes": 3800000,
+                "commentCount": 38400,
+                "shares": 737900,
+                "publishedAt": "2026-04-02T10:00:52.000Z",
+                "caption": "Everyone wants a piece #HonestlyItsNotAI\n \n#LEGO #LEGOFootball #FIFAWorldCup #EveryoneWantsAPiece ",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:58:16Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@lego/photo/7624145920715705622",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@lego/video/7624145920715705622",
+                "views": 19600000,
+                "likes": 3500000,
+                "commentCount": 23000,
+                "shares": 267600,
+                "publishedAt": "2026-04-02T13:00:07.000Z",
+                "caption": "Incredible. Iconic. Heroic. But enough about our LEGO set.\n\n#LEGO #LEGOFootball #FIFAWorldCup #EveryoneWantsAPiece",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:58:31Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@lego/video/7632325335681502466",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@lego/video/7632325335681502466",
+                "views": 640900,
+                "likes": 72200,
+                "commentCount": 882,
+                "shares": 4956,
+                "publishedAt": "2026-04-24T14:00:26.000Z",
+                "caption": "That feeling when Messi says it was amazing for HIM to work with YOU... 😏\n\n\n\n#LEGO #Football #Messi #LEGOFootball #EveryoneWantsAPiece ",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:58:51Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@lego/video/7632680807437569302",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@lego/video/7632680807437569302",
+                "views": 393800,
+                "likes": 32700,
+                "commentCount": 497,
+                "shares": 1556,
+                "publishedAt": "2026-04-25T12:59:52.000Z",
+                "caption": "Looks like it was l’amour at first sight when Mbappé met his LEGO set (don’t @ us, linguists…) \n\n#LEGO #Football #Mbappé #LEGOFootball #EveryoneWantsAPiece ",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:58:56Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@lego/video/7633051985087892758",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@lego/video/7633051985087892758",
+                "views": 4100000,
+                "likes": 400800,
+                "commentCount": 2228,
+                "shares": 23800,
+                "publishedAt": "2026-04-26T13:00:13.000Z",
+                "caption": "Cristiano Ronaldo meets... LEGO Cristiano Ronaldo! 🇵🇹🚲\n\n\n\n#CR7 #LEGO #Football #LEGOFootball #EveryoneWantsAPiece ",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:59:09Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@lego/video/7633098355282939138",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@lego/video/7633098355282939138",
+                "views": 398000,
+                "likes": 37000,
+                "commentCount": 427,
+                "shares": 1021,
+                "publishedAt": "2026-04-26T16:00:09.000Z",
+                "caption": "Scoring decisive goals in finals? ✅ Beating world-class defenders? ✅ Not breaking his new LEGO set?... 😬\n\n\n\n#ViniJr #LEGO #Football #LEGOFootball #EveryoneWantsAPiece ",
+                "ownerUsername": "lego",
+                "fetchedAt": "2026-05-14T05:59:22Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@lego/video/7624099723665820950: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@lego/photo/7624145920715705622: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@lego/video/7632325335681502466: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@lego/video/7632680807437569302: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@lego/video/7633051985087892758: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@lego/video/7633098355282939138: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -858,46 +1499,101 @@
       "brand": "Gatorade",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 54957825,
+            "likes": 132614,
+            "commentCount": 1399,
+            "shares": 0,
+            "urlCount": 3,
+            "fetchedAt": "2026-05-14T05:59:40Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DXemxmYDa1s/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXemxmYDa1s/",
+                "views": 44876015,
+                "_videoPlayCount": 44876015,
+                "_videoViewCount": 1884107,
+                "likes": 71194,
+                "commentCount": 623,
+                "publishedAt": "2026-04-23T15:00:07.000Z",
+                "caption": "Because sweat takes you where shortcuts can’t, trust the #1 proven electrolyte blend that fuels it. \n\n#IsItInYou?",
+                "ownerUsername": "gatorade",
+                "fetchedAt": "2026-05-14T05:59:28Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXenuc7Dcex/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXenuc7Dcex/",
+                "views": 8152827,
+                "_videoPlayCount": 8152827,
+                "_videoViewCount": 616281,
+                "likes": 60577,
+                "commentCount": 742,
+                "publishedAt": "2026-04-23T15:02:40.000Z",
+                "caption": "Porque el sudor te lleva donde los atajos no pueden, confía en la fórmula N°1 desarrollada con precisión científica.\n\n#IsItInYou?",
+                "ownerUsername": "gatorade",
+                "fetchedAt": "2026-05-14T05:59:35Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXen_SHDTnJ/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXen_SHDTnJ/",
+                "views": 1928983,
+                "_videoPlayCount": 1928983,
+                "_videoViewCount": 63937,
+                "likes": 843,
+                "commentCount": 34,
+                "publishedAt": "2026-04-23T15:05:27.000Z",
+                "caption": "Porque o suor pode te levar aonde os atalhos não chegam, confie na formula N° 1 desenvolvida com precisão científica.\n\n#IsItInYou?",
+                "ownerUsername": "gatorade",
+                "fetchedAt": "2026-05-14T05:59:40Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DXemxmYDa1s/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXenuc7Dcex/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXen_SHDTnJ/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 38300000,
+            "likes": 28200,
+            "commentCount": 212,
+            "shares": 1939,
+            "urlCount": 1,
+            "fetchedAt": "2026-05-14T06:00:30Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@gatorade/video/7631948317504671006",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@gatorade/video/7631948317504671006",
+                "views": 38300000,
+                "likes": 28200,
+                "commentCount": 212,
+                "shares": 1939,
+                "publishedAt": "2026-04-23T13:37:34.000Z",
+                "caption": "Because sweat takes you where shortcuts can’t, trust the #1 proven electrolyte blend that fuels it. #IsItInYou?",
+                "ownerUsername": "gatorade",
+                "fetchedAt": "2026-05-14T06:00:30Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@gatorade/video/7631948317504671006: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     },
@@ -912,7 +1608,7 @@
             "commentCount": 173,
             "shares": 0,
             "urlCount": 2,
-            "fetchedAt": "2026-05-14T04:57:09Z"
+            "fetchedAt": "2026-05-14T06:00:30Z"
           },
           "perUrl": [
             {
@@ -924,7 +1620,7 @@
                 "likes": 6610,
                 "commentCount": 153,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T06:00:30Z"
               },
               "commentSample": 0
             },
@@ -937,7 +1633,7 @@
                 "likes": 1142,
                 "commentCount": 20,
                 "_source": "manual",
-                "fetchedAt": "2026-05-14T04:57:09Z"
+                "fetchedAt": "2026-05-14T06:00:30Z"
               },
               "commentSample": 0
             }
@@ -953,160 +1649,415 @@
       "brand": "Marriott Bonvoy",
       "platforms": {
         "instagram": {
-          "metadata": {},
+          "metadata": {
+            "views": 6076697,
+            "likes": 36770,
+            "commentCount": 880,
+            "shares": 0,
+            "urlCount": 13,
+            "fetchedAt": "2026-05-14T06:03:13Z"
+          },
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DWbk-bRji51/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DWbk-bRji51/",
+                "views": 1707175,
+                "_videoPlayCount": 1707175,
+                "_videoViewCount": 491093,
+                "likes": 2342,
+                "commentCount": 102,
+                "publishedAt": "2026-03-28T14:09:01.000Z",
+                "caption": "#MarriottBonvoyPartner- From football fans here in the U.S. to fans around the world, @MarriottBonvoy is bringing access to tickets across all 104 matches - plus more to come. Text GOAL to BONVOY (266869) and follow along so you don’t miss what drops next.\n\nAvailable in the United States. Standard message and data rates may apply. Message frequency may vary. You can opt out of receiving SMS messages at any time by replying STOP. For help, reply HELP. I acknowledge that Marriott will handle my pe",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:00:36Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXKV5MAhyQX/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXKV5MAhyQX/",
+                "views": 78997,
+                "_videoPlayCount": 78997,
+                "_videoViewCount": 13479,
+                "likes": 910,
+                "commentCount": 45,
+                "publishedAt": "2026-04-15T18:00:00.000Z",
+                "caption": "This FIFA World Cup 2026™, we're bringing you closer than ever. Don't let it pass you by. #ForFansEverywhere\n\nThanks to @visa \n\n#FIFAWorldCup",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:01:17Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXKWfxgBrP9/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXKWfxgBrP9/",
+                "views": 69061,
+                "_videoPlayCount": 69061,
+                "_videoViewCount": 10765,
+                "likes": 629,
+                "commentCount": 21,
+                "publishedAt": "2026-04-15T18:05:00.000Z",
+                "caption": "@erling knows what's worth celebrating. 🧘‍♂️ This is one of those times. #ForFansEverywhere\n\nThanks to @visa \n\n#FIFAWorldCup",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:01:27Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXM26FFDpCg/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXM26FFDpCg/",
+                "views": 90428,
+                "_videoPlayCount": 90428,
+                "_videoViewCount": 19279,
+                "likes": 935,
+                "commentCount": 61,
+                "publishedAt": "2026-04-16T17:28:04.000Z",
+                "caption": "Introducing: The Sleepover Suite. For the first time ever, fans have the opportunity to wake up in the stadium the morning of the FIFA World Cup 2026™ Final, courtesy of Visa. For Fans Everywhere. Enter for a chance to win via link in bio. \n\nThanks to @visa \n\n#FIFAWorldCup #ForFansEverywhere\n\nNO PURCHASE NECESSARY. Residents of select countries/regions, 18+/age of majority. Ends June 16, 2026 (see rules for weekly drawing dates). For CAN res, math skill test required. See Rules & eligibility at ",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:01:33Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXPFNGZDk99/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXPFNGZDk99/",
+                "views": 97646,
+                "_videoPlayCount": 97646,
+                "_videoViewCount": 16851,
+                "likes": 543,
+                "commentCount": 15,
+                "publishedAt": "2026-04-17T14:12:05.000Z",
+                "caption": "Quarterfinals Tickets.\nFIFA World Cup 2026™\nOne Marriott Bonvoy point.\nIt's Football Friday -- today at 12PM ET.\nFor Fans, Everywhere.\n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvoyMoments",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:01:44Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXPTh17jhUe/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXPTh17jhUe/",
+                "views": 1804182,
+                "_videoPlayCount": 1804182,
+                "_videoViewCount": 271171,
+                "likes": 24011,
+                "commentCount": 282,
+                "publishedAt": "2026-04-17T16:17:35.000Z",
+                "caption": "You could wake up in the stadium the morning of the FIFA World Cup 2026™ Final… say no more, @Visa 🫡\n\nIntroducing: The Sleepover Suite. A custom-built hotel room inside of the stadium.\n\nEnter now via link in @MarriottBonvoy bio.\n\n#FIFAWorldCup #ForFansEverywhere\n\nSee Rules for details in @MarriottBonvoy bio.",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:01:50Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXeomnnDlwp/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXeomnnDlwp/",
+                "views": 639247,
+                "_videoPlayCount": 639247,
+                "_videoViewCount": 184390,
+                "likes": 1361,
+                "commentCount": 47,
+                "publishedAt": "2026-04-23T15:09:41.000Z",
+                "caption": "#MarriottBonvoyPartner – What if you could access every match of the FIFA World Cup 2026™?\n\nThanks to @visa, with Marriott Bonvoy Moments, you can.\n\nSee what's possible – link in bio. \n\nFor Fans, Everywhere.\n\nText GOAL to BONVOY (266869) and follow along so you don’t miss what drops next.\n\nAvailable in the United States. Standard message and data rates may apply. Message frequency may vary. You can opt out of receiving SMS messages at any time by replying STOP. For help, reply HELP. I acknowledg",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:01:58Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXxa7qku67U/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXxa7qku67U/",
+                "views": 443306,
+                "_videoPlayCount": 443306,
+                "_videoViewCount": 118298,
+                "likes": 1355,
+                "commentCount": 34,
+                "publishedAt": "2026-04-30T22:16:26.000Z",
+                "caption": "Every Friday through May 8th, snag FIFA World Cup 2026™ tickets for 1 point on Marriott Bonvoy Moments. Get ready — these drops go in seconds. Limited packages available. \n\nFor Fans, Everywhere\n\nThanks to @Visa.\n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvoy",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:02:04Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXkIGl5Dh5o/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DXkIGl5Dh5o/",
+                "views": 569742,
+                "_videoPlayCount": 569742,
+                "_videoViewCount": 213962,
+                "likes": 2473,
+                "commentCount": 115,
+                "publishedAt": "2026-04-25T18:21:51.000Z",
+                "caption": "Breaking news: getting to FIFA World Cup 2026™ just got a whole lot easier.​\n\n1-Point Drops are here. Every Friday through May 8, 2026, Marriott Bonvoy members get first-come, first-served access to tickets and experiences for just 1 point, courtesy of @Visa. That's it. That's the move. Link in bio.​\n\nFor Fans, Everywhere.​\n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvoy",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:02:14Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DX5PmKuOc-6/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DX5PmKuOc-6/",
+                "views": 332763,
+                "_videoPlayCount": 332763,
+                "_videoViewCount": 102604,
+                "likes": 1275,
+                "commentCount": 66,
+                "publishedAt": "2026-05-03T23:12:14.000Z",
+                "caption": "Every weekday this week, 1‑Point Drops land on Marriott Bonvoy Moments. That means FIFA World Cup 2026™ tickets, available for one point, Monday through Friday.\n\nYes. Every day. It starts tomorrow. These go fast. Stay close.\n\nLimited packages available.\n\nFor Fans, Everywhere.\n\nThanks to @Visa.\n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvoy",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:02:20Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYAFXkautLj/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYAFXkautLj/",
+                "views": 97416,
+                "_videoPlayCount": 97416,
+                "_videoViewCount": 12540,
+                "likes": 289,
+                "commentCount": 32,
+                "publishedAt": "2026-05-06T14:56:19.000Z",
+                "caption": "The world’s biggest stage. Three ways in.\n\nMarriott Bonvoy is stacked with ways to get to FIFA World Cup 2026™. Enter the sweepstakes, grab a 1-Point Drop, or bid on auction experiences. Courtesy of @Visa.\n\nNot a member yet? Join now and get 100 bonus points when you enroll. Link in bio.\n\nFor Fans, Everywhere.\n\nThanks to @Visa.\n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvoy\n\nNO PURCHASE NECESSARY. Select countries/regions only, 18+/age of majority. Ends June 16, 2026. Skill testing question r",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:02:58Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYChF0IOrmi/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYChF0IOrmi/",
+                "views": 75365,
+                "_videoPlayCount": 75365,
+                "_videoViewCount": 11772,
+                "likes": 303,
+                "commentCount": 27,
+                "publishedAt": "2026-05-07T13:37:33.000Z",
+                "caption": "You know the routine.\n\nFIFA World Cup 2026™ - Bronze Final Match.\nOne point.\nSame time – 12pm ET \n\nFor Fans, Everywhere.\n\nThanks to @Visa.\n\nLimited packages available. \n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvoy",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:03:04Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYEzx3qOLkk/",
-              "metadata": {},
+              "metadata": {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/p/DYEzx3qOLkk/",
+                "views": 71369,
+                "_videoPlayCount": 71369,
+                "_videoViewCount": 9607,
+                "likes": 344,
+                "commentCount": 33,
+                "publishedAt": "2026-05-08T10:59:18.000Z",
+                "caption": "Tickets to the FIFA World Cup 2026™ Final. For 1 Marriott Bonvoy point.\nYes, really.\n\nIf you have been with us all week, you already know the feeling.\nThat little jolt when it is almost time.\nTomorrow is the finale.\n\nSet all the reminders\nBlock your calendars\n\nFor Fans, Everywhere\n\nThanks to @Visa. \n\nLimited packages available.\n\n#MarriottBonvoyMoments #ForFansEverywhere #FIFAWorldCup",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:03:13Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.instagram.com/reel/DWbk-bRji51/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXKV5MAhyQX/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXKWfxgBrP9/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXM26FFDpCg/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXPFNGZDk99/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXPTh17jhUe/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXeomnnDlwp/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXxa7qku67U/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DXkIGl5Dh5o/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DX5PmKuOc-6/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYAFXkautLj/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYChF0IOrmi/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.instagram.com/reel/DYEzx3qOLkk/: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         },
         "tiktok": {
-          "metadata": {},
+          "metadata": {
+            "views": 32907,
+            "likes": 1485,
+            "commentCount": 38,
+            "shares": 50,
+            "urlCount": 10,
+            "fetchedAt": "2026-05-14T06:07:39Z"
+          },
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7622309561986190606",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7622309561986190606",
+                "views": 2478,
+                "likes": 273,
+                "commentCount": 4,
+                "shares": 8,
+                "publishedAt": "2026-03-28T14:14:39.000Z",
+                "caption": "#MarriottBonvoyPartner- From football fans here in the U.S. to fans around the world, @MarriottBonvoy is bringing access to tickets across all 104 matches - plus more to come. Text GOAL to BONVOY (266869) and follow along so you don’t miss what drops next. \n\nAvailable in the United States. Standard message and data rates may apply. Message frequency may vary. You can opt out of receiving SMS messages at any time by replying STOP. For help, reply HELP. I acknowledge that Marriott will handle my p",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:03:22Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7629047158003551501",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7629047158003551501",
+                "views": 2346,
+                "likes": 38,
+                "commentCount": 1,
+                "shares": 3,
+                "publishedAt": "2026-04-15T18:00:20.000Z",
+                "caption": "This FIFA World Cup 2026™, we're bringing you closer than ever. Don't let it pass you by. #ForFansEverywhere\n\nThanks to @Visa   @FIFA World Cup #FIFAWorldCup\n\n@Vini Jr. ",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:03:54Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7629048469247823118",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7629048469247823118",
+                "views": 2511,
+                "likes": 43,
+                "commentCount": 2,
+                "shares": 4,
+                "publishedAt": "2026-04-15T18:05:16.000Z",
+                "caption": "@Erling Haaland knows what's worth celebrating. 🧘‍♂️ This is one of those times. #ForFansEverywhere\n\nThanks to @Visa   @FIFA World Cup #FIFAWorldCup",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:04:14Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7629765505057885453",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7629765505057885453",
+                "views": 3080,
+                "likes": 140,
+                "commentCount": 3,
+                "shares": 9,
+                "publishedAt": "2026-04-17T16:27:33.000Z",
+                "caption": "You could wake up in the stadium the morning of the FIFA World Cup 2026™ Final… say no more, @Visa 🫡\n\nIntroducing: The Sleepover Suite. A custom-built hotel room inside of the stadium.\n\nEnter now via link in @MarriottBonvoy bio.\n\n#FIFAWorldCup #ForFansEverywhere\n\nSee Rules for details in @MarriottBonvoy bio.\n\n@Erling Haaland ",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:04:44Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/photo/7631297171261787406",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7631297171261787406",
+                "views": 2376,
+                "likes": 40,
+                "commentCount": 1,
+                "shares": 3,
+                "publishedAt": "2026-04-21T19:31:11.000Z",
+                "caption": "Football has always belonged to the fans. @Erling Haaland and @Vini Jr. have never forgotten that. Neither have we.\n\nFor Fans, Everywhere is about bringing you closer to the game you love. And the Sleepover Suite is as close as it gets. One night inside New York New Jersey Stadium before the FIFA World Cup 2026™ Final. Enter via link in bio.\n\nThanks to @Visa \n\nNO PURCHASE NECESSARY. Residents of select countries/regions, 18+/age of majority. Ends June 16, 2026 (see rules for weekly drawing dates",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:05:23Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7631971658496036110",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7631971658496036110",
+                "views": 1479,
+                "likes": 110,
+                "commentCount": 3,
+                "shares": 2,
+                "publishedAt": "2026-04-23T15:08:08.000Z",
+                "caption": "#MarriottBonvoyPartner – What if you could access every match of the FIFA World Cup 2026™?\n\nThanks to @Visa, with Marriott Bonvoy Moments, you can.\n\nSee what's possible – link in bio. \n\nFor Fans, Everywhere.\n\nText GOAL to BONVOY (266869) and follow along so you don’t miss what drops next.\n\nAvailable in the United States. Standard message and data rates may apply. Message frequency may vary. You can opt out of receiving SMS messages at any time by replying STOP. For help, reply HELP. I acknowledg",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:06:23Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7632319162311838989",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7632319162311838989",
+                "views": 9609,
+                "likes": 275,
+                "commentCount": 5,
+                "shares": 1,
+                "publishedAt": "2026-04-24T13:37:07.000Z",
+                "caption": "Football Fridays are back this time with @Leonstreetskills. More tickets to the FIFA World Cup 2026™ for just one Marriott Bonvoy point.\n\nAre you ready? The next drop is today at 12PM ET.\n\nFor Fans, Everywhere. Thanks to @Visa\n\n#FIFAWorldCup #ForFansEverywhere",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:06:50Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7632089754502270222",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7632089754502270222",
+                "views": 2495,
+                "likes": 314,
+                "commentCount": 2,
+                "shares": 5,
+                "publishedAt": "2026-04-23T22:46:23.000Z",
+                "caption": "Tomorrow’s news, today.\n\nA FIFA World Cup 2026™ Quarterfinal 1-Point Drop is coming tomorrow at noon ET. That’s Quarterfinal tickets for just 1 Marriott Bonvoy point, courtesy of @Visa. First come, first served. These go in seconds. You know what to do. Link in bio.\n\nFor Fans, Everywhere.\n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvoy ",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:07:03Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7633081543048711437",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7633081543048711437",
+                "views": 3007,
+                "likes": 112,
+                "commentCount": 4,
+                "shares": 2,
+                "publishedAt": "2026-04-26T14:55:25.000Z",
+                "caption": "The FIFA World Cup 2026™ is closer than ever. And so are you.​\n\nMarriott Bonvoy are proud to be the Official Hotel Supporter in North America for FIFA World Cup 2026™​. Tickets. Experiences. Moments money can't buy. Members are already getting in. Are you?​\n\nNot a member yet? Join now and get 100 bonus points when you enroll. All you need to start. Link in bio.​\n\nFor Fans, Everywhere​​\n\nThanks to @Visa \n\n#FIFAWorldCup #ForFansEverywhere #MarriottBonvo​y",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:07:20Z"
+              },
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7629409640576519437",
-              "metadata": {},
+              "metadata": {
+                "platform": "tiktok",
+                "url": "https://www.tiktok.com/@marriottbonvoy/video/7629409640576519437",
+                "views": 3526,
+                "likes": 140,
+                "commentCount": 13,
+                "shares": 13,
+                "publishedAt": "2026-04-16T17:26:14.000Z",
+                "caption": "Introducing: The Sleepover Suite. For the first time ever, fans have the opportunity to wake up in the stadium the morning of the FIFA World Cup 2026™ Final, courtesy of Visa. For Fans Everywhere. Enter for a chance to win via link in bio. \n\nThanks to @Visa  \n\n#FIFAWorldCup #ForFansEverywhere\n\nNO PURCHASE NECESSARY. Residents of select countries/regions, 18+/age of majority. Ends June 16, 2026 (see rules for weekly drawing dates). For CAN res, math skill test required. See Rules & eligibility at",
+                "ownerUsername": "marriottbonvoy",
+                "fetchedAt": "2026-05-14T06:07:39Z"
+              },
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": [
-            "https://www.tiktok.com/@marriottbonvoy/video/7622309561986190606: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7629047158003551501: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7629048469247823118: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7629765505057885453: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/photo/7631297171261787406: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7631971658496036110: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7632319162311838989: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7632089754502270222: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7633081543048711437: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
-            "https://www.tiktok.com/@marriottbonvoy/video/7629409640576519437: metadata: 401: {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}"
-          ]
+          "errors": []
         }
       }
     }
