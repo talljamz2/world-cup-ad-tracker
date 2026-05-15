@@ -29,6 +29,20 @@
       "https://www.tiktok.com/@adidas/video/7638310739215781142",
       "https://www.tiktok.com/@adidas/video/7639021039523040534",
       "https://www.tiktok.com/@adidas/video/7639760504860298518"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DX_3ze5pGEX/",
+        "talent": "Timothe Chalamet"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYCuRgvJP8v/",
+        "talent": "Timothe Chalamet"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYFRDzpoDNr/",
+        "talent": "David Beckham"
+      }
     ]
   },
   {
@@ -174,6 +188,16 @@
       "https://www.tiktok.com/@laysfootball/video/7492070648034921750",
       "https://www.tiktok.com/@laysfootball/video/7491702317561990422",
       "https://www.tiktok.com/@laysfootball/video/7491283454408133910"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DX9TXp2MViU/",
+        "talent": "Leo Messi"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DX9qirjofFF/",
+        "talent": "Alexia Putellas"
+      }
     ]
   },
   {
@@ -220,7 +244,6 @@
       "https://www.tiktok.com/@michelobultra/video/7638989476273982733",
       "https://www.tiktok.com/@michelobultra/video/7639891962639797535",
       "https://www.tiktok.com/@michelobultra/video/7639843489605307662",
-      "https://www.tiktok.com/@michelobultra/photo/7639451004928347406",
       "https://www.tiktok.com/@michelobultra/video/7639092662355709214",
       "https://www.tiktok.com/@michelobultra/video/7638653830816697630",
       "https://www.tiktok.com/@michelobultra/video/7639058192839839006"
@@ -273,12 +296,6 @@
         "comments": 0
       },
       {
-        "url": "https://www.tiktok.com/@michelobultra/photo/7639451004928347406",
-        "views": 0,
-        "likes": 0,
-        "comments": 0
-      },
-      {
         "url": "https://www.tiktok.com/@michelobultra/video/7639092662355709214",
         "views": 0,
         "likes": 0,
@@ -296,6 +313,12 @@
         "likes": 0,
         "comments": 0
       }
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DYPWbfVIh0n/",
+        "talent": "Christian Pulisic"
+      }
     ]
   },
   {
@@ -308,7 +331,34 @@
     "title": "Pepsi Football Nation",
     "thumbHue": 215,
     "youtubeId": "UWFnOdU33MQ",
-    "description": "Pepsi's 'Football Nation' global platform with David Beckham handing the playbook to fans — fan interactions, playful rivalry, memes and real-time reactions over match action. Featured cast also includes Vinícius Jr., Mohamed Salah, Florian Wirtz, Lauren James and Alexia Putellas. The campaign's YouTube canonical (on Pepsi Global) carries the sub-title 'The Home of Football Banter & Rivalry.' Agency: BigTime Creative Shop."
+    "description": "Pepsi's 'Football Nation' global platform with David Beckham handing the playbook to fans — fan interactions, playful rivalry, memes and real-time reactions over match action. Featured cast also includes Vinícius Jr., Mohamed Salah, Florian Wirtz, Lauren James and Alexia Putellas. The campaign's YouTube canonical (on Pepsi Global) carries the sub-title 'The Home of Football Banter & Rivalry.' Agency: BigTime Creative Shop.",
+    "instagramUrls": [
+      "https://www.instagram.com/reel/DWgj4jMjLsY/",
+      "https://www.instagram.com/reel/DXKN_3_Ap2K/",
+      "https://www.instagram.com/reel/DXWNGboDA47/",
+      "https://www.instagram.com/reel/DXcFtALlHJF/",
+      "https://www.instagram.com/reel/DXo7sShDKgP/",
+      "https://www.instagram.com/reel/DXrjpSMjP-q/"
+    ],
+    "tiktokUrls": [
+      "https://www.tiktok.com/@pepsiglobal/video/7630768230835031318",
+      "https://www.tiktok.com/@pepsiglobal/video/7631606504176536865",
+      "https://www.tiktok.com/@pepsiglobal/video/7632634798107823392"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DXWRr4jiLsB/",
+        "talent": "David Beckham"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DXcMpSEiIZq/",
+        "talent": "Vini Jr"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DXWyaySxLWr/",
+        "talent": "Alexia Putellas"
+      }
+    ]
   },
   {
     "id": "stl-01",
@@ -320,7 +370,13 @@
     "title": "Celebration ft. David Beckham",
     "thumbHue": 5,
     "youtubeId": "MJ4mFg8xxNI",
-    "description": "Stella Artois's 'For Moments Worth More' platform with David Beckham — shared viewing occasions, hospitality and the social side of the tournament, rather than match action itself. A quieter register than the Bud line in the same AB InBev portfolio."
+    "description": "Stella Artois's 'For Moments Worth More' platform with David Beckham — shared viewing occasions, hospitality and the social side of the tournament, rather than match action itself. A quieter register than the Bud line in the same AB InBev portfolio.",
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DXJ6TLECOt4/",
+        "talent": "David Beckham"
+      }
+    ]
   },
   {
     "id": "dia-02",
@@ -368,7 +424,8 @@
         "comments": 42,
         "lastCheckedAt": "2026-05-14T20:57:44+00:00"
       }
-    ]
+    ],
+    "talentIgUrls": []
   },
   {
     "id": "fox-01",
@@ -399,6 +456,16 @@
     "instagramUrls": [
       "https://www.instagram.com/reel/DYAOQDEtkmj/",
       "https://www.instagram.com/reel/DYDX2Czqf35/"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DYACnFoRSVn/",
+        "talent": "Cristiano Ronaldo"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DR5YRPyE-uB/",
+        "talent": "Carlo Ancelotti"
+      }
     ]
   },
   {
@@ -598,6 +665,24 @@
       "https://www.tiktok.com/@lego/video/7632680807437569302",
       "https://www.tiktok.com/@lego/video/7633051985087892758",
       "https://www.tiktok.com/@lego/video/7633098355282939138"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DXhDuIEDCOq/",
+        "talent": "Leo Messi"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DWn_nn2jJfe/",
+        "talent": "Leo Messi"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DXwidkpoiJC/",
+        "talent": "Cristiano Ronaldo"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DXwjC01oVuf/",
+        "talent": "Vini Jr"
+      }
     ]
   },
   {
@@ -618,6 +703,12 @@
     ],
     "tiktokUrls": [
       "https://www.tiktok.com/@gatorade/video/7631948317504671006"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DXpFeKVCFVh/",
+        "talent": "Vini Jr"
+      }
     ]
   },
   {
@@ -689,7 +780,13 @@
       "https://www.tiktok.com/@marriottbonvoy/video/7633081543048711437",
       "https://www.tiktok.com/@marriottbonvoy/video/7629409640576519437"
     ],
-    "description": "Marriott Bonvoy's social-first 2026 platform, anchored on broadcaster Kate Scott and the 'For Fans Everywhere' positioning. Marriott is FIFA's Official Hotel Supporter for North America (Tier 3 Regional Supporter), with the activation spanning 104 matches across the three host countries plus the Marriott Bonvoy Moments hospitality drops. The campaign is published across IG and TikTok with no YouTube canonical — a striking social-first distribution choice for a hospitality brand at this scale."
+    "description": "Marriott Bonvoy's social-first 2026 platform, anchored on broadcaster Kate Scott and the 'For Fans Everywhere' positioning. Marriott is FIFA's Official Hotel Supporter for North America (Tier 3 Regional Supporter), with the activation spanning 104 matches across the three host countries plus the Marriott Bonvoy Moments hospitality drops. The campaign is published across IG and TikTok with no YouTube canonical — a striking social-first distribution choice for a hospitality brand at this scale.",
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DXUdq5jiGMh/",
+        "talent": "Vini Jr"
+      }
+    ]
   },
   {
     "id": "hsn-01",

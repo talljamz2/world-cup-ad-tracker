@@ -449,10 +449,15 @@ def rank_ads_by_score() -> list[str]:
 
 def _social_urls(ad: dict, platform: str) -> list[str]:
     """
-    Return the list of URLs configured for a platform on an ad. Schema supports:
-      - `instagramUrls`/`tiktokUrls` (plural, list) — canonical going forward
-      - `instagramUrl`/`tiktokUrl`   (singular, str) — kept for backward compat
-    Returns empty list if neither is set.
+    Return the list of URLs configured for a platform on an ad — brand-owned
+    posts AND paid talent reposts together. Apify fetches both so the totals
+    on the leaderboard reflect the campaign's full paid distribution.
+
+    Schema supports:
+      - `instagramUrls`/`tiktokUrls`         — brand-owned posts (list of str)
+      - `instagramUrl`/`tiktokUrl`           — singular, kept for backward compat
+      - `talentIgUrls`/`talentTtUrls`        — paid talent posts (list of objects
+                                                with shape {"url": ..., "talent": ...})
     """
     key_plural   = f"{platform}Urls"
     key_singular = f"{platform}Url"
@@ -462,11 +467,32 @@ def _social_urls(ad: dict, platform: str) -> list[str]:
     single = ad.get(key_singular)
     if single and single not in urls:
         urls = list(urls) + [single]
+
+    # Add talent posts. Stored as a separate array of objects with talent
+    # attribution; here we flatten to just the URLs so the fetch loop processes
+    # them identically. The talent attribution is preserved in ads.json for
+    # future per-post display in the expand row.
+    talent_key = "talentIgUrls" if platform == "instagram" else "talentTtUrls"
+    for item in (ad.get(talent_key) or []):
+        u = item.get("url") if isinstance(item, dict) else item
+        if u and u not in urls:
+            urls.append(u)
+
     return [u for u in urls if u]
 
 
 def _has_any_social(ad: dict) -> bool:
     return bool(_social_urls(ad, "instagram")) or bool(_social_urls(ad, "tiktok"))
+
+
+def _talent_for_url(ad: dict, platform: str, url: str) -> str | None:
+    """If this URL was added as a paid talent post, return the talent's name.
+    Otherwise None (i.e. it's a brand-owned post)."""
+    talent_key = "talentIgUrls" if platform == "instagram" else "talentTtUrls"
+    for item in (ad.get(talent_key) or []):
+        if isinstance(item, dict) and item.get("url") == url:
+            return item.get("talent")
+    return None
 
 
 def select_ads_for_run(all_ads: list[dict], tier: str, max_ads: Optional[int]) -> tuple[list[dict], list[dict]]:
@@ -626,10 +652,14 @@ def process_ad(
             # Manual override wins. If the ad has manualIgData/manualTtData with
             # an entry for this URL, use those numbers directly and skip Apify
             # entirely (saves cost AND works for age-gated alcohol content).
+            talent = _talent_for_url(ad, platform, url)
             manual = _manual_data_for_url(ad, platform, url)
             if manual:
-                per_url.append({"url": url, "metadata": manual, "commentSample": 0})
-                log(f"  {ad['id']:7s} {platform[:2].upper()} {url[-22:]}  v={manual.get('views')} l={manual.get('likes')} c={manual.get('commentCount')}  (manual)")
+                entry = {"url": url, "metadata": manual, "commentSample": 0}
+                if talent: entry["talent"] = talent
+                per_url.append(entry)
+                talent_tag = f" [talent: {talent}]" if talent else ""
+                log(f"  {ad['id']:7s} {platform[:2].upper()} {url[-22:]}  v={manual.get('views')} l={manual.get('likes')} c={manual.get('commentCount')}  (manual){talent_tag}")
                 continue
 
             meta, m_errs, m_cache = _fetch_one_metadata(
@@ -657,10 +687,13 @@ def process_ad(
                     if cid: seen_ids.add(cid)
                     all_comments.append(c)
 
-            per_url.append({"url": url, "metadata": meta or {}, "commentSample": len(cmts)})
+            entry = {"url": url, "metadata": meta or {}, "commentSample": len(cmts)}
+            if talent: entry["talent"] = talent
+            per_url.append(entry)
             if meta and not meta.get("_dryRun"):
                 v = meta.get("views"); l = meta.get("likes"); c = meta.get("commentCount")
-                log(f"  {ad['id']:7s} {platform[:2].upper()} {url[-22:]}  v={v} l={l} c={c}")
+                talent_tag = f" [talent: {talent}]" if talent else ""
+                log(f"  {ad['id']:7s} {platform[:2].upper()} {url[-22:]}  v={v} l={l} c={c}{talent_tag}")
 
         # Aggregate across all URLs for this platform
         agg = _aggregate_metadata([p["metadata"] for p in per_url])
