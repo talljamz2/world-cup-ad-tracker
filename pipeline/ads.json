@@ -463,14 +463,19 @@
     "thumbHue": 215,
     "youtubeId": "_THsmn-n8Lk",
     "description": "Brahma's 2026 platform film. AB InBev's flagship Brazilian beer running its own local narrative alongside Bud's global Haaland/Klopp work — more national-team coded, more Carnival-adjacent in visual register. Distribution extended via talent reposts from Ronaldo Nazário and Brazil head coach Carlo Ancelotti.",
-    "instagramUrls": [
-      "https://www.instagram.com/reel/DYAOQDEtkmj/",
-      "https://www.instagram.com/reel/DYDX2Czqf35/"
-    ],
+    "instagramUrls": [],
     "talentIgUrls": [
       {
         "url": "https://www.instagram.com/reel/DYACnFoRSVn/",
-        "talent": "Cristiano Ronaldo"
+        "talent": "Ronaldo Nazário"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYAOQDEtkmj/",
+        "talent": "Brazil Football Federation"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYDX2Czqf35/",
+        "talent": "Carlo Ancelotti"
       },
       {
         "url": "https://www.instagram.com/reel/DR5YRPyE-uB/",
@@ -525,8 +530,12 @@
     "thumbHue": 0,
     "youtubeId": "uNdcDbMo9EE",
     "description": "Coca-Cola's official 2026 anthem — an updated cover of Van Halen's 'Jump' performed by J Balvin, Amber Mark, Steve Vai and Travis Barker. Released via Real Thing Records in partnership with Capitol Records. The standalone music drop after a teased preview in January's 'Bubbling Up' film.",
-    "instagramUrls": [
-      "https://www.instagram.com/reel/DU-3EXyCKjE/"
+    "instagramUrls": [],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DU-3EXyCKjE/",
+        "talent": "Lamine Yamal"
+      }
     ]
   },
   {
@@ -733,8 +742,13 @@
     "youtubeId": "Q8CfEy3Epbs",
     "description": "Diageo's Don Julio platform film, directed by Leigh Powis with Thierry Henry arriving at a post-final celebration. Accompanies the new Tequila Don Julio 1942 World Cup 2026 Edition bottle. A second Don Julio film — 'La Otra Copa' (dir. Stillz, with Roberto Carlos + Henry) — runs alongside as the platform's second piece this cycle. System1 rated 'La Otra Copa' at 3.2 stars.",
     "instagramUrls": [
-      "https://www.instagram.com/reel/DWowE3-CJbA/",
       "https://www.instagram.com/reel/DWrVcyfRYMC/"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/reel/DWowE3-CJbA/",
+        "talent": "Thierry Henry"
+      }
     ],
     "manualIgData": [
       {
