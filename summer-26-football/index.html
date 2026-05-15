@@ -185,7 +185,29 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
   }
-  @media (max-width: 760px) { .podium { grid-template-columns: 1fr; } }
+  /* Mobile: switch from stacked 1-col to horizontal-swipe carousel.
+     Each card ~88% of viewport with the next peeking on the right —
+     clear podium feel, much less vertical scroll than full-width stacks. */
+  @media (max-width: 760px) {
+    .podium {
+      display: flex;
+      grid-template-columns: none;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scroll-padding-left: 16px;
+      gap: 12px;
+      padding: 0 28px 12px 0;  /* right padding so last card scrolls fully into view */
+      margin: 0 -28px;          /* bleed past container padding for edge-to-edge */
+      padding-left: 28px;
+    }
+    .podium::-webkit-scrollbar { display: none; }
+    .podium { scrollbar-width: none; }
+    .podium-card {
+      flex: 0 0 88%;
+      scroll-snap-align: start;
+    }
+  }
 
   .podium-card {
     background: var(--bg-card);
@@ -344,6 +366,20 @@
   }
   @media (max-width: 600px) {
     .sort-select { margin-left: 0; width: 100%; }
+  }
+
+  /* Mobile leaderboard: drop ER column (engagement rate is a detail —
+     readers care about Score and Views first). Tighten padding so the
+     remaining columns fit comfortably on a phone. */
+  @media (max-width: 600px) {
+    table.leaderboard th:nth-child(5),
+    table.leaderboard td:nth-child(5) { display: none; }
+    table.leaderboard th { padding: 10px 8px; }
+    table.leaderboard td { padding: 12px 8px; }
+    .rank-cell { width: 32px; font-size: 16px; }
+    .ad-title-cell { font-size: 13px; }
+    .ad-title-cell .agency { font-size: 11px; }
+    .brand-cell { gap: 8px; }
   }
 
   /* ---------- Leaderboard table ---------- */
