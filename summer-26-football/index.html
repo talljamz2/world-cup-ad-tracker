@@ -185,12 +185,34 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
   }
-  /* Mobile: vertical stack, just compress the thumbnail height
-     (21:9 instead of 16:9) so each card is more compact. Everything else
-     stays at desktop styling. */
+  /* Mobile Top 3: horizontal cards with a small fixed-width thumb on the
+     left and brand info on the right. Much smaller visual footprint than
+     full-width thumbnails. */
   @media (max-width: 760px) {
-    .podium { grid-template-columns: 1fr; gap: 14px; }
-    .podium-thumb { aspect-ratio: 21 / 9; }
+    .podium { grid-template-columns: 1fr; gap: 10px; }
+    .podium-card { flex-direction: row; align-items: stretch; }
+    .podium-thumb {
+      aspect-ratio: unset;
+      flex: 0 0 130px;
+      width: 130px;
+      min-height: 100px;
+    }
+    .podium-title-overlay { display: none; }
+    .podium-logo-badge {
+      width: 30px; height: 30px;
+      top: 6px; right: 6px;
+      padding: 4px; border-radius: 6px;
+    }
+    .podium-play { width: 38px; height: 38px; }
+    .podium-play::before {
+      border-left-width: 12px; border-top-width: 8px; border-bottom-width: 8px;
+    }
+    .podium-rank { width: 28px; height: 28px; font-size: 13px; }
+    .podium-body { flex: 1; min-width: 0; padding: 12px 14px; }
+    .podium-brand { font-size: 11px; margin-bottom: 4px; }
+    .podium-title { font-size: 16px; line-height: 1.25; margin: 0 0 8px; }
+    .podium-stats { font-size: 12px; flex-wrap: wrap; gap: 6px 12px; }
+    .podium-score { font-size: 20px; }
   }
 
   .podium-card {
@@ -352,18 +374,31 @@
     .sort-select { margin-left: 0; width: 100%; }
   }
 
-  /* Mobile leaderboard: drop ER column (engagement rate is a detail —
-     readers care about Score and Views first). Tighten padding so the
-     remaining columns fit comfortably on a phone. */
+  /* Mobile leaderboard: drop both Views and ER columns so the remaining
+     four (# / Brand / Spot / Score) fit a phone without horizontal scroll.
+     Tighten padding throughout. Also condense the tier filter chips and
+     hide the section-head hint text on mobile (it overflows). */
   @media (max-width: 600px) {
+    table.leaderboard th:nth-child(4),
+    table.leaderboard td:nth-child(4),
     table.leaderboard th:nth-child(5),
     table.leaderboard td:nth-child(5) { display: none; }
-    table.leaderboard th { padding: 10px 8px; }
-    table.leaderboard td { padding: 12px 8px; }
-    .rank-cell { width: 32px; font-size: 16px; }
+    table.leaderboard th { padding: 10px 6px; font-size: 9px; }
+    table.leaderboard td { padding: 12px 6px; }
+    .rank-cell { width: 28px; font-size: 15px; }
     .ad-title-cell { font-size: 13px; }
     .ad-title-cell .agency { font-size: 11px; }
     .brand-cell { gap: 8px; }
+    .brand-info .brand-name { font-size: 13px; }
+    .tier-pill { font-size: 9px; padding: 2px 6px; }
+    .score-cell { font-size: 16px; }
+    /* Tier filter chips — tighter padding/font so all three fit on one row */
+    .filter-chip { padding: 5px 10px; font-size: 12px; }
+    .filter-label { font-size: 9px; }
+    /* Section header hint text overflows on phones — hide it; the leaderboard
+       is intuitive enough without "click row to expand" instruction. */
+    .section-head .hint { display: none; }
+    .section-head h2 { font-size: 22px; }
   }
 
   /* ---------- Leaderboard table ---------- */
