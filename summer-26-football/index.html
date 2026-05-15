@@ -186,8 +186,10 @@
     gap: 18px;
   }
   /* Mobile: switch from stacked 1-col to horizontal-swipe carousel.
-     Each card ~88% of viewport with the next peeking on the right —
-     clear podium feel, much less vertical scroll than full-width stacks. */
+     Each card ~75% of viewport so two cards are visible at once with the
+     third peeking — clear podium feel and much less vertical scroll than
+     full-width stacks. Thumbnail aspect ratio compresses to 21/9 to keep
+     vertical real estate tight. */
   @media (max-width: 760px) {
     .podium {
       display: flex;
@@ -195,18 +197,22 @@
       overflow-x: auto;
       scroll-snap-type: x mandatory;
       -webkit-overflow-scrolling: touch;
-      scroll-padding-left: 16px;
-      gap: 12px;
-      padding: 0 28px 12px 0;  /* right padding so last card scrolls fully into view */
-      margin: 0 -28px;          /* bleed past container padding for edge-to-edge */
-      padding-left: 28px;
+      scroll-padding-left: 28px;
+      gap: 10px;
+      padding: 0 28px 12px;
+      margin: 0 -28px;
     }
     .podium::-webkit-scrollbar { display: none; }
     .podium { scrollbar-width: none; }
     .podium-card {
-      flex: 0 0 88%;
+      flex: 0 0 75%;
       scroll-snap-align: start;
     }
+    .podium-thumb { aspect-ratio: 21/9; }
+    .podium-logo-badge { width: 40px; height: 40px; padding: 6px; top: 8px; right: 8px; }
+    .podium-play { width: 44px; height: 44px; }
+    .podium-play::before { border-left-width: 14px; border-top-width: 9px; border-bottom-width: 9px; }
+    .podium-title-overlay { font-size: 13px; padding: 24px 12px 10px; }
   }
 
   .podium-card {
@@ -2146,6 +2152,9 @@ async function init() {
 
 init();
 </script>
+
+<!-- Cloudflare Web Analytics (privacy-first, no cookies) -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "97858774eb9d4fcdbdcac7beab86405a"}'></script>
 
 </body>
 </html>
