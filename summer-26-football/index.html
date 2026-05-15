@@ -185,34 +185,52 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
   }
-  /* Mobile: switch from stacked 1-col to horizontal-swipe carousel.
-     Each card ~75% of viewport so two cards are visible at once with the
-     third peeking — clear podium feel and much less vertical scroll than
-     full-width stacks. Thumbnail aspect ratio compresses to 21/9 to keep
-     vertical real estate tight. */
+  /* Mobile: redesign Top 3 as a compact vertical list (editorial style),
+     not the desktop card layout shrunk down. Each card is a horizontal row
+     with a small square thumbnail on the left and the meta on the right. */
   @media (max-width: 760px) {
     .podium {
       display: flex;
+      flex-direction: column;
       grid-template-columns: none;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
-      scroll-padding-left: 28px;
       gap: 10px;
-      padding: 0 28px 12px;
-      margin: 0 -28px;
     }
-    .podium::-webkit-scrollbar { display: none; }
-    .podium { scrollbar-width: none; }
     .podium-card {
-      flex: 0 0 75%;
-      scroll-snap-align: start;
+      flex-direction: row;
+      min-height: 110px;
+      align-items: stretch;
     }
-    .podium-thumb { aspect-ratio: 21/9; }
-    .podium-logo-badge { width: 40px; height: 40px; padding: 6px; top: 8px; right: 8px; }
-    .podium-play { width: 44px; height: 44px; }
-    .podium-play::before { border-left-width: 14px; border-top-width: 9px; border-bottom-width: 9px; }
-    .podium-title-overlay { font-size: 13px; padding: 24px 12px 10px; }
+    .podium-thumb {
+      aspect-ratio: 1 / 1;
+      width: 110px;
+      height: 110px;
+      flex: 0 0 110px;
+    }
+    .podium-thumb-img { width: 100%; height: 100%; }
+    .podium-logo-badge {
+      width: 28px; height: 28px;
+      top: 6px; right: 6px;
+      border-radius: 6px;
+      padding: 4px;
+    }
+    .podium-play { width: 36px; height: 36px; }
+    .podium-play::before {
+      border-left-width: 11px;
+      border-top-width: 7px;
+      border-bottom-width: 7px;
+      margin-left: 3px;
+    }
+    .podium-title-overlay { display: none; }
+    .podium-rank {
+      width: 32px;
+      height: 32px;
+      font-size: 14px;
+    }
+    .podium-body { padding: 12px 14px; flex: 1; min-width: 0; }
+    .podium-brand { font-size: 11px; }
+    .podium-title { font-size: 16px; line-height: 1.2; margin-bottom: 6px; }
+    .podium-stats { font-size: 12px; }
+    .podium-score { font-size: 22px; }
   }
 
   .podium-card {
