@@ -1554,6 +1554,20 @@ function renderAssetBreakdown(a) {
     }
   }
 
+  // Compose the cuts-count label, breaking out brand vs talent when applicable.
+  // Talent posts have a non-empty `talent` field on the cut (from social_data.json).
+  function cutsLabel(cuts) {
+    const talentN = cuts.filter(c => c.talent).length;
+    const brandN  = cuts.length - talentN;
+    if (talentN === 0) return `${cuts.length} cuts`;
+    return `${cuts.length} cuts · ${brandN} brand · ${talentN} talent`;
+  }
+  // Per-line link text: "View reel" for brand, "Talent name · View reel" for paid talent.
+  function linkLabel(c, defaultText) {
+    if (!c.talent) return defaultText;
+    return `<span style="color:var(--ink-muted);font-style:italic">${c.talent}</span> · ${defaultText}`;
+  }
+
   // IG cuts, sorted by views high → low
   const igCuts = (a.igCuts || []).slice().sort((x, y) => {
     return (y.metadata?.views || 0) - (x.metadata?.views || 0);
@@ -1565,21 +1579,21 @@ function renderAssetBreakdown(a) {
         <div class="asset-line">
           <span class="asset-platform">IG</span>
           <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-          <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View reel</a>
+          <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">${linkLabel(c, "View reel")}</a>
         </div>`);
     } else {
       lines.push(`
         <div class="asset-line asset-header">
           <span class="asset-platform">IG</span>
           <span class="asset-views"><strong>${fmt.big(igV)}</strong></span>
-          <span class="asset-link" style="color:var(--ink-muted)">${igCuts.length} cuts</span>
+          <span class="asset-link" style="color:var(--ink-muted)">${cutsLabel(igCuts)}</span>
         </div>`);
       igCuts.forEach(c => {
         lines.push(`
           <div class="asset-line asset-sub">
             <span class="asset-platform">↳</span>
             <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-            <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View reel</a>
+            <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">${linkLabel(c, "View reel")}</a>
           </div>`);
       });
     }
@@ -1596,21 +1610,21 @@ function renderAssetBreakdown(a) {
         <div class="asset-line">
           <span class="asset-platform">TT</span>
           <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-          <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View on TikTok</a>
+          <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">${linkLabel(c, "View on TikTok")}</a>
         </div>`);
     } else {
       lines.push(`
         <div class="asset-line asset-header">
           <span class="asset-platform">TT</span>
           <span class="asset-views"><strong>${fmt.big(ttV)}</strong></span>
-          <span class="asset-link" style="color:var(--ink-muted)">${ttCuts.length} cuts</span>
+          <span class="asset-link" style="color:var(--ink-muted)">${cutsLabel(ttCuts)}</span>
         </div>`);
       ttCuts.forEach(c => {
         lines.push(`
           <div class="asset-line asset-sub">
             <span class="asset-platform">↳</span>
             <span class="asset-views">${fmt.big(c.metadata?.views || 0)}</span>
-            <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">View on TikTok</a>
+            <a class="asset-link" target="_blank" rel="noopener" href="${c.url}">${linkLabel(c, "View on TikTok")}</a>
           </div>`);
       });
     }
