@@ -188,34 +188,34 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
   }
-  /* Mobile Top 3: horizontal cards with a small fixed-width thumb on the
-     left and brand info on the right. Much smaller visual footprint than
-     full-width thumbnails. */
+  /* Mobile Top 3: horizontal cards. Thumb takes ~55% of card width so it
+     stays visually substantial (you can actually see what the ad looks
+     like) while still leaving room for the title/stats on the right. */
   @media (max-width: 760px) {
-    .podium { grid-template-columns: 1fr; gap: 10px; }
+    .podium { grid-template-columns: 1fr; gap: 12px; }
     .podium-card { flex-direction: row; align-items: stretch; }
     .podium-thumb {
-      aspect-ratio: unset;
-      flex: 0 0 130px;
-      width: 130px;
-      min-height: 100px;
+      aspect-ratio: 16 / 9;
+      flex: 0 0 55%;
+      width: 55%;
+      min-height: auto;
     }
     .podium-title-overlay { display: none; }
     .podium-logo-badge {
-      width: 30px; height: 30px;
-      top: 6px; right: 6px;
-      padding: 4px; border-radius: 6px;
+      width: 36px; height: 36px;
+      top: 8px; right: 8px;
+      padding: 5px; border-radius: 7px;
     }
-    .podium-play { width: 38px; height: 38px; }
+    .podium-play { width: 44px; height: 44px; }
     .podium-play::before {
-      border-left-width: 12px; border-top-width: 8px; border-bottom-width: 8px;
+      border-left-width: 14px; border-top-width: 9px; border-bottom-width: 9px;
     }
-    .podium-rank { width: 28px; height: 28px; font-size: 13px; }
+    .podium-rank { width: 30px; height: 30px; font-size: 14px; }
     .podium-body { flex: 1; min-width: 0; padding: 12px 14px; }
     .podium-brand { font-size: 11px; margin-bottom: 4px; }
-    .podium-title { font-size: 16px; line-height: 1.25; margin: 0 0 8px; }
-    .podium-stats { font-size: 12px; flex-wrap: wrap; gap: 6px 12px; }
-    .podium-score { font-size: 20px; }
+    .podium-title { font-size: 15px; line-height: 1.25; margin: 0 0 8px; }
+    .podium-stats { font-size: 12px; flex-wrap: wrap; gap: 4px 10px; }
+    .podium-score { font-size: 19px; }
   }
 
   .podium-card {
