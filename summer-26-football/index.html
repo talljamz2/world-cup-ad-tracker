@@ -185,52 +185,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
   }
-  /* Mobile: redesign Top 3 as a compact vertical list (editorial style),
-     not the desktop card layout shrunk down. Each card is a horizontal row
-     with a small square thumbnail on the left and the meta on the right. */
+  /* Mobile: vertical stack, just compress the thumbnail height
+     (21:9 instead of 16:9) so each card is more compact. Everything else
+     stays at desktop styling. */
   @media (max-width: 760px) {
-    .podium {
-      display: flex;
-      flex-direction: column;
-      grid-template-columns: none;
-      gap: 10px;
-    }
-    .podium-card {
-      flex-direction: row;
-      min-height: 110px;
-      align-items: stretch;
-    }
-    .podium-thumb {
-      aspect-ratio: 1 / 1;
-      width: 110px;
-      height: 110px;
-      flex: 0 0 110px;
-    }
-    .podium-thumb-img { width: 100%; height: 100%; }
-    .podium-logo-badge {
-      width: 28px; height: 28px;
-      top: 6px; right: 6px;
-      border-radius: 6px;
-      padding: 4px;
-    }
-    .podium-play { width: 36px; height: 36px; }
-    .podium-play::before {
-      border-left-width: 11px;
-      border-top-width: 7px;
-      border-bottom-width: 7px;
-      margin-left: 3px;
-    }
-    .podium-title-overlay { display: none; }
-    .podium-rank {
-      width: 32px;
-      height: 32px;
-      font-size: 14px;
-    }
-    .podium-body { padding: 12px 14px; flex: 1; min-width: 0; }
-    .podium-brand { font-size: 11px; }
-    .podium-title { font-size: 16px; line-height: 1.2; margin-bottom: 6px; }
-    .podium-stats { font-size: 12px; }
-    .podium-score { font-size: 22px; }
+    .podium { grid-template-columns: 1fr; gap: 14px; }
+    .podium-thumb { aspect-ratio: 21 / 9; }
   }
 
   .podium-card {
