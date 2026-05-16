@@ -16,7 +16,8 @@
 <meta name="twitter:description" content="Which brands are winning the summer of football?" />
 
 <!-- Favicon — three-bar podium silhouette. Gold center (1st), emerald sides. -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='3' y='20' width='8' height='9' fill='%230f5c3e' rx='1'/><rect x='12' y='12' width='8' height='17' fill='%23b8860b' rx='1'/><rect x='21' y='16' width='8' height='13' fill='%230f5c3e' rx='1'/></svg>" />
+<link rel="icon" type="image/svg+xml" href="../static/favicon.svg" />
+<link rel="alternate icon" href="../static/favicon.svg" />
 <style>
   /* -----------------------------------------------------
      The Ad Podium — editorial styling
@@ -917,6 +918,7 @@
               <th>Spot</th>
               <th class="num-cell sortable" data-sort="views">Views<span class="sort-arrow">▾</span></th>
               <th class="num-cell sortable" data-sort="er">ER<span class="sort-arrow">▾</span></th>
+              <th class="num-cell sortable" data-sort="velocity" title="Cross-platform views per day (trailing 7-day rate)">Velocity<span class="sort-arrow">▾</span></th>
               <th class="num-cell sortable sorted" data-sort="score">Score<span class="sort-arrow">▾</span></th>
             </tr>
           </thead>
@@ -929,9 +931,10 @@
         <h2>How we score</h2>
         <p>
           The Composite Score is a single 0–100 number summarizing how a campaign
-          is performing across the dimensions marketers actually care about.
-          Each factor is normalized against the leader in the dataset, then
-          combined using the weights below.
+          is performing across reach, engagement and velocity dimensions. Each
+          factor is normalized against the leader in the dataset, then combined
+          using the weights below. The velocity dimension focuses the score on
+          brands cutting through <em>this week</em>.
         </p>
         <p>
           We split the leaderboard into two tiers — <strong>Official Partners</strong>
@@ -942,15 +945,14 @@
           Other because the payment-category exclusivity belongs to Visa.
         </p>
         <p>
-          <strong>What we measure.</strong> We count the campaign's full paid
-          distribution — the brand's own video posts on YouTube, Instagram, and
-          TikTok, plus the paid talent reposts that are part of the same campaign
-          (cast members posting the same creative on their own channels around
-          the release window). We deliberately exclude photo posts and image
-          carousels: those don't expose public view counts, so they can't be
-          measured consistently. Organic talent reshares, fan content, and
-          unrelated celebrity enthusiasm are also out — only commissioned
-          campaign distribution counts.
+          <strong>What we measure.</strong> We count the campaign's primary
+          distribution — meaning the brand's own video posts on YouTube,
+          Instagram, and TikTok, plus those from talent participating in the ads.
+          To remove sample bias we don't include press, influencers and other
+          partners potentially amplifying the campaign. The scoring also excludes
+          performance marketing not publicly visible to all (dark ads, etc.).
+          We deliberately exclude photo posts and image carousels: those don't
+          expose public view counts, so they can't be measured consistently.
         </p>
         <div class="formula">
           <div class="formula-item">
@@ -961,7 +963,7 @@
           <div class="formula-item">
             <div class="label">Resonance</div>
             <div class="weight">25%</div>
-            <div class="desc">Engagement rate (likes + comments per view) computed per platform, normalized within each platform's max, averaged across all three. The quality signal that paid amplification can't fake.</div>
+            <div class="desc">Engagement rate (likes + comments per view) computed per platform, normalized within each platform's max, averaged across all three.</div>
           </div>
           <div class="formula-item">
             <div class="label">Velocity</div>
@@ -1116,7 +1118,7 @@ const FALLBACK_ADS = [
   },
   {
     id: "pep-01", brand: "Pepsi", brandColor: "#004b93", domain: "pepsi.com",
-    tier: "Other", agency: "BigTime Creative Shop",
+    tier: "Other", agency: "—",
     title: "Pepsi Football Nation",
     released: "2026-04-20", thumbHue: 215,
     youtubeId: "UWFnOdU33MQ",
@@ -1292,7 +1294,7 @@ const FALLBACK_ADS = [
     youtubeId: "H0gbOS6-EQ4",
     views: 1049384, likes: 58426, comments: 0,
     durationSeconds: 60,
-    description: "Lego's tournament play stacks Messi, Ronaldo, Mbappé and Vinícius Jr. into brick-built worlds where football fandom and creative play are the same posture. System1 rates it 4.9 stars — the highest of any 2026 World Cup spot they've tested. The YouTube canonical lives on Lego's own channel in Short format; the wider social distribution (6 IG cuts, 6 TT posts) is where the campaign's reach is built."
+    description: "Lego's tournament play stacks Messi, Ronaldo, Mbappé and Vinícius Jr. into brick-built worlds where football fandom and creative play are the same posture. The YouTube canonical lives on Lego's own channel in Short format; the wider social distribution (6 IG cuts, 6 TT posts) is where the campaign's reach is built."
   },
   {
     id: "gat-01", brand: "Gatorade", brandColor: "#F47821", domain: "gatorade.com",
@@ -1302,7 +1304,7 @@ const FALLBACK_ADS = [
     youtubeId: "665gg3fGj9U",
     views: 6176821, likes: 217, comments: 18,
     durationSeconds: 104,
-    description: "Gatorade's 'Trust What's Inside' platform for 2026 — performance and athlete-prep framing. PepsiCo's sports-nutrition arm running parallel to Pepsi's own banter-coded 'Football Nation' platform. System1 rates it 3.0 stars."
+    description: "Gatorade's 'Trust What's Inside' platform for 2026 — performance and athlete-prep framing. PepsiCo's sports-nutrition arm running parallel to Pepsi's own banter-coded 'Football Nation' platform."
   },
   {
     id: "don-01", brand: "Don Julio", brandColor: "#6E2B2B", domain: "donjulio.com",
@@ -1312,7 +1314,7 @@ const FALLBACK_ADS = [
     youtubeId: "Q8CfEy3Epbs",
     views: 313, likes: 3, comments: 1,
     durationSeconds: 31,
-    description: "Diageo's Don Julio platform film, directed by Leigh Powis with Thierry Henry arriving at a post-final celebration. Accompanies the new Tequila Don Julio 1942 World Cup 2026 Edition bottle. A second Don Julio film — 'La Otra Copa' (dir. Stillz, with Roberto Carlos + Henry) — runs alongside as the platform's second piece this cycle. System1 rated 'La Otra Copa' at 3.2 stars."
+    description: "Diageo's Don Julio platform film, directed by Leigh Powis with Thierry Henry arriving at a post-final celebration. Accompanies the new Tequila Don Julio 1942 World Cup 2026 Edition bottle. A second Don Julio film — 'La Otra Copa' (dir. Stillz, with Roberto Carlos + Henry) — runs alongside as the platform's second piece this cycle."
   },
   {
     id: "mar-01", brand: "Marriott Bonvoy", brandColor: "#960028", domain: "marriott.com",
@@ -1710,11 +1712,15 @@ function renderAssetBreakdown(a) {
 // when broken. Local files always work.
 // Cache-bust version. Bump when logos change so users see new versions
 // without having to manually clear their image cache.
-const LOGO_CACHE_BUST = "v2";
+const LOGO_CACHE_BUST = "v3";
+// Brands whose logo is served as SVG instead of PNG (e.g. designed inline
+// rather than sourced from a press kit). Add the slug to use ".svg".
+const SVG_LOGO_BRANDS = new Set(["duracell"]);
 function logoUrl(ad) {
   const slug = ad.brand.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const ext = SVG_LOGO_BRANDS.has(slug) ? "svg" : "png";
   // Logos are shared across all trackers, hosted at the publication root.
-  return `../static/logos/${slug}.png?${LOGO_CACHE_BUST}`;
+  return `../static/logos/${slug}.${ext}?${LOGO_CACHE_BUST}`;
 }
 // Two-tier render: local logo → colored square with brand initial.
 // If a brand doesn't have a local logo file yet, the colored square
@@ -1840,7 +1846,7 @@ function renderLeaderboard() {
   const tbody = document.getElementById("leaderboardBody");
 
   if (rows.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">
+    tbody.innerHTML = `<tr><td colspan="7" class="empty-state">
       No ads match these filters. Try clearing one of them.
     </td></tr>`;
     return;
@@ -1869,12 +1875,13 @@ function renderLeaderboard() {
         </td>
         <td class="num-cell">${fmt.big(a.totalViews ?? a.views ?? 0)}</td>
         <td class="num-cell">${a.er.toFixed(2)}%</td>
+        <td class="num-cell">${fmt.big(Math.round(xpRate(a)))}/d</td>
         <td class="score-cell">${a.score}${scoreBar(a.score)}</td>
       </tr>
     `;
     const expand = isExpanded ? `
       <tr class="expand-row">
-        <td colspan="6">
+        <td colspan="7">
           <div class="expand-content">
             <div class="expand-thumb-wrap">
               <div class="podium-thumb" ${a.youtubeId ? `data-ytid="${a.youtubeId}"` : ""} style="${a.youtubeId ? '' : 'background:' + thumbBg(a.thumbHue)}">
