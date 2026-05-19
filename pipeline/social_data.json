@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T16:29:05Z",
+  "generated": "2026-05-19T16:13:32Z",
   "adCount": 24,
   "ads": [
     {
@@ -13,7 +13,9 @@
             "commentCount": 10332,
             "shares": 0,
             "urlCount": 4,
-            "fetchedAt": "2026-05-18T16:28:58Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 5653000,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -25,7 +27,7 @@
                 "likes": 1000000,
                 "commentCount": 8200,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -38,7 +40,7 @@
                 "likes": 19500,
                 "commentCount": 2100,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -51,7 +53,7 @@
                 "likes": 409,
                 "commentCount": 10,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -64,7 +66,7 @@
                 "likes": 395,
                 "commentCount": 22,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -88,7 +90,9 @@
             "commentCount": 120,
             "shares": 0,
             "urlCount": 6,
-            "fetchedAt": "2026-05-18T16:28:58Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 1847365,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -100,7 +104,7 @@
                 "likes": 1800,
                 "commentCount": 38,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -113,7 +117,7 @@
                 "likes": 9,
                 "commentCount": 1,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -126,7 +130,7 @@
                 "likes": 28,
                 "commentCount": 1,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -139,7 +143,7 @@
                 "likes": 472,
                 "commentCount": 71,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -152,7 +156,7 @@
                 "likes": 60,
                 "commentCount": 4,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -165,7 +169,7 @@
                 "likes": 211,
                 "commentCount": 5,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:58Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             }
@@ -181,350 +185,139 @@
       "brand": "Adidas",
       "platforms": {
         "instagram": {
-          "metadata": {
-            "views": 217389383,
-            "likes": 12044440,
-            "commentCount": 70171,
-            "shares": 0,
-            "urlCount": 9,
-            "fetchedAt": "2026-05-18T16:19:01Z"
-          },
+          "metadata": {},
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DYB6Fs3AJUw/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYB6Fs3AJUw/",
-                "views": 60925529,
-                "_videoPlayCount": 60925529,
-                "_videoViewCount": 12273137,
-                "likes": 2417422,
-                "commentCount": 29204,
-                "publishedAt": "2026-05-07T07:59:03.000Z",
-                "caption": "In this Backyard, it’s “win or go home,” and this crew hasn’t left since the 90’s. \n\nWhere there’s a pitch, there’s a legend. \n\n#YouGotThis",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:17:30Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYEziwqgp84/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYEziwqgp84/",
-                "views": 22536100,
-                "_videoPlayCount": 22536100,
-                "_videoViewCount": 7189413,
-                "likes": 1624186,
-                "commentCount": 3499,
-                "publishedAt": "2026-05-08T11:00:59.000Z",
-                "caption": "“How many people know about this?” #YouGotThis",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:18:10Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYFIVfYM4ib/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYFIVfYM4ib/",
-                "views": 66466602,
-                "_videoPlayCount": 66466602,
-                "_videoViewCount": 18209810,
-                "likes": 3817131,
-                "commentCount": 14470,
-                "publishedAt": "2026-05-08T13:58:43.000Z",
-                "caption": "So... who’s up next? \nY ahora… ¿quién sigue? #YouGotThis",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:18:17Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYFV4ZbsFBS/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYFV4ZbsFBS/",
-                "views": 4445325,
-                "_videoPlayCount": 4445325,
-                "_videoViewCount": 1231260,
-                "likes": 207834,
-                "commentCount": 724,
-                "publishedAt": "2026-05-08T15:59:12.000Z",
-                "caption": "It was meant to be simple. 3v3.\nWin or go home… #YouGotThis",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:18:23Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYFjrVQglDw/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYFjrVQglDw/",
-                "views": 7299190,
-                "_videoPlayCount": 7299190,
-                "_videoViewCount": 2466091,
-                "likes": 539853,
-                "commentCount": 1609,
-                "publishedAt": "2026-05-08T17:59:14.000Z",
-                "caption": "Sound on. #YouGotThis",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:18:29Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DX93GFmAWcR/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DX93GFmAWcR/",
-                "views": 9782298,
-                "_videoPlayCount": 9782298,
-                "_videoViewCount": 2272558,
-                "likes": 169779,
-                "commentCount": 1352,
-                "publishedAt": "2026-05-05T18:13:20.000Z",
-                "caption": "Find us a better crew. We’ll wait… #YouGotThis",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:18:36Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DX_3ze5pGEX/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DX_3ze5pGEX/",
-                "views": 28314593,
-                "_videoPlayCount": 28314593,
-                "_videoViewCount": 9874431,
-                "likes": 2268087,
-                "commentCount": 12604,
-                "publishedAt": "2026-05-06T12:59:46.000Z",
-                "caption": "TMRW \n\nMY SOCC- FOOTBALL DREAMS COME TRUE !! \n\n@adidas",
-                "ownerUsername": "tchalamet",
-                "fetchedAt": "2026-05-18T16:18:47Z"
-              },
+              "metadata": {},
               "commentSample": 0,
               "talent": "Timothe Chalamet"
             },
             {
               "url": "https://www.instagram.com/reel/DYCuRgvJP8v/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYCuRgvJP8v/",
-                "views": 13624455,
-                "_videoPlayCount": 13624455,
-                "_videoViewCount": 3713011,
-                "likes": 866765,
-                "commentCount": 6106,
-                "publishedAt": "2026-05-07T15:34:17.000Z",
-                "caption": "SOME OF US ARE DESTINED FOR ATHLETIC GREATNESS\n\nSOME OF US ARE DESTINED TO CHEER ON ATHLETIC GREATNESS FROM A RESPECTFUL DISTANCE … LIKE YOURS TRULY 🤣🤣\n\n@leomessi\n@badbunnypr\n@lamineyamal\n@judebellingham\n@trinity_rodman\n@o.dembele7\n@raphinha \n@pedri \n@flowirtz \n@sant.gimenez \n@zidane \n@davidbeckham \n@alessandrodelpiero \n@adidas",
-                "ownerUsername": "tchalamet",
-                "fetchedAt": "2026-05-18T16:18:54Z"
-              },
+              "metadata": {},
               "commentSample": 0,
               "talent": "Timothe Chalamet"
             },
             {
               "url": "https://www.instagram.com/reel/DYFRDzpoDNr/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYFRDzpoDNr/",
-                "views": 3995291,
-                "_videoPlayCount": 3995291,
-                "_videoViewCount": 1262562,
-                "likes": 133383,
-                "commentCount": 603,
-                "publishedAt": "2026-05-08T15:14:30.000Z",
-                "caption": "Win or go home… 🏆⚽️ @zidane @alessandrodelpiero @adidasfootball #YouGotThis",
-                "ownerUsername": "davidbeckham",
-                "fetchedAt": "2026-05-18T16:19:01Z"
-              },
+              "metadata": {},
               "commentSample": 0,
               "talent": "David Beckham"
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": []
+          "errors": [
+            "https://www.instagram.com/reel/DYB6Fs3AJUw/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYEziwqgp84/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYFIVfYM4ib/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYFV4ZbsFBS/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYFjrVQglDw/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DX93GFmAWcR/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DX_3ze5pGEX/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYCuRgvJP8v/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYFRDzpoDNr/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+          ]
         },
         "tiktok": {
-          "metadata": {
-            "views": 15379600,
-            "likes": 1965433,
-            "commentCount": 12995,
-            "shares": 201792,
-            "urlCount": 10,
-            "fetchedAt": "2026-05-18T16:25:14Z"
-          },
+          "metadata": {},
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@adidas/video/7637057954289618198",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7637057954289618198",
-                "views": 5300000,
-                "likes": 880700,
-                "commentCount": 8139,
-                "shares": 167200,
-                "publishedAt": "2026-05-07T08:05:26.000Z",
-                "caption": "probably. maybe. #YouGotThis #adidas ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:20:27Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7636472797362998550",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7636472797362998550",
-                "views": 1200000,
-                "likes": 119300,
-                "commentCount": 590,
-                "shares": 2731,
-                "publishedAt": "2026-05-05T18:14:42.000Z",
-                "caption": "something legendary is loading… ⏳#YouGotThis #worldcup #football #adidas ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:20:51Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7637155698803002646",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7637155698803002646",
-                "views": 1200000,
-                "likes": 110200,
-                "commentCount": 761,
-                "shares": 7221,
-                "publishedAt": "2026-05-07T14:24:44.000Z",
-                "caption": "Dembélé clocking in for lunch break duties @Ousmane Dembélé #football #worldcup #YouGotThis ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:21:33Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7637191312768273686",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7637191312768273686",
-                "views": 1100000,
-                "likes": 143800,
-                "commentCount": 846,
-                "shares": 6703,
-                "publishedAt": "2026-05-07T16:42:54.000Z",
-                "caption": "my hubby 🥰 @Pedri González #pedri #football #worldcup #YouGotThis ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:22:04Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7637480562072096022",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7637480562072096022",
-                "views": 478400,
-                "likes": 26300,
-                "commentCount": 240,
-                "shares": 632,
-                "publishedAt": "2026-05-08T11:25:23.000Z",
-                "caption": "how do you call this? #judebellingham #backyardgame #football #worldcup #YouGotThis ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:22:45Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7637528339569413378",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7637528339569413378",
-                "views": 3700000,
-                "likes": 492500,
-                "commentCount": 1336,
-                "shares": 10100,
-                "publishedAt": "2026-05-08T14:30:45.000Z",
-                "caption": "just 5 more minutes!! #football #worldcup #YouGotThis",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:23:14Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7638251165427305750",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7638251165427305750",
-                "views": 1400000,
-                "likes": 77600,
-                "commentCount": 168,
-                "shares": 1170,
-                "publishedAt": "2026-05-10T13:15:43.000Z",
-                "caption": "some rules were made to be tested #santiagogimenez #football #worldcup #YouGotThis ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:23:46Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7638310739215781142",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7638310739215781142",
-                "views": 190700,
-                "likes": 5733,
-                "commentCount": 81,
-                "shares": 55,
-                "publishedAt": "2026-05-10T17:06:51.000Z",
-                "caption": "the family group chat isn‘t ready for this duo @trinity.rodman #football #worldcup #YouGotThis ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:24:31Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7639021039523040534",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7639021039523040534",
-                "views": 427600,
-                "likes": 54000,
-                "commentCount": 544,
-                "shares": 4644,
-                "publishedAt": "2026-05-12T15:03:14.000Z",
-                "caption": "collective sigh @Raphinha #raphinha #football #worldcup #YouGotThis ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:24:51Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.tiktok.com/@adidas/video/7639760504860298518",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@adidas/video/7639760504860298518",
-                "views": 382900,
-                "likes": 55300,
-                "commentCount": 290,
-                "shares": 1336,
-                "publishedAt": "2026-05-14T14:52:43.000Z",
-                "caption": "who you picking? #football #worldcup #YouGotThis ",
-                "ownerUsername": "adidas",
-                "fetchedAt": "2026-05-18T16:25:14Z"
-              },
+              "metadata": {},
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": []
+          "errors": [
+            "https://www.tiktok.com/@adidas/video/7637057954289618198: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7636472797362998550: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7637155698803002646: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7637191312768273686: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7637480562072096022: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7637528339569413378: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7638251165427305750: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7638310739215781142: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7639021039523040534: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.tiktok.com/@adidas/video/7639760504860298518: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+          ]
         }
       }
     },
@@ -533,67 +326,34 @@
       "brand": "Marriott Bonvoy",
       "platforms": {
         "instagram": {
-          "metadata": {
-            "views": 128455,
-            "likes": 1065,
-            "commentCount": 62,
-            "shares": 0,
-            "urlCount": 1,
-            "fetchedAt": "2026-05-18T16:25:20Z"
-          },
+          "metadata": {},
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DWHEuz9DroV/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DWHEuz9DroV/",
-                "views": 128455,
-                "_videoPlayCount": 128455,
-                "_videoViewCount": 25503,
-                "likes": 1065,
-                "commentCount": 62,
-                "publishedAt": "2026-03-20T15:03:13.000Z",
-                "caption": "Are you ready? We are. As Official Hotel Supporter in North America for the FIFA World Cup 2026™, Marriott Bonvoy and @visa are ready to welcome fans. Members will have access to tickets across all 104 matches, plus curated Marriott Bonvoy Moments to get closer to the action. \n\nBe among the first to know when tickets drop. Text ‘GOAL’ to BONVOY (266869).\n\nAvailable in the United States. Standard message and data rates may apply. Message frequency may vary. You can opt out of receiving SMS messag",
-                "ownerUsername": "marriottbonvoy",
-                "fetchedAt": "2026-05-18T16:25:20Z"
-              },
+              "metadata": {},
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": []
+          "errors": [
+            "https://www.instagram.com/reel/DWHEuz9DroV/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+          ]
         },
         "tiktok": {
-          "metadata": {
-            "views": 2493,
-            "likes": 114,
-            "commentCount": 3,
-            "shares": 8,
-            "urlCount": 1,
-            "fetchedAt": "2026-05-18T16:25:42Z"
-          },
+          "metadata": {},
           "perUrl": [
             {
               "url": "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981",
-              "metadata": {
-                "platform": "tiktok",
-                "url": "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981",
-                "views": 2493,
-                "likes": 114,
-                "commentCount": 3,
-                "shares": 8,
-                "publishedAt": "2026-04-19T18:43:14.000Z",
-                "caption": "Courtesy of @Visa, with @marriottbonvoy some dreams come with a key. \n\nIntroducing: The Sleepover Suite. \nA custom-built suite inside the stadium, on the eve of the FIFA World Cup 2026™ Final. \n\nWake up to THE view on matchday.  For Fans, Everywhere. \n\nEnter for a chance to win via link in bio. \nThanks to @visa\n\n#FIFAWorldCup #ForFansEverywhere\n\nNO PURCHASE NECESSARY. Residents of select countries/regions, 18+/age of majority. Ends June 16, 2026 (see rules for weekly drawing dates). Skill testin",
-                "ownerUsername": "marriottbonvoy",
-                "fetchedAt": "2026-05-18T16:25:42Z"
-              },
+              "metadata": {},
               "commentSample": 0
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": []
+          "errors": [
+            "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+          ]
         }
       }
     },
@@ -608,7 +368,9 @@
             "commentCount": 601,
             "shares": 0,
             "urlCount": 7,
-            "fetchedAt": "2026-05-18T16:25:42Z"
+            "fetchedAt": "2026-05-19T16:13:30Z",
+            "viewsLast7Days": 0,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -620,7 +382,7 @@
                 "likes": 43900,
                 "commentCount": 268,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:25:42Z"
+                "fetchedAt": "2026-05-19T16:13:30Z"
               },
               "commentSample": 0
             },
@@ -633,7 +395,7 @@
                 "likes": 121500,
                 "commentCount": 170,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:25:42Z"
+                "fetchedAt": "2026-05-19T16:13:30Z"
               },
               "commentSample": 0
             },
@@ -646,7 +408,7 @@
                 "likes": 23500,
                 "commentCount": 32,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:25:42Z"
+                "fetchedAt": "2026-05-19T16:13:30Z"
               },
               "commentSample": 0
             },
@@ -659,7 +421,7 @@
                 "likes": 36300,
                 "commentCount": 22,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:25:42Z"
+                "fetchedAt": "2026-05-19T16:13:30Z"
               },
               "commentSample": 0
             },
@@ -672,7 +434,7 @@
                 "likes": 87700,
                 "commentCount": 41,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:25:42Z"
+                "fetchedAt": "2026-05-19T16:13:30Z"
               },
               "commentSample": 0
             },
@@ -685,7 +447,7 @@
                 "likes": 460,
                 "commentCount": 7,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:25:42Z"
+                "fetchedAt": "2026-05-19T16:13:30Z"
               },
               "commentSample": 0
             },
@@ -698,7 +460,7 @@
                 "likes": 15000,
                 "commentCount": 61,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:25:42Z"
+                "fetchedAt": "2026-05-19T16:13:30Z"
               },
               "commentSample": 0
             }
@@ -714,344 +476,129 @@
       "brand": "Lay's",
       "platforms": {
         "instagram": {
-          "metadata": {
-            "views": 38229667,
-            "likes": 1240209,
-            "commentCount": 9468,
-            "shares": 0,
-            "urlCount": 19,
-            "fetchedAt": "2026-05-18T16:28:07Z"
-          },
+          "metadata": {},
           "perUrl": [
             {
               "url": "https://www.instagram.com/reel/DRzgK1vCEz2/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DRzgK1vCEz2/",
-                "views": 20643111,
-                "_videoPlayCount": 20643111,
-                "_videoViewCount": 3190873,
-                "likes": 501504,
-                "commentCount": 3111,
-                "publishedAt": "2025-12-03T14:31:52.000Z",
-                "caption": "Something epic is coming. 👀 \n#NoLaysNoGame #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:25:48Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DRw7E7JCOh_/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DRw7E7JCOh_/",
-                "views": 38011,
-                "_videoPlayCount": 38011,
-                "_videoViewCount": 11868,
-                "likes": 1423,
-                "commentCount": 20,
-                "publishedAt": "2025-12-02T14:31:14.000Z",
-                "caption": "@thierryhenry calling... 👀 #NoLaysNoGame #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:25:57Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DV0079ZCO3r/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DV0079ZCO3r/",
-                "views": 13240,
-                "_videoPlayCount": 13240,
-                "_videoViewCount": 4649,
-                "likes": 704,
-                "commentCount": 19,
-                "publishedAt": "2026-03-13T13:00:08.000Z",
-                "caption": "Food for thought from soccer Steve 🤔\n#NoLaysNoGame #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:26:36Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DVyYvBfCLyg/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DVyYvBfCLyg/",
-                "views": 130649,
-                "_videoPlayCount": 130649,
-                "_videoViewCount": 9115,
-                "likes": 1071,
-                "commentCount": 57,
-                "publishedAt": "2026-03-12T14:12:50.000Z",
-                "caption": "Every watch party starts with a group chat. But this one includes Alexia, Messi, Beckham, Thierry, and Steve. Join the group at the link in bio and see what happens inside. #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:26:40Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DW3yOaUCDS0/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DW3yOaUCDS0/",
-                "views": 8404,
-                "_videoPlayCount": 8404,
-                "_videoViewCount": 2549,
-                "likes": 341,
-                "commentCount": 7,
-                "publishedAt": "2026-04-08T13:04:06.000Z",
-                "caption": "Confessions before kick off 🎤 #NoLaysNoGame #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:26:45Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DX9SVzKo5GS/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DX9SVzKo5GS/",
-                "views": 803483,
-                "_videoPlayCount": 803483,
-                "_videoViewCount": 177085,
-                "likes": 16374,
-                "commentCount": 213,
-                "publishedAt": "2026-05-05T13:00:11.000Z",
-                "caption": "It started with a group chat and ended with the most Epic Watch Party of all time #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:26:51Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYMvoQpoAAC/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYMvoQpoAAC/",
-                "views": 11695,
-                "_videoPlayCount": 11695,
-                "_videoViewCount": 4816,
-                "likes": 559,
-                "commentCount": 13,
-                "publishedAt": "2026-05-11T12:59:47.000Z",
-                "caption": "What else? 😉\n\n#NoLaysNoGame #FIFAWORLDCUP",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:26:56Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DYUkSVgolez/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DYUkSVgolez/",
-                "views": 17402,
-                "_videoPlayCount": 17402,
-                "_videoViewCount": 5489,
-                "likes": 546,
-                "commentCount": 16,
-                "publishedAt": "2026-05-14T13:58:40.000Z",
-                "caption": "What happens at the most epic watch party stays… never mind 🤭 #NoLaysNoGame #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:02Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DX6uIb6oMSa/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DX6uIb6oMSa/",
-                "views": 22482,
-                "_videoPlayCount": 22482,
-                "_videoViewCount": 9185,
-                "likes": 1307,
-                "commentCount": 22,
-                "publishedAt": "2026-05-04T13:00:23.000Z",
-                "caption": "@davidbeckham open up, your guests are here🚪 #NoLaysNoGame #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:08Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXzL5a8IkgG/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DXzL5a8IkgG/",
-                "views": 15038,
-                "_videoPlayCount": 15038,
-                "_videoViewCount": 5955,
-                "likes": 351,
-                "commentCount": 21,
-                "publishedAt": "2026-05-01T14:43:13.000Z",
-                "caption": "That is one lucky fan 🤩 Find out what’s happening in the group chat. Link in bio. #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:14Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXrZcFxiOl5/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DXrZcFxiOl5/",
-                "views": 11822,
-                "_videoPlayCount": 11822,
-                "_videoViewCount": 4460,
-                "likes": 579,
-                "commentCount": 10,
-                "publishedAt": "2026-04-28T14:07:11.000Z",
-                "caption": "Who, when, where, WHAT? 👀 See what they’re up to in the group chat. Link in bio #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:19Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXmjfi4iCZz/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DXmjfi4iCZz/",
-                "views": 10258,
-                "_videoPlayCount": 10258,
-                "_videoViewCount": 3714,
-                "likes": 325,
-                "commentCount": 3,
-                "publishedAt": "2026-04-26T16:59:45.000Z",
-                "caption": "Never a dull moment with this group 👀 See what they’re up to in the group chat. Link in bio #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:24Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXeZeEpCKro/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DXeZeEpCKro/",
-                "views": 10774,
-                "_videoPlayCount": 10774,
-                "_videoViewCount": 3755,
-                "likes": 451,
-                "commentCount": 11,
-                "publishedAt": "2026-04-23T13:00:11.000Z",
-                "caption": "Tell your mates to bring mate 🧉Join the group chat via link in bio. #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:29Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXZfGUYCEnD/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DXZfGUYCEnD/",
-                "views": 5251,
-                "_videoPlayCount": 5251,
-                "_videoViewCount": 1635,
-                "likes": 175,
-                "commentCount": 4,
-                "publishedAt": "2026-04-21T15:10:24.000Z",
-                "caption": "Anyone got more halftime ideas for Steve? 🎇👀Join the group chat via link in bio. #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:34Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DXJ9NLsCKHM/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DXJ9NLsCKHM/",
-                "views": 8573,
-                "_videoPlayCount": 8573,
-                "_videoViewCount": 3055,
-                "likes": 215,
-                "commentCount": 4,
-                "publishedAt": "2026-04-15T14:25:53.000Z",
-                "caption": "It’s happening…👀 Grab a bag of Lay’s and you could win a once-in-a-lifetime FIFA World Cup 26™ experience. Nice, right Steve? 🤩 @FIFAWorldCup #FIFAWorldCup #LaysFanOfTheMatch",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:43Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DWl-DZUiHow/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DWl-DZUiHow/",
-                "views": 9471,
-                "_videoPlayCount": 9471,
-                "_videoViewCount": 2790,
-                "likes": 307,
-                "commentCount": 6,
-                "publishedAt": "2026-04-01T15:00:12.000Z",
-                "caption": "Bosnia and Herzegovina just joined Group B. Now you can join the chat with Leo, Alexia, Thierry, Steve and David. Join the group chat via link in bio.\n#NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:49Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DWBtBkUCNEd/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DWBtBkUCNEd/",
-                "views": 10332,
-                "_videoPlayCount": 10332,
-                "_videoViewCount": 3391,
-                "likes": 439,
-                "commentCount": 9,
-                "publishedAt": "2026-03-18T12:59:35.000Z",
-                "caption": "Are you ready for the watch party? Because Steve is! Join the group chat via link in bio. #NoLaysNoGame #EpicWatchParty #FIFAWorldCup",
-                "ownerUsername": "lays_football",
-                "fetchedAt": "2026-05-18T16:27:55Z"
-              },
+              "metadata": {},
               "commentSample": 0
             },
             {
               "url": "https://www.instagram.com/reel/DX9TXp2MViU/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DX9TXp2MViU/",
-                "views": 16195779,
-                "_videoPlayCount": 16195779,
-                "_videoViewCount": 2857319,
-                "likes": 696645,
-                "commentCount": 5791,
-                "publishedAt": "2026-05-05T13:01:37.000Z",
-                "caption": "Todo empezó con un chat grupal… y terminó en la juntada más épica para ver un partido. @lays_Football #NoLaysNoGame #FIFAWorldCup\n\nAll it took was one group chat… the rest is watch party history. @Lays_Football #NoLaysNoGame #FIFAWorldCup",
-                "ownerUsername": "leomessi",
-                "fetchedAt": "2026-05-18T16:28:01Z"
-              },
+              "metadata": {},
               "commentSample": 0,
               "talent": "Leo Messi"
             },
             {
               "url": "https://www.instagram.com/reel/DX9qirjofFF/",
-              "metadata": {
-                "platform": "instagram",
-                "url": "https://www.instagram.com/p/DX9qirjofFF/",
-                "views": 263892,
-                "_videoPlayCount": 263892,
-                "_videoViewCount": 49532,
-                "likes": 16893,
-                "commentCount": 131,
-                "publishedAt": "2026-05-05T16:28:34.000Z",
-                "caption": "Best watch party ever. No debate. ⚽️📺\n#NoLaysNoGame #EpicWatchParty #FIFAWorldCup @lays_football @fifaworldcup @leomessi @davidbeckham @thierryhenry",
-                "ownerUsername": "alexiaputellas",
-                "fetchedAt": "2026-05-18T16:28:07Z"
-              },
+              "metadata": {},
               "commentSample": 0,
               "talent": "Alexia Putellas"
             }
           ],
           "comments": [],
           "fromCache": false,
-          "errors": []
+          "errors": [
+            "https://www.instagram.com/reel/DRzgK1vCEz2/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DRw7E7JCOh_/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DV0079ZCO3r/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DVyYvBfCLyg/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DW3yOaUCDS0/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DX9SVzKo5GS/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYMvoQpoAAC/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DYUkSVgolez/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DX6uIb6oMSa/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DXzL5a8IkgG/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DXrZcFxiOl5/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DXmjfi4iCZz/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DXeZeEpCKro/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DXZfGUYCEnD/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DXJ9NLsCKHM/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DWl-DZUiHow/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DWBtBkUCNEd/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DX9TXp2MViU/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
+            "https://www.instagram.com/reel/DX9qirjofFF/: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}"
+          ]
         },
         "tiktok": {
           "metadata": {},
@@ -1180,7 +727,7 @@
           "comments": [],
           "fromCache": false,
           "errors": [
-            "https://www.tiktok.com/@laysfootball/video/7579640372071091478: metadata: 400: {\n  \"error\": {\n    \"type\": \"run-failed\",\n    \"message\": \"Actor run did not succeed (run ID: HTnFelp3946w0CC8I, status: FAILED).\"\n  }\n}",
+            "https://www.tiktok.com/@laysfootball/video/7579640372071091478: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
             "https://www.tiktok.com/@laysfootball/video/7579269662018391299: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
             "https://www.tiktok.com/@laysfootball/video/7616372654517341462: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
             "https://www.tiktok.com/@laysfootball/video/7616724495142800662: metadata: 403: {\n  \"error\": {\n    \"type\": \"platform-feature-disabled\",\n    \"message\": \"Monthly usage hard limit exceeded\"\n  }\n}",
@@ -1255,7 +802,9 @@
             "commentCount": 25,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-18T16:28:59Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 800,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -1267,7 +816,7 @@
                 "likes": 1400,
                 "commentCount": 25,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:59Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             }
@@ -1289,7 +838,9 @@
             "commentCount": 43,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-18T16:28:59Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 1300,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -1301,7 +852,7 @@
                 "likes": 676,
                 "commentCount": 43,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:59Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             }
@@ -1387,7 +938,9 @@
             "commentCount": 531,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-18T16:28:59Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 100000,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -1399,7 +952,7 @@
                 "likes": 261000,
                 "commentCount": 531,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:59Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             }
@@ -1443,7 +996,9 @@
             "commentCount": 560,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-18T16:28:59Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 0,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -1460,7 +1015,7 @@
                 "likes": 16400,
                 "commentCount": 560,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:28:59Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -1652,7 +1207,9 @@
             "commentCount": 22,
             "shares": 0,
             "urlCount": 1,
-            "fetchedAt": "2026-05-18T16:29:00Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 200,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -1664,7 +1221,7 @@
                 "likes": 613,
                 "commentCount": 22,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:29:00Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             }
@@ -1865,7 +1422,9 @@
             "commentCount": 173,
             "shares": 0,
             "urlCount": 2,
-            "fetchedAt": "2026-05-18T16:29:01Z"
+            "fetchedAt": "2026-05-19T16:13:31Z",
+            "viewsLast7Days": 100900,
+            "velocityWindowDays": 5.47
           },
           "perUrl": [
             {
@@ -1877,7 +1436,7 @@
                 "likes": 1200,
                 "commentCount": 20,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:29:01Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0
             },
@@ -1890,7 +1449,7 @@
                 "likes": 6600,
                 "commentCount": 153,
                 "_source": "manual",
-                "fetchedAt": "2026-05-18T16:29:01Z"
+                "fetchedAt": "2026-05-19T16:13:31Z"
               },
               "commentSample": 0,
               "talent": "Thierry Henry"
