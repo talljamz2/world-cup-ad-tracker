@@ -378,24 +378,64 @@
     .sort-select { margin-left: 0; width: 100%; }
   }
 
-  /* Mobile leaderboard: drop both Views and ER columns so the remaining
-     four (# / Brand / Spot / Score) fit a phone without horizontal scroll.
-     Tighten padding throughout. Also condense the tier filter chips and
-     hide the section-head hint text on mobile (it overflows). */
+  /* Mobile leaderboard: a 7-column table can't fit a phone, so below 600px
+     we stop rendering a table and stack each row as a card. Each row becomes
+     a CSS grid:
+         [rank] [brand .......] [score]
+         [rank] [spot .........spot   ]
+     The numeric columns (Views / ER / Velocity) are dropped — those live in
+     the expand row and the sort control. This removes the horizontal-overflow
+     problem entirely instead of fighting it with overflow:hidden clipping. */
   @media (max-width: 600px) {
-    table.leaderboard th:nth-child(4),
-    table.leaderboard td:nth-child(4),
-    table.leaderboard th:nth-child(5),
-    table.leaderboard td:nth-child(5) { display: none; }
-    table.leaderboard th { padding: 10px 6px; font-size: 9px; }
-    table.leaderboard td { padding: 12px 6px; }
-    .rank-cell { width: 28px; font-size: 15px; }
-    .ad-title-cell { font-size: 13px; }
-    .ad-title-cell .agency { font-size: 11px; }
+    /* Collapse table semantics to block so rows can be cards */
+    table.leaderboard,
+    table.leaderboard tbody { display: block; width: 100%; }
+    table.leaderboard thead { display: none; }
+
+    /* Each ranked ad = one card */
+    table.leaderboard tr.expandable {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      grid-template-areas:
+        "rank brand score"
+        "rank spot  spot";
+      align-items: center;
+      column-gap: 12px;
+      row-gap: 6px;
+      padding: 14px;
+      border-bottom: 1px solid var(--rule);
+    }
+    table.leaderboard tr.expandable td {
+      display: block;
+      padding: 0;
+      border: none;
+    }
+    /* Map the 7 original cells onto the grid; hide the three numeric ones */
+    table.leaderboard td.rank-cell    { grid-area: rank; align-self: center; width: auto; font-size: 16px; }
+    table.leaderboard td:nth-child(2) { grid-area: brand; }   /* brand */
+    table.leaderboard td:nth-child(3) { grid-area: spot; }    /* spot  */
+    table.leaderboard tr.expandable td:nth-child(4),           /* views */
+    table.leaderboard tr.expandable td:nth-child(5),           /* ER    */
+    table.leaderboard tr.expandable td:nth-child(6) { display: none; }  /* velocity */
+    table.leaderboard td.score-cell {
+      grid-area: score; align-self: center;
+      text-align: right; padding-right: 0; font-size: 20px;
+    }
+    .score-bar { margin-right: 0; }  /* keep the accent bar, align flush right */
+
+    /* Card-internal sizing */
     .brand-cell { gap: 8px; }
-    .brand-info .brand-name { font-size: 13px; }
+    .brand-info .brand-name { font-size: 14px; }
     .tier-pill { font-size: 9px; padding: 2px 6px; }
-    .score-cell { font-size: 16px; }
+    .ad-title-cell { font-size: 13px; line-height: 1.3; }
+    .ad-title-cell .agency { font-size: 11px; }
+    /* Platform pills wrap under the title rather than forcing the card wide */
+    .platform-pills { margin-left: 0; margin-top: 4px; display: flex; flex-wrap: wrap; }
+
+    /* Expand row spans the full card width */
+    table.leaderboard tr.expand-row { display: block; }
+    table.leaderboard tr.expand-row td { display: block; padding: 0; }
+
     /* Tier filter chips — tighter padding/font so all three fit on one row */
     .filter-chip { padding: 5px 10px; font-size: 12px; }
     .filter-label { font-size: 9px; }
