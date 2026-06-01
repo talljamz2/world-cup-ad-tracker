@@ -64,7 +64,23 @@ jobs:
           git add -A pipeline/social_data.json pipeline/social_history.json pipeline/history.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No social-data changes — skipping commit."
-          else
-            git commit -m "social: refresh IG/TT metrics [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "social: refresh IG/TT metrics [skip ci]"
+          # The Apify step runs ~30 min. The hourly metrics job (update.yml)
+          # often pushes to main inside that window, so a plain push races and
+          # is rejected as non-fast-forward. Rebase onto the latest main and
+          # retry. The social job only touches social_data.json /
+          # social_history.json — files update.yml never writes — so the
+          # rebase is conflict-free in practice.
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — rebasing onto latest main..."
+            git pull --rebase --autostash origin main || true
+            sleep $(( (RANDOM % 5) + 2 ))
+          done
+          echo "::error::Failed to push social refresh after 5 rebase/retry attempts."
+          exit 1
