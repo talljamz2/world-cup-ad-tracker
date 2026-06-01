@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-01T14:48:35+00:00",
+  "updated": "2026-06-01T14:49:51+00:00",
   "ads": [
     {
       "id": "adi-01",
@@ -47,14 +47,14 @@
         }
       ],
       "views": 5795412,
-      "likes": 246570,
+      "likes": 246572,
       "comments": 5873,
       "published": "2026-05-07T08:00:40Z",
       "channelTitle": "adidas",
       "durationSeconds": 306,
-      "weightedSentiment": 58.4,
-      "sentimentSampleSize": 375,
-      "velocityViewsPerDay": 229220,
+      "weightedSentiment": 58.5,
+      "sentimentSampleSize": 377,
+      "velocityViewsPerDay": 229212,
       "viewsLast7Days": 648059,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -62,7 +62,7 @@
       "primary": {
         "videoId": "mJJY53qhJe0",
         "views": 5795412,
-        "likes": 246570,
+        "likes": 246572,
         "comments": 5873
       }
     },
@@ -83,7 +83,7 @@
       "tiktokUrls": [
         "https://www.tiktok.com/@marriottbonvoy/video/7630542702517619981"
       ],
-      "views": 7680,
+      "views": 7675,
       "likes": 23,
       "comments": 2,
       "published": "2026-03-20T15:01:07Z",
@@ -92,13 +92,13 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 2,
       "velocityViewsPerDay": 105,
-      "viewsLast7Days": 575,
+      "viewsLast7Days": 570,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "bWtKtqSeB40",
-        "views": 7680,
+        "views": 7675,
         "likes": 23,
         "comments": 2
       }
@@ -174,7 +174,7 @@
           "lastCheckedAt": "2026-05-20T21:06:19+00:00"
         }
       ],
-      "views": 25568753,
+      "views": 25568757,
       "likes": 1843,
       "comments": 91,
       "published": "2026-04-28T04:29:22Z",
@@ -182,14 +182,14 @@
       "durationSeconds": 115,
       "weightedSentiment": 61.4,
       "sentimentSampleSize": 52,
-      "velocityViewsPerDay": 742633,
-      "viewsLast7Days": 1445623,
+      "velocityViewsPerDay": 742613,
+      "viewsLast7Days": 1445627,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "w0oRTljtx0o",
-        "views": 25568753,
+        "views": 25568757,
         "likes": 1843,
         "comments": 91
       }
@@ -427,7 +427,7 @@
           "talent": "Christian Pulisic"
         }
       ],
-      "views": 20364235,
+      "views": 20364239,
       "likes": 0,
       "comments": 268,
       "published": "2026-05-12T12:59:35Z",
@@ -435,15 +435,15 @@
       "durationSeconds": 184,
       "weightedSentiment": 61.7,
       "sentimentSampleSize": 122,
-      "velocityViewsPerDay": 1014380,
-      "viewsLast7Days": 18849972,
+      "velocityViewsPerDay": 1014334,
+      "viewsLast7Days": 18849976,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 3,
       "youtubeCutdowns": [
         {
           "videoId": "nP4G3I2Jx2A",
           "title": "",
-          "views": 1125,
+          "views": 1129,
           "likes": 0,
           "comments": 1,
           "published": "2026-05-13T16:08:22Z",
@@ -553,7 +553,7 @@
           "talent": "David Beckham"
         }
       ],
-      "views": 9737,
+      "views": 9753,
       "likes": 96,
       "comments": 5,
       "published": "2026-04-15T13:09:28Z",
@@ -561,14 +561,14 @@
       "durationSeconds": 37,
       "weightedSentiment": null,
       "sentimentSampleSize": 3,
-      "velocityViewsPerDay": 206,
-      "viewsLast7Days": 1246,
+      "velocityViewsPerDay": 207,
+      "viewsLast7Days": 1262,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "MJ4mFg8xxNI",
-        "views": 9737,
+        "views": 9753,
         "likes": 96,
         "comments": 5
       }
@@ -640,7 +640,7 @@
         }
       ],
       "talentIgUrls": [],
-      "views": 4759,
+      "views": 4760,
       "likes": 43,
       "comments": 1,
       "published": "2026-04-29T15:56:20Z",
@@ -649,13 +649,13 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 0,
       "velocityViewsPerDay": 144,
-      "viewsLast7Days": 545,
+      "viewsLast7Days": 546,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "SbmYOQIIEBg",
-        "views": 4759,
+        "views": 4760,
         "likes": 43,
         "comments": 1
       }
@@ -682,7 +682,7 @@
       "durationSeconds": 111,
       "weightedSentiment": 66.8,
       "sentimentSampleSize": 250,
-      "velocityViewsPerDay": 69503,
+      "velocityViewsPerDay": 69501,
       "viewsLast7Days": 22079,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -732,7 +732,7 @@
       "durationSeconds": 221,
       "weightedSentiment": 67.3,
       "sentimentSampleSize": 368,
-      "velocityViewsPerDay": 62706,
+      "velocityViewsPerDay": 62704,
       "viewsLast7Days": 269955,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -755,7 +755,7 @@
       "thumbHue": 215,
       "youtubeId": "yk41Qxz3tAo",
       "description": "Motorola's 2026 global tournament film, framed around fan reactions and device-as-camera storytelling. The brand's headline 2026 activation, distinct from regional cutdown variants that surface on local channels.",
-      "views": 3492,
+      "views": 3493,
       "likes": 145,
       "comments": 11,
       "published": "2026-03-03T13:00:02Z",
@@ -764,13 +764,13 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 6,
       "velocityViewsPerDay": 38,
-      "viewsLast7Days": 140,
+      "viewsLast7Days": 141,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "yk41Qxz3tAo",
-        "views": 3492,
+        "views": 3493,
         "likes": 145,
         "comments": 11
       }
@@ -806,7 +806,7 @@
       "durationSeconds": 61,
       "weightedSentiment": null,
       "sentimentSampleSize": 3,
-      "velocityViewsPerDay": 523895,
+      "velocityViewsPerDay": 523887,
       "viewsLast7Days": 290,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -844,7 +844,7 @@
       "durationSeconds": 78,
       "weightedSentiment": 56.2,
       "sentimentSampleSize": 28,
-      "velocityViewsPerDay": 204280,
+      "velocityViewsPerDay": 204272,
       "viewsLast7Days": 1999075,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -919,7 +919,7 @@
           "lastCheckedAt": "2026-05-20T21:06:19+00:00"
         }
       ],
-      "views": 8705,
+      "views": 8707,
       "likes": 44,
       "comments": 6,
       "published": "2025-09-29T12:58:10Z",
@@ -928,13 +928,13 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
       "velocityViewsPerDay": 35,
-      "viewsLast7Days": 87,
+      "viewsLast7Days": 89,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "zexYXF7R0jM",
-        "views": 8705,
+        "views": 8707,
         "likes": 44,
         "comments": 6
       }
@@ -950,7 +950,7 @@
       "thumbHue": 0,
       "youtubeId": "vV9zKd3ob3k",
       "description": "Owen Trevor Black's Rattling Stick film for Lenovo, framing the brand's AI infrastructure as the engine behind the most technologically advanced World Cup in history. Shot in a Bucharest studio with AI-generated and AI-enhanced vignettes — itself a statement about where the work is going.",
-      "views": 515823,
+      "views": 515815,
       "likes": 216,
       "comments": 9,
       "published": "2026-01-08T06:59:46Z",
@@ -958,14 +958,14 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
-      "velocityViewsPerDay": 3574,
-      "viewsLast7Days": 238,
+      "velocityViewsPerDay": 3573,
+      "viewsLast7Days": 230,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "vV9zKd3ob3k",
-        "views": 515823,
+        "views": 515815,
         "likes": 216,
         "comments": 9
       }
@@ -984,7 +984,7 @@
       "instagramUrls": [
         "https://www.instagram.com/reel/DSBB6cxCj_S/"
       ],
-      "views": 2028737,
+      "views": 2028734,
       "likes": 221,
       "comments": 17,
       "published": "2025-12-08T20:18:19Z",
@@ -993,13 +993,13 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
       "velocityViewsPerDay": 11607,
-      "viewsLast7Days": 987,
+      "viewsLast7Days": 984,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "njfzULv9iFk",
-        "views": 2028737,
+        "views": 2028734,
         "likes": 221,
         "comments": 17
       }
@@ -1027,7 +1027,7 @@
           "lastCheckedAt": "2026-05-20T21:06:19+00:00"
         }
       ],
-      "views": 6918304,
+      "views": 6918721,
       "likes": 25,
       "comments": 11,
       "published": "2026-04-07T16:26:55Z",
@@ -1035,14 +1035,14 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 2,
-      "velocityViewsPerDay": 125943,
-      "viewsLast7Days": 1061154,
+      "velocityViewsPerDay": 125949,
+      "viewsLast7Days": 1061571,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "5f_BK6mlWVg",
-        "views": 6918304,
+        "views": 6918721,
         "likes": 25,
         "comments": 11
       }
@@ -1154,8 +1154,8 @@
           "talent": "Vini Jr"
         }
       ],
-      "views": 1135360,
-      "likes": 62184,
+      "views": 1135375,
+      "likes": 62185,
       "comments": 0,
       "published": "2026-04-02T10:00:23Z",
       "channelTitle": "LEGO",
@@ -1163,14 +1163,14 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 0,
       "velocityViewsPerDay": 18859,
-      "viewsLast7Days": 32535,
+      "viewsLast7Days": 32550,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "H0gbOS6-EQ4",
-        "views": 1135360,
-        "likes": 62184,
+        "views": 1135375,
+        "likes": 62185,
         "comments": 0
       }
     },
@@ -1207,7 +1207,7 @@
       "durationSeconds": 104,
       "weightedSentiment": null,
       "sentimentSampleSize": 12,
-      "velocityViewsPerDay": 158451,
+      "velocityViewsPerDay": 158447,
       "viewsLast7Days": 355,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -1378,7 +1378,7 @@
         "https://www.tiktok.com/@lays/video/7639749835997908237",
         "https://www.tiktok.com/@lays/video/7639499549140143373"
       ],
-      "views": 25637,
+      "views": 25646,
       "likes": 532,
       "comments": 52,
       "published": "2026-05-11T15:55:39Z",
@@ -1387,7 +1387,7 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 1,
       "velocityViewsPerDay": 1223,
-      "viewsLast7Days": 24867,
+      "viewsLast7Days": 24876,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 3,
       "youtubeCutdowns": [
@@ -1404,7 +1404,7 @@
         {
           "videoId": "nrcqbnjG8PI",
           "title": "",
-          "views": 4770,
+          "views": 4779,
           "likes": 64,
           "comments": 8,
           "published": "2026-05-13T22:00:10Z",
