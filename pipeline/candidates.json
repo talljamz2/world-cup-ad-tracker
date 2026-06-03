@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-02T09:17:47+00:00",
-  "candidateCount": 264,
+  "generated": "2026-06-03T10:02:00+00:00",
+  "candidateCount": 286,
   "byConfidence": {
-    "high": 107,
-    "medium": 17,
-    "low": 111,
-    "tracker_only": 29
+    "high": 123,
+    "medium": 16,
+    "low": 114,
+    "tracker_only": 33
   },
   "candidates": [
     {
@@ -565,28 +565,6 @@
       ]
     },
     {
-      "videoId": "eF8d6qioPhI",
-      "title": "It’s getting closer and closer… 🌍👀 #NothingLikeOranje #FIFAWorldCup",
-      "description": "",
-      "channelTitle": "OnsOranje",
-      "publishedAt": "2026-05-22T11:14:34Z",
-      "expectedBrand": "KNVB (Netherlands)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=eF8d6qioPhI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eF8d6qioPhI/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:KNVB (Netherlands)"
-      ]
-    },
-    {
       "videoId": "4U34yqzRIDI",
       "title": "Light Up Your FIFA World Cup 2026™ | Hisense RGB MiniLED",
       "description": "Hisense, the origin of RGB MiniLED is here — and it's built for the biggest stage.\n\nVibrant Colors. Real Skin Tones. Even in the sunniest rooms.\n\nWatch every match like you're in the stadium. \n\nLight up your FIFA World Cup 2026™.",
@@ -610,6 +588,28 @@
       ],
       "sources": [
         "channel_watch:Hisense"
+      ]
+    },
+    {
+      "videoId": "XJw15-ZB3kc",
+      "title": "ESTA ES LA LISTA DE ESPAÑA para el Mundial de fútbol 2026 | 🔴 SEFUTBOL",
+      "description": "Esta es la lista de todo un país. ESTA ES LA LISTA DE ESPAÑA. Estos son los internacionales que representarán a la ...",
+      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
+      "publishedAt": "2026-05-25T10:45:28Z",
+      "expectedBrand": "RFEF (Spain)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=XJw15-ZB3kc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XJw15-ZB3kc/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "search_known_brand",
+      "matchedKeywords": [
+        "World Cup 26 commercial"
+      ],
+      "sources": [
+        "search:World Cup 26 commercial"
       ]
     },
     {
@@ -681,8 +681,7 @@
         "fifa world cup 2026"
       ],
       "sources": [
-        "channel_watch:Diageo",
-        "search:World Cup 2026 brand campaign"
+        "channel_watch:Diageo"
       ]
     },
     {
@@ -705,28 +704,6 @@
       ],
       "sources": [
         "channel_watch:Netflix"
-      ]
-    },
-    {
-      "videoId": "uj9-6Kr-cr0",
-      "title": "Who’s that player?! 👀🤣 #nothinglikeoranje #fifaworldcup",
-      "description": "",
-      "channelTitle": "OnsOranje",
-      "publishedAt": "2026-05-26T10:35:54Z",
-      "expectedBrand": "KNVB (Netherlands)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=uj9-6Kr-cr0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/uj9-6Kr-cr0/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:KNVB (Netherlands)"
       ]
     },
     {
@@ -826,28 +803,6 @@
       ]
     },
     {
-      "videoId": "nACQHnkS8Pk",
-      "title": "Our #FIFAWorldCup squad! 🌎🇳🇱",
-      "description": "This summer, 𝑶𝒓𝒂𝒏𝒋𝒆 is coming... 🌇\n\n #NothingLikeOranje #FIFAWorldCup",
-      "channelTitle": "OnsOranje",
-      "publishedAt": "2026-05-27T12:09:32Z",
-      "expectedBrand": "KNVB (Netherlands)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=nACQHnkS8Pk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nACQHnkS8Pk/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:KNVB (Netherlands)"
-      ]
-    },
-    {
       "videoId": "reK5gYJPDBM",
       "title": "Brazil ‘70: The Third Star | Sneak Peek | Netflix",
       "description": "Step onto the pitch with the cast and crew of Brazil ’70: The Third Star. Discover the making of the miniseries that follows the 1970 Brazilian National Team’s journey to winning the World Cup in Mexico and securing their third world title.\r\n\r\nWatch on Netflix: https://www.netflix.com/title/81955184",
@@ -889,28 +844,6 @@
       ],
       "sources": [
         "channel_watch:KNVB (Netherlands)"
-      ]
-    },
-    {
-      "videoId": "2aTC-fjiSO0",
-      "title": "Sonia Bermúdez | Convocatoria Fase clasificación FIFAWWC  | Selección Absoluta Femenina🔴 SEFUTBOL",
-      "description": "Próximos partidos Fase clasificación FIFAWWC 2027\nEspaña vs Inglaterra ⏰ Viernes 5 de junio 21:00 h  📍Estadi Mallorca Son Moix (Palma de Mallorca)\nIslandia vs España ⏰ Martes 9 de junio 21:00 h 📍 Laugardalsvöllur - Reikiavik (Islandia) .\n#JugarLucharyGanar\n\nSUSCRÍBETE al canal de la Selección Españo",
-      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
-      "publishedAt": "2026-05-28T10:59:53Z",
-      "expectedBrand": "RFEF (Spain)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=2aTC-fjiSO0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2aTC-fjiSO0/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:RFEF (Spain)"
       ]
     },
     {
@@ -1016,28 +949,6 @@
       ]
     },
     {
-      "videoId": "650v5NOVVgE",
-      "title": "Así será la agenda de la Selección española en la semana preparatoria para el Mundial en Las Rozas",
-      "description": "Mañana se concentra la @SEFutbol en Las Rozas, ¿te gustaría conocer el plan de la semana?\n\n🗓️ Te contamos la agenda de actividades de la Selección dando un paseo por la Ciudad del Fútbol de Las Rozas.\n\n#VamosEspaña | #CopaMundialFIFA \n\nSUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://",
-      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
-      "publishedAt": "2026-05-29T11:38:57Z",
-      "expectedBrand": "RFEF (Spain)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=650v5NOVVgE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/650v5NOVVgE/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:RFEF (Spain)"
-      ]
-    },
-    {
       "videoId": "8pZwkqsY_Mc",
       "title": "Visa Cardholders have a chance to win prizes during the FIFA World Cup 2026™.",
       "description": "Follow Visa for the latest. \n\nNO PURCHASE NECESSARY. Must be current Visa cardholders (as of May 1, 2026), 50 U.S./D.C., PR, or CAN, 18+/age of maj. Match Ticket winners responsible for travel & accommodations. For CAN res, skill test req’d. Ends July 20, 2026. Rules/Elig.: Link in bio.",
@@ -1130,8 +1041,7 @@
         "fifa world cup 2026"
       ],
       "sources": [
-        "channel_watch:Marriott",
-        "search:FIFA World Cup 2026 ad"
+        "channel_watch:Marriott"
       ]
     },
     {
@@ -1210,28 +1120,6 @@
       ]
     },
     {
-      "videoId": "6GyiIjtktlc",
-      "title": "Día 1 hacia el sueño mundialista | 🔴 SEFUTBOL",
-      "description": "La Ciudad del Fútbol recibe a los internacionales en el inicio de la aventura con destino Copa Mundial de la FIFA 2026.\n\nSUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra página web oficial ⚽\nhttps://sefutbol.com/ \n\nSÍGUENOS en nuestras redes sociales 📲",
-      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
-      "publishedAt": "2026-05-30T18:04:58Z",
-      "expectedBrand": "RFEF (Spain)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=6GyiIjtktlc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6GyiIjtktlc/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:RFEF (Spain)"
-      ]
-    },
-    {
       "videoId": "yu8YHLstLok",
       "title": "🤩 Estos son los outfits de España a su llegada a la concentración. VamosEspaña | #CopaMundialFIFA",
       "description": "SUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra página web oficial ⚽\nhttps://sefutbol.com/ \n\nSÍGUENOS en nuestras redes sociales 📲\n- INSTAGRAM:  https://www.instagram.com/sefutbol \n- TWITTER:  https://twitter.com/SeFutbol  \n- FACEBOOK:  https://www.fa",
@@ -1254,30 +1142,6 @@
       ]
     },
     {
-      "videoId": "8GYzmY7cg5w",
-      "title": "26 USMNT Moments, Past to Present: Episode 16",
-      "description": "The U.S. Men’s National Team reaches the quarterfinals of the 2002 FIFA World Cup in South Korea and Japan\n\nMore info: https://www.ussoccer.com/stories/2025/05/usmnt/26-moments-2002-world-cup-quarterfinal-glory\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-30T19:25:57Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=8GYzmY7cg5w",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8GYzmY7cg5w/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
       "videoId": "u9ALqfyHt08",
       "title": "#FIFAWorldCup incoming! 😎",
       "description": "",
@@ -1297,84 +1161,6 @@
       ],
       "sources": [
         "channel_watch:KNVB (Netherlands)"
-      ]
-    },
-    {
-      "videoId": "qRyTN-AJKKY",
-      "title": "26 Stories To '26 with USMNT's Tim Weah",
-      "description": "The 26 players representing the U.S. Men's National Team at FIFA World Cup 2026 answer 26 rapid-fire questions in a place that means something to them -- all in one continuous shot. This is 26 Stories To '26 presented by Sensodyne. \n\nMore on Tim: https://www.ussoccer.com/players/w/tim-weah\n\nSubscrib",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T01:33:59Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=qRyTN-AJKKY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qRyTN-AJKKY/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "kH98NP2A5wY",
-      "title": "26 Stories To '26 with USMNT's Joe Scally",
-      "description": "The 26 players representing the U.S. Men's National Team at FIFA World Cup 2026 answer 26 rapid-fire questions in a place that means something to them -- all in one continuous shot. This is 26 Stories To '26 presented by Sensodyne. \n\nMore on Joe: https://www.ussoccer.com/players/s/joe-scally\n\nSubscr",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T01:45:14Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=kH98NP2A5wY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kH98NP2A5wY/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "4de3jgE_l4o",
-      "title": "26 Stories To '26 with USMNT's Miles Robinson",
-      "description": "The 26 players representing the U.S. Men's National Team at FIFA World Cup 2026 answer 26 rapid-fire questions in a place that means something to them -- all in one continuous shot. This is 26 Stories To '26 presented by Sensodyne. \n\nMore on Miles: https://www.ussoccer.com/players/r/miles-robinson\n\n",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T01:52:53Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=4de3jgE_l4o",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4de3jgE_l4o/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
       ]
     },
     {
@@ -1554,84 +1340,6 @@
       ]
     },
     {
-      "videoId": "YbetODDh2f8",
-      "title": "26 Stories To '26 with USMNT's Folarin Balogun",
-      "description": "The 26 players representing the U.S. Men's National Team at FIFA World Cup 2026 answer 26 rapid-fire questions in a place that means something to them -- all in one continuous shot. This is 26 Stories To '26 presented by Sensodyne. \n\nMore info: https://www.ussoccer.com/players/b/folarin-balogun\n\nSub",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T14:00:03Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=YbetODDh2f8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/YbetODDh2f8/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "ctC0_bDsuFE",
-      "title": "26 Stories To '26 with USMNT's Mark McKenzie",
-      "description": "The 26 players representing the U.S. Men's National Team at FIFA World Cup 2026 answer 26 rapid-fire questions in a place that means something to them -- all in one continuous shot. This is 26 Stories To '26 presented by Sensodyne. \n\nMore on Mark: https://www.ussoccer.com/players/m/mark-mckenzie\n\nSu",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T14:00:09Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=ctC0_bDsuFE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ctC0_bDsuFE/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "OGRyqk_3PQ8",
-      "title": "26 Stories To '26 with USMNT's Brenden Aaronson",
-      "description": "The 26 players representing the U.S. Men's National Team at FIFA World Cup 2026 answer 26 rapid-fire questions in a place that means something to them -- all in one continuous shot. This is 26 Stories To '26 presented by Sensodyne. \n\nMore info: https://www.ussoccer.com/players/a/brenden-aaronson\n\nSu",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T14:00:35Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=OGRyqk_3PQ8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OGRyqk_3PQ8/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
       "videoId": "6o3kPiRmnFQ",
       "title": "This is more than just a holiday.",
       "description": "Get closer to the game with Marriott Bonvoy and VISA.\n\n#ForFansEverywhere #MarriottBonvoy #FIFAWorldCup",
@@ -1698,28 +1406,6 @@
       ]
     },
     {
-      "videoId": "lRrSytOVZag",
-      "title": "ملخص مباراة ألمانيا وفنلندا (4-0) | مباراة ودية إعدادية لكأس العالم 2026",
-      "description": "حقق المنتخب الألماني فوزاً ودياً كبيراً على منتخب فنلندا 4-صفر ضمن استعدادات المانشافت لخوض غمار المشاركة في كأس العالم FIFA 2026™.\n\nوسجل كل من دينيز أونداف (34 و57) وفلوريان فيرتس (48) وجمال موسيالا (63) أهداف المنتخب الألماني.\n\nوسيواجه المنتخب الألماني في المجموعة الخامسة منتخبات كوراساو وكوت ديفو",
-      "channelTitle": "beIN SPORTS",
-      "publishedAt": "2026-05-31T21:29:53Z",
-      "expectedBrand": "beIN Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "TF1",
-      "watchUrl": "https://www.youtube.com/watch?v=lRrSytOVZag",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lRrSytOVZag/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:beIN Sports"
-      ]
-    },
-    {
       "videoId": "Q5BllUCaWWI",
       "title": "AL LLAMADO | Convocatoria Selección Nacional de México | Copa Mundial de la FIFA 2026",
       "description": "#futbol #seleccionmexicana #futbolmexicano #mundial2026 #soccer \n\nNo solo somos 26… Somos los de aquí y los de allá. Hoy y siempre.\n\n#SomosMéxico 🇲🇽\n\n#SelecciónNacionalDeMéxico #FIFAWorldCup #2026FIFAWorldCup #CopaMundialDeLaFIFA #CopaMundialDeLaFIFA2026 #JavierAguirre #México \n\nSé un INCONDICIONAL ",
@@ -1762,51 +1448,6 @@
       ],
       "sources": [
         "channel_watch:TV Azteca Deportes"
-      ]
-    },
-    {
-      "videoId": "ah7AZW9Bg3Q",
-      "title": "¡MESSI LLEGÓ A ESTADOS UNIDOS PARA JUGAR SU SEXTO MUNDIAL CON ARGENTINA! ARRIBÓ JUNTO CON DE PAUL",
-      "description": "Lionel Messi llegó a Kansas City y se sumó a la concentración de la Selección Argentina que ya está desde este domingo en Estados Unidos para disputar una nueva Copa Mundial de la FIFA.\n\nEl capitán arribó junto a Rodrigo De Paul y se trasladó minutos después al hotel donde se aloja el equipo, espera",
-      "channelTitle": "TyC Sports",
-      "publishedAt": "2026-06-01T02:33:35Z",
-      "expectedBrand": "TyC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=ah7AZW9Bg3Q",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ah7AZW9Bg3Q/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:TyC Sports"
-      ]
-    },
-    {
-      "videoId": "yatEp6X_lLc",
-      "title": "🇲🇽 CHECO, CANELO, DERBEZ, HUGO Y MÁS | El Mensaje de Todo México a la Selección",
-      "description": "#futbol #somosméxico #seleccionmexicana #mundial2026 #futbolmexicano \n\n🇲🇽 Un país entero detrás de un mismo sueño.\n\nA días del Mundial 2026, las figuras más importantes de México se unen para enviar un mensaje histórico a los 26 jugadores que representarán a nuestro país en la Copa del Mundo.\n\nDesde",
-      "channelTitle": "Selección Nacional de México",
-      "publishedAt": "2026-06-01T03:00:06Z",
-      "expectedBrand": "Federación Mexicana de Fútbol",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=yatEp6X_lLc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yatEp6X_lLc/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "football_in_window; cross_source_match",
-      "matchedKeywords": [
-        "futbol"
-      ],
-      "sources": [
-        "channel_watch:Federación Mexicana de Fútbol",
-        "search:Mundial 2026 anuncio"
       ]
     },
     {
@@ -2011,28 +1652,6 @@
       ],
       "sources": [
         "channel_watch:beIN Sports"
-      ]
-    },
-    {
-      "videoId": "cN4Dek9i8UI",
-      "title": "Supradyn -Tinto de verano La Casera I Presentación patrocinio | 🔴 SEFUTBOL",
-      "description": "Próximos partidos amistosos :\nEspaña vs Irak ⏰4 junio 21:00h 📍 Estadio Riazor - A Coruña (España)\nEspaña vs Egipto ⏰9 junio 04:00h 📍 Estadio Cuauhtémoc, Puebla (México) \n#vamosespaña #CopaMundialFIFA \n\nSUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra p",
-      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
-      "publishedAt": "2026-06-01T11:57:03Z",
-      "expectedBrand": "RFEF (Spain)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=cN4Dek9i8UI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cN4Dek9i8UI/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:RFEF (Spain)"
       ]
     },
     {
@@ -2529,6 +2148,747 @@
       ]
     },
     {
+      "videoId": "yP0DYKytPSQ",
+      "title": "AI-powered football intelligence at global scale",
+      "description": "FIFA AI Pro, powered by Lenovo AI infrastructure, is designed to analyze millions of data points and more than 2,000 match metrics in real time to deliver deeper tactical insights for teams competing at the FIFA World Cup 2026™.\n\nFrom personalized player analysis to tactical recommendations for coac",
+      "channelTitle": "Lenovo",
+      "publishedAt": "2026-06-02T13:00:23Z",
+      "expectedBrand": "Lenovo",
+      "tier": "FIFA Partner",
+      "category": "electronics",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=yP0DYKytPSQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/yP0DYKytPSQ/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup",
+        "world cup 2026",
+        "fifa world cup 2026"
+      ],
+      "sources": [
+        "channel_watch:Lenovo"
+      ]
+    },
+    {
+      "videoId": "tmr-VmCYwTs",
+      "title": "Ryan Gravenberch. 🌪️ #NothingLikeOranje #FIFAWorldCup",
+      "description": "",
+      "channelTitle": "OnsOranje",
+      "publishedAt": "2026-06-02T13:11:51Z",
+      "expectedBrand": "KNVB (Netherlands)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=tmr-VmCYwTs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tmr-VmCYwTs/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:KNVB (Netherlands)"
+      ]
+    },
+    {
+      "videoId": "7z9VtHyfHkw",
+      "title": "Coca-Cola | No Better Feeling - FIFA World Cup 2026™",
+      "description": "We all know in football, everything can change in a second.\nSo when every FIFA World Cup™ emotion hits, you can always count on Coca-Cola to be right there — cheering you through them all.\n\nThis FIFA World Cup™, Feel It All with Coca-Cola.\n\n#FIFAWorldCup #CocaCola #AllTheFeels #Football #PeterDrury",
+      "channelTitle": "Coca-Cola",
+      "publishedAt": "2026-06-02T13:53:19Z",
+      "expectedBrand": "Coca-Cola",
+      "tier": "FIFA Partner",
+      "category": "soft_drinks",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=7z9VtHyfHkw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7z9VtHyfHkw/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup",
+        "world cup 2026",
+        "fifa world cup 2026"
+      ],
+      "sources": [
+        "channel_watch:Coca-Cola",
+        "search:FIFA World Cup 2026 commercial",
+        "search:FIFA World Cup 2026 ad",
+        "search:World Cup 26 commercial",
+        "search:Mundial 2026 anuncio"
+      ]
+    },
+    {
+      "videoId": "p-_qNvWqtXU",
+      "title": "FIFA World Cup™ cups are coming | McDonald’s FIFA World Cup™ Meal",
+      "description": "Collect 1 of 9 legendary cups with the FIFA World Cup™ Meal. 6.4.26.",
+      "channelTitle": "McDonald's",
+      "publishedAt": "2026-06-02T14:02:13Z",
+      "expectedBrand": "McDonald's",
+      "tier": "World Cup Sponsor",
+      "category": "qsr",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=p-_qNvWqtXU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/p-_qNvWqtXU/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:McDonald's",
+        "search:World Cup 26 commercial"
+      ]
+    },
+    {
+      "videoId": "YOSZDcqqKa4",
+      "title": "FIBA Women's 3x3 World Cup 2026: Canada vs. Lithuania | #CBCSports",
+      "description": "Watch Canada and Lithuania go head-to-head in Pool D action on the second day of the 2026 FIBA Women's 3x3 World Cup in Warsaw, Poland.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest Olympic news and video here: \nhttps://",
+      "channelTitle": "CBC Sports",
+      "publishedAt": "2026-06-02T14:25:57Z",
+      "expectedBrand": "CBC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TSN",
+      "watchUrl": "https://www.youtube.com/watch?v=YOSZDcqqKa4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YOSZDcqqKa4/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "world cup",
+        "world cup 2026"
+      ],
+      "sources": [
+        "channel_watch:CBC Sports"
+      ]
+    },
+    {
+      "videoId": "JmGRy2qIzWM",
+      "title": "FIBA Women's 3x3 World Cup 2026: Ukraine vs. Canada | #CBCSports",
+      "description": "Watch Ukraine and Canada go head-to-head in Pool D action on the second day of the 2026 FIBA Women's 3x3 World Cup in Warsaw, Poland.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest Olympic news and video here: \nhttps://ww",
+      "channelTitle": "CBC Sports",
+      "publishedAt": "2026-06-02T14:27:44Z",
+      "expectedBrand": "CBC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TSN",
+      "watchUrl": "https://www.youtube.com/watch?v=JmGRy2qIzWM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/JmGRy2qIzWM/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "world cup",
+        "world cup 2026"
+      ],
+      "sources": [
+        "channel_watch:CBC Sports"
+      ]
+    },
+    {
+      "videoId": "pAEn4Xigc5k",
+      "title": "‫🔥🇵🇹 العدّ التنازلي بدأ!‬",
+      "description": "‫🔥🇵🇹 العدّ التنازلي بدأ!‬\n‫البرتغال تدخل أجواء كأس العالم 2026 وتبدأ تحضيراتها بقيادة كريستيانو رونالدو 🏆👀‬\n‫#كأس_العالم2026 | #مونديال2026 |\n‪#FIFAWorldCup2026 | #FIFAWorldCup | #beINWC26‬",
+      "channelTitle": "beIN SPORTS",
+      "publishedAt": "2026-06-02T14:29:01Z",
+      "expectedBrand": "beIN Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TF1",
+      "watchUrl": "https://www.youtube.com/watch?v=pAEn4Xigc5k",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pAEn4Xigc5k/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "wc26"
+      ],
+      "sources": [
+        "channel_watch:beIN Sports"
+      ]
+    },
+    {
+      "videoId": "x2bGDBMgE74",
+      "title": "¡Se acabaron los contratiempos! 🫡⌛️",
+      "description": "La Selección de Sudáfrica ya inició su vuelo hacia México para su debut en la Copa Mundial de la FIFA 2026™️ ante el combinado Azteca 👀\n\n#MiSelecciónAzteca\n\nSuscríbete a nuestro canal: https://www.youtube.com/AztecaDeportes?sub_confirmation=1\n\n-------------------------------\nEncuentra más informació",
+      "channelTitle": "TV Azteca Deportes",
+      "publishedAt": "2026-06-02T14:52:36Z",
+      "expectedBrand": "TV Azteca Deportes",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "Televisa Deportes",
+      "watchUrl": "https://www.youtube.com/watch?v=x2bGDBMgE74",
+      "thumbnailUrl": "https://i.ytimg.com/vi/x2bGDBMgE74/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:TV Azteca Deportes"
+      ]
+    },
+    {
+      "videoId": "Q11eGOlMC4Q",
+      "title": "‫‫‫‫‫🇦🇷🏆 حامل اللقب وصل!‬‬‬‬‬",
+      "description": "‫‫‫‫‫🇦🇷🏆 حامل اللقب وصل!‬‬‬‬‬\n‪‪‪‪‪‬‬‬‬‬\n‫‫‫‫‫ليونيل ميسي ورفاقه يصلون إلى معسكرهم استعدادًا للدفاع عن لقب كأس العالم 👀✨‬‬‬‬‬\n‪‪‪‪‪‬‬‬‬‬\n‫‫‫‫‫#كأس_العالم2026 | #مونديال2026 | #كأس_العالم‬‬‬‬‬\n‪‪‪‪‪‬‬‬‬‬\n‪‪‪‪‪#FIFAWorldCup2026 | #FIFAWorldCup |‬‬‬‬‬\n‪‪‪‪‪#beINWC26‬‬‬‬‬",
+      "channelTitle": "beIN SPORTS",
+      "publishedAt": "2026-06-02T15:22:21Z",
+      "expectedBrand": "beIN Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TF1",
+      "watchUrl": "https://www.youtube.com/watch?v=Q11eGOlMC4Q",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q11eGOlMC4Q/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "wc26"
+      ],
+      "sources": [
+        "channel_watch:beIN Sports"
+      ]
+    },
+    {
+      "videoId": "0gNUl-GOhn8",
+      "title": "‫‫‫‫‫🇧🇷🏆 البرازيل تودّع جماهيرها قبل التوجه إلى كأس العالم 2026‬‬‬‬‬",
+      "description": "‫‫‫‫‫🇧🇷🏆 البرازيل تودّع جماهيرها قبل التوجه إلى كأس العالم 2026‬‬‬‬‬\n‪‪‪‪‪‬‬‬‬‬\n‫‫‫‫‫السيليساو يستعد لخوض رحلة البحث عن اللقب العالمي السادس 👀✨‬‬‬‬‬\n‪‪‪‪‪‬‬‬‬‬\n‫‫‫‫‫#كأس_العالم2026 | #مونديال2026 | #كأس_العالم‬‬‬‬‬\n‪‪‪‪‪‬‬‬‬‬\n‪‪‪‪‪#FIFAWorldCup2026 | #FIFAWorldCup | #beINWC26‬‬‬‬‬",
+      "channelTitle": "beIN SPORTS",
+      "publishedAt": "2026-06-02T16:00:25Z",
+      "expectedBrand": "beIN Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TF1",
+      "watchUrl": "https://www.youtube.com/watch?v=0gNUl-GOhn8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0gNUl-GOhn8/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "wc26"
+      ],
+      "sources": [
+        "channel_watch:beIN Sports"
+      ]
+    },
+    {
+      "videoId": "FR1BazZHLOc",
+      "title": "Luis de la Fuente y Borja Iglesias I RUEDA DE PRENSA OFICIAL I Selección Española | 🔴 SEFUTBOL",
+      "description": "Próximos partidos amistosos :\nEspaña vs Irak ⏰4 junio 21:00h 📍 Estadio Riazor - A Coruña (España)\nEspaña vs Egipto ⏰9 junio 04:00h 📍 Estadio Cuauhtémoc, Puebla (México) \n#vamosespaña #CopaMundialFIFA \n\nSUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra p",
+      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
+      "publishedAt": "2026-06-02T17:18:56Z",
+      "expectedBrand": "RFEF (Spain)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=FR1BazZHLOc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FR1BazZHLOc/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:RFEF (Spain)"
+      ]
+    },
+    {
+      "videoId": "LhtK1TT_yJk",
+      "title": "United States of Soccer: Atlanta",
+      "description": "As a 2026 FIFA World Cup host city and the home of U.S. Soccer, Atlanta represents where the game is headed in the United\nStates. This episode explores how soccer lives in the city beyond the pitch- across local rituals, match-day preparation, community organizing, and generational support of the ga",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T17:36:10Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=LhtK1TT_yJk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LhtK1TT_yJk/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "Wuc9X1-D5lY",
+      "title": "United States of Soccer: Atlanta (Spanish)",
+      "description": "As a 2026 FIFA World Cup host city and the home of U.S. Soccer, Atlanta represents where the game is headed in the United States. This episode explores how soccer lives in the city beyond the pitch- across local rituals, match-day preparation, community organizing, and generational support of the ga",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T17:38:03Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=Wuc9X1-D5lY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wuc9X1-D5lY/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "IFJIOyKH1Tc",
+      "title": "United States of Soccer: Miami (Spanish)",
+      "description": "As a 2026 FIFA World Cup host city, Miami represents one of the most globally influenced and constantly moving soccer cultures in the United States. This episode explores how the game lives in a city shaped by international roots, daily play, and nonstop energy. Together, these moments explain what ",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T17:43:47Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=IFJIOyKH1Tc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IFJIOyKH1Tc/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "FSdV627yDL8",
+      "title": "United States of Soccer: Miami",
+      "description": "As a 2026 FIFA World Cup host city, Miami represents one of the most globally influenced and constantly moving soccer cultures in the United States. This episode explores how the game lives in a city shaped by international roots, daily play, and nonstop energy. Together, these moments explain what ",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T17:46:24Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=FSdV627yDL8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FSdV627yDL8/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "gA4-Nrq8UzI",
+      "title": "PREOCUPANTE: La Lista del Vasco para la Copa Mundial de la FIFA 2026™  ¿Le Alcanza a México?",
+      "description": "La Selección Mexicana ya tiene a sus elegidos rumbo a la Copa Mundial de la FIFA 2026, pero la convocatoria de Javier \"Vasco\" Aguirre ha generado más preguntas que respuestas.\n\nSuscríbete a nuestro canal: https://www.youtube.com/AztecaDeportes?sub_confirmation=1\n\n-------------------------------\nEncu",
+      "channelTitle": "TV Azteca Deportes",
+      "publishedAt": "2026-06-02T17:58:25Z",
+      "expectedBrand": "TV Azteca Deportes",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "Televisa Deportes",
+      "watchUrl": "https://www.youtube.com/watch?v=gA4-Nrq8UzI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gA4-Nrq8UzI/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:TV Azteca Deportes"
+      ]
+    },
+    {
+      "videoId": "_ptonyP3AuM",
+      "title": "United States of Soccer: Houston",
+      "description": "As a 2026 FIFA World Cup host city, Houston represents a layered and evolving hub of American soccer, where the game is shaped by the people who play it, support it, and carry it forward in different ways. This episode explores how soccer in Houston is not only experienced, but sustained, through th",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T18:02:52Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=_ptonyP3AuM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ptonyP3AuM/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "h2NvzOdgUKs",
+      "title": "United States of Soccer: Houston (Spanish)",
+      "description": "As a 2026 FIFA World Cup host city, Houston represents a layered and evolving hub of American soccer, where the game is shaped by the people who play it, support it, and carry it forward in different ways. This episode explores how soccer in Houston is not only experienced, but sustained, through th",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T18:04:31Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=h2NvzOdgUKs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/h2NvzOdgUKs/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "-j4UNqbCauA",
+      "title": "United States of Soccer: New York/New Jersey (Spanish)",
+      "description": "As a 2026 FIFA World Cup host city, New York/New Jersey represents a soccer culture shaped by constant movement, layered identities, and deep community roots. This episode explores how the game lives across the city, from local facilities and neighborhood programs to packed watch parties and generat",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T18:15:02Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=-j4UNqbCauA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-j4UNqbCauA/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "3sM_xRW0-jo",
+      "title": "United States of Soccer: New York/New Jersey",
+      "description": "As a 2026 FIFA World Cup host city, New York/New Jersey represents a soccer culture shaped by constant movement, layered identities, and deep community roots. This episode explores how the game lives across the city, from local facilities and neighborhood programs to packed watch parties and generat",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T18:16:24Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=3sM_xRW0-jo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3sM_xRW0-jo/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "K3JNRxDdL-Q",
+      "title": "26 USMNT Moments, Past to Present: Episode 18",
+      "description": "The U.S. Men’s National Team reaches its first FIFA final at the 2009 Confederations Cup \n\nMore info: https://www.ussoccer.com/stories/2026/06/usmnt/26-moments-against-the-odds-2009-confederations-cup\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerd",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T19:25:59Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=K3JNRxDdL-Q",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K3JNRxDdL-Q/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "F9ttEgPs5Tk",
+      "title": "🚨 ¿MAL PROCESO DEL FÚTBOL MEXICANO? La Lista para La Copa Mundial de la FIFA 2026™",
+      "description": "La convocatoria de Javier Aguirre para la Copa Mundial de la FIFA 2026™ ha reabierto una pregunta que preocupa a la afición mexicana: ¿ha sido bueno el proceso del fútbol mexicano en los últimos años?\n\nSuscríbete a nuestro canal: https://www.youtube.com/AztecaDeportes?sub_confirmation=1\n\n-----------",
+      "channelTitle": "TV Azteca Deportes",
+      "publishedAt": "2026-06-02T20:20:12Z",
+      "expectedBrand": "TV Azteca Deportes",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "Televisa Deportes",
+      "watchUrl": "https://www.youtube.com/watch?v=F9ttEgPs5Tk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F9ttEgPs5Tk/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:TV Azteca Deportes"
+      ]
+    },
+    {
+      "videoId": "mXa5eHu4rpU",
+      "title": "El vuelo de Joan García. #VamosEspaña | #CopaMundialFIFA",
+      "description": "",
+      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
+      "publishedAt": "2026-06-02T20:56:11Z",
+      "expectedBrand": "RFEF (Spain)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=mXa5eHu4rpU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mXa5eHu4rpU/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:RFEF (Spain)"
+      ]
+    },
+    {
+      "videoId": "OoBvgqEXuBc",
+      "title": "FIBA 3x3 World Cup 2026: Day 2 - Warsaw | #CBCSports",
+      "description": "Watch the best men's and women's 3x3 basketball teams compete during the second day of the 2026 FIBA 3x3 World Cup from Poland's capital city.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest Olympic news and video here: \nh",
+      "channelTitle": "CBC Sports",
+      "publishedAt": "2026-06-02T21:03:45Z",
+      "expectedBrand": "CBC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TSN",
+      "watchUrl": "https://www.youtube.com/watch?v=OoBvgqEXuBc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OoBvgqEXuBc/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "world cup",
+        "world cup 2026"
+      ],
+      "sources": [
+        "channel_watch:CBC Sports"
+      ]
+    },
+    {
+      "videoId": "6lX3X-75BA0",
+      "title": "Must Read Research: Size of the Market, World Cup & Paper Goods, Energy Contingencies, and LatAm ...",
+      "description": "This week, we discuss why the size of the market continues to expand, how the World Cup is fueling global beverage demand, contingency plans amidst shifting energy segments, the paths that lie ahead for LatAm countries facing elections and an overhead view of global markets where scale and earnings ",
+      "channelTitle": "Bank of America",
+      "publishedAt": "2026-06-02T22:01:57Z",
+      "expectedBrand": "Bank of America",
+      "tier": "World Cup Sponsor",
+      "category": "finance",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=6lX3X-75BA0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6lX3X-75BA0/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:Bank of America"
+      ]
+    },
+    {
+      "videoId": "I7NsAUS6go4",
+      "title": "Must Read Research: Size of the Market, World Cup & Paper Goods, Energy Contingencies, and LatAm Ele",
+      "description": "Source:\nhttps://www.podbean.com/eau/pb-vycds-1adc8aa\n\nThis week, we discuss why the size of the market continues to expand, how the World Cup is fueling global beverage demand, contingency plans amidst shifting energy segments, the paths that lie ahead for LatAm countries facing elections and an ove",
+      "channelTitle": "Bank of America",
+      "publishedAt": "2026-06-02T22:14:23Z",
+      "expectedBrand": "Bank of America",
+      "tier": "World Cup Sponsor",
+      "category": "finance",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=I7NsAUS6go4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I7NsAUS6go4/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:Bank of America"
+      ]
+    },
+    {
+      "videoId": "cN4Dek9i8UI",
+      "title": "Supradyn -Tinto de verano La Casera I Presentación patrocinio | 🔴 SEFUTBOL",
+      "description": "Próximos partidos amistosos :\nEspaña vs Irak ⏰4 junio 21:00h 📍 Estadio Riazor - A Coruña (España)\nEspaña vs Egipto ⏰9 junio 04:00h 📍 Estadio Cuauhtémoc, Puebla (México) \n#vamosespaña #CopaMundialFIFA \n\nSUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra p",
+      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
+      "publishedAt": "2026-06-02T23:24:37Z",
+      "expectedBrand": "RFEF (Spain)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=cN4Dek9i8UI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cN4Dek9i8UI/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:RFEF (Spain)"
+      ]
+    },
+    {
+      "videoId": "DsYJddCCcoE",
+      "title": "Luis Chávez y su convocatoria final de México para la Copa Mundial de la FIFA 2026™.",
+      "description": "Hubo dudas ⚽ \nLuis Chávez habla sobre su lesión y lo que significó formar parte de la lista final de México rumbo a la Copa Mundial de la FIFA 2026™. \nRecuerda su gol ante Arabia Saudita hace cuatro años 🥺\n#MiSelecciónAzteca\n\nSuscríbete a nuestro canal: https://www.youtube.com/AztecaDeportes?sub_con",
+      "channelTitle": "TV Azteca Deportes",
+      "publishedAt": "2026-06-02T23:38:54Z",
+      "expectedBrand": "TV Azteca Deportes",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "Televisa Deportes",
+      "watchUrl": "https://www.youtube.com/watch?v=DsYJddCCcoE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DsYJddCCcoE/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:TV Azteca Deportes"
+      ]
+    },
+    {
+      "videoId": "pc1vtT1whUg",
+      "title": "Luis Chavéz: ¡Queremos Orgullosos al pueblo Mexicano!",
+      "description": "Luis Chávez habló sobre el compromiso que tiene la Selección Mexicana con la afición y aseguró que el objetivo del grupo es representar al país con orgullo en La Copa Mundial de la FIFA 2026™.\n\nSuscríbete a nuestro canal: https://www.youtube.com/AztecaDeportes?sub_confirmation=1\n\n-------------------",
+      "channelTitle": "TV Azteca Deportes",
+      "publishedAt": "2026-06-03T01:13:45Z",
+      "expectedBrand": "TV Azteca Deportes",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "Televisa Deportes",
+      "watchUrl": "https://www.youtube.com/watch?v=pc1vtT1whUg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pc1vtT1whUg/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:TV Azteca Deportes"
+      ]
+    },
+    {
+      "videoId": "bTH2VBGdDgo",
+      "title": "Oranje, #FIFAWorldCup 2026. 🦁🇳🇱 #NothingLikeOranje",
+      "description": "",
+      "channelTitle": "OnsOranje",
+      "publishedAt": "2026-06-03T08:14:26Z",
+      "expectedBrand": "KNVB (Netherlands)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=bTH2VBGdDgo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bTH2VBGdDgo/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:KNVB (Netherlands)"
+      ]
+    },
+    {
+      "videoId": "0OaGiiL3G8I",
+      "title": "The Rest Is Football | Official Trailer | Netflix",
+      "description": "One week until The Rest Is Football lands on Netflix, daily from June 10. Expect a daily fix of banter, analysis and hot takes with Gary Lineker, Alan Shearer and Micah Richards from NYC.\n\nWatch on Netflix: https://www.netflix.com/title/82630834\n\nAbout Netflix:\nNetflix is one of the world’s leading ",
+      "channelTitle": "Netflix",
+      "publishedAt": "2026-06-03T09:00:00Z",
+      "expectedBrand": "Netflix",
+      "tier": "Tournament Marketer",
+      "category": "streaming",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=0OaGiiL3G8I",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0OaGiiL3G8I/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:Netflix"
+      ]
+    },
+    {
+      "videoId": "pLPTss3U6wI",
+      "title": "ENTRENAMIENTO OFICIAL I Selección Española de fútbol I Absoluta  | 🔴 SEFUTBOL",
+      "description": "Próximos partidos amistosos :\nEspaña vs Irak ⏰4 junio 21:00h 📍 Estadio Riazor - A Coruña (España)\nEspaña vs Egipto ⏰9 junio 04:00h 📍 Estadio Cuauhtémoc, Puebla (México) \n#vamosespaña #CopaMundialFIFA \n\nSUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra p",
+      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
+      "publishedAt": "2026-06-03T09:27:44Z",
+      "expectedBrand": "RFEF (Spain)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=pLPTss3U6wI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pLPTss3U6wI/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:RFEF (Spain)"
+      ]
+    },
+    {
       "videoId": "JfHBIMHfTlI",
       "title": "coming this summer 👀",
       "description": "",
@@ -2614,28 +2974,6 @@
       ],
       "sources": [
         "channel_watch:Coors Light"
-      ]
-    },
-    {
-      "videoId": "FpMqlnQyjVk",
-      "title": "Mini LED | Watch kick-off with the Wild Kickers | Samsung",
-      "description": "The Wild Kickers are live. Are you ready? ⚽🔥\nWatch the game the way it’s meant to be seen. With Samsung Mini LED, every movement is crisp, every color vibrant. Plus, AI Soccer Mode and Vision AI Companion make every match more vivid, more immersive, so you can keep up with the play from footwork to ",
-      "channelTitle": "Samsung",
-      "publishedAt": "2026-05-19T14:01:00Z",
-      "expectedBrand": "Samsung",
-      "tier": "Tournament Marketer",
-      "category": "electronics",
-      "rivalOf": "Hisense",
-      "watchUrl": "https://www.youtube.com/watch?v=FpMqlnQyjVk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FpMqlnQyjVk/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "kick-off"
-      ],
-      "sources": [
-        "channel_watch:Samsung"
       ]
     },
     {
@@ -3078,28 +3416,6 @@
       ],
       "sources": [
         "channel_watch:New Balance"
-      ]
-    },
-    {
-      "videoId": "QYDPkUpploE",
-      "title": "Duracell Scientist Reacts to Saving Messi",
-      "description": "What would you ask the Duracell Scientist if you knew he was just on the field with Messi? Comment below.",
-      "channelTitle": "Duracell",
-      "publishedAt": "2026-04-17T16:15:45Z",
-      "expectedBrand": "Duracell",
-      "tier": "Tournament Marketer",
-      "category": "household",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=QYDPkUpploE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QYDPkUpploE/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "messi"
-      ],
-      "sources": [
-        "channel_watch:Duracell"
       ]
     },
     {
@@ -3658,6 +3974,29 @@
       ]
     },
     {
+      "videoId": "OIrtMzBBerU",
+      "title": "#Ad Coach Michael teaches that challenges make us better",
+      "description": "What doesn’t challenge you won’t change you. What would you like the power to do?®\n\n#CoachMichael #Soccer #Football #BankofAmerica",
+      "channelTitle": "Bank of America",
+      "publishedAt": "2026-05-13T19:53:00Z",
+      "expectedBrand": "Bank of America",
+      "tier": "World Cup Sponsor",
+      "category": "finance",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=OIrtMzBBerU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OIrtMzBBerU/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "football",
+        "soccer"
+      ],
+      "sources": [
+        "channel_watch:Bank of America"
+      ]
+    },
+    {
       "videoId": "e6TMvj_rGLI",
       "title": "MR. AFRIZI - EP.1: WHO IS MR. AFRIZI?",
       "description": "Who is the officially unofficial spokesperson of African football?\nIn this episode, meet Mr. Afrizi. The myth, the (almost) legend, the big energy — he's finally here. Part commentator, part storyteller, part cultural insider, 120% inspired by the African football.\n \nOver the next few months, Mr. Af",
@@ -3723,28 +4062,6 @@
       ],
       "sources": [
         "channel_watch:New Balance"
-      ]
-    },
-    {
-      "videoId": "nim8tzqN050",
-      "title": "Mini LED | Get ready for the wildest game | Samsung",
-      "description": "The Wild Kickers big game kicks off in just 1 hour. \nDon’t miss the ultimate match with Samsung Mini LED, optimized for the ultimate soccer viewing experience! ⚽🔥\n\n#M80H #MiniLED #AISoccerMode #SamsungVisionAI #SamsungTV",
-      "channelTitle": "Samsung",
-      "publishedAt": "2026-05-19T13:01:52Z",
-      "expectedBrand": "Samsung",
-      "tier": "Tournament Marketer",
-      "category": "electronics",
-      "rivalOf": "Hisense",
-      "watchUrl": "https://www.youtube.com/watch?v=nim8tzqN050",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nim8tzqN050/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:Samsung"
       ]
     },
     {
@@ -4300,29 +4617,6 @@
       ]
     },
     {
-      "videoId": "x0FvGcTLeaQ",
-      "title": "RESUMEN | Bélgica 0-1 España | Fase de grupos (Jornada 2) | Europeo sub-17 | 🔴 SEFUTBOL",
-      "description": "SUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra página web oficial ⚽\nhttps://sefutbol.com/ \n\nSÍGUENOS en nuestras redes sociales 📲\n- INSTAGRAM:  https://www.instagram.com/sefutbol \n- TWITTER:  https://twitter.com/SeFutbol  \n- FACEBOOK:  https://www.fa",
-      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
-      "publishedAt": "2026-05-29T07:47:16Z",
-      "expectedBrand": "RFEF (Spain)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=x0FvGcTLeaQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/x0FvGcTLeaQ/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "futbol",
-        "fútbol"
-      ],
-      "sources": [
-        "channel_watch:RFEF (Spain)"
-      ]
-    },
-    {
       "videoId": "ttjeTnIwwEk",
       "title": "Serge Gnabry = vibes 😮‍💨💫📹 #adidas #football #gnabry",
       "description": "Find out more at http://www.adidas.com\n\nFollow us:\nInstagram - http://www.instagram.com/adidas\nTwitter - https://www.twitter.com/adidas \nTikTok - https://www.tiktok.com/@adidas",
@@ -4364,28 +4658,6 @@
       ],
       "sources": [
         "channel_watch:Adidas"
-      ]
-    },
-    {
-      "videoId": "_NfxDNsg1ZY",
-      "title": "🇲🇽 MÉXICO EN VIVO | Edson Álvarez, César Montes y Johan Vásquez | Rumbo al Mundial | SOMOS LOCALES",
-      "description": "#seleccionmexicana #futbol #futbolmexicano #mundial2026 \n\n🌎🇲🇽 SOMOS LOCALES.\n\nLa Selección Nacional de México vive una despedida histórica rumbo al Mundial 2026 y por primera vez podrás elegir cómo vivirla con nuestro MULTISTREAM EN VIVO desde el Rose Bowl de Pasadena, California. 🏟️🔥\n\nLos Incondici",
-      "channelTitle": "Selección Nacional de México",
-      "publishedAt": "2026-05-29T16:41:57Z",
-      "expectedBrand": "Federación Mexicana de Fútbol",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=_NfxDNsg1ZY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_NfxDNsg1ZY/hqdefault.jpg",
-      "channelMatch": false,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "futbol"
-      ],
-      "sources": [
-        "channel_watch:Federación Mexicana de Fútbol"
       ]
     },
     {
@@ -4587,28 +4859,6 @@
       ]
     },
     {
-      "videoId": "xTItEC9uPgM",
-      "title": "Sebastian Berhalter Makes 'The Call' to His Mental Coach",
-      "description": "The midfielder delivers some big news to his mental performance coach, Travis Thomas. #USMNT x @ATT \n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: http:",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T00:32:50Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=xTItEC9uPgM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xTItEC9uPgM/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
       "videoId": "rnM9p3z46-c",
       "title": "PSG vs Arsenal | Final | Key Moments | UEFA Champions League 2026",
       "description": "Paris Saint-Germain retained their Champions League title after beating Arsenal on penalties at the Puskás Aréna following a 1-1 draw. Kai Havertz gave Arsenal an early lead, but Ousmane Dembélé equalized from the spot in the second half. With no winner in extra time, PSG triumphed in the shootout a",
@@ -4651,50 +4901,6 @@
       ],
       "sources": [
         "channel_watch:Federación Mexicana de Fútbol"
-      ]
-    },
-    {
-      "videoId": "tZRC2BG44lA",
-      "title": "Matt Freese Delivers 'The Call' to His HS Soccer Coach",
-      "description": "Goalkeeper Matt Freese calls his former high school soccer coach, David Knox, to tell him some exciting news for the summer. #USMNT x @ATT \n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Soc",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T12:44:45Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=tZRC2BG44lA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tZRC2BG44lA/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "BnhYJ1XFfr8",
-      "title": "Mark McKenzie Makes 'The Call' to His Youth Coach",
-      "description": "\"He's one of the first coaches who truly believed in me.\" #USMNT x AT&T\n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: http://www.instagram.com/ussoccer\n",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T13:37:01Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=BnhYJ1XFfr8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BnhYJ1XFfr8/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
       ]
     },
     {
@@ -4805,72 +5011,6 @@
       ],
       "sources": [
         "channel_watch:Nike"
-      ]
-    },
-    {
-      "videoId": "fuWHq-4IKTw",
-      "title": "Ricardo Pepi Makes 'The Call' to Family Friends",
-      "description": "The forward delivers some big news to close family friends, Carlos and Jessica Meléndez. #USMNT x ‪@ATT‬ \n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: ",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T17:30:00Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=fuWHq-4IKTw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fuWHq-4IKTw/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "R0DEJGy26PY",
-      "title": "Alex Freeman Makes 'The Call' to His Former Youth Coach",
-      "description": "The fulback delivers some big news to Javier Carrillo, his former youth coach. #USMNT x ‪@ATT‬ \n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: http://www",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T17:30:25Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=R0DEJGy26PY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R0DEJGy26PY/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "-tClZrtnvLw",
-      "title": "Max Arfsten Makes 'The Call' to His Former Club Coach",
-      "description": "The fullback delivers some big news to his former club coach, Randy Prescott. #USMNT x ‪@ATT‬ \n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: http://www.",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-05-31T17:30:35Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=-tClZrtnvLw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-tClZrtnvLw/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
       ]
     },
     {
@@ -5030,28 +5170,6 @@
       ]
     },
     {
-      "videoId": "FcrJoiAk9vY",
-      "title": "🐐🇦🇷 ¡ASÍ LLEGARON MESSI Y DE PAUL!",
-      "description": "Para más información, visitá http://www.tycsports.com",
-      "channelTitle": "TyC Sports",
-      "publishedAt": "2026-06-01T13:31:19Z",
-      "expectedBrand": "TyC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=FcrJoiAk9vY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FcrJoiAk9vY/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "messi"
-      ],
-      "sources": [
-        "channel_watch:TyC Sports"
-      ]
-    },
-    {
       "videoId": "yJYDwQ3F8aE",
       "title": "ERA O NEYMAR OU NÃO? 🤨🤣#comédiasbt #sbt #domingolegal",
       "description": "Este é o canal oficial do SBT no YouTube! Aqui você encontra o melhor da nossa programação para assistir a qualquer hora e de qualquer lugar. Acompanhe as entrevistas mais irreverentes do The Noite com Danilo Gentili, divirta-se com as pegadinhas do Silvio Santos, emocione-se com os dramas das novel",
@@ -5206,29 +5324,6 @@
       ]
     },
     {
-      "videoId": "CiL8ltkn2FY",
-      "title": "¡ARRANCA EL MUNDIAL EN EL STREAM TYC SPORTS! | EN VIVO DESDE ESTADOS UNIDOS 🔴",
-      "description": "El sueño mundialista está en marcha. Lionel Messi llegó a Kansas este domingo por la noche para sumarse a la concentración de la Selección Argentina. El capitán llegó junto a Rodrigo De Paul, su compañero en Inter Miami, y está listo para disputar su sexto mundial. Los entrenamientos comenzarán el l",
-      "channelTitle": "TyC Sports",
-      "publishedAt": "2026-06-01T21:22:18Z",
-      "expectedBrand": "TyC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=CiL8ltkn2FY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CiL8ltkn2FY/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "messi",
-        "rodri"
-      ],
-      "sources": [
-        "channel_watch:TyC Sports"
-      ]
-    },
-    {
       "videoId": "6YcufzWhdNE",
       "title": "\"LOS DIENTES PUEDEN ESPERAR, PERO MESSI CAMPEÓN ERA UNA SOLA VEZ EN LA VIDA\"",
       "description": "La anécdota de este hincha argentino para ir a ver la final del Mundial de Qatar 2022.\n\nPara más información, visitá http://www.tycsports.com",
@@ -5364,6 +5459,339 @@
       ]
     },
     {
+      "videoId": "Kk6hgvpHfRo",
+      "title": "The State of Women's Football in England | Karen Carney: The State of It",
+      "description": "This documentary follows former England Lioness Karen Carney as she looks at the state of women's football in England after a pioneering report she compiled about the game in 2023.\n\nSubscribe to ITV's official YouTube channel here: http://bit.ly/2iDD1be\n\nMake sure you're following ITV for all the la",
+      "channelTitle": "ITV",
+      "publishedAt": "2026-06-02T11:00:26Z",
+      "expectedBrand": "ITV Sport",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "BBC Sport",
+      "watchUrl": "https://www.youtube.com/watch?v=Kk6hgvpHfRo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Kk6hgvpHfRo/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "football"
+      ],
+      "sources": [
+        "channel_watch:ITV Sport"
+      ]
+    },
+    {
+      "videoId": "ctNBQXCgOiA",
+      "title": "LA SELECCIÓN ARGENTINA TUVO SU PRIMER ENTRENAMIENTO EN KANSAS: ¿LLEGAN LOS LESIONADOS AL DEBUT? 🇦🇷🏆",
+      "description": "La Selección Argentina puso en marcha el sueño mundialista este lunes y afrontó la primera práctica previo a los amistosos que jugará el sábado 6 y martes 9, antes del inicio de la Copa del Mundo. El entrenador Lionel Scaloni tuvo varias bajas por lesión, aunque contó con los que se sumaron para los",
+      "channelTitle": "TyC Sports",
+      "publishedAt": "2026-06-02T13:27:37Z",
+      "expectedBrand": "TyC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=ctNBQXCgOiA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ctNBQXCgOiA/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "soccer"
+      ],
+      "sources": [
+        "channel_watch:TyC Sports"
+      ]
+    },
+    {
+      "videoId": "YWwHx1e73mI",
+      "title": "Dhurandhar The Revenge | Raw & Undekha | Grand Digital Premiere | June 4 | JioHotstar",
+      "description": "The MVP of football has spoken 🤭 #IYKYK\n\nWatch Dhurandhar, Raw & Undekha, Now Streaming on JioHotstar.\n\nWatch Dhurandhar The Revenge, Raw & Undekha. Grand Digital Premiere on June 4th at 7 PM, starts streaming from June 5th on JioHotstar.\n\n#DhurandharOnJioHotstar #DhurandharTheRevenge #RawAndUndekha",
+      "channelTitle": "JioHotstar",
+      "publishedAt": "2026-06-02T15:45:01Z",
+      "expectedBrand": "JioHotstar",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=YWwHx1e73mI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YWwHx1e73mI/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "football"
+      ],
+      "sources": [
+        "channel_watch:JioHotstar"
+      ]
+    },
+    {
+      "videoId": "ugsgSwOAZx0",
+      "title": "New Balance Global Football | We Got Now | 2026",
+      "description": "Hard work plays.\n\nBukayo Saka. Endrick. Tim Weah. Eberechi Eze. Jeremie Frimpong.",
+      "channelTitle": "newbalance",
+      "publishedAt": "2026-06-02T16:08:14Z",
+      "expectedBrand": "New Balance",
+      "tier": "Tournament Marketer",
+      "category": "apparel",
+      "rivalOf": "Adidas",
+      "watchUrl": "https://www.youtube.com/watch?v=ugsgSwOAZx0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ugsgSwOAZx0/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "football",
+        "saka",
+        "endrick"
+      ],
+      "sources": [
+        "channel_watch:New Balance"
+      ]
+    },
+    {
+      "videoId": "y__vJ42wawY",
+      "title": "PRIMERA Y EXTENSA PRÁCTICA DE LA SELECCIÓN: ¿QUÉ CONCLUSIONES SACÓ SCALONI? 🤔🇦🇷",
+      "description": "La Selección Argentina puso en marcha el sueño mundialista este lunes y afrontó la primera práctica previo a los amistosos que jugará el sábado 6 y martes 9, antes del inicio de la Copa del Mundo. El entrenador Lionel Scaloni tuvo varias bajas por lesión, aunque contó con los que se sumaron para los",
+      "channelTitle": "TyC Sports",
+      "publishedAt": "2026-06-02T16:55:56Z",
+      "expectedBrand": "TyC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=y__vJ42wawY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y__vJ42wawY/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "soccer"
+      ],
+      "sources": [
+        "channel_watch:TyC Sports"
+      ]
+    },
+    {
+      "videoId": "Wulq3ZKa7WE",
+      "title": "⭐️ La estrella que nos une, capítulo 2: Marc Cucurella & Joan Capdevila | 🔴 SEFUTBOL",
+      "description": "Dos de los laterales más icónicos de la historia de la Selección protagonizan el segundo capítulo de este podcast en colaboración con Google Gemini\n\nSUSCRÍBETE al canal de la Selección Española de Fútbol 🔴\nhttp://bit.ly/SeFutbol \n\nVISITA nuestra página web oficial ⚽\nhttps://sefutbol.com/ \n\nSÍGUENOS ",
+      "channelTitle": "Selección Española de Fútbol (SeFutbol)",
+      "publishedAt": "2026-06-02T19:04:46Z",
+      "expectedBrand": "RFEF (Spain)",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=Wulq3ZKa7WE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wulq3ZKa7WE/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "futbol",
+        "fútbol"
+      ],
+      "sources": [
+        "channel_watch:RFEF (Spain)"
+      ]
+    },
+    {
+      "videoId": "UCcVEAXYdTE",
+      "title": "26 USMNT Momentos: Pasado a Presente - Episodio 18",
+      "description": "More info: https://www.ussoccer.com/stories/2026/06/usmnt/26-moments-against-the-odds-2009-confederations-cup\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: http://www.instagram.com/ussocce",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T19:25:33Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=UCcVEAXYdTE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UCcVEAXYdTE/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "soccer"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "vFt5NU4TjOQ",
+      "title": "VOTE Save of the Round | 2026 U.S. Open Cup - Quarterfinals Nominees",
+      "description": "Vote here: https://www.ussoccer.com/stories/2026/06/usoc/2026-us-open-cup-fan-voted-goal-and-save-of-the-round-nominees-quarterfinals\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: http://w",
+      "channelTitle": "U.S. Soccer",
+      "publishedAt": "2026-06-02T19:27:00Z",
+      "expectedBrand": "U.S. Soccer",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=vFt5NU4TjOQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vFt5NU4TjOQ/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "soccer"
+      ],
+      "sources": [
+        "channel_watch:U.S. Soccer"
+      ]
+    },
+    {
+      "videoId": "ZxR5z1WWAvs",
+      "title": "Windy PREDICTS who the Spurs will have Wemby DEFEND vs. the Knicks 🍿 | NBA Today",
+      "description": "Brian Windhorst, Shams Charania, Danny Green and Kendrick Perkins join Malika Andrews on NBA Today to preview Game 1 of the 2026 NBA Finals between the New York Knicks and the San Antonio Spurs, diving into Jalen Brunson.\n\n✔️ Subscribe to ESPN Unlimited: https://plus.espn.com/\n\n#ESPN",
+      "channelTitle": "ESPN",
+      "publishedAt": "2026-06-02T20:30:13Z",
+      "expectedBrand": "ESPN",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=ZxR5z1WWAvs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZxR5z1WWAvs/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "endrick"
+      ],
+      "sources": [
+        "channel_watch:ESPN"
+      ]
+    },
+    {
+      "videoId": "YBiHYdBD2eU",
+      "title": "The most powerful collab of all time? 🐐",
+      "description": "Our limited-edition Duracell x Messi custom batteries have officially arrived to give your devices a champion-level upgrade. We’ve wrapped every single battery in the intricate details of Leo Messi’s actual leg tattoos, prominently featuring his iconic number 10 and soccer ball design. Perfect for c",
+      "channelTitle": "Duracell",
+      "publishedAt": "2026-06-02T21:06:46Z",
+      "expectedBrand": "Duracell",
+      "tier": "Tournament Marketer",
+      "category": "household",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=YBiHYdBD2eU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YBiHYdBD2eU/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "soccer",
+        "the pitch",
+        "messi"
+      ],
+      "sources": [
+        "channel_watch:Duracell"
+      ]
+    },
+    {
+      "videoId": "vPrYbMmU5vM",
+      "title": "¡LA PREVIA DEL MUNDIAL EN EL STREAM TYC SPORTS! | EN VIVO DESDE ESTADOS UNIDOS 🔴",
+      "description": "El sueño mundialista está en marcha. Con Lionel Messi a la cabeza, el plantel argentino se entrenó en Kansas pensando en el amistoso previo a la Copa del Mundo este sábado ante Honduras. Las 48 selecciones definieron sus listas y empiezan a ajustar tuercas de cara al arranque del Mundial el jueves 1",
+      "channelTitle": "TyC Sports",
+      "publishedAt": "2026-06-02T21:19:15Z",
+      "expectedBrand": "TyC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=vPrYbMmU5vM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vPrYbMmU5vM/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "messi"
+      ],
+      "sources": [
+        "channel_watch:TyC Sports"
+      ]
+    },
+    {
+      "videoId": "wsVyze7oTXc",
+      "title": "¡HOLA, CAPITÁN! 👋🤩🇦🇷",
+      "description": "Lionel Messi, antes de la segunda práctica de la Selección Argentina en Kansas City.\n\nPara más información, visitá http://www.tycsports.com",
+      "channelTitle": "TyC Sports",
+      "publishedAt": "2026-06-03T00:16:01Z",
+      "expectedBrand": "TyC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=wsVyze7oTXc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wsVyze7oTXc/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "messi"
+      ],
+      "sources": [
+        "channel_watch:TyC Sports"
+      ]
+    },
+    {
+      "videoId": "EeLDnhBr04A",
+      "title": "ÁLVARO FIDALGO CONFIESA TODO 🇲🇽 | “Representar a México es una Responsabilidad Doble”",
+      "description": "#seleccionmexicana #mundial2026 #futbolmexicano #futbol #fidalgo \n\n🇲🇽 A días del Mundial 2026, Álvaro Fidalgo se abre como nunca.\n\nEn entrevista exclusiva con Andy Sola y Faisy para El Búnker, el mediocampista habla sobre su camino para representar a México, el cariño de la afición, su proceso de na",
+      "channelTitle": "Selección Nacional de México",
+      "publishedAt": "2026-06-03T05:09:46Z",
+      "expectedBrand": "Federación Mexicana de Fútbol",
+      "tier": "National Federation",
+      "category": "national_federation",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=EeLDnhBr04A",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EeLDnhBr04A/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "futbol"
+      ],
+      "sources": [
+        "channel_watch:Federación Mexicana de Fútbol"
+      ]
+    },
+    {
+      "videoId": "gTzEPlLmtGY",
+      "title": "[天てれ] ユウユがアカネを追い詰めたキケンな言葉！イマジネ物語 第8話ダイジェスト【天才てれびくんgrow】| NHK",
+      "description": "「天才てれびくんgrow」放送後1週間 見逃し配信中！\nhttps://www.web.nhk/tv/pl/series-tep-W64Z2G8L5R/list?cid=dchk-yt-2606-02\n\n【8話あらすじ】\nニコに自分のグローをあげたアカネに変化が起こる。なんと「ひとりくらいならグローを奪ってもいい」とニコに言い放ったのだ！カンタ、スミレ、ユウユを襲うニコ。ユウユをかばいスミレがペラペラに！ユウユはアカネを問い詰めるが「自分の正義のために論破して人を傷つけるのと一緒」と反論される。さらに、はてなまで傷つくはめになり、ユウユは自分がしてきたことを反省する。すっかり自信を失ったユウユ",
+      "channelTitle": "NHK",
+      "publishedAt": "2026-06-03T09:00:02Z",
+      "expectedBrand": "NHK",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=gTzEPlLmtGY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gTzEPlLmtGY/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "kane"
+      ],
+      "sources": [
+        "channel_watch:NHK"
+      ]
+    },
+    {
+      "videoId": "ot1ynWgWXDM",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "fa World Cup sponsors to advertisers looking to tap into the summer’s global soccer buzz. Here are the ads brands have released so far. Advertisement Turo ‘How you get there’ <oembed url=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=ot1ynWgWXDM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ot1ynWgWXDM/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by thedrum",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:thedrum"
+      ]
+    },
+    {
       "videoId": "rPn_g6r7vHA",
       "title": "(unknown — discovered via tracker only)",
       "description": "nd experiential activations. The first spot, Airplane, was launched globally in March 2026 as Axe’s debut Fifa World Cup work. Canal+ &amp; Supersport's ‘Everything can wait’ <oembed url=\"https://www.",
@@ -5375,6 +5803,46 @@
       "rivalOf": null,
       "watchUrl": "https://www.youtube.com/watch?v=rPn_g6r7vHA",
       "thumbnailUrl": "https://i.ytimg.com/vi/rPn_g6r7vHA/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by thedrum",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:thedrum"
+      ]
+    },
+    {
+      "videoId": "-FvoxpnsXS0",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "yers or matches, the campaign highlights shared fan emotion, framing Coca-Cola as a constant companion throughout the tournament experience. Adidas ‘La Preparación Americana’ <oembed url=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=-FvoxpnsXS0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-FvoxpnsXS0/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by thedrum",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:thedrum"
+      ]
+    },
+    {
+      "videoId": "ehTVX_XPEj8",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "d by Saigon Filmes. It launched in mid-May 2026 as part of Brahma’s broader World Cup sponsorship activity across TV, digital, and live fan experiences. Adidas ‘Backyard Legends’ <oembed url=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=ehTVX_XPEj8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ehTVX_XPEj8/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by thedrum",
@@ -5405,6 +5873,26 @@
       ]
     },
     {
+      "videoId": "Sa-aBzvP9Co",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ressures. EE is also bringing the campaign into WhatsApp channels and fan communities. Deliveroo follows the emotional chaos of match day through the eyes of a delivery rider <oembed url=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=Sa-aBzvP9Co",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Sa-aBzvP9Co/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by thedrum",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:thedrum"
+      ]
+    },
+    {
       "videoId": "k0CvRBnnU9U",
       "title": "(unknown — discovered via tracker only)",
       "description": "TV, digital and experiential activations, it positions Stella Artois as part of the ritual of watching football together during the competition. Big4Travel “Football escapes” <oembed url=\"https://www.",
@@ -5416,26 +5904,6 @@
       "rivalOf": null,
       "watchUrl": "https://www.youtube.com/watch?v=k0CvRBnnU9U",
       "thumbnailUrl": "https://i.ytimg.com/vi/k0CvRBnnU9U/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by thedrum",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:thedrum"
-      ]
-    },
-    {
-      "videoId": "ehTVX_XPEj8",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "d by Saigon Filmes. It launched in mid-May 2026 as part of Brahma’s broader World Cup sponsorship activity across TV, digital, and live fan experiences. Adidas ‘Backyard Legends’ <oembed url=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=ehTVX_XPEj8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ehTVX_XPEj8/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by thedrum",
@@ -5465,17 +5933,17 @@
       ]
     },
     {
-      "videoId": "XXYU5RMedAA",
+      "videoId": "wTVcNPNCHfg",
       "title": "(unknown — discovered via tracker only)",
-      "description": "and produced by Pulse Films, the campaign was launched globally in May 2026 through TV, digital, OOH, and live pub activations. Axe ‘Smell your best when you look your worst’ <oembed url=\"https://www.",
+      "description": "ess for Turo and launched in late May 2026 across digital video, social media and experiential partnerships connected to the Fifa World Cup. FOX Sports ‘Global artist series’ <oembed url=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=XXYU5RMedAA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XXYU5RMedAA/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=wTVcNPNCHfg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wTVcNPNCHfg/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by thedrum",
@@ -5485,37 +5953,17 @@
       ]
     },
     {
-      "videoId": "-FvoxpnsXS0",
+      "videoId": "ia8Vo8D-4_g",
       "title": "(unknown — discovered via tracker only)",
-      "description": "yers or matches, the campaign highlights shared fan emotion, framing Coca-Cola as a constant companion throughout the tournament experience. Adidas ‘La Preparación Americana’ <oembed url=\"https://www.",
+      "description": "r PepsiCo and rolled out across TV, social media, and digital platforms in May 2026 as part of Lay’s wider No Lay’s, No Game World Cup platform. Visa ‘Everything is a tap in’ <oembed url=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=-FvoxpnsXS0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-FvoxpnsXS0/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by thedrum",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:thedrum"
-      ]
-    },
-    {
-      "videoId": "Sa-aBzvP9Co",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ressures. EE is also bringing the campaign into WhatsApp channels and fan communities. Deliveroo follows the emotional chaos of match day through the eyes of a delivery rider <oembed url=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Sa-aBzvP9Co",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Sa-aBzvP9Co/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=ia8Vo8D-4_g",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ia8Vo8D-4_g/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by thedrum",
@@ -5542,6 +5990,66 @@
       "matchedKeywords": [],
       "sources": [
         "tracker:thedrum"
+      ]
+    },
+    {
+      "videoId": "LaaN4RQiYjo",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "in partnership with artists from all 48 nations competing, and it was launched across digital, social media, and broadcast platforms at the end of May 2026. Lay's ‘Bandwagon’ <oembed url=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=LaaN4RQiYjo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LaaN4RQiYjo/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by thedrum",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:thedrum"
+      ]
+    },
+    {
+      "videoId": "XXYU5RMedAA",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "and produced by Pulse Films, the campaign was launched globally in May 2026 through TV, digital, OOH, and live pub activations. Axe ‘Smell your best when you look your worst’ <oembed url=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=XXYU5RMedAA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XXYU5RMedAA/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by thedrum",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:thedrum"
+      ]
+    },
+    {
+      "videoId": "85Mg2WTjdbs",
+      "title": "(unknown — discovered via tracker only)",
+      "description": " 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /> <iframe loading=\"lazy\" title=\"Michelob ULTRA Superior Player of the Match Trophy | Michelob ULTRA\" width=\"500\" height=\"281\" src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=85Mg2WTjdbs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/85Mg2WTjdbs/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by brandinnovators",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:brandinnovators"
       ]
     },
     {
@@ -5605,37 +6113,17 @@
       ]
     },
     {
-      "videoId": "1lC14hw4_Ns",
+      "videoId": "RuH65gW9toI",
       "title": "(unknown — discovered via tracker only)",
-      "description": "Ronaldo Nazário, Alex Morgan and special guest Billy Bob Thornton. <iframe loading=\"lazy\" title=\"The NESCAFÉ Third Half feat. Landon Donovan and Luis García\" width=\"500\" height=\"281\" src=\"https://www.",
+      "description": " and IRL fan experiences, as well as offering limited edition cans and &nbsp;packages. <iframe loading=\"lazy\" title=\"The Original Motor Oil | For the Driven\" width=\"500\" height=\"281\" src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=1lC14hw4_Ns",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1lC14hw4_Ns/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "tmcqgUBZROs",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "riends, or celebrating moments of togetherness at home.&#8221; <iframe loading=\"lazy\" title=\"Quaker. Whole body nutrition and fuel to start whatever’s next.\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=tmcqgUBZROs",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tmcqgUBZROs/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=RuH65gW9toI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RuH65gW9toI/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by brandinnovators",
@@ -5665,6 +6153,46 @@
       ]
     },
     {
+      "videoId": "tmcqgUBZROs",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "riends, or celebrating moments of togetherness at home.&#8221; <iframe loading=\"lazy\" title=\"Quaker. Whole body nutrition and fuel to start whatever’s next.\" width=\"500\" height=\"281\" src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=tmcqgUBZROs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tmcqgUBZROs/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by brandinnovators",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:brandinnovators"
+      ]
+    },
+    {
+      "videoId": "1lC14hw4_Ns",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Ronaldo Nazário, Alex Morgan and special guest Billy Bob Thornton. <iframe loading=\"lazy\" title=\"The NESCAFÉ Third Half feat. Landon Donovan and Luis García\" width=\"500\" height=\"281\" src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=1lC14hw4_Ns",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1lC14hw4_Ns/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by brandinnovators",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:brandinnovators"
+      ]
+    },
+    {
       "videoId": "UrqAObrvOiA",
       "title": "(unknown — discovered via tracker only)",
       "description": "promotion&nbsp;including a sweepstakes and limited-edition packaging showing off his tattoos. <iframe loading=\"lazy\" title=\"CELSIUS Electric Vibe Commercial\" width=\"500\" height=\"281\" src=\"https://www.",
@@ -5685,66 +6213,6 @@
       ]
     },
     {
-      "videoId": "RuH65gW9toI",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " and IRL fan experiences, as well as offering limited edition cans and &nbsp;packages. <iframe loading=\"lazy\" title=\"The Original Motor Oil | For the Driven\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=RuH65gW9toI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RuH65gW9toI/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "85Mg2WTjdbs",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /> <iframe loading=\"lazy\" title=\"Michelob ULTRA Superior Player of the Match Trophy | Michelob ULTRA\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=85Mg2WTjdbs",
-      "thumbnailUrl": "https://i.ytimg.com/vi/85Mg2WTjdbs/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "9dNTRsROgWg",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "\"font-size: 18pt\">Pepsi | Global “Football Nation” Star Rating: 4.0 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=9dNTRsROgWg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9dNTRsROgWg/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
       "videoId": "CPktcITAZAQ",
       "title": "(unknown — discovered via tracker only)",
       "description": "yle=\"font-size: 18pt\">Brazil “Os torcedores brasileiros têm um S de Sadia” Star Rating: 3.8 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
@@ -5756,6 +6224,26 @@
       "rivalOf": null,
       "watchUrl": "https://www.youtube.com/watch?v=CPktcITAZAQ",
       "thumbnailUrl": "https://i.ytimg.com/vi/CPktcITAZAQ/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "cRpX0P1RC64",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "n style=\"font-size: 18pt\">Brazil “DORITOS apresenta A Teoria do Triângulo” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=cRpX0P1RC64",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRpX0P1RC64/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -5785,17 +6273,17 @@
       ]
     },
     {
-      "videoId": "k5GYKPtTT0U",
+      "videoId": "9dNTRsROgWg",
       "title": "(unknown — discovered via tracker only)",
-      "description": "ube.com/embed/sS_05OLVkxU\" frameborder=\"0\" allowfullscreen> Jameson Irish Whiskey | UK “It&#8217;s What You Bring” Star Rating: 3.7 Stars <a style=\"color: #e43e95\" href=\"https://www.",
+      "description": "\"font-size: 18pt\">Pepsi | Global “Football Nation” Star Rating: 4.0 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=k5GYKPtTT0U",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k5GYKPtTT0U/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=9dNTRsROgWg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9dNTRsROgWg/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -5805,17 +6293,37 @@
       ]
     },
     {
-      "videoId": "Pf_Gr-vRUws",
+      "videoId": "iLWrNZS3lM4",
       "title": "(unknown — discovered via tracker only)",
-      "description": "utube.com/embed/CPktcITAZAQ\" frameborder=\"0\" allowfullscreen> Rexona | Brazil “REXONA x FIFA MEN’S WORLD CUP 2026” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "le=\"font-size: 18pt\">Don Julio | US “La Otra Copa” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Pf_Gr-vRUws",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Pf_Gr-vRUws/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=iLWrNZS3lM4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iLWrNZS3lM4/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "sS_05OLVkxU",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "span> US “The Most Epic Watch Party” Star Rating: 3.5 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=sS_05OLVkxU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sS_05OLVkxU/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -5865,17 +6373,17 @@
       ]
     },
     {
-      "videoId": "sS_05OLVkxU",
+      "videoId": "k5GYKPtTT0U",
       "title": "(unknown — discovered via tracker only)",
-      "description": "span> US “The Most Epic Watch Party” Star Rating: 3.5 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "description": "ube.com/embed/sS_05OLVkxU\" frameborder=\"0\" allowfullscreen> Jameson Irish Whiskey | UK “It&#8217;s What You Bring” Star Rating: 3.7 Stars <a style=\"color: #e43e95\" href=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=sS_05OLVkxU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sS_05OLVkxU/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=k5GYKPtTT0U",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k5GYKPtTT0U/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -5885,37 +6393,17 @@
       ]
     },
     {
-      "videoId": "cRpX0P1RC64",
+      "videoId": "Pf_Gr-vRUws",
       "title": "(unknown — discovered via tracker only)",
-      "description": "n style=\"font-size: 18pt\">Brazil “DORITOS apresenta A Teoria do Triângulo” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "description": "utube.com/embed/CPktcITAZAQ\" frameborder=\"0\" allowfullscreen> Rexona | Brazil “REXONA x FIFA MEN’S WORLD CUP 2026” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=cRpX0P1RC64",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cRpX0P1RC64/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "iLWrNZS3lM4",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "le=\"font-size: 18pt\">Don Julio | US “La Otra Copa” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=iLWrNZS3lM4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iLWrNZS3lM4/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=Pf_Gr-vRUws",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pf_Gr-vRUws/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
