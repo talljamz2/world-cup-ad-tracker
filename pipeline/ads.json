@@ -701,6 +701,34 @@
       {
         "url": "https://www.instagram.com/reel/DXwjC01oVuf/",
         "talent": "Vini Jr"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DYzei-lip18/",
+        "talent": "Kylian Mbappé"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DY2DiYcozj5/",
+        "talent": "Cristiano Ronaldo"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DXwj57ZiakR/",
+        "talent": "Kylian Mbappé"
+      },
+      {
+        "url": "https://www.instagram.com/reel/DY43vokIPti/",
+        "talent": "Vini Jr"
+      },
+      {
+        "url": "https://www.instagram.com/p/DY7o2a3MlYd/",
+        "talent": "Leo Messi"
+      }
+    ],
+    "manualIgData": [
+      {
+        "url": "https://www.instagram.com/p/DY7o2a3MlYd/",
+        "views": 20000000,
+        "likes": 1000000,
+        "_note": "Estimate. Carousel (not a Reel) so no native play count; ~20M views inferred from Messi's typical Reel likes-to-views ratio at ~1M likes. Talent sidebar — not in composite."
       }
     ]
   },
@@ -959,6 +987,42 @@
       "https://www.tiktok.com/@visa/video/7644944002155908382",
       "https://www.tiktok.com/@visa/video/7644205454754663711",
       "https://www.tiktok.com/@visa/video/7640891130879462686"
+    ]
+  },
+  {
+    "id": "nik-01",
+    "brand": "Nike",
+    "brandColor": "#111111",
+    "domain": "nike.com",
+    "tier": "Other",
+    "agency": "Wieden+Kennedy",
+    "title": "Rip The Script",
+    "thumbHue": 210,
+    "youtubeId": "IyZ1WIua_1s",
+    "description": "Nike's 2026 World Cup hero film — a six-minute Wieden+Kennedy spectacle directed by Dan Streit in which a film director keeps trying to make Nike's footballers stick to a script before the ball, and the players' instinct, take over. 'Rip The Script' is a rallying cry to play football with fearlessness and imagination, and it opens roughly twelve weeks of campaign content. Nike isn't a FIFA partner, so this runs entirely as brand-channel attention rather than official-partner inventory: the canonical film sits on Nike Football's YouTube with matching cutdowns on @nike's TikTok and Instagram. The cast is enormous — Cristiano Ronaldo, Kylian Mbappé, Vinícius Jr, Erling Haaland, Ronaldinho, Zlatan Ibrahimović and Jorge Campos alongside culture names like LeBron James, Travis Scott, Kim Kardashian, Channing Tatum, Lisa of Blackpink and Central Cee. Several of the footballers pushed the film hard from their own accounts — captured here as talent amplification, kept separate from the brand-owned reach the score measures.",
+    "instagramUrls": [
+      "https://www.instagram.com/p/DZK3iOsRlWX/"
+    ],
+    "tiktokUrls": [
+      "https://www.tiktok.com/@nike/video/7647200302189251854"
+    ],
+    "talentIgUrls": [
+      {
+        "url": "https://www.instagram.com/p/DZK4OKDKpEU/",
+        "talent": "Cristiano Ronaldo"
+      },
+      {
+        "url": "https://www.instagram.com/p/DZK6fYSoGHy/",
+        "talent": "Vinícius Júnior"
+      },
+      {
+        "url": "https://www.instagram.com/p/DZLHcVJBEzG/",
+        "talent": "Ronaldinho"
+      },
+      {
+        "url": "https://www.instagram.com/p/DZK4tglA8r_/",
+        "talent": "Erling Haaland"
+      }
     ]
   }
 ]
