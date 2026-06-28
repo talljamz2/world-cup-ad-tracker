@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T15:09:53+00:00",
+  "updated": "2026-06-28T16:56:10+00:00",
   "ads": [
     {
       "id": "adi-01",
@@ -46,23 +46,23 @@
           "talent": "David Beckham"
         }
       ],
-      "views": 7828074,
-      "likes": 284602,
+      "views": 7830032,
+      "likes": 284631,
       "comments": 7307,
       "published": "2026-05-07T08:00:40Z",
       "channelTitle": "adidas",
       "durationSeconds": 306,
       "weightedSentiment": 57.8,
       "sentimentSampleSize": 357,
-      "velocityViewsPerDay": 149682,
-      "viewsLast7Days": 259944,
+      "velocityViewsPerDay": 149508,
+      "viewsLast7Days": 258937,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "mJJY53qhJe0",
-        "views": 7828074,
-        "likes": 284602,
+        "views": 7830032,
+        "likes": 284631,
         "comments": 7307
       }
     },
@@ -92,7 +92,7 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 2,
       "velocityViewsPerDay": 84,
-      "viewsLast7Days": 165,
+      "viewsLast7Days": 161,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
@@ -174,7 +174,7 @@
           "lastCheckedAt": "2026-06-01T19:39:30.167034+00:00"
         }
       ],
-      "views": 40070530,
+      "views": 40070534,
       "likes": 3134,
       "comments": 128,
       "published": "2026-04-28T04:29:22Z",
@@ -182,14 +182,14 @@
       "durationSeconds": 115,
       "weightedSentiment": 60.8,
       "sentimentSampleSize": 72,
-      "velocityViewsPerDay": 652140,
-      "viewsLast7Days": 4083,
+      "velocityViewsPerDay": 651358,
+      "viewsLast7Days": 4028,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "w0oRTljtx0o",
-        "views": 40070530,
+        "views": 40070534,
         "likes": 3134,
         "comments": 128
       }
@@ -305,8 +305,8 @@
       "durationSeconds": 115,
       "weightedSentiment": null,
       "sentimentSampleSize": 3,
-      "velocityViewsPerDay": 98,
-      "viewsLast7Days": 506,
+      "velocityViewsPerDay": 97,
+      "viewsLast7Days": 501,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
@@ -427,7 +427,7 @@
           "talent": "Christian Pulisic"
         }
       ],
-      "views": 29236060,
+      "views": 29237487,
       "likes": 0,
       "comments": 312,
       "published": "2026-05-12T12:59:35Z",
@@ -435,15 +435,15 @@
       "durationSeconds": 184,
       "weightedSentiment": 62.3,
       "sentimentSampleSize": 138,
-      "velocityViewsPerDay": 620851,
-      "viewsLast7Days": 27570355,
+      "velocityViewsPerDay": 619909,
+      "viewsLast7Days": 27571704,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 3,
       "youtubeCutdowns": [
         {
           "videoId": "nP4G3I2Jx2A",
           "title": "",
-          "views": 6423,
+          "views": 6425,
           "likes": 0,
           "comments": 1,
           "published": "2026-05-13T16:08:22Z",
@@ -463,7 +463,7 @@
         {
           "videoId": "5XOxoKnmAmo",
           "title": "",
-          "views": 18298665,
+          "views": 18300044,
           "likes": 0,
           "comments": 10,
           "published": "2026-05-14T20:33:37Z",
@@ -473,7 +473,7 @@
       ],
       "primary": {
         "videoId": "9SHoGssGL_4",
-        "views": 1677389,
+        "views": 1677435,
         "likes": 0,
         "comments": 299
       }
@@ -516,7 +516,7 @@
           "talent": "Alexia Putellas"
         }
       ],
-      "views": 229942,
+      "views": 229978,
       "likes": 5421,
       "comments": 262,
       "published": "2026-04-20T09:19:47Z",
@@ -524,14 +524,14 @@
       "durationSeconds": 206,
       "weightedSentiment": 59.1,
       "sentimentSampleSize": 132,
-      "velocityViewsPerDay": 3320,
-      "viewsLast7Days": 4062,
+      "velocityViewsPerDay": 3317,
+      "viewsLast7Days": 4069,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "UWFnOdU33MQ",
-        "views": 229942,
+        "views": 229978,
         "likes": 5421,
         "comments": 262
       }
@@ -553,7 +553,7 @@
           "talent": "David Beckham"
         }
       ],
-      "views": 17911,
+      "views": 20537,
       "likes": 158,
       "comments": 8,
       "published": "2026-04-15T13:09:28Z",
@@ -561,14 +561,14 @@
       "durationSeconds": 37,
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
-      "velocityViewsPerDay": 241,
-      "viewsLast7Days": 2460,
+      "velocityViewsPerDay": 276,
+      "viewsLast7Days": 5072,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "MJ4mFg8xxNI",
-        "views": 17911,
+        "views": 20537,
         "likes": 158,
         "comments": 8
       }
@@ -640,7 +640,7 @@
         }
       ],
       "talentIgUrls": [],
-      "views": 13794,
+      "views": 13799,
       "likes": 131,
       "comments": 13,
       "published": "2026-04-29T15:56:20Z",
@@ -648,14 +648,14 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 7,
-      "velocityViewsPerDay": 230,
-      "viewsLast7Days": 1908,
+      "velocityViewsPerDay": 229,
+      "viewsLast7Days": 1894,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "SbmYOQIIEBg",
-        "views": 13794,
+        "views": 13799,
         "likes": 131,
         "comments": 13
       }
@@ -674,23 +674,23 @@
       "instagramUrls": [
         "https://www.instagram.com/reel/DX6nbgMNMvh/"
       ],
-      "views": 3049697,
-      "likes": 4059,
+      "views": 3049837,
+      "likes": 4063,
       "comments": 799,
       "published": "2026-05-04T11:45:01Z",
       "channelTitle": "FOX Sports",
       "durationSeconds": 111,
       "weightedSentiment": 69.5,
       "sentimentSampleSize": 277,
-      "velocityViewsPerDay": 55306,
-      "viewsLast7Days": 19808,
+      "velocityViewsPerDay": 55234,
+      "viewsLast7Days": 19807,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "4_yQyyrPxkg",
-        "views": 3049697,
-        "likes": 4059,
+        "views": 3049837,
+        "likes": 4063,
         "comments": 799
       }
     },
@@ -724,23 +724,23 @@
           "talent": "Carlo Ancelotti"
         }
       ],
-      "views": 2033864,
-      "likes": 45252,
+      "views": 2034174,
+      "likes": 45259,
       "comments": 2422,
       "published": "2026-05-06T14:58:43Z",
       "channelTitle": "Brahma",
       "durationSeconds": 221,
       "weightedSentiment": 67.9,
       "sentimentSampleSize": 365,
-      "velocityViewsPerDay": 38369,
-      "viewsLast7Days": 23646,
+      "velocityViewsPerDay": 38321,
+      "viewsLast7Days": 23606,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "_THsmn-n8Lk",
-        "views": 2033864,
-        "likes": 45252,
+        "views": 2034174,
+        "likes": 45259,
         "comments": 2422
       }
     },
@@ -755,7 +755,7 @@
       "thumbHue": 215,
       "youtubeId": "yk41Qxz3tAo",
       "description": "Motorola's 2026 global tournament film, framed around fan reactions and device-as-camera storytelling. The brand's headline 2026 activation, distinct from regional cutdown variants that surface on local channels.",
-      "views": 4654,
+      "views": 4657,
       "likes": 156,
       "comments": 11,
       "published": "2026-03-03T13:00:02Z",
@@ -764,13 +764,13 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 6,
       "velocityViewsPerDay": 39,
-      "viewsLast7Days": 578,
+      "viewsLast7Days": 581,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "yk41Qxz3tAo",
-        "views": 4654,
+        "views": 4657,
         "likes": 156,
         "comments": 11
       }
@@ -798,7 +798,7 @@
           "lastCheckedAt": "2026-06-01T19:39:30.167034+00:00"
         }
       ],
-      "views": 28991091,
+      "views": 28991094,
       "likes": 128,
       "comments": 14,
       "published": "2026-04-07T06:50:02Z",
@@ -806,14 +806,14 @@
       "durationSeconds": 61,
       "weightedSentiment": null,
       "sentimentSampleSize": 5,
-      "velocityViewsPerDay": 352060,
-      "viewsLast7Days": 1375,
+      "velocityViewsPerDay": 351744,
+      "viewsLast7Days": 1372,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "dolH3p7MK_Q",
-        "views": 28991091,
+        "views": 28991094,
         "likes": 128,
         "comments": 14
       }
@@ -836,24 +836,24 @@
           "talent": "Lamine Yamal"
         }
       ],
-      "views": 11072620,
+      "views": 11090202,
       "likes": 1082,
-      "comments": 90,
+      "comments": 89,
       "published": "2026-05-08T15:01:43Z",
       "channelTitle": "Coca-Cola",
       "durationSeconds": 78,
       "weightedSentiment": 57.1,
       "sentimentSampleSize": 30,
-      "velocityViewsPerDay": 217086,
-      "viewsLast7Days": 1330295,
+      "velocityViewsPerDay": 217116,
+      "viewsLast7Days": 1329227,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "uNdcDbMo9EE",
-        "views": 11072620,
+        "views": 11090202,
         "likes": 1082,
-        "comments": 90
+        "comments": 89
       }
     },
     {
@@ -867,8 +867,8 @@
       "thumbHue": 0,
       "youtubeId": "jNHDWcoNzVA",
       "description": "The second film in Coca-Cola's 'All the Feels' trilogy (after January's 'Bubbling Up', before a third spot timed to kickoff). Focuses on raw, unfiltered fan reactions — spontaneous celebrations, disappointments, shared viewing experiences. Coke has been a FIFA stadium partner since 1950.",
-      "views": 173616,
-      "likes": 1841,
+      "views": 173770,
+      "likes": 1842,
       "comments": 58,
       "published": "2026-04-08T13:01:25Z",
       "channelTitle": "Coca-Cola",
@@ -876,14 +876,14 @@
       "weightedSentiment": 63.3,
       "sentimentSampleSize": 25,
       "velocityViewsPerDay": 2141,
-      "viewsLast7Days": 13653,
+      "viewsLast7Days": 13640,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "jNHDWcoNzVA",
-        "views": 173616,
-        "likes": 1841,
+        "views": 173770,
+        "likes": 1842,
         "comments": 58
       }
     },
@@ -928,7 +928,7 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
       "velocityViewsPerDay": 34,
-      "viewsLast7Days": 151,
+      "viewsLast7Days": 149,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
@@ -950,7 +950,7 @@
       "thumbHue": 0,
       "youtubeId": "vV9zKd3ob3k",
       "description": "Owen Trevor Black's Rattling Stick film for Lenovo, framing the brand's AI infrastructure as the engine behind the most technologically advanced World Cup in history. Shot in a Bucharest studio with AI-generated and AI-enhanced vignettes — itself a statement about where the work is going.",
-      "views": 518415,
+      "views": 518433,
       "likes": 226,
       "comments": 9,
       "published": "2026-01-08T06:59:46Z",
@@ -958,14 +958,14 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
-      "velocityViewsPerDay": 3025,
-      "viewsLast7Days": 808,
+      "velocityViewsPerDay": 3024,
+      "viewsLast7Days": 819,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "vV9zKd3ob3k",
-        "views": 518415,
+        "views": 518433,
         "likes": 226,
         "comments": 9
       }
@@ -984,7 +984,7 @@
       "instagramUrls": [
         "https://www.instagram.com/reel/DSBB6cxCj_S/"
       ],
-      "views": 2034368,
+      "views": 2034382,
       "likes": 246,
       "comments": 18,
       "published": "2025-12-08T20:18:19Z",
@@ -992,14 +992,14 @@
       "durationSeconds": 61,
       "weightedSentiment": null,
       "sentimentSampleSize": 4,
-      "velocityViewsPerDay": 10081,
-      "viewsLast7Days": 1378,
+      "velocityViewsPerDay": 10078,
+      "viewsLast7Days": 1379,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "njfzULv9iFk",
-        "views": 2034368,
+        "views": 2034382,
         "likes": 246,
         "comments": 18
       }
@@ -1027,7 +1027,7 @@
           "lastCheckedAt": "2026-06-01T19:39:30.167034+00:00"
         }
       ],
-      "views": 10880299,
+      "views": 10883967,
       "likes": 32,
       "comments": 14,
       "published": "2026-04-07T16:26:55Z",
@@ -1035,14 +1035,14 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 3,
-      "velocityViewsPerDay": 132773,
-      "viewsLast7Days": 974794,
+      "velocityViewsPerDay": 132698,
+      "viewsLast7Days": 978462,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "5f_BK6mlWVg",
-        "views": 10880299,
+        "views": 10883967,
         "likes": 32,
         "comments": 14
       }
@@ -1066,7 +1066,7 @@
       "durationSeconds": 61,
       "weightedSentiment": null,
       "sentimentSampleSize": 0,
-      "velocityViewsPerDay": 50,
+      "velocityViewsPerDay": 49,
       "viewsLast7Days": 120,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -1089,7 +1089,7 @@
       "thumbHue": 0,
       "youtubeId": "Oc2f95BsEqw",
       "description": "The opener of Coca-Cola's 'All the Feels' trilogy, released January 27, 2026 — three months before 'Uncanned Emotions' and four months before the JUMP anthem dropped as a standalone track. A fan's pre-tournament anticipation spills into everyday moments (the elevator scene as the central creative metaphor), with a sneak preview of the JUMP anthem before its full release. The platform-launch film for Coke's broader 2026 activation.",
-      "views": 50036,
+      "views": 50046,
       "likes": 426,
       "comments": 34,
       "published": "2026-01-30T18:53:05Z",
@@ -1098,13 +1098,13 @@
       "weightedSentiment": null,
       "sentimentSampleSize": 19,
       "velocityViewsPerDay": 336,
-      "viewsLast7Days": 1026,
+      "viewsLast7Days": 1036,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "Oc2f95BsEqw",
-        "views": 50036,
+        "views": 50046,
         "likes": 426,
         "comments": 34
       }
@@ -1182,23 +1182,23 @@
           "_note": "Estimate. Carousel (not a Reel) so no native play count; ~20M views inferred from Messi's typical Reel likes-to-views ratio at ~1M likes. Talent sidebar — not in composite."
         }
       ],
-      "views": 1538786,
-      "likes": 72062,
+      "views": 1544937,
+      "likes": 72198,
       "comments": 0,
       "published": "2026-04-02T10:00:23Z",
       "channelTitle": "LEGO",
       "durationSeconds": 60,
       "weightedSentiment": null,
       "sentimentSampleSize": 0,
-      "velocityViewsPerDay": 17643,
-      "viewsLast7Days": 275851,
+      "velocityViewsPerDay": 17699,
+      "viewsLast7Days": 281539,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "H0gbOS6-EQ4",
-        "views": 1538786,
-        "likes": 72062,
+        "views": 1544937,
+        "likes": 72198,
         "comments": 0
       }
     },
@@ -1227,7 +1227,7 @@
           "talent": "Vini Jr"
         }
       ],
-      "views": 6180369,
+      "views": 6180371,
       "likes": 250,
       "comments": 23,
       "published": "2026-04-23T15:02:55Z",
@@ -1235,14 +1235,14 @@
       "durationSeconds": 104,
       "weightedSentiment": null,
       "sentimentSampleSize": 13,
-      "velocityViewsPerDay": 93635,
-      "viewsLast7Days": 334,
+      "velocityViewsPerDay": 93530,
+      "viewsLast7Days": 336,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "665gg3fGj9U",
-        "views": 6180369,
+        "views": 6180371,
         "likes": 250,
         "comments": 23
       }
@@ -1370,7 +1370,7 @@
       "durationSeconds": 262,
       "weightedSentiment": null,
       "sentimentSampleSize": 2,
-      "velocityViewsPerDay": 3153,
+      "velocityViewsPerDay": 3149,
       "viewsLast7Days": 19,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
@@ -1406,16 +1406,16 @@
         "https://www.tiktok.com/@lays/video/7639749835997908237",
         "https://www.tiktok.com/@lays/video/7639499549140143373"
       ],
-      "views": 59649,
-      "likes": 857,
-      "comments": 66,
+      "views": 59696,
+      "likes": 859,
+      "comments": 67,
       "published": "2026-05-11T15:55:39Z",
       "channelTitle": "Lay's",
       "durationSeconds": 29,
       "weightedSentiment": null,
       "sentimentSampleSize": 1,
-      "velocityViewsPerDay": 1243,
-      "viewsLast7Days": 58358,
+      "velocityViewsPerDay": 1242,
+      "viewsLast7Days": 58405,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 3,
       "youtubeCutdowns": [
@@ -1432,8 +1432,8 @@
         {
           "videoId": "nrcqbnjG8PI",
           "title": "",
-          "views": 11365,
-          "likes": 150,
+          "views": 11384,
+          "likes": 151,
           "comments": 11,
           "published": "2026-05-13T22:00:10Z",
           "durationSeconds": 16,
@@ -1442,9 +1442,9 @@
         {
           "videoId": "uapZs581ppE",
           "title": "",
-          "views": 46185,
-          "likes": 652,
-          "comments": 47,
+          "views": 46211,
+          "likes": 653,
+          "comments": 48,
           "published": "2026-05-14T13:59:25Z",
           "durationSeconds": 61,
           "watchUrl": "https://www.youtube.com/watch?v=uapZs581ppE"
@@ -1452,7 +1452,7 @@
       ],
       "primary": {
         "videoId": "PhrnQthcFMc",
-        "views": 1352,
+        "views": 1354,
         "likes": 29,
         "comments": 4
       }
@@ -1491,7 +1491,7 @@
           "talent": "Leo Messi"
         }
       ],
-      "views": 25232,
+      "views": 25312,
       "likes": 189,
       "comments": 34,
       "published": "2026-04-15T17:00:58Z",
@@ -1499,14 +1499,14 @@
       "durationSeconds": 31,
       "weightedSentiment": null,
       "sentimentSampleSize": 19,
-      "velocityViewsPerDay": 341,
-      "viewsLast7Days": 3456,
+      "velocityViewsPerDay": 342,
+      "viewsLast7Days": 3477,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "huRFGYDWvXA",
-        "views": 25232,
+        "views": 25312,
         "likes": 189,
         "comments": 34
       }
@@ -1544,7 +1544,7 @@
         "https://www.tiktok.com/@burberry/video/7645261297113746710",
         "https://www.tiktok.com/@burberry/video/7646358066111253782"
       ],
-      "views": 26533,
+      "views": 26547,
       "likes": 718,
       "comments": 47,
       "published": "2026-05-26T09:05:32Z",
@@ -1552,14 +1552,14 @@
       "durationSeconds": 88,
       "weightedSentiment": null,
       "sentimentSampleSize": 19,
-      "velocityViewsPerDay": 797,
-      "viewsLast7Days": 1688,
+      "velocityViewsPerDay": 796,
+      "viewsLast7Days": 1702,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "kxFpZXQEtGA",
-        "views": 26533,
+        "views": 26547,
         "likes": 718,
         "comments": 47
       }
@@ -1604,7 +1604,7 @@
         "https://www.tiktok.com/@visa/video/7644205454754663711",
         "https://www.tiktok.com/@visa/video/7640891130879462686"
       ],
-      "views": 17084616,
+      "views": 17127298,
       "likes": 0,
       "comments": 17,
       "published": "2026-05-18T19:47:41Z",
@@ -1612,15 +1612,15 @@
       "durationSeconds": 61,
       "weightedSentiment": null,
       "sentimentSampleSize": 6,
-      "velocityViewsPerDay": 418668,
-      "viewsLast7Days": 17067707,
+      "velocityViewsPerDay": 418956,
+      "viewsLast7Days": 17110364,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 4,
       "youtubeCutdowns": [
         {
           "videoId": "W0oWdjmIqFs",
           "title": "",
-          "views": 5437740,
+          "views": 5448618,
           "likes": 0,
           "comments": 2,
           "published": "2026-05-19T15:48:11Z",
@@ -1630,7 +1630,7 @@
         {
           "videoId": "7hkvg5cHsBU",
           "title": "",
-          "views": 6570778,
+          "views": 6584304,
           "likes": 0,
           "comments": 2,
           "published": "2026-05-19T15:47:43Z",
@@ -1640,7 +1640,7 @@
         {
           "videoId": "jRGe6WvUgyI",
           "title": "",
-          "views": 4072063,
+          "views": 4088207,
           "likes": 0,
           "comments": 0,
           "published": "2026-05-19T15:47:27Z",
@@ -1650,7 +1650,7 @@
         {
           "videoId": "gagRGBbW3Ic",
           "title": "",
-          "views": 985078,
+          "views": 987198,
           "likes": 0,
           "comments": 2,
           "published": "2026-05-18T11:10:03Z",
@@ -1660,7 +1660,7 @@
       ],
       "primary": {
         "videoId": "HvCZcczn6Yo",
-        "views": 18957,
+        "views": 18971,
         "likes": 0,
         "comments": 11
       }
@@ -1796,24 +1796,24 @@
           "note": "image/carousel — no public view count; user-estimated impressions"
         }
       ],
-      "views": 78440750,
-      "likes": 457391,
-      "comments": 17210,
+      "views": 78451132,
+      "likes": 457552,
+      "comments": 17214,
       "published": "2026-06-04T15:59:06Z",
       "channelTitle": "Nike Football",
       "durationSeconds": 361,
       "weightedSentiment": 62.1,
-      "sentimentSampleSize": 296,
-      "velocityViewsPerDay": 3273025,
-      "viewsLast7Days": 1048411,
+      "sentimentSampleSize": 287,
+      "velocityViewsPerDay": 3263407,
+      "viewsLast7Days": 1041450,
       "velocityWindowDays": 7,
       "youtubeCutdownCount": 0,
       "youtubeCutdowns": [],
       "primary": {
         "videoId": "IyZ1WIua_1s",
-        "views": 78440750,
-        "likes": 457391,
-        "comments": 17210
+        "views": 78451132,
+        "likes": 457552,
+        "comments": 17214
       }
     }
   ],
