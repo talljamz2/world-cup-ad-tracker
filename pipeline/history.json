@@ -1,256 +1,5 @@
 [
   {
-    "timestamp": "2026-06-06T18:01:19+00:00",
-    "ads": [
-      {
-        "youtubeId": "mJJY53qhJe0",
-        "views": 6372408,
-        "likes": 261875,
-        "comments": 6638
-      },
-      {
-        "youtubeId": "bWtKtqSeB40",
-        "views": 7833,
-        "likes": 23,
-        "comments": 2
-      },
-      {
-        "youtubeId": "w0oRTljtx0o",
-        "views": 30468451,
-        "likes": 2006,
-        "comments": 98
-      },
-      {
-        "youtubeId": "qVg8Gj6WcFQ",
-        "views": 4973,
-        "likes": 63,
-        "comments": 7
-      },
-      {
-        "youtubeId": "Ecs-f2Nie4I",
-        "views": 3820,
-        "likes": 36,
-        "comments": 2
-      },
-      {
-        "youtubeId": "9SHoGssGL_4",
-        "views": 1601793,
-        "likes": 0,
-        "comments": 274
-      },
-      {
-        "youtubeId": "nP4G3I2Jx2A",
-        "views": 1479,
-        "likes": 0,
-        "comments": 1
-      },
-      {
-        "youtubeId": "IM2h0zmnI8M",
-        "views": 9252867,
-        "likes": 0,
-        "comments": 2
-      },
-      {
-        "youtubeId": "5XOxoKnmAmo",
-        "views": 11638726,
-        "likes": 0,
-        "comments": 2
-      },
-      {
-        "youtubeId": "UWFnOdU33MQ",
-        "views": 183485,
-        "likes": 4677,
-        "comments": 236
-      },
-      {
-        "youtubeId": "MJ4mFg8xxNI",
-        "views": 10911,
-        "likes": 101,
-        "comments": 5
-      },
-      {
-        "youtubeId": "zizW2Oa7YMk",
-        "views": 6078,
-        "likes": 136,
-        "comments": 9
-      },
-      {
-        "youtubeId": "SbmYOQIIEBg",
-        "views": 5191,
-        "likes": 44,
-        "comments": 1
-      },
-      {
-        "youtubeId": "4_yQyyrPxkg",
-        "views": 1974241,
-        "likes": 2925,
-        "comments": 637
-      },
-      {
-        "youtubeId": "_THsmn-n8Lk",
-        "views": 1783645,
-        "likes": 41022,
-        "comments": 2207
-      },
-      {
-        "youtubeId": "yk41Qxz3tAo",
-        "views": 3642,
-        "likes": 147,
-        "comments": 11
-      },
-      {
-        "youtubeId": "dolH3p7MK_Q",
-        "views": 28988571,
-        "likes": 77,
-        "comments": 9
-      },
-      {
-        "youtubeId": "uNdcDbMo9EE",
-        "views": 6278214,
-        "likes": 798,
-        "comments": 71
-      },
-      {
-        "youtubeId": "jNHDWcoNzVA",
-        "views": 121660,
-        "likes": 1590,
-        "comments": 50
-      },
-      {
-        "youtubeId": "zexYXF7R0jM",
-        "views": 8859,
-        "likes": 44,
-        "comments": 7
-      },
-      {
-        "youtubeId": "vV9zKd3ob3k",
-        "views": 516112,
-        "likes": 218,
-        "comments": 9
-      },
-      {
-        "youtubeId": "njfzULv9iFk",
-        "views": 2029914,
-        "likes": 228,
-        "comments": 17
-      },
-      {
-        "youtubeId": "5f_BK6mlWVg",
-        "views": 7694453,
-        "likes": 26,
-        "comments": 13
-      },
-      {
-        "youtubeId": "d_bywTEOtjA",
-        "views": 546,
-        "likes": 2,
-        "comments": 0
-      },
-      {
-        "youtubeId": "Oc2f95BsEqw",
-        "views": 44031,
-        "likes": 392,
-        "comments": 33
-      },
-      {
-        "youtubeId": "H0gbOS6-EQ4",
-        "views": 1165191,
-        "likes": 63549,
-        "comments": 0
-      },
-      {
-        "youtubeId": "665gg3fGj9U",
-        "views": 6178287,
-        "likes": 232,
-        "comments": 19
-      },
-      {
-        "youtubeId": "Q8CfEy3Epbs",
-        "views": 442,
-        "likes": 4,
-        "comments": 1
-      },
-      {
-        "youtubeId": "NDKXdcu01bM",
-        "views": 155289,
-        "likes": 77,
-        "comments": 3
-      },
-      {
-        "youtubeId": "PhrnQthcFMc",
-        "views": 961,
-        "likes": 25,
-        "comments": 4
-      },
-      {
-        "youtubeId": "H-zzSjanCm8",
-        "views": 635,
-        "likes": 23,
-        "comments": 4
-      },
-      {
-        "youtubeId": "nrcqbnjG8PI",
-        "views": 5989,
-        "likes": 86,
-        "comments": 8
-      },
-      {
-        "youtubeId": "uapZs581ppE",
-        "views": 24059,
-        "likes": 455,
-        "comments": 40
-      },
-      {
-        "youtubeId": "huRFGYDWvXA",
-        "views": 14727,
-        "likes": 96,
-        "comments": 22
-      },
-      {
-        "youtubeId": "kxFpZXQEtGA",
-        "views": 15811,
-        "likes": 530,
-        "comments": 40
-      },
-      {
-        "youtubeId": "HvCZcczn6Yo",
-        "views": 9763,
-        "likes": 0,
-        "comments": 3
-      },
-      {
-        "youtubeId": "W0oWdjmIqFs",
-        "views": 1717032,
-        "likes": 0,
-        "comments": 2
-      },
-      {
-        "youtubeId": "7hkvg5cHsBU",
-        "views": 2036832,
-        "likes": 0,
-        "comments": 2
-      },
-      {
-        "youtubeId": "jRGe6WvUgyI",
-        "views": 1253656,
-        "likes": 0,
-        "comments": 0
-      },
-      {
-        "youtubeId": "gagRGBbW3Ic",
-        "views": 76493,
-        "likes": 0,
-        "comments": 1
-      },
-      {
-        "youtubeId": "IyZ1WIua_1s",
-        "views": 37688943,
-        "likes": 296284,
-        "comments": 12913
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-06T20:02:31+00:00",
     "ads": [
       {
@@ -70276,6 +70025,257 @@
         "views": 79269036,
         "likes": 469835,
         "comments": 17525
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-06T19:30:11+00:00",
+    "ads": [
+      {
+        "youtubeId": "mJJY53qhJe0",
+        "views": 8047401,
+        "likes": 287687,
+        "comments": 7385
+      },
+      {
+        "youtubeId": "bWtKtqSeB40",
+        "views": 8605,
+        "likes": 24,
+        "comments": 2
+      },
+      {
+        "youtubeId": "w0oRTljtx0o",
+        "views": 40075698,
+        "likes": 3175,
+        "comments": 130
+      },
+      {
+        "youtubeId": "qVg8Gj6WcFQ",
+        "views": 6464,
+        "likes": 84,
+        "comments": 8
+      },
+      {
+        "youtubeId": "Ecs-f2Nie4I",
+        "views": 6938,
+        "likes": 52,
+        "comments": 6
+      },
+      {
+        "youtubeId": "9SHoGssGL_4",
+        "views": 1691057,
+        "likes": 0,
+        "comments": 302
+      },
+      {
+        "youtubeId": "nP4G3I2Jx2A",
+        "views": 8986,
+        "likes": 0,
+        "comments": 1
+      },
+      {
+        "youtubeId": "IM2h0zmnI8M",
+        "views": 10948026,
+        "likes": 0,
+        "comments": 2
+      },
+      {
+        "youtubeId": "5XOxoKnmAmo",
+        "views": 20046898,
+        "likes": 0,
+        "comments": 10
+      },
+      {
+        "youtubeId": "UWFnOdU33MQ",
+        "views": 233480,
+        "likes": 5447,
+        "comments": 263
+      },
+      {
+        "youtubeId": "MJ4mFg8xxNI",
+        "views": 23834,
+        "likes": 174,
+        "comments": 11
+      },
+      {
+        "youtubeId": "zizW2Oa7YMk",
+        "views": 6468,
+        "likes": 138,
+        "comments": 9
+      },
+      {
+        "youtubeId": "SbmYOQIIEBg",
+        "views": 16666,
+        "likes": 178,
+        "comments": 14
+      },
+      {
+        "youtubeId": "4_yQyyrPxkg",
+        "views": 3084315,
+        "likes": 4563,
+        "comments": 874
+      },
+      {
+        "youtubeId": "_THsmn-n8Lk",
+        "views": 2060368,
+        "likes": 45687,
+        "comments": 2456
+      },
+      {
+        "youtubeId": "yk41Qxz3tAo",
+        "views": 4945,
+        "likes": 156,
+        "comments": 11
+      },
+      {
+        "youtubeId": "dolH3p7MK_Q",
+        "views": 28991626,
+        "likes": 137,
+        "comments": 15
+      },
+      {
+        "youtubeId": "uNdcDbMo9EE",
+        "views": 12764673,
+        "likes": 1146,
+        "comments": 93
+      },
+      {
+        "youtubeId": "jNHDWcoNzVA",
+        "views": 184599,
+        "likes": 1873,
+        "comments": 58
+      },
+      {
+        "youtubeId": "zexYXF7R0jM",
+        "views": 9549,
+        "likes": 47,
+        "comments": 7
+      },
+      {
+        "youtubeId": "vV9zKd3ob3k",
+        "views": 518856,
+        "likes": 228,
+        "comments": 9
+      },
+      {
+        "youtubeId": "njfzULv9iFk",
+        "views": 2035333,
+        "likes": 249,
+        "comments": 18
+      },
+      {
+        "youtubeId": "5f_BK6mlWVg",
+        "views": 12116901,
+        "likes": 32,
+        "comments": 15
+      },
+      {
+        "youtubeId": "d_bywTEOtjA",
+        "views": 1198,
+        "likes": 14,
+        "comments": 0
+      },
+      {
+        "youtubeId": "Oc2f95BsEqw",
+        "views": 50934,
+        "likes": 431,
+        "comments": 35
+      },
+      {
+        "youtubeId": "H0gbOS6-EQ4",
+        "views": 1686920,
+        "likes": 75530,
+        "comments": 0
+      },
+      {
+        "youtubeId": "665gg3fGj9U",
+        "views": 6180768,
+        "likes": 259,
+        "comments": 23
+      },
+      {
+        "youtubeId": "Q8CfEy3Epbs",
+        "views": 1238,
+        "likes": 5,
+        "comments": 1
+      },
+      {
+        "youtubeId": "NDKXdcu01bM",
+        "views": 155405,
+        "likes": 79,
+        "comments": 3
+      },
+      {
+        "youtubeId": "PhrnQthcFMc",
+        "views": 1463,
+        "likes": 30,
+        "comments": 4
+      },
+      {
+        "youtubeId": "H-zzSjanCm8",
+        "views": 773,
+        "likes": 26,
+        "comments": 4
+      },
+      {
+        "youtubeId": "nrcqbnjG8PI",
+        "views": 12608,
+        "likes": 167,
+        "comments": 11
+      },
+      {
+        "youtubeId": "uapZs581ppE",
+        "views": 49434,
+        "likes": 683,
+        "comments": 50
+      },
+      {
+        "youtubeId": "huRFGYDWvXA",
+        "views": 29452,
+        "likes": 217,
+        "comments": 40
+      },
+      {
+        "youtubeId": "kxFpZXQEtGA",
+        "views": 27487,
+        "likes": 730,
+        "comments": 48
+      },
+      {
+        "youtubeId": "HvCZcczn6Yo",
+        "views": 22229,
+        "likes": 0,
+        "comments": 15
+      },
+      {
+        "youtubeId": "W0oWdjmIqFs",
+        "views": 7586222,
+        "likes": 0,
+        "comments": 2
+      },
+      {
+        "youtubeId": "7hkvg5cHsBU",
+        "views": 9514846,
+        "likes": 0,
+        "comments": 2
+      },
+      {
+        "youtubeId": "jRGe6WvUgyI",
+        "views": 5839366,
+        "likes": 0,
+        "comments": 1
+      },
+      {
+        "youtubeId": "gagRGBbW3Ic",
+        "views": 1460554,
+        "likes": 0,
+        "comments": 3
+      },
+      {
+        "youtubeId": "IyZ1WIua_1s",
+        "views": 79276750,
+        "likes": 469999,
+        "comments": 17528
       }
     ]
   }
