@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-22T07:41:54+00:00",
-  "candidateCount": 460,
+  "generated": "2026-07-23T07:42:14+00:00",
+  "candidateCount": 412,
   "byConfidence": {
-    "high": 207,
-    "medium": 23,
-    "low": 142,
-    "tracker_only": 88
+    "high": 194,
+    "medium": 18,
+    "low": 132,
+    "tracker_only": 68
   },
   "candidates": [
     {
@@ -518,32 +518,6 @@
       ],
       "sources": [
         "channel_watch:Diageo"
-      ]
-    },
-    {
-      "videoId": "RCZv7jbAJBY",
-      "title": "FIFA World Cup 2026 | WELCOME MATT EP1",
-      "description": "@mattymatheson and @nuevayorknico welcome soccer slash football fans from all over the world in a new series they call… welcome matt.",
-      "channelTitle": "Airbnb",
-      "publishedAt": "2026-06-11T15:00:09Z",
-      "expectedBrand": "Airbnb",
-      "tier": "Regional Supporter",
-      "category": "travel",
-      "rivalOf": "Marriott",
-      "watchUrl": "https://www.youtube.com/watch?v=RCZv7jbAJBY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RCZv7jbAJBY/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:Airbnb"
       ]
     },
     {
@@ -1846,32 +1820,6 @@
       ]
     },
     {
-      "videoId": "XrQu3YH40D8",
-      "title": "Visa Cardholders have a chance to win prizes during the #FIFAWorldCup visa.com/tapintoscore",
-      "description": "get after it #TapInTime #TapInToScore #FIFAWorldCup​\n-\nIllustration by: Carra Skyes | Houston, USA\n\nVisa Cardholders have a chance to win prizes during the FIFA World Cup 2026™. If you haven't already, enter now! Follow Visa for the latest.​\n\nNO PURCHASE NECESSARY. Must be current Visa cardholders a",
-      "channelTitle": "Visa",
-      "publishedAt": "2026-07-04T03:39:47Z",
-      "expectedBrand": "Visa",
-      "tier": "FIFA Partner",
-      "category": "payments",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=XrQu3YH40D8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XrQu3YH40D8/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:Visa"
-      ]
-    },
-    {
       "videoId": "k1SoYnqRzi8",
       "title": "Pack with Max Fosh for the FIFA World Cup 2026™  Final",
       "description": "Max Fosh is packing for the FIFA World Cup 2026™  Final, thanks to @visa - hoping England gets there!",
@@ -1947,28 +1895,6 @@
       ],
       "sources": [
         "channel_watch:Marriott"
-      ]
-    },
-    {
-      "videoId": "CRwq0ePYgUM",
-      "title": "Idina Menzel Performs STUNNING Rendition of the National Anthem on July 4th 🇺🇸 2026 FIFA World Cup™",
-      "description": "Idina Menzel performed a stunning rendition of the National Anthem on July 4th, 2026 at Philadelphia Stadium ahead of Paraguay ...",
-      "channelTitle": "FOX Sports",
-      "publishedAt": "2026-07-04T21:03:54Z",
-      "expectedBrand": "FOX Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "ESPN",
-      "watchUrl": "https://www.youtube.com/watch?v=CRwq0ePYgUM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CRwq0ePYgUM/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "search_known_brand",
-      "matchedKeywords": [
-        "World Cup 26 commercial"
-      ],
-      "sources": [
-        "search:World Cup 26 commercial"
       ]
     },
     {
@@ -3370,98 +3296,6 @@
       ]
     },
     {
-      "videoId": "3RVSehD_fqM",
-      "title": "今大会ナンバーワンのゴールは？スーパーゴール集をNHK ONEで配信中！2026NHKサッカーテーマ「烏」とともに FIFAワールドカップ2026 | NHK | #shorts",
-      "description": "スーパーゴール集はこちら🔽\nhttps://www.web.nhk/tv/pl/series-tep-2282GX5GGP/ep/W57485M53Z?startOffset=4148\n\n決勝の放送予定・配信ページへは特設サイトから\nhttps://www.nhk.jp/g/fifaworldcup/?cid=wc26-yt\n\nFIFAワールドカップ2026のNHK公式TikTokアカウントでも発信中\nhttps://www.tiktok.com/@nhk_fifawc26",
-      "channelTitle": "NHK",
-      "publishedAt": "2026-07-19T09:50:40Z",
-      "expectedBrand": "NHK",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=3RVSehD_fqM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3RVSehD_fqM/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "wc26"
-      ],
-      "sources": [
-        "channel_watch:NHK"
-      ]
-    },
-    {
-      "videoId": "FkKwKEmk1CE",
-      "title": "激しい打ち合いを終えて…たたえ合う両チーム ▼3位決定戦「フランス×イングランド」NHK ONEでフルマッチ配信中！FIFAワールドカップ2026 | NHK | #shorts",
-      "description": "決勝の放送予定・配信ページへは特設サイトから\nhttps://www.nhk.jp/g/fifaworldcup/?cid=wc26-yt\n\nFIFAワールドカップ2026のNHK公式TikTokアカウントでも発信中\nhttps://www.tiktok.com/@nhk_fifawc26",
-      "channelTitle": "NHK",
-      "publishedAt": "2026-07-19T11:13:59Z",
-      "expectedBrand": "NHK",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=FkKwKEmk1CE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FkKwKEmk1CE/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "wc26"
-      ],
-      "sources": [
-        "channel_watch:NHK"
-      ]
-    },
-    {
-      "videoId": "j_7C7Exksqk",
-      "title": "森保一監督からコメントが到着！試合の前後やハーフタイムなどに出演予定▼決勝「スペイン×アルゼンチン」20(月)午前3時放送スタート[総合/BSP4K] FIFAワールドカップ2026 | NHK |",
-      "description": "決勝「スペイン×アルゼンチン」\n20(月)午前3:00～ NHK総合 BSP4Kで生中継！\nNHK ONEで同時・見逃し配信\n【現地ゲスト】サッカー日本代表 森保一 監督\n【現地解説】柿谷曜一朗さん 林陵平さん\n【現地実況】小宮山晃義アナウンサー\n【スタジオゲスト】サッカー日本代表 谷口彰悟 選手\n【スタジオ解説】福西崇史さん\n\nFIFAワールドカップ2026のNHK公式TikTokアカウントでも発信中\nhttps://www.tiktok.com/@nhk_fifawc26",
-      "channelTitle": "NHK",
-      "publishedAt": "2026-07-19T11:17:51Z",
-      "expectedBrand": "NHK",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=j_7C7Exksqk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/j_7C7Exksqk/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "wc26"
-      ],
-      "sources": [
-        "channel_watch:NHK"
-      ]
-    },
-    {
-      "videoId": "UXt2gczIuZU",
-      "title": "柿谷曜一朗さん・林陵平さんに決勝の見どころを聞きました！▼決勝「スペイン×アルゼンチン」20(月)午前3時放送スタート［総合/BSP4K］FIFAワールドカップ2026 | NHK | #shorts",
-      "description": "決勝「スペイン×アルゼンチン」\n20(月)午前3:00～ NHK総合 BSP4Kで生中継！\nNHK ONEで同時・見逃し配信\n【現地ゲスト】サッカー日本代表 森保一 監督\n【現地解説】柿谷曜一朗さん 林陵平さん\n【現地実況】小宮山晃義アナウンサー\n【スタジオゲスト】サッカー日本代表 谷口彰悟 選手\n【スタジオ解説】福西崇史さん\n\nFIFAワールドカップ2026のNHK公式TikTokアカウントでも発信中\nhttps://www.tiktok.com/@nhk_fifawc26",
-      "channelTitle": "NHK",
-      "publishedAt": "2026-07-19T11:21:44Z",
-      "expectedBrand": "NHK",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=UXt2gczIuZU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UXt2gczIuZU/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "wc26"
-      ],
-      "sources": [
-        "channel_watch:NHK"
-      ]
-    },
-    {
       "videoId": "eLD3IEG7cQM",
       "title": "ready for the big stage #asmr #customization #FIFAWorldCup",
       "description": "Find out more at http://www.adidas.com\n\nFollow us:\nInstagram - http://www.instagram.com/adidas\nTwitter - https://www.twitter.com/adidas \nTikTok - https://www.tiktok.com/@adidas",
@@ -3576,6 +3410,28 @@
       ]
     },
     {
+      "videoId": "2_7OQOFFhoE",
+      "title": "One thing stood out to Zlatan during this 2026 FIFA World Cup",
+      "description": "FOXSports #SpainvsArgentina #Spain #Argentina #FIFAWorldCup #Soccer About FOX Sports: With exclusive highlights, original ...",
+      "channelTitle": "FOX Sports",
+      "publishedAt": "2026-07-19T15:50:13Z",
+      "expectedBrand": "FOX Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "ESPN",
+      "watchUrl": "https://www.youtube.com/watch?v=2_7OQOFFhoE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2_7OQOFFhoE/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "search_known_brand",
+      "matchedKeywords": [
+        "World Cup 26 commercial"
+      ],
+      "sources": [
+        "search:World Cup 26 commercial"
+      ]
+    },
+    {
       "videoId": "5cMWvri8XwM",
       "title": "Todo dispuesto en nuestro vestuario para la gran final. #VamosEspaña | #CopaMundialFIFA",
       "description": "",
@@ -3620,17 +3476,17 @@
       ]
     },
     {
-      "videoId": "SRdlEULSk6c",
-      "title": "@IShowSpeed performs his song &quot;Champions&quot; during the 2026 FIFA World Cup Closing Ceremonies",
-      "description": "FOXSports #SpainvsArgentina #Spain #Argentina #FIFAWorldCup #Soccer About FOX Sports: With exclusive highlights, original ...",
+      "videoId": "MeuCer2bVRg",
+      "title": "Tom Cruise Delivers PASSIONATE Speech Ahead of 2026 FIFA World Cup™ Final",
+      "description": "Check out Tom Cruise's speech ahead of the 2026 FIFA World Cup™ Final.",
       "channelTitle": "FOX Sports",
-      "publishedAt": "2026-07-19T17:55:46Z",
+      "publishedAt": "2026-07-19T19:10:29Z",
       "expectedBrand": "FOX Sports",
       "tier": "Tournament Marketer",
       "category": "broadcasting",
       "rivalOf": "ESPN",
-      "watchUrl": "https://www.youtube.com/watch?v=SRdlEULSk6c",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SRdlEULSk6c/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=MeuCer2bVRg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MeuCer2bVRg/hqdefault.jpg",
       "channelMatch": true,
       "confidence": "high",
       "matchReason": "search_known_brand",
@@ -3686,25 +3542,24 @@
       ]
     },
     {
-      "videoId": "Gi_M6FnK1NE",
-      "title": "Full 2026 FIFA World Cup™ Final Halftime Show ⭐️",
-      "description": "Check out the full 2026 FIFA World Cup™ Halftime Show during halftime of Spain vs Argentina.",
+      "videoId": "ncKqzla3KYM",
+      "title": "&#39;Dai Dai&#39; is performed by Shakira and Burna Boy during the 2026 FIFA World Cup Final Halftime Show",
+      "description": "FOXSports #SpainvsArgentina #Shakira #burnaboy #FIFAWorldCup #Soccer About FOX Sports: With exclusive highlights, ...",
       "channelTitle": "FOX Sports",
-      "publishedAt": "2026-07-19T20:33:44Z",
+      "publishedAt": "2026-07-19T20:34:14Z",
       "expectedBrand": "FOX Sports",
       "tier": "Tournament Marketer",
       "category": "broadcasting",
       "rivalOf": "ESPN",
-      "watchUrl": "https://www.youtube.com/watch?v=Gi_M6FnK1NE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Gi_M6FnK1NE/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=ncKqzla3KYM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ncKqzla3KYM/hqdefault.jpg",
       "channelMatch": true,
       "confidence": "high",
       "matchReason": "search_known_brand",
       "matchedKeywords": [
-        "FIFA World Cup 2026 commercial"
+        "FIFA World Cup 2026 ad"
       ],
       "sources": [
-        "search:FIFA World Cup 2026 commercial",
         "search:FIFA World Cup 2026 ad"
       ]
     },
@@ -3819,28 +3674,6 @@
       ]
     },
     {
-      "videoId": "Y9quFS-kzCQ",
-      "title": "The stars only a FIFA World Cup Final could bring out",
-      "description": "FOXSports #SpainvsArgentina #Spain #Argentina #FIFAWorldCup #Soccer About FOX Sports: With exclusive highlights, original ...",
-      "channelTitle": "FOX Sports",
-      "publishedAt": "2026-07-19T22:29:11Z",
-      "expectedBrand": "FOX Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "ESPN",
-      "watchUrl": "https://www.youtube.com/watch?v=Y9quFS-kzCQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Y9quFS-kzCQ/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "search_known_brand",
-      "matchedKeywords": [
-        "FIFA World Cup 2026 ad"
-      ],
-      "sources": [
-        "search:FIFA World Cup 2026 ad"
-      ]
-    },
-    {
       "videoId": "ffOwdHBBHgo",
       "title": "The FIFA World Cup 2026™ Champion is Spain! 🏆",
       "description": "This limited edition gold Coca-Cola can will soon be available in Spain.\n#FIFAWorldCup #CocaCola #AllTheFeels #CocaColaEurope",
@@ -3864,7 +3697,28 @@
       ],
       "sources": [
         "channel_watch:Coca-Cola",
-        "search:FIFA World Cup 2026 commercial",
+        "search:FIFA World Cup 2026 ad"
+      ]
+    },
+    {
+      "videoId": "zIfz2rkSeUY",
+      "title": "SPAIN LIFTS THE TROPHY AFTER WINNING THE 2026 FIFA WORLD CUP FINAL",
+      "description": "Check out this in-game content from Spain vs. Argentina in the 2026 FIFA World Cup Final on 7/19/2026. #FIFAWorldCupOnYT ...",
+      "channelTitle": "FOX Sports",
+      "publishedAt": "2026-07-19T22:53:14Z",
+      "expectedBrand": "FOX Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "ESPN",
+      "watchUrl": "https://www.youtube.com/watch?v=zIfz2rkSeUY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zIfz2rkSeUY/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "search_known_brand",
+      "matchedKeywords": [
+        "FIFA World Cup 2026 ad"
+      ],
+      "sources": [
         "search:FIFA World Cup 2026 ad"
       ]
     },
@@ -3913,81 +3767,25 @@
       ]
     },
     {
-      "videoId": "rOg87nBMiQ4",
-      "title": "Fans and Reaction | Spain vs Argentina 🇪🇸🆚🇦🇷 | FIFA World Cup 2026",
-      "description": "There's no sporting event like the #FIFAWorldCup final 🏆🍿\n\nGet the full experience like you're in New Jersey with our Fans and Reaction feed 🥳🎉",
-      "channelTitle": "SuperSport",
-      "publishedAt": "2026-07-19T23:20:53Z",
-      "expectedBrand": "SuperSport",
+      "videoId": "95x4z4_bRsE",
+      "title": "Zlatan signs off for the final time from the 2026 FIFA World Cup",
+      "description": "FOXSports #SpainvsArgentina #Spain #Argentina #FIFAWorldCup #Soccer #zlatan About FOX Sports: With exclusive highlights, ...",
+      "channelTitle": "FOX Sports",
+      "publishedAt": "2026-07-19T23:21:12Z",
+      "expectedBrand": "FOX Sports",
       "tier": "Tournament Marketer",
       "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=rOg87nBMiQ4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rOg87nBMiQ4/hqdefault.jpg",
+      "rivalOf": "ESPN",
+      "watchUrl": "https://www.youtube.com/watch?v=95x4z4_bRsE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/95x4z4_bRsE/hqdefault.jpg",
       "channelMatch": true,
       "confidence": "high",
-      "matchReason": "explicit_fifa",
+      "matchReason": "search_known_brand",
       "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
+        "FIFA World Cup 2026 ad"
       ],
       "sources": [
-        "channel_watch:SuperSport"
-      ]
-    },
-    {
-      "videoId": "tQ9jDD2T3v8",
-      "title": "World Cup Final | Argentina on Matchday 🇦🇷 | FIFA World Cup 2026",
-      "description": "The World Champions are one win away from back-to-back #FIFAWorldCup wins 😤\n\nFind out if they can do it on SuperSport 🍿\n\n• SS PSL (Ch.202) 🇿🇦\n• SS LaLiga Africa (Ch.224) 🌍\n• SS LaLiga Nigeria (Ch.204) 🇳🇬",
-      "channelTitle": "SuperSport",
-      "publishedAt": "2026-07-20T00:13:43Z",
-      "expectedBrand": "SuperSport",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=tQ9jDD2T3v8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tQ9jDD2T3v8/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:SuperSport"
-      ]
-    },
-    {
-      "videoId": "DYfDupEsjZE",
-      "title": "World Cup Final | Spain on Matchday 🇪🇸 | FIFA World Cup 2026",
-      "description": "Spain are back in the #FIFAWorldCup final for the first time in 16 years 🏆🔥\n\nCan they end Argentina's reign at the top and add a second star to their crest? ⭐⌛\n\n• SS PSL (Ch.202) 🇿🇦\n• SS LaLiga Africa (Ch.224) 🌍\n• SS LaLiga Nigeria (Ch.204) 🇳🇬",
-      "channelTitle": "SuperSport",
-      "publishedAt": "2026-07-20T00:16:45Z",
-      "expectedBrand": "SuperSport",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=DYfDupEsjZE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DYfDupEsjZE/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:SuperSport"
+        "search:FIFA World Cup 2026 ad"
       ]
     },
     {
@@ -4171,54 +3969,6 @@
       ]
     },
     {
-      "videoId": "2wvLOBX1PGM",
-      "title": "The World Cup final treated us to action on the pitch... and off it too!",
-      "description": "",
-      "channelTitle": "SuperSport",
-      "publishedAt": "2026-07-20T07:11:36Z",
-      "expectedBrand": "SuperSport",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=2wvLOBX1PGM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2wvLOBX1PGM/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:SuperSport"
-      ]
-    },
-    {
-      "videoId": "swWDHGVIGl0",
-      "title": "WRAP: FIFA World Cup 2026 FINAL",
-      "description": "All the sights, sounds and action from the final of the FIFA World Cup 2026.",
-      "channelTitle": "SuperSport",
-      "publishedAt": "2026-07-20T07:31:45Z",
-      "expectedBrand": "SuperSport",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=swWDHGVIGl0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/swWDHGVIGl0/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:SuperSport"
-      ]
-    },
-    {
       "videoId": "PYEmLxoPOV0",
       "title": "What's YOUR highlight of this World Cup? ⚽👇",
       "description": "",
@@ -4238,28 +3988,6 @@
       ],
       "sources": [
         "channel_watch:Coca-Cola"
-      ]
-    },
-    {
-      "videoId": "z962EJbCOYw",
-      "title": "It's been a World Cup full of great goals. Here are some of the best!",
-      "description": "",
-      "channelTitle": "SuperSport",
-      "publishedAt": "2026-07-20T08:40:21Z",
-      "expectedBrand": "SuperSport",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=z962EJbCOYw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/z962EJbCOYw/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:SuperSport"
       ]
     },
     {
@@ -4305,32 +4033,6 @@
       ],
       "sources": [
         "channel_watch:NHK"
-      ]
-    },
-    {
-      "videoId": "6tAS6urFdkM",
-      "title": "The Best of Leo Messi | FIFA World Cup 2026",
-      "description": "The Best of Leo Messi at the World Cup 2026 — a showcase of magic, mastery, and moments that will live forever. Sit back, because when Messi takes the stage, football becomes poetry in motion.",
-      "channelTitle": "SuperSport",
-      "publishedAt": "2026-07-20T09:19:59Z",
-      "expectedBrand": "SuperSport",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=6tAS6urFdkM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6tAS6urFdkM/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup",
-        "world cup 2026",
-        "fifa world cup 2026"
-      ],
-      "sources": [
-        "channel_watch:SuperSport"
       ]
     },
     {
@@ -4497,76 +4199,6 @@
       ],
       "sources": [
         "channel_watch:Bank of America"
-      ]
-    },
-    {
-      "videoId": "OgI1rm2bY0c",
-      "title": "What will Messi’s World Cup legacy be?",
-      "description": "Watch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest Olympic news and video here: \nhttps://www.cbc.ca/sports/olympics",
-      "channelTitle": "CBC Sports",
-      "publishedAt": "2026-07-20T21:48:49Z",
-      "expectedBrand": "CBC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "TSN",
-      "watchUrl": "https://www.youtube.com/watch?v=OgI1rm2bY0c",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OgI1rm2bY0c/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:CBC Sports"
-      ]
-    },
-    {
-      "videoId": "F24CUqmOza4",
-      "title": "EVERY Hat Trick & Brace at 2026™ FIFA World Cup™ ⭐️ Lionel Messi, Kylian Mbappé & More DELIVERED",
-      "description": "Check out every multi-goal performance from the 2026 FIFA World Cup™ featuring stars like Lionel Messi, Kylian Mbappé, Cristiano Ronaldo, Erling Haaland and more.",
-      "channelTitle": "FOX Sports",
-      "publishedAt": "2026-07-20T22:00:38Z",
-      "expectedBrand": "FOX Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "ESPN",
-      "watchUrl": "https://www.youtube.com/watch?v=F24CUqmOza4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/F24CUqmOza4/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:FOX Sports"
-      ]
-    },
-    {
-      "videoId": "hQGlusruhTE",
-      "title": "World Cup Final Reaction: Is Messi the GOAT? & Is Lamine Yamal the chosen one?",
-      "description": "The World Cup is over, but the conversation is just beginning.We react to the 2026 FIFA World Cup Final, and break down the latest CPL and NSL action. Plus, we welcome Canadian soccer legend and Canada men's national team assistant coach Paul Stalteri to reflect on Canada's historic World Cup journe",
-      "channelTitle": "CBC Sports",
-      "publishedAt": "2026-07-20T23:00:06Z",
-      "expectedBrand": "CBC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "TSN",
-      "watchUrl": "https://www.youtube.com/watch?v=hQGlusruhTE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/hQGlusruhTE/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:CBC Sports"
       ]
     },
     {
@@ -4788,28 +4420,6 @@
       ]
     },
     {
-      "videoId": "ICHYwGoRfYA",
-      "title": "GRACIAS Martinoli y Dr. García  | NOS REGALARON UN MUNDIAL INOLVIDABLE | Copa Mundial de la FIFA",
-      "description": "Hay Mundiales que se recuerdan por los campeones. Otros por los goles, las atajadas imposibles o las finales históricas.\n\nGracias, Martinoli.\nGracias, Doctor García.\nGracias por regalarnos un Mundial que jamás olvidaremos. ❤️⚽🏆\n\n\nSuscríbete a nuestro canal: https://www.youtube.com/AztecaDeportes?sub",
-      "channelTitle": "TV Azteca Deportes",
-      "publishedAt": "2026-07-21T15:55:18Z",
-      "expectedBrand": "TV Azteca Deportes",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "Televisa Deportes",
-      "watchUrl": "https://www.youtube.com/watch?v=ICHYwGoRfYA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ICHYwGoRfYA/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa"
-      ],
-      "sources": [
-        "channel_watch:TV Azteca Deportes"
-      ]
-    },
-    {
       "videoId": "7URh20Pns0c",
       "title": "the world tapped in #TapInFC #FIFAWorldCup",
       "description": "",
@@ -4853,52 +4463,6 @@
       ],
       "sources": [
         "channel_watch:FOX Sports"
-      ]
-    },
-    {
-      "videoId": "ZGm-dQ6smwk",
-      "title": "Canada's Historic World Cup Run Explained by a Canadian Legend",
-      "description": "Canada's historic FIFA World Cup journey is over, but what does it mean for the future of Canadian soccer?\n\nCanadian soccer legend and Canada men's national team assistant coach Paul Stalteri joins CBC Sports to break down Canada's unforgettable tournament, the biggest moments from the World Cup, wh",
-      "channelTitle": "CBC Sports",
-      "publishedAt": "2026-07-21T19:24:46Z",
-      "expectedBrand": "CBC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "TSN",
-      "watchUrl": "https://www.youtube.com/watch?v=ZGm-dQ6smwk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZGm-dQ6smwk/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "fifa",
-        "fifa world cup",
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:CBC Sports"
-      ]
-    },
-    {
-      "videoId": "I9oX-sw1rJk",
-      "title": "Spain SUFFOCATES Argentina, Ryan Fox Swipes Open Championship & Bryson DeChambeau DRAMA | SVPod",
-      "description": "Scott Van Pelt and Stanford Steve are back to break down the World Cup Final between Spain and Argentina as well as The Open at Royal Birkdale. Spain suffocated and neutered Argentina. What made Spain’s run so impressive and why SVP believes they could be here to stay as a force. Plus, what in the w",
-      "channelTitle": "ESPN",
-      "publishedAt": "2026-07-21T21:35:42Z",
-      "expectedBrand": "ESPN",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=I9oX-sw1rJk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/I9oX-sw1rJk/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "high",
-      "matchReason": "explicit_fifa",
-      "matchedKeywords": [
-        "world cup"
-      ],
-      "sources": [
-        "channel_watch:ESPN"
       ]
     },
     {
@@ -4991,6 +4555,128 @@
       ],
       "sources": [
         "channel_watch:Hisense"
+      ]
+    },
+    {
+      "videoId": "wBBbx6-3P7o",
+      "title": "2026 FIFA World Cup™ ⚽ TOP 10 SAVES of the Tournament",
+      "description": "Relive the best saves from the 2026 FIFA World Cup™ with our countdown of the Top 10 SAVES of the Tournament.\n\n⚽ Chapters ⚽\n0:00 Eloy Room vs Ecuador\n0:06 Gregor Kobel vs Colombia\n0:25 Emiliano Martínez vs Spain\n0:38 Vozinha vs Spain\n0:52 Diego Costa vs Spain\n1:21 Zion Suzuki vs Brazil\n2:07 Yassine ",
+      "channelTitle": "FOX Sports",
+      "publishedAt": "2026-07-22T13:00:29Z",
+      "expectedBrand": "FOX Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "ESPN",
+      "watchUrl": "https://www.youtube.com/watch?v=wBBbx6-3P7o",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wBBbx6-3P7o/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:FOX Sports"
+      ]
+    },
+    {
+      "videoId": "vYg3RS5mbXI",
+      "title": "just for kicks #LamineYamal #FIFAWorldCup",
+      "description": "",
+      "channelTitle": "Visa",
+      "publishedAt": "2026-07-22T13:11:58Z",
+      "expectedBrand": "Visa",
+      "tier": "FIFA Partner",
+      "category": "payments",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=vYg3RS5mbXI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vYg3RS5mbXI/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa"
+      ],
+      "sources": [
+        "channel_watch:Visa"
+      ]
+    },
+    {
+      "videoId": "-U0uvANPiWM",
+      "title": "What was the best game of the FIFA World Cup 2026™? José & Mourinho discuss.",
+      "description": "#FIFAWorldCup #CocaCola #AllTheFeels #CocaColaEurope #JoseMourinho",
+      "channelTitle": "Coca-Cola",
+      "publishedAt": "2026-07-22T15:01:03Z",
+      "expectedBrand": "Coca-Cola",
+      "tier": "FIFA Partner",
+      "category": "soft_drinks",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=-U0uvANPiWM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-U0uvANPiWM/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup",
+        "world cup 2026",
+        "fifa world cup 2026"
+      ],
+      "sources": [
+        "channel_watch:Coca-Cola"
+      ]
+    },
+    {
+      "videoId": "ra9mCUPgovc",
+      "title": "The @fifa World Cup 2026™ may be over, but the incredible memories will last a lifetime.",
+      "description": "",
+      "channelTitle": "Bank of America",
+      "publishedAt": "2026-07-22T19:48:46Z",
+      "expectedBrand": "Bank of America",
+      "tier": "World Cup Sponsor",
+      "category": "finance",
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=ra9mCUPgovc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ra9mCUPgovc/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup",
+        "world cup 2026",
+        "fifa world cup 2026"
+      ],
+      "sources": [
+        "channel_watch:Bank of America"
+      ]
+    },
+    {
+      "videoId": "d8J-fFh6KKM",
+      "title": "2026 FIFA World Cup™ ⭐️ TOP 10 MOMENTS of the Tournament",
+      "description": "Relive the greatest moments of the 2026 FIFA World Cup™ with out countdown of the Top 10 Moments of the Tournament.\n\n0:00 Mexico City rocks as El Sri beats Ecuador in Round of 32\n1:22 Messi & Mbappé shine\n2:59 Vozinha becomes famous after shutting out Spain\n4:47 'Country Roads' Becomes American Socc",
+      "channelTitle": "FOX Sports",
+      "publishedAt": "2026-07-22T21:00:05Z",
+      "expectedBrand": "FOX Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "ESPN",
+      "watchUrl": "https://www.youtube.com/watch?v=d8J-fFh6KKM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d8J-fFh6KKM/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "high",
+      "matchReason": "explicit_fifa",
+      "matchedKeywords": [
+        "fifa",
+        "fifa world cup",
+        "world cup"
+      ],
+      "sources": [
+        "channel_watch:FOX Sports"
       ]
     },
     {
@@ -5326,160 +5012,6 @@
       ]
     },
     {
-      "videoId": "_nJI838mRrg",
-      "title": "Welcome to Hotel Armouré",
-      "description": "Five-star luxury meets a no-days-off mindset. This summer. Rest Less.",
-      "channelTitle": "Under Armour",
-      "publishedAt": "2026-07-21T15:00:54Z",
-      "expectedBrand": "Under Armour",
-      "tier": "Tournament Marketer",
-      "category": "apparel",
-      "rivalOf": "Adidas",
-      "watchUrl": "https://www.youtube.com/watch?v=_nJI838mRrg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_nJI838mRrg/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "this summer"
-      ],
-      "sources": [
-        "channel_watch:Under Armour"
-      ]
-    },
-    {
-      "videoId": "lRp8KEMNx7k",
-      "title": "Welcome to Hotel Armouré | Under Armour",
-      "description": "Five-star luxury meets a no-days-off mindset. This summer. Rest Less.",
-      "channelTitle": "Under Armour",
-      "publishedAt": "2026-07-21T15:06:28Z",
-      "expectedBrand": "Under Armour",
-      "tier": "Tournament Marketer",
-      "category": "apparel",
-      "rivalOf": "Adidas",
-      "watchUrl": "https://www.youtube.com/watch?v=lRp8KEMNx7k",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lRp8KEMNx7k/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "this summer"
-      ],
-      "sources": [
-        "channel_watch:Under Armour"
-      ]
-    },
-    {
-      "videoId": "7UROht9H0h4",
-      "title": "Farewell from Hotel Armouré | Under Armour",
-      "description": "Wave goodbye to rest. This summer. Rest Less.",
-      "channelTitle": "Under Armour",
-      "publishedAt": "2026-07-21T15:07:18Z",
-      "expectedBrand": "Under Armour",
-      "tier": "Tournament Marketer",
-      "category": "apparel",
-      "rivalOf": "Adidas",
-      "watchUrl": "https://www.youtube.com/watch?v=7UROht9H0h4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7UROht9H0h4/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "this summer"
-      ],
-      "sources": [
-        "channel_watch:Under Armour"
-      ]
-    },
-    {
-      "videoId": "8r6CpNMy5JQ",
-      "title": "Restless Swings with Ollie Watkins | Under Armour",
-      "description": "It will be sunny with a chance of golf balls. This summer. Rest Less.",
-      "channelTitle": "Under Armour",
-      "publishedAt": "2026-07-21T15:07:22Z",
-      "expectedBrand": "Under Armour",
-      "tier": "Tournament Marketer",
-      "category": "apparel",
-      "rivalOf": "Adidas",
-      "watchUrl": "https://www.youtube.com/watch?v=8r6CpNMy5JQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8r6CpNMy5JQ/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "this summer"
-      ],
-      "sources": [
-        "channel_watch:Under Armour"
-      ]
-    },
-    {
-      "videoId": "EtYNmZpFfZg",
-      "title": "Cool Recovery with Ferran Torres | Under Armour",
-      "description": "Stay ready from practice to poolside like Ferran Torres & Fermin Lopez. \nThis summer. Rest Less.",
-      "channelTitle": "Under Armour",
-      "publishedAt": "2026-07-21T15:07:27Z",
-      "expectedBrand": "Under Armour",
-      "tier": "Tournament Marketer",
-      "category": "apparel",
-      "rivalOf": "Adidas",
-      "watchUrl": "https://www.youtube.com/watch?v=EtYNmZpFfZg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EtYNmZpFfZg/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "this summer"
-      ],
-      "sources": [
-        "channel_watch:Under Armour"
-      ]
-    },
-    {
-      "videoId": "Zu7MF7KOFfI",
-      "title": "Arriving in Style with Rilès  | Under Armour",
-      "description": "Rilès makes himself at home at Hotel Armouré. This summer. Rest Less.",
-      "channelTitle": "Under Armour",
-      "publishedAt": "2026-07-21T15:07:32Z",
-      "expectedBrand": "Under Armour",
-      "tier": "Tournament Marketer",
-      "category": "apparel",
-      "rivalOf": "Adidas",
-      "watchUrl": "https://www.youtube.com/watch?v=Zu7MF7KOFfI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Zu7MF7KOFfI/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "this summer"
-      ],
-      "sources": [
-        "channel_watch:Under Armour"
-      ]
-    },
-    {
-      "videoId": "_nN7nUfDFHw",
-      "title": "Noah Vucsics talks special education journey, positivity and Para athletics origins | Now You Know",
-      "description": "Get to know Calgary's T20 long jumper Noah Vucsics ahead of the Commonwealth Games in Glasgow this summer.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest Olympic news and video here: \nhttps://www.cbc.ca/sports/olympics",
-      "channelTitle": "CBC Sports",
-      "publishedAt": "2026-07-21T19:40:17Z",
-      "expectedBrand": "CBC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "TSN",
-      "watchUrl": "https://www.youtube.com/watch?v=_nN7nUfDFHw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_nN7nUfDFHw/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "medium",
-      "matchReason": "tournament_coded",
-      "matchedKeywords": [
-        "this summer"
-      ],
-      "sources": [
-        "channel_watch:CBC Sports"
-      ]
-    },
-    {
       "videoId": "MNHZIHkiS0E",
       "title": "Danielle Dorris is a three-time Para swimming world record holder | Now You Know",
       "description": "The Moncton, New Brunswick native reflects on her world record-setting performances in Para swimming ahead of participating in the Commonwealth Games in Glasgow this summer.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest ",
@@ -5491,6 +5023,50 @@
       "rivalOf": "TSN",
       "watchUrl": "https://www.youtube.com/watch?v=MNHZIHkiS0E",
       "thumbnailUrl": "https://i.ytimg.com/vi/MNHZIHkiS0E/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "medium",
+      "matchReason": "tournament_coded",
+      "matchedKeywords": [
+        "this summer"
+      ],
+      "sources": [
+        "channel_watch:CBC Sports"
+      ]
+    },
+    {
+      "videoId": "c2XVxzEVQLc",
+      "title": "Segun Makinde is passing on his knowledge to propel George Quarcoo's career forward | Now You Know",
+      "description": "Segun Makinde, the two-time Olympian from Ottawa, chats his transition to being the guide for Canadian T11 and T12 Para sprinter George Quarcoo. The pair discuss their friendship and interests ahead of the upcoming Commonwealth Games in Glasgow this summer.\n\nWatch Live sports on CBC Sports' website ",
+      "channelTitle": "CBC Sports",
+      "publishedAt": "2026-07-22T12:00:15Z",
+      "expectedBrand": "CBC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TSN",
+      "watchUrl": "https://www.youtube.com/watch?v=c2XVxzEVQLc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c2XVxzEVQLc/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "medium",
+      "matchReason": "tournament_coded",
+      "matchedKeywords": [
+        "this summer"
+      ],
+      "sources": [
+        "channel_watch:CBC Sports"
+      ]
+    },
+    {
+      "videoId": "73Qr9eJaUIU",
+      "title": "Kylie Masse feels a sense of peace when in the water | Now You Know",
+      "description": "The Lasalle, Ontario swimmer details her impressive career in the pool, as well as interests outside of her career such as food, coffee and more. Masse will be in action at the Commonwealth Games in Glasgow this summer.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\n",
+      "channelTitle": "CBC Sports",
+      "publishedAt": "2026-07-22T15:00:00Z",
+      "expectedBrand": "CBC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "TSN",
+      "watchUrl": "https://www.youtube.com/watch?v=73Qr9eJaUIU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/73Qr9eJaUIU/hqdefault.jpg",
       "channelMatch": true,
       "confidence": "medium",
       "matchReason": "tournament_coded",
@@ -5543,28 +5119,6 @@
       ],
       "sources": [
         "channel_watch:KFA (Korea)"
-      ]
-    },
-    {
-      "videoId": "GeC_3lGGgW4",
-      "title": "The Huddle",
-      "description": "As Official Peer-to-Peer Payments Partner of the NFL, we brought three highly touted NFL Draft prospects — Denzel Boston, Jeremiyah Love, and Carnell Tate — to huddle up and talk fandom, football, money, and more.",
-      "channelTitle": "PayPal",
-      "publishedAt": "2026-04-23T14:01:26Z",
-      "expectedBrand": "PayPal",
-      "tier": "Tournament Marketer",
-      "category": "payments",
-      "rivalOf": "Visa",
-      "watchUrl": "https://www.youtube.com/watch?v=GeC_3lGGgW4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GeC_3lGGgW4/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "football"
-      ],
-      "sources": [
-        "channel_watch:PayPal"
       ]
     },
     {
@@ -6647,28 +6201,6 @@
       ]
     },
     {
-      "videoId": "XFp0l1F0D28",
-      "title": "Coaching the USWNT Goalkeepers | Behind the Crest",
-      "description": "Tune in to a new episode of Behind the Crest, Presented by @volkswagen_usa  https://youtu.be/QGZvxQjujKc\n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on Instagram: h",
-      "channelTitle": "U.S. Soccer",
-      "publishedAt": "2026-07-05T22:30:24Z",
-      "expectedBrand": "U.S. Soccer",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=XFp0l1F0D28",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XFp0l1F0D28/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
       "videoId": "WcuBITMlXrg",
       "title": "USMNT vs. Belgium Match Preview with Mauricio Pochettino",
       "description": "The U.S. Men's National Team Head Coach sits down with Duda Pavão to break down our Round of 16 game against Belgium.\n\nMore info: http://www.ussoccer.com\n\nSubscribe to U.S. Soccer on YouTube!\nhttp://www.youtube.com/subscription_center?add_user=ussoccerdotcom\n\nU.S. Soccer on Social media:\n► Follow on",
@@ -6710,28 +6242,6 @@
       ],
       "sources": [
         "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "BDfJuqWRTs0",
-      "title": "Enjoy the big soccer match : What's for today",
-      "description": "Recommend the soccer team countries' unique snack recipes based on the ingredients in the fridge for tonight’s match.\n\n#FamilyHub #AIRefrigerator #Recipe #WhatsforToday #BespokeAI #Samsung",
-      "channelTitle": "Samsung",
-      "publishedAt": "2026-07-07T09:00:20Z",
-      "expectedBrand": "Samsung",
-      "tier": "Tournament Marketer",
-      "category": "electronics",
-      "rivalOf": "Hisense",
-      "watchUrl": "https://www.youtube.com/watch?v=BDfJuqWRTs0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BDfJuqWRTs0/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "soccer"
-      ],
-      "sources": [
-        "channel_watch:Samsung"
       ]
     },
     {
@@ -6891,29 +6401,6 @@
       ]
     },
     {
-      "videoId": "BPTstLHXunA",
-      "title": "Saka, Eze & Madueke talk Argentina & birthday banter | England | Ep.20 | Lions' Den Connected by EE",
-      "description": "England trio Bukayo Saka, Eberechi Eze, and Noni Madueke have helped guide the squad to a historic semi-final, and now they are fully focused on taking on Argentina. They join us for Episode 20 of Lions' Den Connected by EE to react to that dramatic Norway victory, test their friendships in a hilari",
-      "channelTitle": "England",
-      "publishedAt": "2026-07-14T09:00:04Z",
-      "expectedBrand": "The FA (England)",
-      "tier": "National Federation",
-      "category": "national_federation",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=BPTstLHXunA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BPTstLHXunA/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "football",
-        "saka"
-      ],
-      "sources": [
-        "channel_watch:The FA (England)"
-      ]
-    },
-    {
       "videoId": "sPgkavhIoPc",
       "title": "Saka \"Someone will produce magic\" ✨",
       "description": "Bukayo Saka opens up about the high stakes of knockout football and his absolute belief in the squad's ability.\n\nCatch up with #LionsDen connected by @EEUK \n\n🔔 Subscribe now and turn on notifications so you never exclusive England content:\nhttps://bit.ly/FATVSub\n\n#England #ThreeLions #Shorts",
@@ -6981,50 +6468,6 @@
       ]
     },
     {
-      "videoId": "Vq3p7juwtzk",
-      "title": "“C’est la vie”… but not like this. 😭",
-      "description": "Order a Coke®️ on Zepto or Blinkit and stand a chance* to be a part of the next virtual, Coca-Cola®️ Match Day Hangout! Where entertainment meets football. \n\nWhy watch alone, when you can watch along with us!\n\n*Updated T&C Apply\n\nContent Producer: @revsportz_official\n\nPresented by: Coca-Cola®️",
-      "channelTitle": "Coca-Cola",
-      "publishedAt": "2026-07-15T03:36:55Z",
-      "expectedBrand": "Coca-Cola",
-      "tier": "FIFA Partner",
-      "category": "soft_drinks",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Vq3p7juwtzk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Vq3p7juwtzk/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "football"
-      ],
-      "sources": [
-        "channel_watch:Coca-Cola"
-      ]
-    },
-    {
-      "videoId": "9XJKP8GxcfU",
-      "title": "“C’est la vie”… but not like this. 😭",
-      "description": "Order a Coke®️ on Zepto or Blinkit and stand a chance* to be a part of the next virtual, Coca-Cola®️ Match Day Hangout! Where entertainment meets football. \n\nWhy watch alone, when you can watch along with us!\n\n*Updated T&C Apply\n\nContent Producer: @revsportz_official\n\nPresented by: Coca-Cola®️",
-      "channelTitle": "Coca-Cola",
-      "publishedAt": "2026-07-15T03:39:27Z",
-      "expectedBrand": "Coca-Cola",
-      "tier": "FIFA Partner",
-      "category": "soft_drinks",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=9XJKP8GxcfU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9XJKP8GxcfU/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "football"
-      ],
-      "sources": [
-        "channel_watch:Coca-Cola"
-      ]
-    },
-    {
       "videoId": "cd9glmNfJ_U",
       "title": "Who is the best player Sam Tomkins ever played with? 🤔",
       "description": "► Subscribe to Sky Sports: http://bit.ly/SkySportsSub\n► Watch Sky Sports with NOW: https://bit.ly/NOWSkySportsYT\n\n#shorts  #rugby  #rugbyleague \n\nMMA: https://bit.ly/SkySportsMMA\nNetball: https://bit.ly/SkySportsNetball\nNFL: https://bit.ly/SkySportsNFL\nRugby League: https://bit.ly/SkySportsRugbyLeag",
@@ -7044,29 +6487,6 @@
       ],
       "sources": [
         "channel_watch:Sky Sports"
-      ]
-    },
-    {
-      "videoId": "3WPR7nHEpKE",
-      "title": "straight into the personal museum 🏛️⚽️ #yougotthis #football #julianalvarez",
-      "description": "directa al museo personal 🏛️⚽️",
-      "channelTitle": "adidas",
-      "publishedAt": "2026-07-15T10:12:52Z",
-      "expectedBrand": "Adidas",
-      "tier": "FIFA Partner",
-      "category": "apparel",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=3WPR7nHEpKE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3WPR7nHEpKE/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "football",
-        "alvarez"
-      ],
-      "sources": [
-        "channel_watch:Adidas"
       ]
     },
     {
@@ -8011,50 +7431,6 @@
       ]
     },
     {
-      "videoId": "-8Rr0bavcFE",
-      "title": "Final set of Canada vs. Cuba at FIVB Volleyball Nations League stop in Osaka | #CBCSports",
-      "description": "Watch the full final set of the Canada vs. Cuba match from the 2026 FIVB Volleyball Men’s Nations League stop in Osaka, Japan.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest Olympic news and video here: \nhttps://www.cbc.c",
-      "channelTitle": "CBC Sports",
-      "publishedAt": "2026-07-20T13:15:20Z",
-      "expectedBrand": "CBC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "TSN",
-      "watchUrl": "https://www.youtube.com/watch?v=-8Rr0bavcFE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-8Rr0bavcFE/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "saka"
-      ],
-      "sources": [
-        "channel_watch:CBC Sports"
-      ]
-    },
-    {
-      "videoId": "eeaQ3Ck_fLs",
-      "title": "Final set of Belgium vs. Canada at FIVB Volleyball Nations League stop in Osaka | #CBCSports",
-      "description": "Watch the full final set of the Belgium vs. Canada match from the 2026 FIVB Volleyball Men’s Nations League stop in Osaka, Japan.\n\nWatch Live sports on CBC Sports' website or CBC Gem: \nhttps://www.cbcsports.ca\nhttps://gem.cbc.ca/\n\nCheck out all the latest Olympic news and video here: \nhttps://www.cb",
-      "channelTitle": "CBC Sports",
-      "publishedAt": "2026-07-20T13:35:07Z",
-      "expectedBrand": "CBC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "TSN",
-      "watchUrl": "https://www.youtube.com/watch?v=eeaQ3Ck_fLs",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eeaQ3Ck_fLs/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "saka"
-      ],
-      "sources": [
-        "channel_watch:CBC Sports"
-      ]
-    },
-    {
       "videoId": "vROLAJs0Ngk",
       "title": "el objetivo se alcanza cuando brillamos todos juntos. stars shine together 🌟🌟 #yougotthis #football",
       "description": "Find out more at http://www.adidas.com\n\nFollow us:\nInstagram - http://www.instagram.com/adidas\nTwitter - https://www.twitter.com/adidas \nTikTok - https://www.tiktok.com/@adidas",
@@ -8074,28 +7450,6 @@
       ],
       "sources": [
         "channel_watch:Adidas"
-      ]
-    },
-    {
-      "videoId": "H3wl_gkHfhQ",
-      "title": "Los 21 goles de Lionel Andrés Messi en la Copa del Mundo. 🇦🇷🤩",
-      "description": "Para más información, visitá http://www.tycsports.com",
-      "channelTitle": "TyC Sports",
-      "publishedAt": "2026-07-20T15:50:44Z",
-      "expectedBrand": "TyC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=H3wl_gkHfhQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/H3wl_gkHfhQ/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "messi"
-      ],
-      "sources": [
-        "channel_watch:TyC Sports"
       ]
     },
     {
@@ -8233,98 +7587,6 @@
       ]
     },
     {
-      "videoId": "2-olKK9GmSQ",
-      "title": "LA SELECCIÓN ARGENTINA LLEGA AL PAÍS para el RECONOCIMIENTO DE LA GENTE 🔴 Mundial 2026 en TyC Sports",
-      "description": "⚽🌎 Selección Argentina en vivo por TyC Sports | Mundial 2026\n\nLa derrota final del Mundial 2026 marcó el cierre de la estadía de la Selección Argentina en Estados Unidos. Pasadas algunas horas del encuentro frente a España, el plantel emprendió el viaje desde Nueva York hacia Buenos Aires. Sin embar",
-      "channelTitle": "TyC Sports",
-      "publishedAt": "2026-07-20T23:44:26Z",
-      "expectedBrand": "TyC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=2-olKK9GmSQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2-olKK9GmSQ/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "futbol",
-        "fútbol",
-        "messi",
-        "rodri"
-      ],
-      "sources": [
-        "channel_watch:TyC Sports"
-      ]
-    },
-    {
-      "videoId": "EJkWmFjsARk",
-      "title": "EL CAPITÁN QUE DESAFIÓ AL TIEMPO: EL MUNDIAL DE LIONEL MESSI",
-      "description": "Para más información, visitá http://www.tycsports.com",
-      "channelTitle": "TyC Sports",
-      "publishedAt": "2026-07-20T23:45:54Z",
-      "expectedBrand": "TyC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=EJkWmFjsARk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EJkWmFjsARk/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "messi"
-      ],
-      "sources": [
-        "channel_watch:TyC Sports"
-      ]
-    },
-    {
-      "videoId": "Yom4iZF-6TM",
-      "title": "Jorge Campos: “Hay que tener categoría al ganar o perder” | Los Protagonistas",
-      "description": "La final del Mundial dejó una batalla dentro y fuera de la cancha. España tuvo el gesto de reconocer al campeón con el pasillo, pero la celebración argentina abrió el debate sobre la manera de ganar y perder.\n\n#Mundial2026 #España #Argentina #Messi #Bellingham #LosProtagonistas \n\nSuscríbete a nuestr",
-      "channelTitle": "TV Azteca Deportes",
-      "publishedAt": "2026-07-21T09:29:31Z",
-      "expectedBrand": "TV Azteca Deportes",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "Televisa Deportes",
-      "watchUrl": "https://www.youtube.com/watch?v=Yom4iZF-6TM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Yom4iZF-6TM/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "messi",
-        "bellingham"
-      ],
-      "sources": [
-        "channel_watch:TV Azteca Deportes"
-      ]
-    },
-    {
-      "videoId": "eJae5gv9exw",
-      "title": "La fiesta de España tras conquistar su segunda estrella 🏆🇪🇸 | Los Protagonistas",
-      "description": "España ya tiene su segunda Copa del Mundo y su gente salió a celebrar una generación que convirtió un sueño en realidad. 🇪🇸🏆\n\n#España #Mundial2026 #Cucurella #LuisDeLaFuente #FerranTorres #LosProtagonistas #Futbol\n\nSuscríbete a nuestro canal: https://www.youtube.com/AztecaDeporte...\n\n---------------",
-      "channelTitle": "TV Azteca Deportes",
-      "publishedAt": "2026-07-21T09:33:43Z",
-      "expectedBrand": "TV Azteca Deportes",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": "Televisa Deportes",
-      "watchUrl": "https://www.youtube.com/watch?v=eJae5gv9exw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eJae5gv9exw/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "futbol"
-      ],
-      "sources": [
-        "channel_watch:TV Azteca Deportes"
-      ]
-    },
-    {
       "videoId": "eI1D2z1SJbk",
       "title": "Josh Thewlis: The 'Yorkshire bus', Oldham & sleep-walking! | The Bench",
       "description": "► Subscribe to Sky Sports: http://bit.ly/SkySportsSub\n► Watch Sky Sports with NOW: https://bit.ly/NOWSkySportsYT\n\nWarrington Wolves' Josh Thewlis is this week's guest on The Bench with Jenna and Jon.\nHe gives an update on the injury that's keeping him out of action at the moment and when he's hoping",
@@ -8366,28 +7628,6 @@
       ],
       "sources": [
         "channel_watch:U.S. Soccer"
-      ]
-    },
-    {
-      "videoId": "8eULfYgJKHo",
-      "title": "DEL \"HACIA ADELANTE\" AL \"QUE VEAN QUE TENEMOS MÁS GANAS QUE ELLOS\"",
-      "description": "La ARENGA del Dibu, Musso y Messi en el entretiempo de la final del Mundial.\n\nPara más información, visitá http://www.tycsports.com",
-      "channelTitle": "TyC Sports",
-      "publishedAt": "2026-07-21T14:34:47Z",
-      "expectedBrand": "TyC Sports",
-      "tier": "Tournament Marketer",
-      "category": "broadcasting",
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=8eULfYgJKHo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8eULfYgJKHo/hqdefault.jpg",
-      "channelMatch": true,
-      "confidence": "low",
-      "matchReason": "football_in_window",
-      "matchedKeywords": [
-        "messi"
-      ],
-      "sources": [
-        "channel_watch:TyC Sports"
       ]
     },
     {
@@ -8656,170 +7896,120 @@
       ]
     },
     {
-      "videoId": "FVNTv7ObTco",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " to $100,000 for fans 21+ who watch weekday matches from their local bar and order a Stella. <iframe loading=\"lazy\" title=\"FC 26 | The World&amp;apos;s Game\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
+      "videoId": "TNWOTMVeFMQ",
+      "title": "on set with @manutd for the new away kit launch 🔥 #football #manchesterunited",
+      "description": "What do you think of the new kit? \n\nFollow us:\nInstagram - http://www.instagram.com/adidas\nTwitter - https://www.twitter.com/adidas \nTikTok - https://www.tiktok.com/@adidas",
+      "channelTitle": "adidas",
+      "publishedAt": "2026-07-22T10:37:20Z",
+      "expectedBrand": "Adidas",
+      "tier": "FIFA Partner",
+      "category": "apparel",
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=FVNTv7ObTco",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FVNTv7ObTco/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
+      "watchUrl": "https://www.youtube.com/watch?v=TNWOTMVeFMQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TNWOTMVeFMQ/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "football"
+      ],
       "sources": [
-        "tracker:brandinnovators"
+        "channel_watch:Adidas"
       ]
     },
     {
-      "videoId": "mMOk46xE7d8",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " “That’s the kind of football we love: fresh, instinctive, unexpected and creative.” <iframe loading=\"lazy\" title=\"FIFA World Cup 2026™: For Fans Everywhere\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
+      "videoId": "xMRb1oUfqKk",
+      "title": "NACHO FERNÁNDEZ, MANO a MANO con TyC SPORTS: \"EN EL FÚTBOL ARGENTINO CUALQUIERA PUEDE SALIR CAMPEÓN\"",
+      "description": "Para más información, visitá http://www.tycsports.com",
+      "channelTitle": "TyC Sports",
+      "publishedAt": "2026-07-22T21:10:58Z",
+      "expectedBrand": "TyC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=mMOk46xE7d8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mMOk46xE7d8/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
+      "watchUrl": "https://www.youtube.com/watch?v=xMRb1oUfqKk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xMRb1oUfqKk/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "fútbol"
+      ],
       "sources": [
-        "tracker:brandinnovators"
+        "channel_watch:TyC Sports"
       ]
     },
     {
-      "videoId": "Jf1i5eCB-3c",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "o connect brand, media, and cultural moments, thanks to Visa.”&nbsp; <iframe loading=\"lazy\" title=\"The Future is Calling | Kalshi x 8 Legends in 8 Countries\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Jf1i5eCB-3c",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Jf1i5eCB-3c/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
+      "videoId": "T4pOQfIBhKk",
+      "title": "Mbappe got benched for him? #shorts #football #realmadrid",
+      "description": "",
+      "channelTitle": "ITV Football",
+      "publishedAt": "2026-07-22T23:12:06Z",
+      "expectedBrand": "ITV Sport",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
+      "rivalOf": "BBC Sport",
+      "watchUrl": "https://www.youtube.com/watch?v=T4pOQfIBhKk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/T4pOQfIBhKk/hqdefault.jpg",
+      "channelMatch": false,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "football",
+        "mbappe"
+      ],
       "sources": [
-        "tracker:brandinnovators"
+        "channel_watch:ITV Sport"
       ]
     },
     {
-      "videoId": "0kqBy0QfaPc",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ng at the World Cup. Check back regularly as we will continue to update this tracker until the games begin. <iframe title=\"ULTRA Turnaround | Michelob ULTRA\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
+      "videoId": "BZyj6C3y73Q",
+      "title": "🗣️ \"SCALONI SIN DUDAS QUE ESTÁ ENTRE LOS MEJORES ENTRENADORES DE NUESTRO FÚTBOL\" 🇦🇷",
+      "description": "Juan Román Riquelme, presidente de Boca, dialogó mano a mano con TyC Sports y elogió al cuerpo técnico de la Selección Argentina.\n\n\nPara más información, visitá http://www.tycsports.com",
+      "channelTitle": "TyC Sports",
+      "publishedAt": "2026-07-23T00:30:36Z",
+      "expectedBrand": "TyC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=0kqBy0QfaPc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0kqBy0QfaPc/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
+      "watchUrl": "https://www.youtube.com/watch?v=BZyj6C3y73Q",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BZyj6C3y73Q/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "fútbol"
+      ],
       "sources": [
-        "tracker:brandinnovators"
+        "channel_watch:TyC Sports"
       ]
     },
     {
-      "videoId": "FY3ZCAD4OZU",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " and the latest &#8220;No Better Felling&#8221; which highlights the intensity of the matches. <iframe loading=\"lazy\" title=\"DoorDash | Deliver Us to Fútbol\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
+      "videoId": "a3z8ll-I4F8",
+      "title": "🗣️ \"ESTÁ BIEN QUE GANE UN TÍTULO EL QUE SAQUE MÁS PUNTOS EN EL AÑO\"",
+      "description": "Juan Román Riquelme, presidente de Boca, se refirió a la premiación que se obtiene en el Fútbol argentino para el equipo que más sume en la temporada.\n\nPara más información, visitá http://www.tycsports.com",
+      "channelTitle": "TyC Sports",
+      "publishedAt": "2026-07-23T00:31:39Z",
+      "expectedBrand": "TyC Sports",
+      "tier": "Tournament Marketer",
+      "category": "broadcasting",
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=FY3ZCAD4OZU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FY3ZCAD4OZU/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
+      "watchUrl": "https://www.youtube.com/watch?v=a3z8ll-I4F8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/a3z8ll-I4F8/hqdefault.jpg",
+      "channelMatch": true,
+      "confidence": "low",
+      "matchReason": "football_in_window",
+      "matchedKeywords": [
+        "fútbol"
+      ],
       "sources": [
-        "tracker:brandinnovators",
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "gPx12V4yiIk",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "hew McConaughey&#8217;s brand Pantalones Organic Tequila is celebrating the World Cup with a new spot. <iframe loading=\"lazy\" title=\"The Most Searched Sport\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=gPx12V4yiIk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gPx12V4yiIk/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "DNB5c60PKPI",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "The sleeve is inspired by the armband of Team USA&#8217;s. <iframe loading=\"lazy\" title=\"Powering the most connected FIFA World Cup™ ever | Verizon Business\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=DNB5c60PKPI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DNB5c60PKPI/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "SbiMv_vpCjk",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "er. Directed by Grandmas through Academy, the TV effort will also run across social, digital, OOH and audio. <iframe loading=\"lazy\" title=\"No Better Feeling\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=SbiMv_vpCjk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SbiMv_vpCjk/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
+        "channel_watch:TyC Sports"
       ]
     },
     {
       "videoId": "RKM5PxZuKK8",
       "title": "(unknown — discovered via tracker only)",
-      "description": "oss 600+ locations. The campaign was created in partnership with Ogilvy.&nbsp; <iframe loading=\"lazy\" title=\"Who could cook at a time like this? | Uber Eats\" width=\"500\" height=\"281\" src=\"https://www.",
+      "description": "er Eats | UK “Who could cook at a time like this?” Star Rating: 4.3 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
@@ -8828,1011 +8018,6 @@
       "rivalOf": null,
       "watchUrl": "https://www.youtube.com/watch?v=RKM5PxZuKK8",
       "thumbnailUrl": "https://i.ytimg.com/vi/RKM5PxZuKK8/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators",
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "bEUpTEzEY-0",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "utube wp-embed-aspect-16-9 wp-has-aspect-ratio\"> <iframe loading=\"lazy\" title=\"Don&amp;apos;t Settle for Meh ft. Zlatan Ibrahimović, Jason &amp; Kylie Kelce\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=bEUpTEzEY-0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bEUpTEzEY-0/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "Z21Fp60Dzs8",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " complicated event in history. What better way to show the world what we can do and how we can make an impact.” <iframe loading=\"lazy\" title=\"No Cup Like It\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Z21Fp60Dzs8",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Z21Fp60Dzs8/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "M355du2NPvA",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "CPG giant will has created a new 24/7 social media hub, The Locker Room, across platforms TikTok and YouTube. <iframe loading=\"lazy\" title=\"The Game is Ours\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=M355du2NPvA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M355du2NPvA/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "FdBIYsmmLZQ",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "e agency es muy good , the spots inviting the audience to ask: “What’s Kalshi?&#8221; <iframe loading=\"lazy\" title=\"Pantalones Organic Tequila: Speak Soccer\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=FdBIYsmmLZQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FdBIYsmmLZQ/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "wJluWXc40vM",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "e hydration plays in performing in the games. The ads include players Lamine Yamal and Rodrygo Goes. <iframe loading=\"lazy\" title=\"The Chant | Dove Men+Care\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=wJluWXc40vM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wJluWXc40vM/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "OLTJACzvbdc",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "g an ad for YouTube TV highlighting why viewers shouldn’t settle for a “meh” live TV experience. <iframe loading=\"lazy\" title=\"Lamine Yamal | American Eagle\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=OLTJACzvbdc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OLTJACzvbdc/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "WJ6FXR3dWBM",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ps fans get the food they want delivered straight to their door, without missing a moment of the action.&#8221; <iframe loading=\"lazy\" title=\"Cheers To Bars\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=WJ6FXR3dWBM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WJ6FXR3dWBM/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators",
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "cVaP2BODgOU",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "&nbsp;Beer Sponsor of the FIFA World Cup 2026. The brand has run several different spots during the games. <iframe loading=\"lazy\" title=\"Is losing worth it?\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=cVaP2BODgOU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cVaP2BODgOU/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "_T6t1gY4krA",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "bsp;The campaign includes TV, digital, social, OOH and experiential. <iframe loading=\"lazy\" title=\"POWER YOUR LEGACY | POWERADE | FIFA WORLD CUP 2026™ (:30)\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=_T6t1gY4krA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_T6t1gY4krA/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "RuH65gW9toI",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " and IRL fan experiences, as well as offering limited edition cans and &nbsp;packages. <iframe loading=\"lazy\" title=\"The Original Motor Oil | For the Driven\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=RuH65gW9toI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RuH65gW9toI/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "UrqAObrvOiA",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "promotion&nbsp;including a sweepstakes and limited-edition packaging showing off his tattoos. <iframe loading=\"lazy\" title=\"CELSIUS Electric Vibe Commercial\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=UrqAObrvOiA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UrqAObrvOiA/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "JJEJ-FE5_-0",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "mmunity is everywhere the game is played and highlights the similarities of soccer and travel.&nbsp; <iframe loading=\"lazy\" title=\"Jobs Need People | Indeed\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=JJEJ-FE5_-0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/JJEJ-FE5_-0/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "tmcqgUBZROs",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "riends, or celebrating moments of togetherness at home.&#8221; <iframe loading=\"lazy\" title=\"Quaker. Whole body nutrition and fuel to start whatever’s next.\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=tmcqgUBZROs",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tmcqgUBZROs/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators",
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "85Mg2WTjdbs",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " 2048w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /> <iframe loading=\"lazy\" title=\"Michelob ULTRA Superior Player of the Match Trophy | Michelob ULTRA\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=85Mg2WTjdbs",
-      "thumbnailUrl": "https://i.ytimg.com/vi/85Mg2WTjdbs/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "D3yyRji0gyI",
-      "title": "(unknown — discovered via tracker only)",
-      "description": ", Union Berlin, Al Nassr and more. <iframe loading=\"lazy\" title=\"Never Chase Reality | Official USMNT 2026 World Cup Campaign Narrated By Marcello Hernandez\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=D3yyRji0gyI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D3yyRji0gyI/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators"
-      ]
-    },
-    {
-      "videoId": "-1jN0jRAQLw",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "es Square and provides social commentary on the games. <iframe loading=\"lazy\" title=\"IRN-BRU - We&amp;apos;re Made in Scotland from Girders (Official Video)\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=-1jN0jRAQLw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/-1jN0jRAQLw/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators",
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "1lC14hw4_Ns",
-      "title": "(unknown — discovered via tracker only)",
-      "description": " Zach Hilder, chief creative officer at 72andSunny in a statement. <iframe loading=\"lazy\" title=\"The NESCAFÉ Third Half feat. Landon Donovan and Luis García\" width=\"500\" height=\"281\" src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=1lC14hw4_Ns",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1lC14hw4_Ns/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by brandinnovators",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:brandinnovators",
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "6O2Cf7NcXmA",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Brazil “As seleções do Méqui estão de volta” Star Rating: 4.7 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=6O2Cf7NcXmA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6O2Cf7NcXmA/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "wDgH0FECdJs",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "youtube video\"src=\"https://www.youtube.com/embed/_W-989-_wzI\" frameborder=\"0\" allowfullscreen> Apple | UK “Dança” Star Rating: 3.4 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=wDgH0FECdJs",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wDgH0FECdJs/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "_Akipq-WpDg",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "w Test Your Ad Report Sky Bet | UK “The World’s Gone Football Mad” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=_Akipq-WpDg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_Akipq-WpDg/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "lqtFMOgMjSY",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Selección Nacional de México | Mexico “It&#8217;s much more than football” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=lqtFMOgMjSY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lqtFMOgMjSY/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "UlRMcOigpxk",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "View Test Your Ad Report Hyundai | US “It Starts Now” Star Rating: 1.19 Spike (Strong) <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=UlRMcOigpxk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/UlRMcOigpxk/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "iLWrNZS3lM4",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "le=\"font-size: 18pt\">Don Julio | US “La Otra Copa” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=iLWrNZS3lM4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iLWrNZS3lM4/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "ibEPQQtnGVA",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Your Ad Report Modelo | Mexico “Best Seat in the House&#8221; Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=ibEPQQtnGVA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ibEPQQtnGVA/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "Ty-dPuzz698",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "port Dick&#8217;s Sporting Goods | US “Where it all Kicks Off” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Ty-dPuzz698",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ty-dPuzz698/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "cobKMrBIClo",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "e: 18pt\">Adidas | UK &#8220;Choose Scotland&#8221; Star Rating: 4.1 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=cobKMrBIClo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cobKMrBIClo/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "cRpX0P1RC64",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "n style=\"font-size: 18pt\">Brazil “DORITOS apresenta A Teoria do Triângulo” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=cRpX0P1RC64",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cRpX0P1RC64/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "RWa1y1kCN30",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Guaraná Antarctica| Brazil &#8220;A torcida tá convocada&#8221; Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=RWa1y1kCN30",
-      "thumbnailUrl": "https://i.ytimg.com/vi/RWa1y1kCN30/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "d-9O3PHzG_o",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Elo | Brazil &#8220;Torcida brasileira não tem tradução&#8221; Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=d-9O3PHzG_o",
-      "thumbnailUrl": "https://i.ytimg.com/vi/d-9O3PHzG_o/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "_ltbCb_6Rbo",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "View Test Your Ad Report Itaú | Brazil “Torcendo feito você” Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=_ltbCb_6Rbo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_ltbCb_6Rbo/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "CPktcITAZAQ",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "yle=\"font-size: 18pt\">Brazil “Os torcedores brasileiros têm um S de Sadia” Star Rating: 3.8 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=CPktcITAZAQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CPktcITAZAQ/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "8E25lhP4_6s",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "View Test Your Ad Report Bradesco | Brazil “A Volta da Festa” Star Rating: 3.0 Stars <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=8E25lhP4_6s",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8E25lhP4_6s/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "st3ojaCLL0s",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Your Ad Report Mercado Livre | Brazil “O sonho continua vivo” Star Rating: 4.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=st3ojaCLL0s",
-      "thumbnailUrl": "https://i.ytimg.com/vi/st3ojaCLL0s/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "_mXucLBdt2w",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "BCX8\">Lay’s | US “No Lays, No Game” Star Rating: 3.6 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=_mXucLBdt2w",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_mXucLBdt2w/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "7z9VtHyfHkw",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ww.youtube.com/embed/IyZ1WIua_1s&amp;t=2s\" frameborder=\"0\" allowfullscreen> Coca-Cola | Global “No Better Feeling” Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=7z9VtHyfHkw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7z9VtHyfHkw/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "AUmt3qWeOXY",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ew Test Your Ad Report KFC | France &#8220;KFC France x FFF&#8221; Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=AUmt3qWeOXY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AUmt3qWeOXY/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "PXXPKHECGCk",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "rget=\"_blank\"> View Test Your Ad Report ŌURA | UK “Ready?” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=PXXPKHECGCk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PXXPKHECGCk/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "eLsz8iRcSSY",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "st Your Ad Report Hershey | US “There’s No Place Like Hershey” Star Rating: 4.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=eLsz8iRcSSY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/eLsz8iRcSSY/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "pKbCKAo_pqw",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "rong> UK “Nobody Does Football Better Than Us” Star Rating: 4.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=pKbCKAo_pqw",
-      "thumbnailUrl": "https://i.ytimg.com/vi/pKbCKAo_pqw/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "J7W2sBAsywY",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Your Ad Report Sicredi | Brazil &#8220;Sonhando Juntas&#8221; Star Rating: 3.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=J7W2sBAsywY",
-      "thumbnailUrl": "https://i.ytimg.com/vi/J7W2sBAsywY/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "ptsu6lyzD9c",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "\"src=\"https://www.youtube.com/embed/cobKMrBIClo\" frameborder=\"0\" allowfullscreen> Uber | Brazil “Motorista 6 estrelas” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=ptsu6lyzD9c",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ptsu6lyzD9c/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "b6PqagFH-RU",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "View Test Your Ad Report Ocado | UK “Half Time Deliveries” Star Rating: 3.5 Stars <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=b6PqagFH-RU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/b6PqagFH-RU/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "Ry5M-_vnSJU",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "uinness | UK “Singing Pints” Star Rating: 4.8 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Ry5M-_vnSJU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ry5M-_vnSJU/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "8q1ysN83ch4",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "t Your Ad Report Movistar | Spain “¡La Selección que nos une!” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=8q1ysN83ch4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8q1ysN83ch4/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "6RBowVHAnWE",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Test Your Ad Report Vivo | Brazil “Declare seu amor na CazéTV” Star Rating: 4.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=6RBowVHAnWE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6RBowVHAnWE/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "i_gknxnuTY0",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "outube.com/embed/tmcqgUBZROs\" frameborder=\"0\" allowfullscreen> Kia | Mexico “Inspiración que conecta generaciones” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=i_gknxnuTY0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/i_gknxnuTY0/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "DTSNY1o9Vh0",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ze: 18pt\">EE | UK “Yes Boys” Star Rating: 4.8 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=DTSNY1o9Vh0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DTSNY1o9Vh0/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "9dNTRsROgWg",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "\"font-size: 18pt\">Pepsi | Global “Football Nation” Star Rating: 4.0 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=9dNTRsROgWg",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9dNTRsROgWg/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "9mOk5jBMr1s",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "st Your Ad Report Bimbo | Mexico “Venimos con hambre de ganar” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=9mOk5jBMr1s",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9mOk5jBMr1s/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "k5GYKPtTT0U",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ube.com/embed/sS_05OLVkxU\" frameborder=\"0\" allowfullscreen> Jameson Irish Whiskey | UK “It&#8217;s What You Bring” Star Rating: 3.7 Stars <a style=\"color: #e43e95\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=k5GYKPtTT0U",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k5GYKPtTT0U/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -9862,257 +8047,17 @@
       ]
     },
     {
-      "videoId": "FMRM3x23E-A",
+      "videoId": "6O2Cf7NcXmA",
       "title": "(unknown — discovered via tracker only)",
-      "description": "ttps://www.youtube.com/embed/-1jN0jRAQLw\" frameborder=\"0\" allowfullscreen> Purina | US “From the Team Behind the Team” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "description": "Brazil “As seleções do Méqui estão de volta” Star Rating: 4.7 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=FMRM3x23E-A",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FMRM3x23E-A/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "NpogxxhZ924",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "our Ad Report Magenta TV | Germany &#8220;Thomas Müller&#8221; Star Rating: 4.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=NpogxxhZ924",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NpogxxhZ924/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "ad2gGoLq1Fk",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "ew Test Your Ad Report Nike | Brazil “Um passarinho me contou” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=ad2gGoLq1Fk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ad2gGoLq1Fk/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "NjhGsUX8n2A",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "size: 18pt\">Heineken | US “Fans Have More Friends” Star Rating: 3.0 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=NjhGsUX8n2A",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NjhGsUX8n2A/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "EpK0P3vfDJc",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "size: 18pt\">Lego | Global “Everyone Wants a Piece” Star Rating: 4.9 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=EpK0P3vfDJc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EpK0P3vfDJc/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "npH5YSq0PQo",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Coca-Cola | Mexico “Coca-Cola &#8211; Grey México &#8211; Sintamos Juntos &#8211; Mundial 2026” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=npH5YSq0PQo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/npH5YSq0PQo/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "Pf_Gr-vRUws",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "utube.com/embed/CPktcITAZAQ\" frameborder=\"0\" allowfullscreen> Rexona | Brazil “REXONA x FIFA MEN’S WORLD CUP 2026” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Pf_Gr-vRUws",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Pf_Gr-vRUws/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "rH-YloK2Te4",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "View Test Your Ad Report New Balance | US “We Got Now” Star Rating: 3.5 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=rH-YloK2Te4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/rH-YloK2Te4/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "C87Dk_u7yVE",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "18pt\">AirBnb | Global “The World is Meant to Meet” Star Rating: 3.9 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=C87Dk_u7yVE",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C87Dk_u7yVE/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "vGlV7RggdiM",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "BBC | UK “BBC &#8211; FIFA World Cup 2026 FIFA World Cup 2026 Coverage Announcement&#8221; Star Rating: 4.8 Stars <a style=\"color: #ed2393\" href=\"https://",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=vGlV7RggdiM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vGlV7RggdiM/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "lj2JcdXZDP4",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Ad Report McDonald&#8217;s | US “Beckham Gets Beckham” Star Rating: 1.21 Strong Spike <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=lj2JcdXZDP4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/lj2JcdXZDP4/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "Ml9mVOsHEqs",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "Ad Report Sadia | Brazil “A torcida do Brasil com S de Sadia.” Star Rating: 3.4 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=Ml9mVOsHEqs",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ml9mVOsHEqs/hqdefault.jpg",
-      "channelMatch": null,
-      "confidence": "tracker_only",
-      "matchReason": "Listed by system1",
-      "matchedKeywords": [],
-      "sources": [
-        "tracker:system1"
-      ]
-    },
-    {
-      "videoId": "4qkZQPIzMZ4",
-      "title": "(unknown — discovered via tracker only)",
-      "description": "src=\"https://www.youtube.com/embed/DTSNY1o9Vh0\" frameborder=\"0\" allowfullscreen> iFood | Brazil “Canarinhos iFood” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
-      "channelTitle": "",
-      "publishedAt": "",
-      "expectedBrand": "(extract from context)",
-      "tier": null,
-      "category": null,
-      "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=4qkZQPIzMZ4",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4qkZQPIzMZ4/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=6O2Cf7NcXmA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6O2Cf7NcXmA/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10142,17 +8087,17 @@
       ]
     },
     {
-      "videoId": "gfn-3W4Z7fA",
+      "videoId": "wDgH0FECdJs",
       "title": "(unknown — discovered via tracker only)",
-      "description": "View Test Your Ad Report M&amp;S | UK “Eat Well, Play Well” Star Rating: 4.7 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "description": "youtube video\"src=\"https://www.youtube.com/embed/_W-989-_wzI\" frameborder=\"0\" allowfullscreen> Apple | UK “Dança” Star Rating: 3.4 Stars <a style=\"color: #ed2393\" href=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=gfn-3W4Z7fA",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gfn-3W4Z7fA/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=wDgH0FECdJs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wDgH0FECdJs/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10162,17 +8107,17 @@
       ]
     },
     {
-      "videoId": "fQFxPl1WSvo",
+      "videoId": "PXXPKHECGCk",
       "title": "(unknown — discovered via tracker only)",
-      "description": "rticle> Edeka | Germany &#8220;Football unites and we celebrate with them – that&#8217;s what makes the difference&#8221; Star Rating: 4.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "rget=\"_blank\"> View Test Your Ad Report ŌURA | UK “Ready?” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=fQFxPl1WSvo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fQFxPl1WSvo/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=PXXPKHECGCk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/PXXPKHECGCk/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10182,17 +8127,17 @@
       ]
     },
     {
-      "videoId": "1YM_5landqQ",
+      "videoId": "C87Dk_u7yVE",
       "title": "(unknown — discovered via tracker only)",
-      "description": "cDonald&#8217;s | Spain “Estas leyendas están listas para el Menú la Copa Mundial de la FIFA 2026 de McDonald&#8217;s el 9 de junio” Star Rating: 4.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "18pt\">AirBnb | Global “The World is Meant to Meet” Star Rating: 3.9 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=1YM_5landqQ",
-      "thumbnailUrl": "https://i.ytimg.com/vi/1YM_5landqQ/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=C87Dk_u7yVE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/C87Dk_u7yVE/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10202,17 +8147,17 @@
       ]
     },
     {
-      "videoId": "CJTMvhjRFZo",
+      "videoId": "iLWrNZS3lM4",
       "title": "(unknown — discovered via tracker only)",
-      "description": "our Ad Report Itaú | Brazil “Convocação da torcida brasileira” Star Rating: 3.2 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "le=\"font-size: 18pt\">Don Julio | US “La Otra Copa” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=CJTMvhjRFZo",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CJTMvhjRFZo/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=iLWrNZS3lM4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iLWrNZS3lM4/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10222,17 +8167,17 @@
       ]
     },
     {
-      "videoId": "WWoNdjsX7cc",
+      "videoId": "b6PqagFH-RU",
       "title": "(unknown — discovered via tracker only)",
-      "description": "Rexona | Argentina “Falta muy poco para la Copa Mundial de la FIFA™” Star Rating: 4.9 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "View Test Your Ad Report Ocado | UK “Half Time Deliveries” Star Rating: 3.5 Stars <a style=\"color: #ed2393\" href=\"https://",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=WWoNdjsX7cc",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WWoNdjsX7cc/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=b6PqagFH-RU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b6PqagFH-RU/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10242,17 +8187,17 @@
       ]
     },
     {
-      "videoId": "evyHkLuy58g",
+      "videoId": "Ml9mVOsHEqs",
       "title": "(unknown — discovered via tracker only)",
-      "description": "Havaianas | Brazil “Desde 1962 inspirando o jeito brasileiro de jogar” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "description": "Ad Report Sadia | Brazil “A torcida do Brasil com S de Sadia.” Star Rating: 3.4 Stars <a style=\"color: #ed2393\" href=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=evyHkLuy58g",
-      "thumbnailUrl": "https://i.ytimg.com/vi/evyHkLuy58g/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=Ml9mVOsHEqs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ml9mVOsHEqs/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10262,17 +8207,17 @@
       ]
     },
     {
-      "videoId": "9lZys0zbgVk",
+      "videoId": "ad2gGoLq1Fk",
       "title": "(unknown — discovered via tracker only)",
-      "description": "Test Your Ad Report Sam&#8217;s Club | US “Come Join Us&#8221; Star Rating: 3.8 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "ew Test Your Ad Report Nike | Brazil “Um passarinho me contou” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=9lZys0zbgVk",
-      "thumbnailUrl": "https://i.ytimg.com/vi/9lZys0zbgVk/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=ad2gGoLq1Fk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ad2gGoLq1Fk/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10282,17 +8227,37 @@
       ]
     },
     {
-      "videoId": "8kEjcBPDBTM",
+      "videoId": "EpK0P3vfDJc",
       "title": "(unknown — discovered via tracker only)",
-      "description": "Vivo | Brazil “Isso é ser brasileiro roxo &#8211; contrato vini jr” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "size: 18pt\">Lego | Global “Everyone Wants a Piece” Star Rating: 4.9 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=8kEjcBPDBTM",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8kEjcBPDBTM/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=EpK0P3vfDJc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EpK0P3vfDJc/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "8q1ysN83ch4",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "t Your Ad Report Movistar | Spain “¡La Selección que nos une!” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=8q1ysN83ch4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8q1ysN83ch4/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10322,17 +8287,197 @@
       ]
     },
     {
-      "videoId": "vxauHCLKyFU",
+      "videoId": "ptsu6lyzD9c",
       "title": "(unknown — discovered via tracker only)",
-      "description": "d Report Rexona | Australia “It Won&#8217;t Ever Let You Down” Star Rating: 3.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "\"src=\"https://www.youtube.com/embed/cobKMrBIClo\" frameborder=\"0\" allowfullscreen> Uber | Brazil “Motorista 6 estrelas” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=vxauHCLKyFU",
-      "thumbnailUrl": "https://i.ytimg.com/vi/vxauHCLKyFU/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=ptsu6lyzD9c",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ptsu6lyzD9c/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "rH-YloK2Te4",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "View Test Your Ad Report New Balance | US “We Got Now” Star Rating: 3.5 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=rH-YloK2Te4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/rH-YloK2Te4/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "-1jN0jRAQLw",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Scotland “We’re Made in Scotland from Girders” Star Rating: 5.9 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=-1jN0jRAQLw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-1jN0jRAQLw/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "Ty-dPuzz698",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "port Dick&#8217;s Sporting Goods | US “Where it all Kicks Off” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=Ty-dPuzz698",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ty-dPuzz698/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "FY3ZCAD4OZU",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "View Test Your Ad Report Doordash | US “Deliver us to Fútbol” Star Rating: 3.5 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=FY3ZCAD4OZU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FY3ZCAD4OZU/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "8kEjcBPDBTM",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Vivo | Brazil “Isso é ser brasileiro roxo &#8211; contrato vini jr” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=8kEjcBPDBTM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8kEjcBPDBTM/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "lqtFMOgMjSY",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Selección Nacional de México | Mexico “It&#8217;s much more than football” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=lqtFMOgMjSY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lqtFMOgMjSY/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "eLsz8iRcSSY",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "st Your Ad Report Hershey | US “There’s No Place Like Hershey” Star Rating: 4.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=eLsz8iRcSSY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eLsz8iRcSSY/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "7z9VtHyfHkw",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ww.youtube.com/embed/IyZ1WIua_1s&amp;t=2s\" frameborder=\"0\" allowfullscreen> Coca-Cola | Global “No Better Feeling” Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=7z9VtHyfHkw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/7z9VtHyfHkw/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "cRpX0P1RC64",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "n style=\"font-size: 18pt\">Brazil “DORITOS apresenta A Teoria do Triângulo” Star Rating: 3.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=cRpX0P1RC64",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cRpX0P1RC64/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10362,17 +8507,57 @@
       ]
     },
     {
-      "videoId": "GHdRSc4SES0",
+      "videoId": "d-9O3PHzG_o",
       "title": "(unknown — discovered via tracker only)",
-      "description": "ttps://www.youtube.com/embed/C87Dk_u7yVE\" frameborder=\"0\" allowfullscreen> McDonald&#8217;s | Mexico “Si Se Puede” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "description": "Elo | Brazil &#8220;Torcida brasileira não tem tradução&#8221; Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
       "channelTitle": "",
       "publishedAt": "",
       "expectedBrand": "(extract from context)",
       "tier": null,
       "category": null,
       "rivalOf": null,
-      "watchUrl": "https://www.youtube.com/watch?v=GHdRSc4SES0",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GHdRSc4SES0/hqdefault.jpg",
+      "watchUrl": "https://www.youtube.com/watch?v=d-9O3PHzG_o",
+      "thumbnailUrl": "https://i.ytimg.com/vi/d-9O3PHzG_o/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "DTSNY1o9Vh0",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ze: 18pt\">EE | UK “Yes Boys” Star Rating: 4.8 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=DTSNY1o9Vh0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DTSNY1o9Vh0/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "Ry5M-_vnSJU",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "uinness | UK “Singing Pints” Star Rating: 4.8 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=Ry5M-_vnSJU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ry5M-_vnSJU/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
@@ -10402,6 +8587,106 @@
       ]
     },
     {
+      "videoId": "6RBowVHAnWE",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Test Your Ad Report Vivo | Brazil “Declare seu amor na CazéTV” Star Rating: 4.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=6RBowVHAnWE",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6RBowVHAnWE/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "_Akipq-WpDg",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "w Test Your Ad Report Sky Bet | UK “The World’s Gone Football Mad” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=_Akipq-WpDg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_Akipq-WpDg/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "evyHkLuy58g",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Havaianas | Brazil “Desde 1962 inspirando o jeito brasileiro de jogar” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=evyHkLuy58g",
+      "thumbnailUrl": "https://i.ytimg.com/vi/evyHkLuy58g/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "1lC14hw4_Ns",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Nescafe | US &#8220;The NESCAFÉ Third Half feat. Landon Donovan and Luis García&#8221; Spike Rating: Strong 1.20 <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=1lC14hw4_Ns",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1lC14hw4_Ns/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "J7W2sBAsywY",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Your Ad Report Sicredi | Brazil &#8220;Sonhando Juntas&#8221; Star Rating: 3.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=J7W2sBAsywY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J7W2sBAsywY/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
       "videoId": "9QZhFItbkpg",
       "title": "(unknown — discovered via tracker only)",
       "description": "Google Gemini | Brazil &#8220;A torcida brasileira ganhou reforço&#8221; Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://www.",
@@ -10413,6 +8698,666 @@
       "rivalOf": null,
       "watchUrl": "https://www.youtube.com/watch?v=9QZhFItbkpg",
       "thumbnailUrl": "https://i.ytimg.com/vi/9QZhFItbkpg/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "CPktcITAZAQ",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "yle=\"font-size: 18pt\">Brazil “Os torcedores brasileiros têm um S de Sadia” Star Rating: 3.8 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=CPktcITAZAQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CPktcITAZAQ/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "vGlV7RggdiM",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "BBC | UK “BBC &#8211; FIFA World Cup 2026 FIFA World Cup 2026 Coverage Announcement&#8221; Star Rating: 4.8 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=vGlV7RggdiM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vGlV7RggdiM/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "vxauHCLKyFU",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "d Report Rexona | Australia “It Won&#8217;t Ever Let You Down” Star Rating: 3.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=vxauHCLKyFU",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vxauHCLKyFU/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "i_gknxnuTY0",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "outube.com/embed/tmcqgUBZROs\" frameborder=\"0\" allowfullscreen> Kia | Mexico “Inspiración que conecta generaciones” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=i_gknxnuTY0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/i_gknxnuTY0/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "FMRM3x23E-A",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ttps://www.youtube.com/embed/-1jN0jRAQLw\" frameborder=\"0\" allowfullscreen> Purina | US “From the Team Behind the Team” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=FMRM3x23E-A",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FMRM3x23E-A/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "9dNTRsROgWg",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "\"font-size: 18pt\">Pepsi | Global “Football Nation” Star Rating: 4.0 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=9dNTRsROgWg",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9dNTRsROgWg/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "RWa1y1kCN30",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Guaraná Antarctica| Brazil &#8220;A torcida tá convocada&#8221; Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=RWa1y1kCN30",
+      "thumbnailUrl": "https://i.ytimg.com/vi/RWa1y1kCN30/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "Pf_Gr-vRUws",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "utube.com/embed/CPktcITAZAQ\" frameborder=\"0\" allowfullscreen> Rexona | Brazil “REXONA x FIFA MEN’S WORLD CUP 2026” Star Rating: 3.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=Pf_Gr-vRUws",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Pf_Gr-vRUws/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "AUmt3qWeOXY",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ew Test Your Ad Report KFC | France &#8220;KFC France x FFF&#8221; Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=AUmt3qWeOXY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/AUmt3qWeOXY/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "lj2JcdXZDP4",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Ad Report McDonald&#8217;s | US “Beckham Gets Beckham” Star Rating: 1.21 Strong Spike <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=lj2JcdXZDP4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lj2JcdXZDP4/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "4qkZQPIzMZ4",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "src=\"https://www.youtube.com/embed/DTSNY1o9Vh0\" frameborder=\"0\" allowfullscreen> iFood | Brazil “Canarinhos iFood” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=4qkZQPIzMZ4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/4qkZQPIzMZ4/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "NpogxxhZ924",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "our Ad Report Magenta TV | Germany &#8220;Thomas Müller&#8221; Star Rating: 4.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=NpogxxhZ924",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NpogxxhZ924/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "ibEPQQtnGVA",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Your Ad Report Modelo | Mexico “Best Seat in the House&#8221; Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=ibEPQQtnGVA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ibEPQQtnGVA/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "9lZys0zbgVk",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Test Your Ad Report Sam&#8217;s Club | US “Come Join Us&#8221; Star Rating: 3.8 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=9lZys0zbgVk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9lZys0zbgVk/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "NjhGsUX8n2A",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "size: 18pt\">Heineken | US “Fans Have More Friends” Star Rating: 3.0 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=NjhGsUX8n2A",
+      "thumbnailUrl": "https://i.ytimg.com/vi/NjhGsUX8n2A/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "st3ojaCLL0s",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Your Ad Report Mercado Livre | Brazil “O sonho continua vivo” Star Rating: 4.3 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=st3ojaCLL0s",
+      "thumbnailUrl": "https://i.ytimg.com/vi/st3ojaCLL0s/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "fQFxPl1WSvo",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "rticle> Edeka | Germany &#8220;Football unites and we celebrate with them – that&#8217;s what makes the difference&#8221; Star Rating: 4.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=fQFxPl1WSvo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/fQFxPl1WSvo/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "WJ6FXR3dWBM",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Test Your Ad Report AB InBev | UK &#8220;Cheers to Bars&#8221; Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=WJ6FXR3dWBM",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WJ6FXR3dWBM/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "_mXucLBdt2w",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "BCX8\">Lay’s | US “No Lays, No Game” Star Rating: 3.6 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=_mXucLBdt2w",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_mXucLBdt2w/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "npH5YSq0PQo",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Coca-Cola | Mexico “Coca-Cola &#8211; Grey México &#8211; Sintamos Juntos &#8211; Mundial 2026” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=npH5YSq0PQo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/npH5YSq0PQo/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "CJTMvhjRFZo",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "our Ad Report Itaú | Brazil “Convocação da torcida brasileira” Star Rating: 3.2 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=CJTMvhjRFZo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CJTMvhjRFZo/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "k5GYKPtTT0U",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ube.com/embed/sS_05OLVkxU\" frameborder=\"0\" allowfullscreen> Jameson Irish Whiskey | UK “It&#8217;s What You Bring” Star Rating: 3.7 Stars <a style=\"color: #e43e95\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=k5GYKPtTT0U",
+      "thumbnailUrl": "https://i.ytimg.com/vi/k5GYKPtTT0U/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "8E25lhP4_6s",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "View Test Your Ad Report Bradesco | Brazil “A Volta da Festa” Star Rating: 3.0 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=8E25lhP4_6s",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8E25lhP4_6s/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "pKbCKAo_pqw",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "rong> UK “Nobody Does Football Better Than Us” Star Rating: 4.2 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=pKbCKAo_pqw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pKbCKAo_pqw/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "cobKMrBIClo",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "e: 18pt\">Adidas | UK &#8220;Choose Scotland&#8221; Star Rating: 4.1 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=cobKMrBIClo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/cobKMrBIClo/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "_ltbCb_6Rbo",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "View Test Your Ad Report Itaú | Brazil “Torcendo feito você” Star Rating: 3.1 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=_ltbCb_6Rbo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_ltbCb_6Rbo/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "GHdRSc4SES0",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ttps://www.youtube.com/embed/C87Dk_u7yVE\" frameborder=\"0\" allowfullscreen> McDonald&#8217;s | Mexico “Si Se Puede” Star Rating: 3.7 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=GHdRSc4SES0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GHdRSc4SES0/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "UlRMcOigpxk",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "View Test Your Ad Report Hyundai | US “It Starts Now” Star Rating: 1.19 Spike (Strong) <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=UlRMcOigpxk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UlRMcOigpxk/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "9mOk5jBMr1s",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "st Your Ad Report Bimbo | Mexico “Venimos con hambre de ganar” Star Rating: 3.6 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=9mOk5jBMr1s",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9mOk5jBMr1s/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "WWoNdjsX7cc",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "Rexona | Argentina “Falta muy poco para la Copa Mundial de la FIFA™” Star Rating: 4.9 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=WWoNdjsX7cc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WWoNdjsX7cc/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "tmcqgUBZROs",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "ont-size: 18pt\">Quaker | US “Whole Body Nutrition” Star Rating: 3.5 Stars View Test Your Ad Report <iframe title=\"play youtube video\"src=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=tmcqgUBZROs",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tmcqgUBZROs/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "1YM_5landqQ",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "cDonald&#8217;s | Spain “Estas leyendas están listas para el Menú la Copa Mundial de la FIFA 2026 de McDonald&#8217;s el 9 de junio” Star Rating: 4.0 Stars <a style=\"color: #ed2393\" href=\"https://www.",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=1YM_5landqQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1YM_5landqQ/hqdefault.jpg",
+      "channelMatch": null,
+      "confidence": "tracker_only",
+      "matchReason": "Listed by system1",
+      "matchedKeywords": [],
+      "sources": [
+        "tracker:system1"
+      ]
+    },
+    {
+      "videoId": "gfn-3W4Z7fA",
+      "title": "(unknown — discovered via tracker only)",
+      "description": "View Test Your Ad Report M&amp;S | UK “Eat Well, Play Well” Star Rating: 4.7 Stars <a style=\"color: #ed2393\" href=\"https://",
+      "channelTitle": "",
+      "publishedAt": "",
+      "expectedBrand": "(extract from context)",
+      "tier": null,
+      "category": null,
+      "rivalOf": null,
+      "watchUrl": "https://www.youtube.com/watch?v=gfn-3W4Z7fA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/gfn-3W4Z7fA/hqdefault.jpg",
       "channelMatch": null,
       "confidence": "tracker_only",
       "matchReason": "Listed by system1",
