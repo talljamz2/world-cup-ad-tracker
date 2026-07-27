@@ -1,591 +1,5 @@
 [
   {
-    "timestamp": "2026-06-26T15:49:55Z",
-    "ads": [
-      {
-        "adId": "mch-01",
-        "ig": {
-          "views": 26679426,
-          "likes": 1237012,
-          "comments": 13350
-        },
-        "tt": {
-          "views": 5506696,
-          "likes": 8587,
-          "comments": 409
-        }
-      },
-      {
-        "adId": "adi-01",
-        "ig": {
-          "views": 236542257,
-          "likes": 13246136,
-          "comments": 74949
-        },
-        "tt": {
-          "views": 18405700,
-          "likes": 2219349,
-          "comments": 14151
-        }
-      },
-      {
-        "adId": "mar-02",
-        "ig": {
-          "views": 128993,
-          "likes": 1069,
-          "comments": 62
-        },
-        "tt": {
-          "views": 4338,
-          "likes": 141,
-          "comments": 6
-        }
-      },
-      {
-        "adId": "bud-01",
-        "ig": {
-          "views": 28000000,
-          "likes": 329460,
-          "comments": 601
-        }
-      },
-      {
-        "adId": "lay-01",
-        "ig": {
-          "views": 40166323,
-          "likes": 1369215,
-          "comments": 9952
-        },
-        "tt": {
-          "views": 86237,
-          "likes": 2730,
-          "comments": 109
-        }
-      },
-      {
-        "adId": "pwd-01",
-        "ig": {
-          "views": 18621269,
-          "likes": 481299,
-          "comments": 2139
-        },
-        "tt": {
-          "views": 15100,
-          "likes": 472,
-          "comments": 63
-        }
-      },
-      {
-        "adId": "dia-02",
-        "ig": {
-          "views": 71000,
-          "likes": 1400,
-          "comments": 25
-        }
-      },
-      {
-        "adId": "crs-01",
-        "ig": {
-          "views": 25300,
-          "likes": 771,
-          "comments": 43
-        }
-      },
-      {
-        "adId": "fox-01",
-        "ig": {
-          "views": 5792116,
-          "likes": 146141,
-          "comments": 7875
-        }
-      },
-      {
-        "adId": "brh-01",
-        "ig": {
-          "views": 98991743,
-          "likes": 226350,
-          "comments": 15328
-        }
-      },
-      {
-        "adId": "bud-02",
-        "ig": {
-          "views": 18800000,
-          "likes": 261000,
-          "comments": 531
-        }
-      },
-      {
-        "adId": "cok-01",
-        "ig": {
-          "views": 26712427,
-          "likes": 626727,
-          "comments": 4290
-        }
-      },
-      {
-        "adId": "vrz-01",
-        "ig": {
-          "views": 35550262,
-          "likes": 92057,
-          "comments": 3702
-        },
-        "tt": {
-          "views": 27200000,
-          "likes": 36168,
-          "comments": 717
-        }
-      },
-      {
-        "adId": "mas-01",
-        "ig": {
-          "views": 4405802,
-          "likes": 4221,
-          "comments": 186
-        },
-        "tt": {
-          "views": 33100000,
-          "likes": 18269,
-          "comments": 145
-        }
-      },
-      {
-        "adId": "kia-01",
-        "ig": {
-          "views": 425169,
-          "likes": 4776,
-          "comments": 49
-        }
-      },
-      {
-        "adId": "jim-01",
-        "ig": {
-          "views": 34500,
-          "likes": 613,
-          "comments": 22
-        }
-      },
-      {
-        "adId": "lgo-01",
-        "ig": {
-          "views": 925502575,
-          "likes": 68101913,
-          "comments": 767634
-        },
-        "tt": {
-          "views": 60788100,
-          "likes": 8112900,
-          "comments": 65324
-        }
-      },
-      {
-        "adId": "gat-01",
-        "ig": {
-          "views": 64447435,
-          "likes": 342948,
-          "comments": 6043
-        },
-        "tt": {
-          "views": 38300000,
-          "likes": 28200,
-          "comments": 214
-        }
-      },
-      {
-        "adId": "don-01",
-        "ig": {
-          "views": 4850000,
-          "likes": 7800,
-          "comments": 173
-        }
-      },
-      {
-        "adId": "mar-01",
-        "ig": {
-          "views": 14951866,
-          "likes": 212383,
-          "comments": 7696
-        },
-        "tt": {
-          "views": 47521,
-          "likes": 1686,
-          "comments": 47
-        }
-      },
-      {
-        "adId": "pep-01",
-        "ig": {
-          "views": 40379990,
-          "likes": 817448,
-          "comments": 10705
-        },
-        "tt": {
-          "views": 1227589,
-          "likes": 135447,
-          "comments": 1639
-        }
-      },
-      {
-        "adId": "lay-02",
-        "ig": {
-          "views": 178041,
-          "likes": 8528,
-          "comments": 198
-        },
-        "tt": {
-          "views": 26341,
-          "likes": 815,
-          "comments": 87
-        }
-      },
-      {
-        "adId": "dur-01",
-        "ig": {
-          "views": 21907868,
-          "likes": 1525557,
-          "comments": 11616
-        },
-        "tt": {
-          "views": 19029,
-          "likes": 847,
-          "comments": 93
-        }
-      },
-      {
-        "adId": "bur-01",
-        "ig": {
-          "views": 62398335,
-          "likes": 209382,
-          "comments": 3182
-        },
-        "tt": {
-          "views": 78900000,
-          "likes": 232088,
-          "comments": 1079
-        }
-      },
-      {
-        "adId": "vis-01",
-        "ig": {
-          "views": 41196897,
-          "likes": 1548347,
-          "comments": 8011
-        },
-        "tt": {
-          "views": 29811416,
-          "likes": 138659,
-          "comments": 955
-        }
-      },
-      {
-        "adId": "nik-01",
-        "ig": {
-          "views": 207339119,
-          "likes": 15204428,
-          "comments": 247866
-        },
-        "tt": {
-          "views": 45100000,
-          "likes": 291000,
-          "comments": 828
-        }
-      }
-    ]
-  },
-  {
-    "timestamp": "2026-06-27T14:52:55Z",
-    "ads": [
-      {
-        "adId": "mch-01",
-        "ig": {
-          "views": 26680536,
-          "likes": 1237012,
-          "comments": 13350
-        },
-        "tt": {
-          "views": 5506696,
-          "likes": 8587,
-          "comments": 409
-        }
-      },
-      {
-        "adId": "adi-01",
-        "ig": {
-          "views": 236701949,
-          "likes": 13256127,
-          "comments": 74957
-        },
-        "tt": {
-          "views": 18508300,
-          "likes": 2221552,
-          "comments": 14168
-        }
-      },
-      {
-        "adId": "mar-02",
-        "ig": {
-          "views": 128999,
-          "likes": 1069,
-          "comments": 62
-        },
-        "tt": {
-          "views": 4344,
-          "likes": 141,
-          "comments": 6
-        }
-      },
-      {
-        "adId": "bud-01",
-        "ig": {
-          "views": 28000000,
-          "likes": 329460,
-          "comments": 601
-        }
-      },
-      {
-        "adId": "lay-01",
-        "ig": {
-          "views": 40192599,
-          "likes": 1370744,
-          "comments": 9953
-        },
-        "tt": {
-          "views": 86564,
-          "likes": 2735,
-          "comments": 96
-        }
-      },
-      {
-        "adId": "pwd-01",
-        "ig": {
-          "views": 18642910,
-          "likes": 482092,
-          "comments": 2140
-        },
-        "tt": {
-          "views": 15600,
-          "likes": 488,
-          "comments": 64
-        }
-      },
-      {
-        "adId": "dia-02",
-        "ig": {
-          "views": 71000,
-          "likes": 1400,
-          "comments": 25
-        }
-      },
-      {
-        "adId": "crs-01",
-        "ig": {
-          "views": 25300,
-          "likes": 771,
-          "comments": 43
-        }
-      },
-      {
-        "adId": "fox-01",
-        "ig": {
-          "views": 5794581,
-          "likes": 146297,
-          "comments": 7882
-        }
-      },
-      {
-        "adId": "brh-01",
-        "ig": {
-          "views": 99007184,
-          "likes": 226613,
-          "comments": 15330
-        }
-      },
-      {
-        "adId": "bud-02",
-        "ig": {
-          "views": 18800000,
-          "likes": 261000,
-          "comments": 531
-        }
-      },
-      {
-        "adId": "cok-01",
-        "ig": {
-          "views": 26724937,
-          "likes": 627120,
-          "comments": 4289
-        }
-      },
-      {
-        "adId": "vrz-01",
-        "ig": {
-          "views": 35550294,
-          "likes": 92054,
-          "comments": 3702
-        },
-        "tt": {
-          "views": 27200000,
-          "likes": 36168,
-          "comments": 721
-        }
-      },
-      {
-        "adId": "mas-01",
-        "ig": {
-          "views": 4405802,
-          "likes": 4221,
-          "comments": 186
-        },
-        "tt": {
-          "views": 33100000,
-          "likes": 18269,
-          "comments": 145
-        }
-      },
-      {
-        "adId": "kia-01",
-        "ig": {
-          "views": 425499,
-          "likes": 4776,
-          "comments": 49
-        }
-      },
-      {
-        "adId": "jim-01",
-        "ig": {
-          "views": 34500,
-          "likes": 613,
-          "comments": 22
-        }
-      },
-      {
-        "adId": "lgo-01",
-        "ig": {
-          "views": 930551879,
-          "likes": 68480494,
-          "comments": 769869
-        },
-        "tt": {
-          "views": 60891700,
-          "likes": 8113400,
-          "comments": 65324
-        }
-      },
-      {
-        "adId": "gat-01",
-        "ig": {
-          "views": 64492793,
-          "likes": 347233,
-          "comments": 6045
-        },
-        "tt": {
-          "views": 38300000,
-          "likes": 28200,
-          "comments": 214
-        }
-      },
-      {
-        "adId": "don-01",
-        "ig": {
-          "views": 4850000,
-          "likes": 7800,
-          "comments": 173
-        }
-      },
-      {
-        "adId": "mar-01",
-        "ig": {
-          "views": 14988895,
-          "likes": 213020,
-          "comments": 7699
-        },
-        "tt": {
-          "views": 47685,
-          "likes": 1691,
-          "comments": 47
-        }
-      },
-      {
-        "adId": "pep-01",
-        "ig": {
-          "views": 40395318,
-          "likes": 817699,
-          "comments": 10705
-        },
-        "tt": {
-          "views": 1227598,
-          "likes": 135550,
-          "comments": 1637
-        }
-      },
-      {
-        "adId": "lay-02",
-        "ig": {
-          "views": 178357,
-          "likes": 8542,
-          "comments": 199
-        },
-        "tt": {
-          "views": 26652,
-          "likes": 821,
-          "comments": 89
-        }
-      },
-      {
-        "adId": "dur-01",
-        "ig": {
-          "views": 21920640,
-          "likes": 1526450,
-          "comments": 11619
-        },
-        "tt": {
-          "views": 19180,
-          "likes": 850,
-          "comments": 94
-        }
-      },
-      {
-        "adId": "bur-01",
-        "ig": {
-          "views": 62417325,
-          "likes": 210505,
-          "comments": 3186
-        },
-        "tt": {
-          "views": 79800000,
-          "likes": 233791,
-          "comments": 1087
-        }
-      },
-      {
-        "adId": "vis-01",
-        "ig": {
-          "views": 39298696,
-          "likes": 1419871,
-          "comments": 5176
-        },
-        "tt": {
-          "views": 30021938,
-          "likes": 139720,
-          "comments": 980
-        }
-      },
-      {
-        "adId": "nik-01",
-        "ig": {
-          "views": 207899580,
-          "likes": 15240560,
-          "comments": 248122
-        },
-        "tt": {
-          "views": 45100000,
-          "likes": 291200,
-          "comments": 831
-        }
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-28T16:45:56Z",
     "ads": [
       {
@@ -8854,6 +8268,294 @@
           "views": 46000000,
           "likes": 304600,
           "comments": 885
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-07-27T16:23:58Z",
+    "ads": [
+      {
+        "adId": "mch-01",
+        "ig": {
+          "views": 26712636,
+          "likes": 1237012,
+          "comments": 13356
+        },
+        "tt": {
+          "views": 5506696,
+          "likes": 8587,
+          "comments": 409
+        }
+      },
+      {
+        "adId": "adi-01",
+        "ig": {
+          "views": 249797200,
+          "likes": 14104359,
+          "comments": 76601
+        },
+        "tt": {
+          "views": 20162800,
+          "likes": 2326373,
+          "comments": 14696
+        }
+      },
+      {
+        "adId": "mar-02",
+        "ig": {
+          "views": 129255,
+          "likes": 1070,
+          "comments": 62
+        },
+        "tt": {
+          "views": 4602,
+          "likes": 142,
+          "comments": 6
+        }
+      },
+      {
+        "adId": "bud-01",
+        "ig": {
+          "views": 28000000,
+          "likes": 329460,
+          "comments": 601
+        }
+      },
+      {
+        "adId": "lay-01",
+        "ig": {
+          "views": 41199912,
+          "likes": 1444600,
+          "comments": 10321
+        },
+        "tt": {
+          "views": 95162,
+          "likes": 2883,
+          "comments": 109
+        }
+      },
+      {
+        "adId": "pwd-01",
+        "ig": {
+          "views": 21123607,
+          "likes": 558045,
+          "comments": 2288
+        },
+        "tt": {
+          "views": 71700,
+          "likes": 2227,
+          "comments": 111
+        }
+      },
+      {
+        "adId": "dia-02",
+        "ig": {
+          "views": 71000,
+          "likes": 1400,
+          "comments": 25
+        }
+      },
+      {
+        "adId": "crs-01",
+        "ig": {
+          "views": 25300,
+          "likes": 771,
+          "comments": 43
+        }
+      },
+      {
+        "adId": "fox-01",
+        "ig": {
+          "views": 5859305,
+          "likes": 150161,
+          "comments": 7959
+        }
+      },
+      {
+        "adId": "brh-01",
+        "ig": {
+          "views": 4011714,
+          "likes": 231025,
+          "comments": 15336
+        }
+      },
+      {
+        "adId": "bud-02",
+        "ig": {
+          "views": 18800000,
+          "likes": 261000,
+          "comments": 531
+        }
+      },
+      {
+        "adId": "cok-01",
+        "ig": {
+          "views": 28342605,
+          "likes": 678705,
+          "comments": 4397
+        }
+      },
+      {
+        "adId": "vrz-01",
+        "ig": {
+          "views": 9200000,
+          "likes": 16400,
+          "comments": 560
+        }
+      },
+      {
+        "adId": "mas-01",
+        "ig": {
+          "views": 4405802,
+          "likes": 4221,
+          "comments": 186
+        },
+        "tt": {
+          "views": 33100000,
+          "likes": 18269,
+          "comments": 145
+        }
+      },
+      {
+        "adId": "kia-01",
+        "ig": {
+          "views": 440007,
+          "likes": 4825,
+          "comments": 49
+        }
+      },
+      {
+        "adId": "jim-01",
+        "ig": {
+          "views": 34500,
+          "likes": 613,
+          "comments": 22
+        }
+      },
+      {
+        "adId": "lgo-01",
+        "ig": {
+          "views": 882586423,
+          "likes": 73445256,
+          "comments": 801296
+        },
+        "tt": {
+          "views": 62323100,
+          "likes": 8140600,
+          "comments": 65687
+        }
+      },
+      {
+        "adId": "gat-01",
+        "ig": {
+          "views": 55347091,
+          "likes": 538587,
+          "comments": 6059
+        },
+        "tt": {
+          "views": 38300000,
+          "likes": 28300,
+          "comments": 215
+        }
+      },
+      {
+        "adId": "don-01",
+        "ig": {
+          "views": 4850000,
+          "likes": 7800,
+          "comments": 173
+        }
+      },
+      {
+        "adId": "mar-01",
+        "ig": {
+          "views": 16810317,
+          "likes": 255604,
+          "comments": 7730
+        },
+        "tt": {
+          "views": 54199,
+          "likes": 1765,
+          "comments": 48
+        }
+      },
+      {
+        "adId": "pep-01",
+        "ig": {
+          "views": 41271246,
+          "likes": 830739,
+          "comments": 10791
+        },
+        "tt": {
+          "views": 1331000,
+          "likes": 137605,
+          "comments": 1694
+        }
+      },
+      {
+        "adId": "lay-02",
+        "ig": {
+          "views": 186694,
+          "likes": 8785,
+          "comments": 217
+        },
+        "tt": {
+          "views": 36162,
+          "likes": 1013,
+          "comments": 108
+        }
+      },
+      {
+        "adId": "dur-01",
+        "ig": {
+          "views": 22417753,
+          "likes": 1573822,
+          "comments": 11893
+        },
+        "tt": {
+          "views": 41875,
+          "likes": 1451,
+          "comments": 133
+        }
+      },
+      {
+        "adId": "bur-01",
+        "ig": {
+          "views": 62462534,
+          "likes": 221661,
+          "comments": 2876
+        },
+        "tt": {
+          "views": 83700000,
+          "likes": 241410,
+          "comments": 1134
+        }
+      },
+      {
+        "adId": "vis-01",
+        "ig": {
+          "views": 53981464,
+          "likes": 1887518,
+          "comments": 9142
+        },
+        "tt": {
+          "views": 36334951,
+          "likes": 194075,
+          "comments": 1517
+        }
+      },
+      {
+        "adId": "nik-01",
+        "ig": {
+          "views": 226954917,
+          "likes": 16376980,
+          "comments": 258582
+        },
+        "tt": {
+          "views": 46000000,
+          "likes": 304800,
+          "comments": 915
         }
       }
     ]
